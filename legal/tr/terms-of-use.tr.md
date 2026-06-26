@@ -1,5 +1,5 @@
 <!--
-Generated from NearbyWeather app legal Markdown.
+Generated from NearbyWeather app legal JSON.
 Do not edit manually.
 Version: 3.0
 Last updated: 2026-06-26
