@@ -22,28 +22,27 @@ Last updated: 2026-06-26
 **Ultima actualizare:** 2026-06-26
 
 ## 1. Prezentare generală
-NearbyWeather vă respectă confidențialitatea. Aplicația este concepută pentru a păstra marcajele, preferințele, datele meteo stocate în cache și cheile opționale API pe dispozitivul dvs., cu excepția cazului în care o funcție selectată trebuie să comunice cu un furnizor de vreme, locație, asistență sau de raportare a accidentelor.
+NearbyWeather vă respectă confidențialitatea. Aplicația oferă informații despre vreme și funcții conexe, păstrând în același timp datele aplicației specifice utilizatorului la nivel local, ori de câte ori este posibil.
 
 ## 2. Colectarea datelor și stocarea locală
-NearbyWeather nu operează propriul backend pentru funcționalitatea normală a aplicației. Aplicația nu vinde date personale, nu folosește identificatori de publicitate și nu creează profiluri de publicitate sau de urmărire.
+NearbyWeather nu necesită un cont de utilizator. Aplicația nu vinde date personale, nu folosește identificatori de publicitate și nu creează profiluri de publicitate sau de urmărire.
 
 Aplicația poate stoca următoarele informații local pe dispozitivul dvs.:
 
 - stații meteo marcate și marcaje șterse recent
 - selectat în apropiere, căutare, unitate, notificare, limbă, aspect și preferințele furnizorului de vreme
-- cheia opțională OpenWeather API pe care o introduceți
 - metadatele stației meteo în cache, datele meteo, starea hărții și metadatele camerei web necesare pentru a afișa conținutul aplicației și pentru a accepta utilizarea offline
 - preferința opțională de raportare a erorilor Firebase
 
-Aceste date rămân pe dispozitivul dvs., cu excepția cazului în care o caracteristică descrisă mai jos trimite datele necesare cererii unui furnizor terț.
+Aceste date rămân pe dispozitivul dvs., cu excepția cazului în care o funcție descrisă mai jos trimite datele necesare solicitării unui serviciu NearbyWeather sau unui furnizor terță parte.
 
 ## 3. Date despre locație și vreme
-Dacă acordați permisiunea de locație, NearbyWeather utilizează locația dispozitivului dvs. pentru a găsi stații meteo din apropiere, pentru a focaliza hărți și pentru a solicita date meteo pentru coordonatele relevante. În funcție de furnizorul de vreme selectat și de setările aplicației, aplicația poate trimite coordonatele, identificatorii stației meteo, preferințele de limbă și cheia dvs. OpenWeather API către furnizorii externi de vreme sau altitudine.
+Dacă acordați permisiunea de locație, NearbyWeather utilizează locația dispozitivului dvs. pentru a găsi stații meteo din apropiere, pentru a focaliza hărți și pentru a solicita date meteo pentru coordonatele relevante. În funcție de caracteristica selectată și de setările aplicației, aplicația poate trimite coordonatele, identificatorii stației meteo, opțiunile furnizorului, preferințele de limbă și detaliile cererii de vreme către serviciile NearbyWeather sau furnizorilor externi de vreme sau altitudine.
 
-NearbyWeather poate solicita date de la Apple Weather / WeatherKit, OpenWeather, Open-Meteo și de la surse meteorologice sau de atribuire asociate. Acei furnizori procesează cererile conform propriilor politici și termeni de confidențialitate.
+Serviciile NearbyWeather pot solicita date meteo de la furnizori, memorează în cache datele meteo și returnează date meteo în aplicație. Ele nu sunt concepute pentru a crea conturi de utilizator sau profiluri de utilizator pentru solicitările meteorologice. Furnizorii externi procesează cererile conform propriilor politici de confidențialitate și termeni.
 
 ## 4. Raportarea erorilor și a erorilor (opțional)
-NearbyWeather utilizează Google Firebase Crashlytics pentru a colecta rapoarte de blocare și diagnosticare numai atunci când raportarea erorilor este activată.
+NearbyWeather folosește Google Firebase Crashlytics pentru a colecta rapoarte de blocare și diagnosticare numai atunci când raportarea erorilor este activată.
 
 Rapoartele de blocare și diagnosticare pot include:
 
@@ -51,25 +50,25 @@ Rapoartele de blocare și diagnosticare pot include:
 - versiunea aplicației și numărul de versiune
 - informații tehnice despre accident sau eveniment de diagnosticare
 
-NearbyWeather nu include în mod intenționat marcajele, cheile API sau locația precisă în rapoartele de blocare. Puteți dezactiva oricând raportarea erorilor din confidențialitatea sau setările de ajutor ale aplicației.
+NearbyWeather nu include în mod intenționat marcajele sau locația precisă în rapoartele de blocare. Puteți dezactiva oricând raportarea erorilor din confidențialitatea sau setările de ajutor ale aplicației.
 
 ## 5. Notificări, reîmprospătare fundal și insignă pentru pictograma aplicației
 Dacă activați notificările sau insigna de temperatură a pictogramei aplicației, NearbyWeather poate reîmprospăta informațiile despre vreme în fundal, astfel încât aceste funcții să rămână actuale. Preferințele de notificare și setările insignei sunt stocate local pe dispozitivul dvs.
 
 ## 6. Camere web și legături externe
-NearbyWeather poate afișa intrări de cameră web din apropiere și link-uri la furnizori. Deschiderea unei camere web sau a unui link extern vă poate duce la un site web sau o aplicație terță parte. Aceste servicii terțe sunt în afara controlului NearbyWeather și sunt guvernate de propriile politici de confidențialitate.
+NearbyWeather poate afișa intrări de cameră web din apropiere și link-uri la furnizori. Deschiderea unei camere web sau a unui link extern vă poate duce la un site web sau o aplicație terță parte. Aceste servicii terță parte sunt în afara controlului NearbyWeather și sunt guvernate de propriile politici de confidențialitate.
 
 ## 7. Fără urmărire sau publicitate
-NearbyWeather nu utilizează tehnologii de urmărire, identificatori de publicitate, analize de publicitate sau profilare în scopuri publicitare.
+NearbyWeather nu utilizează tehnologii de urmărire, identificatori de publicitate, analize publicitare sau profilare în scopuri publicitare.
 
 ## 8. Securitate
-Datele locale sensibile, inclusiv orice cheie OpenWeather API pe care o introduceți, rămân pe dispozitiv. Sunteți responsabil pentru protejarea dispozitivului dvs. cu securitate la nivel de sistem, cum ar fi un cod de acces, Touch ID sau Face ID.
+Datele locale sensibile rămân pe dispozitiv. Sunteți responsabil pentru protejarea dispozitivului dvs. cu securitate la nivel de sistem, cum ar fi un cod de acces, Touch ID sau Face ID.
 
 ## 9. Reținerea și ștergerea datelor
 Puteți elimina marcajele, marcajele șterse recent și preferințele prin intermediul aplicației, unde sunt disponibile controalele relevante. De asemenea, puteți elimina toate datele aplicației ștergând aplicația de pe dispozitiv. Metadatele stației meteo incluse în aplicație fac parte din instalarea aplicației.
 
 ## 10. Servicii de la terți
-NearbyWeather poate interacționa cu servicii terțe, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servicii de e-mail și furnizori de camere web. Aceste servicii nu sunt controlate de NearbyWeather, iar propriile politici de confidențialitate se aplică atunci când utilizați funcții care îi contactează.
+NearbyWeather poate interacționa cu servicii terțe, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servicii de e-mail și furnizori de camere web. Serviciile terțelor părți nu sunt controlate de NearbyWeather, iar propriile politici de confidențialitate se aplică atunci când utilizați funcții care îi contactează.
 
 ## 11. Copii
 NearbyWeather nu este adresat copiilor și nu colectează cu bună știință date personale de la copii.
@@ -78,4 +77,4 @@ NearbyWeather nu este adresat copiilor și nu colectează cu bună știință da
 Această politică de confidențialitate poate fi actualizată în viitor. Modificările vor fi reflectate în aplicație și în documentele juridice publice.
 
 ## 13. Contact
-Pentru întrebări legate de confidențialitate, contactați: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+Pentru întrebări legate de confidențialitate, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Letzte Aktualisierung:** 26.06.2026
 
 ## 1. Übersicht
-NearbyWeather („die App“) bietet eine mobile Schnittstelle zum Entdecken von Wetterstationen, zum Anzeigen von Wetterbedingungen und -vorhersagen, zum Verwalten von Lesezeichen, zum Anzeigen von Karten und Webcams in der Nähe sowie zum Konfigurieren wetterbezogener Benachrichtigungen und App-Einstellungen.
+NearbyWeather („die App“) bietet eine mobile Schnittstelle für Wetterinformationen und zugehörige Wetterfunktionen.
 
 ## 2. Wetterdaten und Dienste von Drittanbietern
-Wetterinformationen, Vorhersagen, Luftqualitätsdaten, Höhendaten, Stationsmetadaten, Webcam-Metadaten und externe Links können von Drittanbietern wie Apple Weather / WeatherKit, OpenWeather, Open-Meteo und Webcam-Anbietern stammen.
+Wetterinformationen, Vorhersagen, Luftqualitätsdaten, Höhendaten, Stationsmetadaten, Webcam-Metadaten und externe Links können von NearbyWeather-Diensten oder Drittanbietern wie Apple Weather / WeatherKit, OpenWeather, Open-Meteo und Webcam-Anbietern stammen.
 
-NearbyWeather ist nicht mit diesen Drittanbietern verbunden, wird von ihnen unterstützt oder ist für sie verantwortlich, sofern nicht ausdrücklich angegeben. Ihre Datenverfügbarkeit, Genauigkeit, Lizenzbedingungen und Dienstverhalten liegen außerhalb der Kontrolle der App.
+NearbyWeather kann Dienste nutzen, die Wetterdaten für die App anfordern, zwischenspeichern und zurückgeben. Sofern nicht ausdrücklich angegeben, ist NearbyWeather nicht mit Drittanbietern verbunden, wird von diesen unterstützt oder ist für diese verantwortlich. Die Verfügbarkeit, Genauigkeit, Lizenzbedingungen und das Dienstverhalten von Daten Dritter liegen außerhalb der Kontrolle der App.
 
 ## 3. Verantwortung des Benutzers
 Durch die Nutzung der App erklären Sie sich damit einverstanden, dass:
 
 - Sie verwenden die Wetterdaten lediglich als Informationshilfe
 - Sie werden sich bei sicherheitskritischen, Notfall-, Luftfahrt-, Schifffahrts-, medizinischen oder anderen risikoreichen Entscheidungen nicht auf die App verlassen
-- Sie sind für die von Ihnen konfigurierten API-Schlüssel, Anbieterkonten, Benachrichtigungsoptionen und Lesezeichen verantwortlich
+- Sie sind für die von Ihnen konfigurierten Benachrichtigungsoptionen, Lesezeichen und Einstellungen verantwortlich
 - Sie werden die App oder einen angeschlossenen Anbieterdienst nicht in einer Weise nutzen, die gegen geltendes Recht oder Anbieterbedingungen verstößt
 
 ## 4. Standort, Benachrichtigungen und Hintergrundbetrieb
 Für einige Funktionen ist eine Standortberechtigung, eine Benachrichtigungsberechtigung oder eine Hintergrundaktualisierung erforderlich. Sie können diese Berechtigungen in den iOS-Einstellungen verwalten. Wenn Berechtigungen oder Netzwerkzugriff nicht verfügbar sind, sind zugehörige Funktionen möglicherweise eingeschränkt oder nicht verfügbar.
 
-## 5. OpenWeather API Schlüssel
-Wenn Sie sich für die Nutzung von OpenWeather-Funktionen entscheiden, die Ihren eigenen API-Schlüssel erfordern, sind Sie dafür verantwortlich, die für diesen Schlüssel geltenden Bedingungen zu erhalten, einzugeben, zu sichern und einzuhalten. NearbyWeather speichert den Schlüssel lokal auf Ihrem Gerät und verwendet ihn nur für OpenWeather-Anfragen, die von der App-Funktionalität initiiert werden.
-
-## 6. Externe Links und Webcams
+## 5. Externe Links und Webcams
 Die App kann Websites, Supportseiten, Anbieterzuordnungsseiten, Webcam-Seiten, GitHub-Problemseiten oder E-Mail-Clients öffnen. NearbyWeather ist nicht verantwortlich für den Inhalt, die Verfügbarkeit, die Datenschutzpraktiken oder die Bedingungen externer Dienste.
 
-## 7. Keine Garantie
+## 6. Keine Garantie
 Die App wird „wie besehen“ ohne Gewährleistungen jeglicher Art bereitgestellt. Wir übernehmen keine Garantie für:
 
 - ununterbrochene Verfügbarkeit
 - fehlerfreier Betrieb
-- Kompatibilität mit jedem Gerät, jeder iOS-Version, jedem Anbieterkonto oder jedem API-Schlüssel
+- Kompatibilität mit jedem Gerät, jeder iOS-Version, jedem Anbieter oder jeder Netzwerkbedingung
 - Korrektheit, Aktualität oder Vollständigkeit von Wetter-, Vorhersage-, Luftqualitäts-, Höhen-, Stations-, Karten- oder Webcam-Daten Dritter
 
-## 8. Haftungsbeschränkung
+## 7. Haftungsbeschränkung
 Soweit gesetzlich zulässig, haftet der Entwickler nicht für Schäden, die sich aus Folgendem ergeben:
 
 - Ungenaue, verzögerte, nicht verfügbare oder unvollständige Wetter- oder Anbieterdaten
 - Netzwerk-, Anbieter-, Geräte-, Berechtigungs- oder Konfigurationsprobleme
-- Verlust von Lesezeichen, Einstellungen, zwischengespeicherten Daten oder API-Schlüsseln
+- Verlust von Lesezeichen, Einstellungen oder zwischengespeicherten Daten
 - Nutzung der App in sicherheitskritischen oder risikoreichen Situationen
 - Externe Websites, Webcam-Anbieter, Support-Tools oder Dienste Dritter
 
-## 9. Änderungen
+## 8. Änderungen
 Diese Bedingungen können von Zeit zu Zeit aktualisiert werden. Die fortgesetzte Nutzung der App nach der Bereitstellung der aktualisierten Bedingungen stellt die Annahme der aktualisierten Bedingungen dar.
 
-## 10. Kontakt
-Bei Fragen wenden Sie sich bitte an: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Kontakt
+Bei Fragen wenden Sie sich bitte an: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

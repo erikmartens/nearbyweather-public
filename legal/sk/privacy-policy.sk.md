@@ -22,28 +22,27 @@ Last updated: 2026-06-26
 **Posledná aktualizácia:** 26. 6. 2026
 
 ## 1. Prehľad
-NearbyWeather rešpektuje vaše súkromie. Aplikácia je navrhnutá tak, aby na vašom zariadení uchovávala záložky, preferencie, údaje o počasí uložené vo vyrovnávacej pamäti a voliteľné kľúče API, pokiaľ vybraná funkcia nepotrebuje komunikovať s počasím, polohou, podporou alebo poskytovateľom hlásení o zlyhaní.
+NearbyWeather rešpektuje vaše súkromie. Aplikácia poskytuje informácie o počasí a súvisiace funkcie a zároveň uchováva údaje aplikácie špecifické pre používateľa vždy, keď je to možné.
 
 ## 2. Zber údajov a lokálne ukladanie
-NearbyWeather neprevádzkuje svoj vlastný backend pre normálnu funkčnosť aplikácie. Aplikácia nepredáva osobné údaje, nepoužíva reklamné identifikátory a nevytvára reklamné ani sledovacie profily.
+NearbyWeather nevyžaduje používateľský účet. Aplikácia nepredáva osobné údaje, nepoužíva reklamné identifikátory a nevytvára reklamné ani sledovacie profily.
 
 Aplikácia môže vo vašom zariadení lokálne ukladať nasledujúce informácie:
 
 - meteorologické stanice so záložkami a nedávno vymazané záložky
 - vybrané v blízkosti, vyhľadávanie, jednotka, upozornenie, jazyk, vzhľad a predvoľby poskytovateľa počasia
-- voliteľný kľúč OpenWeather API, ktorý zadáte
 - uložené metadáta meteorologickej stanice, údaje o počasí, stav mapy a metaúdaje webovej kamery potrebné na zobrazenie obsahu aplikácie a podporu offline používania
 - voliteľná preferencia hlásenia zlyhaní Firebase
 
-Tieto údaje zostanú vo vašom zariadení, pokiaľ funkcia popísaná nižšie neodošle potrebné údaje žiadosti poskytovateľovi tretej strany.
+Tieto údaje zostanú vo vašom zariadení, pokiaľ funkcia opísaná nižšie neodošle potrebné údaje žiadosti službe NearbyWeather alebo poskytovateľovi tretej strany.
 
 ## 3. Údaje o polohe a počasí
-Ak udelíte povolenie na umiestnenie, NearbyWeather použije polohu vášho zariadenia na vyhľadanie blízkych meteorologických staníc, zameranie máp a vyžiadanie si údajov o počasí pre relevantné súradnice. V závislosti od vybratého poskytovateľa počasia a nastavení aplikácie môže aplikácia odosielať súradnice, identifikátory meteorologických staníc, jazykové preferencie a váš kľúč OpenWeather API externým poskytovateľom počasia alebo nadmorskej výšky.
+Ak udelíte povolenie na umiestnenie, NearbyWeather použije polohu vášho zariadenia na nájdenie blízkych meteorologických staníc, zameranie máp a vyžiadanie si údajov o počasí pre relevantné súradnice. V závislosti od vybranej funkcie a nastavení aplikácie môže aplikácia odosielať súradnice, identifikátory meteorologických staníc, voľby poskytovateľa, jazykové preferencie a podrobnosti o požiadavkách na počasie službám NearbyWeather alebo externým poskytovateľom počasia alebo nadmorskej výšky.
 
-NearbyWeather môže požadovať údaje z Apple Weather / WeatherKit, OpenWeather, Open-Meteo a súvisiacich zdrojov počasia alebo zdrojov. Títo poskytovatelia spracúvajú žiadosti podľa svojich vlastných zásad ochrany osobných údajov a podmienok.
+Služby NearbyWeather môžu od poskytovateľov požadovať údaje o počasí, ukladať údaje o počasí do vyrovnávacej pamäte a vracať údaje o počasí do aplikácie. Nie sú určené na vytváranie užívateľských účtov alebo užívateľských profilov pre požiadavky počasia. Externí poskytovatelia spracúvajú žiadosti podľa svojich vlastných zásad ochrany osobných údajov a podmienok.
 
 ## 4. Hlásenie zlyhaní a chýb (voliteľné)
-NearbyWeather používa Google Firebase Crashlytics na zhromažďovanie správ o zlyhaní a diagnostických správ iba vtedy, keď je hlásenie chýb povolené.
+NearbyWeather používa Google Firebase Crashlytics na zhromažďovanie správ o zlyhaní a diagnostických správ iba v prípade, že je povolené hlásenie chýb.
 
 Správy o zlyhaní a diagnostike môžu zahŕňať:
 
@@ -51,7 +50,7 @@ Správy o zlyhaní a diagnostike môžu zahŕňať:
 - verzia aplikácie a číslo zostavy
 - technické informácie o nehode alebo diagnostickej udalosti
 
-NearbyWeather zámerne nezahŕňa vaše záložky, kľúče API ani presnú polohu v správach o zlyhaní. Hlásenie chýb môžete kedykoľvek zakázať v nastaveniach ochrany osobných údajov alebo pomocníka aplikácie.
+NearbyWeather zámerne nezahŕňa vaše záložky ani presnú polohu v správach o zlyhaní. Hlásenie chýb môžete kedykoľvek zakázať v nastaveniach ochrany osobných údajov alebo pomocníka aplikácie.
 
 ## 5. Upozornenia, obnovenie na pozadí a odznak ikony aplikácie
 Ak povolíte upozornenia alebo teplotný odznak ikony aplikácie, NearbyWeather môže obnoviť informácie o počasí na pozadí, aby tieto funkcie zostali aktuálne. Predvoľby upozornení a nastavenia odznaku sú uložené lokálne vo vašom zariadení.
@@ -63,13 +62,13 @@ NearbyWeather môže zobrazovať záznamy webovej kamery v blízkosti a odkazy n
 NearbyWeather nepoužíva sledovacie technológie, reklamné identifikátory, reklamné analýzy ani profilovanie na reklamné účely.
 
 ## 8. Bezpečnosť
-Citlivé miestne údaje vrátane akéhokoľvek zadaného kľúča OpenWeather API zostanú vo vašom zariadení. Zodpovedáte za ochranu svojho zariadenia pomocou zabezpečenia na úrovni systému, ako je prístupový kód, Touch ID alebo Face ID.
+Citlivé miestne údaje zostanú vo vašom zariadení. Zodpovedáte za ochranu svojho zariadenia pomocou zabezpečenia na úrovni systému, ako je prístupový kód, Touch ID alebo Face ID.
 
 ## 9. Uchovávanie a mazanie údajov
 Záložky, nedávno odstránené záložky a predvoľby môžete odstrániť prostredníctvom aplikácie, kde sú k dispozícii príslušné ovládacie prvky. Všetky údaje aplikácie môžete odstrániť aj odstránením aplikácie zo svojho zariadenia. Metadáta meteorologickej stanice dodávané s aplikáciou sú súčasťou inštalácie aplikácie.
 
 ## 10. Služby tretích strán
-NearbyWeather môže interagovať so službami tretích strán, ako sú Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-mailovými službami a poskytovateľmi webových kamier. Tieto služby nie sú kontrolované spoločnosťou NearbyWeather a pri používaní funkcií, ktoré ich kontaktujú, platia ich vlastné zásady ochrany osobných údajov.
+NearbyWeather môže interagovať so službami tretích strán, ako sú Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-mailovými službami a poskytovateľmi webových kamier. Služby tretích strán nie sú kontrolované spoločnosťou NearbyWeather a pri používaní funkcií, ktoré ich kontaktujú, platia ich vlastné zásady ochrany osobných údajov.
 
 ## 11. Deti
 NearbyWeather nie je zameraný na deti a vedome nezhromažďuje osobné údaje od detí.
@@ -78,4 +77,4 @@ NearbyWeather nie je zameraný na deti a vedome nezhromažďuje osobné údaje o
 Tieto Zásady ochrany osobných údajov môžu byť v budúcnosti aktualizované. Zmeny sa prejavia v aplikácii a vo verejných právnych dokumentoch.
 
 ## 13. Kontakt
-V prípade otázok týkajúcich sa ochrany osobných údajov kontaktujte: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+V prípade otázok týkajúcich sa ochrany osobných údajov kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

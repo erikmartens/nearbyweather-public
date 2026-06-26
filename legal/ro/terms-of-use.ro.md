@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Ultima actualizare:** 2026-06-26
 
 ## 1. Prezentare generală
-NearbyWeather ("aplicația") oferă o interfață mobilă pentru descoperirea stațiilor meteo, vizualizarea condițiilor și prognozelor meteo, gestionarea marcajelor, vizualizarea hărților și a camerelor web din apropiere și configurarea notificărilor legate de vreme și a preferințelor aplicației.
+NearbyWeather ("aplicația") oferă o interfață mobilă pentru informații despre vreme și caracteristici meteorologice aferente.
 
 ## 2. Date meteo și servicii terțe
-Informațiile meteo, prognozele, datele despre calitatea aerului, datele de altitudine, metadatele stației, metadatele camerei web și legăturile externe pot proveni de la furnizori terți, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo și furnizori de camere web.
+Informațiile meteo, prognozele, datele despre calitatea aerului, datele de altitudine, metadatele stației, metadatele camerei web și legăturile externe pot proveni de la serviciile NearbyWeather sau de la furnizori terți, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo și furnizori de camere web.
 
-NearbyWeather nu este afiliat, susținut de sau responsabil pentru acești furnizori terți, cu excepția cazului în care este specificat în mod expres. Disponibilitatea datelor, acuratețea, termenii de acordare a licenței și comportamentul serviciilor sunt în afara controlului aplicației.
+NearbyWeather poate utiliza servicii care solicită, memorează în cache și returnează date meteo pentru aplicație. NearbyWeather nu este afiliat, susținut de sau responsabil pentru furnizori terți, cu excepția cazului în care este specificat în mod expres. Disponibilitatea datelor terțelor părți, acuratețea, termenii de licențiere și comportamentul serviciilor sunt în afara controlului aplicației.
 
 ## 3. Responsabilitatea utilizatorului
 Prin utilizarea aplicației, sunteți de acord că:
 
 - veți folosi datele meteo doar ca ghid informativ
 - nu vă veți baza pe aplicație pentru decizii critice de siguranță, de urgență, aviație, maritime, medicale sau alte decizii cu risc ridicat
-- sunteți responsabil pentru cheile API, conturile de furnizor, opțiunile de notificare și marcajele pe care le configurați
+- sunteți responsabil pentru opțiunile de notificare, marcajele și setările pe care le configurați
 - nu veți utiliza aplicația sau orice serviciu de furnizor conectat într-un mod care încalcă legea sau termenii furnizorilor aplicabili
 
 ## 4. Locație, notificări și operațiuni în fundal
 Unele funcții necesită permisiunea de locație, permisiunea de notificare sau reîmprospătarea fundalului. Puteți gestiona aceste permisiuni în setările iOS. Dacă permisiunile sau accesul la rețea nu sunt disponibile, funcțiile asociate pot fi limitate sau indisponibile.
 
-## 5. OpenWeather API Chei
-Dacă alegeți să utilizați funcțiile OpenWeather care necesită propria dvs. cheie API, sunteți responsabil pentru obținerea, introducerea, securizarea și respectarea termenilor care se aplică acelei chei. NearbyWeather stochează cheia local pe dispozitivul dvs. și o folosește numai pentru solicitările OpenWeather inițiate de funcționalitatea aplicației.
+## 5. Legături externe și camere web
+Aplicația poate deschide site-uri web, pagini de asistență, pagini de atribuire a furnizorilor, pagini web, pagini cu probleme GitHub sau clienți de e-mail. NearbyWeather nu este responsabil pentru conținutul, disponibilitatea, practicile de confidențialitate sau termenii serviciilor externe.
 
-## 6. Legături externe și camere web
-Aplicația poate deschide site-uri web, pagini de asistență, pagini de atribuire a furnizorilor, pagini de cameră web, pagini de probleme GitHub sau clienți de e-mail. NearbyWeather nu este responsabil pentru conținutul, disponibilitatea, practicile de confidențialitate sau termenii serviciilor externe.
-
-## 7. Fără garanție
+## 6. Fără garanție
 Aplicația este furnizată „ca atare”, fără garanții de niciun fel. Nu garantam:
 
 - disponibilitate neîntreruptă
 - funcționare fără erori
-- compatibilitate cu fiecare dispozitiv, versiune iOS, cont de furnizor sau cheie API
+- compatibilitate cu fiecare dispozitiv, versiune iOS, furnizor sau stare de rețea
 - corectitudinea, prospețimea sau caracterul complet al datelor despre vreme, prognoză, calitatea aerului, altitudine, stație, hărți sau webcam de la terți
 
-## 8. Limitarea răspunderii
+## 7. Limitarea răspunderii
 În măsura maximă permisă de lege, dezvoltatorul nu va fi răspunzător pentru daunele rezultate din:
 
 - date meteo sau furnizor inexacte, întârziate, indisponibile sau incomplete
 - probleme de rețea, furnizor, dispozitiv, permisiune sau configurare
-- pierderea marcajelor, preferințelor, datelor stocate în cache sau a cheilor API
+- pierderea marcajelor, preferințelor sau datelor stocate în cache
 - utilizarea aplicației în situații critice pentru siguranță sau cu risc ridicat
 - site-uri web externe, furnizori de camere web, instrumente de asistență sau servicii terțe
 
-## 9. Schimbări
+## 8. Schimbări
 Acești Termeni pot fi actualizați din când în când. Folosirea în continuare a aplicației după ce Termenii actualizați sunt pusi la dispoziție reprezintă acceptarea Termenilor actualizați.
 
-## 10. Contact
-Pentru întrebări, contactați: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Contact
+Pentru întrebări, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

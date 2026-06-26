@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Sist oppdatert:** 2026-06-26
 
 ## 1. Oversikt
-NearbyWeather ("appen") gir et mobilt grensesnitt for å oppdage værstasjoner, se værforhold og prognoser, administrere bokmerker, vise kart og nærliggende webkameraer, og konfigurere værrelaterte varsler og apppreferanser.
+NearbyWeather ("appen") gir et mobilgrensesnitt for værinformasjon og relaterte værfunksjoner.
 
 ## 2. Værdata og tredjepartstjenester
-Værinformasjon, værmeldinger, luftkvalitetsdata, høydedata, stasjonsmetadata, webkamerametadata og eksterne lenker kan komme fra tredjepartsleverandører som Apple Weather / WeatherKit, OpenWeather, Open-Meteo og webkameraleverandører.
+Værinformasjon, værmeldinger, luftkvalitetsdata, høydedata, stasjonsmetadata, webkamerametadata og eksterne lenker kan komme fra NearbyWeather-tjenester eller tredjepartsleverandører som Apple Weather / WeatherKit, OpenWeather, Open-Meteo og webkameraleverandører.
 
-NearbyWeather er ikke tilknyttet, godkjent av eller ansvarlig for disse tredjepartsleverandørene med mindre det er uttrykkelig angitt. Deres datatilgjengelighet, nøyaktighet, lisensvilkår og tjenesteatferd er utenfor appens kontroll.
+NearbyWeather kan bruke tjenester som ber om, cacher og returnerer værdata for appen. NearbyWeather er ikke tilknyttet, godkjent av eller ansvarlig for tredjepartsleverandører med mindre det er uttrykkelig angitt. Tredjeparts datatilgjengelighet, nøyaktighet, lisensvilkår og tjenesteatferd er utenfor appens kontroll.
 
 ## 3. Brukeransvar
 Ved å bruke appen godtar du at:
 
 - du vil kun bruke værdata som informasjonsveiledning
 - du vil ikke stole på appen for sikkerhetskritiske, nødstilfelle, luftfarts-, marine-, medisinske eller andre høyrisikoavgjørelser
-- du er ansvarlig for API-nøkler, leverandørkontoer, varslingsvalg og bokmerker du konfigurerer
+- du er ansvarlig for varslingsvalg, bokmerker og innstillinger du konfigurerer
 - du vil ikke bruke appen eller noen tilkoblede leverandørtjenester på en måte som bryter gjeldende lov eller leverandørvilkår
 
 ## 4. Plassering, varsler og bakgrunnsoperasjon
 Noen funksjoner krever plasseringstillatelse, varslingstillatelse eller bakgrunnsoppdatering. Du kan administrere disse tillatelsene i iOS-innstillingene. Hvis tillatelser eller nettverkstilgang ikke er tilgjengelig, kan relaterte funksjoner være begrenset eller utilgjengelig.
 
-## 5. OpenWeather API Taster
-Hvis du velger å bruke OpenWeather-funksjoner som krever din egen API-nøkkel, er du ansvarlig for å skaffe, legge inn, sikre og overholde vilkårene som gjelder for den nøkkelen. NearbyWeather lagrer nøkkelen lokalt på enheten din og bruker den kun for OpenWeather-forespørsler initiert av appfunksjonalitet.
-
-## 6. Eksterne lenker og webkameraer
+## 5. Eksterne lenker og webkameraer
 Appen kan åpne nettsteder, støttesider, leverandørattribusjonssider, webkamerasider, GitHub-problemsider eller e-postklienter. NearbyWeather er ikke ansvarlig for innhold, tilgjengelighet, personvernpraksis eller vilkår for eksterne tjenester.
 
-## 7. Ingen garanti
+## 6. Ingen garanti
 Appen leveres "som den er" uten garantier av noe slag. Vi garanterer ikke:
 
 - Uavbrutt tilgjengelighet
 - feilfri drift
-- kompatibilitet med hver enhet, iOS-versjon, leverandørkonto eller API-nøkkel
+- kompatibilitet med hver enhet, iOS-versjon, leverandør eller nettverkstilstand
 - korrekthet, friskhet eller fullstendighet av tredjeparts vær-, værvarsel, luftkvalitet, høyde, stasjon, kart eller webkameradata
 
-## 8. Ansvarsbegrensning
+## 7. Ansvarsbegrensning
 I den grad loven tillater det, skal ikke utbygger holdes ansvarlig for skader som oppstår fra:
 
 - unøyaktig, forsinket, utilgjengelig eller ufullstendig vær- eller leverandørdata
 - problemer med nettverk, leverandør, enhet, tillatelse eller konfigurasjon
-- tap av bokmerker, preferanser, bufrede data eller API-nøkler
+- tap av bokmerker, preferanser eller bufrede data
 - bruk av appen i sikkerhetskritiske eller høyrisikosituasjoner
 - eksterne nettsteder, webkameraleverandører, støtteverktøy eller tredjepartstjenester
 
-## 9. Endringer
+## 8. Endringer
 Disse vilkårene kan bli oppdatert fra tid til annen. Fortsatt bruk av appen etter at oppdaterte vilkår er gjort tilgjengelige, utgjør aksept av de oppdaterte vilkårene.
 
-## 10. Kontakt
-For spørsmål, kontakt: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Kontakt
+For spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

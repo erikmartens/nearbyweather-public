@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Poslední aktualizace:** 26. 6. 2026
 
 ## 1. Přehled
-NearbyWeather (dále jen „aplikace“) poskytuje mobilní rozhraní pro zjišťování meteorologických stanic, prohlížení povětrnostních podmínek a předpovědí, správu záložek, prohlížení map a blízkých webových kamer a konfiguraci upozornění na počasí a předvoleb aplikací.
+NearbyWeather ("aplikace") poskytuje mobilní rozhraní pro informace o počasí a související funkce počasí.
 
 ## 2. Údaje o počasí a služby třetích stran
-Informace o počasí, předpovědi, údaje o kvalitě ovzduší, údaje o nadmořské výšce, metadata stanic, metadata webových kamer a externí odkazy mohou pocházet od poskytovatelů třetích stran, jako jsou Apple Weather / WeatherKit, OpenWeather, Open-Meteo a poskytovatelé webových kamer.
+Informace o počasí, předpovědi, údaje o kvalitě ovzduší, údaje o nadmořské výšce, metadata stanic, metadata webových kamer a externí odkazy mohou pocházet ze služeb NearbyWeather nebo poskytovatelů třetích stran, jako jsou Apple Weather / WeatherKit, OpenWeather, Open-Meteo a poskytovatelů webových kamer.
 
-NearbyWeather není přidružen k těmto poskytovatelům třetích stran, není jimi podporován ani za ně není odpovědný, pokud to není výslovně uvedeno. Jejich dostupnost dat, přesnost, licenční podmínky a chování služby jsou mimo kontrolu aplikace.
+NearbyWeather může používat služby, které vyžadují, ukládají do mezipaměti a vracejí data o počasí pro aplikaci. NearbyWeather není přidružen k poskytovatelům třetích stran, není jimi podporován ani za ně není odpovědný, pokud to není výslovně uvedeno. Dostupnost dat třetích stran, přesnost, licenční podmínky a chování služby jsou mimo kontrolu aplikace.
 
 ## 3. Odpovědnost uživatele
 Používáním aplikace souhlasíte s tím, že:
 
 - údaje o počasí budete používat pouze jako informační vodítko
 - nebudete se na aplikaci spoléhat v případě kritických bezpečnostních, nouzových, leteckých, námořních, lékařských nebo jiných vysoce rizikových rozhodnutí
-- jste odpovědní za klíče API, účty poskytovatelů, možnosti oznámení a záložky, které nakonfigurujete
+- jste zodpovědní za volby oznámení, záložky a nastavení, která nakonfigurujete
 - nebudete používat aplikaci ani žádnou službu připojeného poskytovatele způsobem, který porušuje platné zákony nebo podmínky poskytovatele
 
 ## 4. Umístění, upozornění a operace na pozadí
 Některé funkce vyžadují oprávnění k poloze, oprávnění k oznámení nebo aktualizaci na pozadí. Tato oprávnění můžete spravovat v nastavení iOS. Pokud nejsou k dispozici oprávnění nebo přístup k síti, související funkce mohou být omezené nebo nedostupné.
 
-## 5. Klíče OpenWeather API
-Pokud se rozhodnete používat funkce OpenWeather, které vyžadují váš vlastní klíč API, nesete odpovědnost za získání, zadání, zabezpečení a dodržování podmínek, které se na tento klíč vztahují. NearbyWeather ukládá klíč lokálně na vašem zařízení a používá jej pouze pro požadavky OpenWeather iniciované funkcí aplikace.
-
-## 6. Externí odkazy a webové kamery
+## 5. Externí odkazy a webové kamery
 Aplikace může otevírat webové stránky, stránky podpory, stránky s uvedením poskytovatele, stránky webových kamer, problémové stránky GitHub nebo e-mailové klienty. NearbyWeather nenese odpovědnost za obsah, dostupnost, postupy ochrany osobních údajů nebo podmínky externích služeb.
 
-## 7. Žádná záruka
+## 6. Žádná záruka
 Aplikace je poskytována „tak jak je“ bez jakýchkoli záruk. Nezaručujeme:
 
 - nepřetržitá dostupnost
 - bezchybný provoz
-- kompatibilita s každým zařízením, verzí iOS, účtem poskytovatele nebo klíčem API
+- kompatibilita s každým zařízením, verzí iOS, poskytovatelem nebo stavem sítě
 - správnost, aktuálnost nebo úplnost údajů o počasí, předpovědi, kvalitě vzduchu, nadmořské výšce, stanici, mapě nebo webové kameře od třetích stran
 
-## 8. Omezení odpovědnosti
+## 7. Omezení odpovědnosti
 V maximálním rozsahu povoleném zákonem nenese developer odpovědnost za škody vyplývající z:
 
 - nepřesné, zpožděné, nedostupné nebo neúplné údaje o počasí nebo poskytovateli
 - problémy se sítí, poskytovatelem, zařízením, oprávněním nebo konfigurací
-- ztráta záložek, předvoleb, dat uložených v mezipaměti nebo klíčů API
+- ztráta záložek, předvoleb nebo dat uložených v mezipaměti
 - používání aplikace v situacích kritických z hlediska bezpečnosti nebo vysoce rizikových situacích
 - externí webové stránky, poskytovatelé webových kamer, nástroje podpory nebo služby třetích stran
 
-## 9. Změny
+## 8. Změny
 Tyto Podmínky mohou být čas od času aktualizovány. Další používání aplikace po zpřístupnění aktualizovaných podmínek znamená přijetí aktualizovaných podmínek.
 
-## 10. Kontakt
-V případě dotazů kontaktujte: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Kontakt
+V případě dotazů kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

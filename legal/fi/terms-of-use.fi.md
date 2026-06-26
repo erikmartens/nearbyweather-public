@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Viimeksi päivitetty:** 26.6.2026
 
 ## 1. Yleiskatsaus
-NearbyWeather ("sovellus") tarjoaa mobiilikäyttöliittymän sääasemien löytämiseen, sääolosuhteiden ja -ennusteiden katseluun, kirjanmerkkien hallintaan, karttojen ja lähellä olevien verkkokameroiden katseluun sekä säähän liittyvien ilmoitusten ja sovellusasetusten määrittämiseen.
+NearbyWeather ("sovellus") tarjoaa mobiilikäyttöliittymän säätiedoille ja niihin liittyville sääominaisuuksille.
 
 ## 2. Säätiedot ja kolmannen osapuolen palvelut
-Säätiedot, ennusteet, ilmanlaatutiedot, korkeustiedot, aseman metatiedot, verkkokameran metatiedot ja ulkoiset linkit voivat tulla kolmansien osapuolien tarjoajilta, kuten Apple Weather / WeatherKit, OpenWeather, Open-Meteo ja verkkokameran tarjoajilta.
+Säätiedot, ennusteet, ilmanlaatutiedot, korkeustiedot, aseman metatiedot, verkkokameran metatiedot ja ulkoiset linkit voivat olla peräisin NearbyWeather-palveluista tai kolmannen osapuolen tarjoajilta, kuten Apple Weather / WeatherKit, OpenWeather, Open-Meteo ja verkkokameran tarjoajilta.
 
-NearbyWeather ei ole sidoksissa kyseisiin kolmannen osapuolen palveluntarjoajiin, ole niiden tukema tai vastuussa niistä, ellei nimenomaisesti mainita. Niiden tietojen saatavuus, tarkkuus, lisenssiehdot ja palvelukäyttäytyminen ovat sovelluksen hallinnan ulkopuolella.
+NearbyWeather voi käyttää palveluita, jotka pyytävät, tallentavat välimuistiin ja palauttavat säätietoja sovellukselle. NearbyWeather ei ole sidoksissa kolmannen osapuolen palveluntarjoajiin, ole niiden tukema tai vastuussa niistä, ellei nimenomaisesti mainita. Kolmannen osapuolen tietojen saatavuus, tarkkuus, lisenssiehdot ja palvelukäyttäytyminen eivät ole sovelluksen hallinnassa.
 
 ## 3. Käyttäjän vastuu
 Käyttämällä sovellusta hyväksyt, että:
 
 - käytät säätietoja vain ohjeena
 - et luota sovellukseen turvallisuuskriittisissä, hätä-, lento-, meri-, lääketieteellisissä tai muissa riskialttiissa päätöksissä
-- olet vastuussa API-avaimista, palveluntarjoajan tileistä, ilmoitusvalinnoista ja määrittämistäsi kirjanmerkeistä
+- olet vastuussa ilmoitusvalinnoista, kirjanmerkeistä ja määrittämistäsi asetuksista
 - et käytä sovellusta tai mitään yhdistettyä palveluntarjoajapalvelua tavalla, joka rikkoo sovellettavaa lakia tai palveluntarjoajan ehtoja
 
 ## 4. Sijainti, ilmoitukset ja taustatoiminto
 Jotkut ominaisuudet vaativat sijaintiluvan, ilmoitusluvan tai taustapäivityksen. Voit hallita näitä käyttöoikeuksia iOS-asetuksissa. Jos käyttöoikeuksia tai verkkoon pääsyä ei ole saatavilla, liittyvät ominaisuudet voivat olla rajoitettuja tai poissa käytöstä.
 
-## 5. OpenWeather API Avaimet
-Jos päätät käyttää OpenWeather-ominaisuuksia, jotka vaativat oman API-avaimen, olet vastuussa kyseistä avainta koskevien ehtojen hankkimisesta, syöttämisestä, suojaamisesta ja noudattamisesta. NearbyWeather tallentaa avaimen paikallisesti laitteellesi ja käyttää sitä vain sovellustoimintojen käynnistämiin OpenWeather-pyyntöihin.
+## 5. Ulkoiset linkit ja web-kamerat
+Sovellus voi avata verkkosivustoja, tukisivuja, palveluntarjoajien attribuutiosivuja, verkkokamerasivuja, GitHub-ongelmasivuja tai sähköpostiohjelmia. NearbyWeather ei ole vastuussa ulkoisten palveluiden sisällöstä, saatavuudesta, tietosuojakäytännöistä tai ehdoista.
 
-## 6. Ulkoiset linkit ja web-kamerat
-Sovellus voi avata verkkosivustoja, tukisivuja, palveluntarjoajien attribuutiosivuja, verkkokamerasivuja, GitHub-ongelmasivuja tai sähköpostiohjelmia. NearbyWeather ei ole vastuussa ulkoisten palvelujen sisällöstä, saatavuudesta, tietosuojakäytännöistä tai ehdoista.
-
-## 7. Ei takuuta
+## 6. Ei takuuta
 Sovellus tarjotaan "sellaisenaan" ilman minkäänlaisia takuita. Emme takaa:
 
 - keskeytymätön saatavuus
 - virheetön toiminta
-- Yhteensopivuus jokaisen laitteen, iOS-version, palveluntarjoajan tilin tai API-avaimen kanssa
+- Yhteensopivuus jokaisen laitteen, iOS-version, palveluntarjoajan tai verkkotilan kanssa
 - kolmannen osapuolen sää-, ennuste-, ilmanlaatu-, korkeus-, asema-, kartta- tai verkkokameratietojen oikeellisuus, tuoreus tai täydellisyys
 
-## 8. Vastuun rajoitus
+## 7. Vastuun rajoitus
 Rakennuttaja ei ole lain sallimissa rajoissa vastuussa vahingoista, jotka johtuvat:
 
 - epätarkkoja, viivästyneitä, epätäydellisiä tai puutteellisia sää- tai palveluntarjoajan tietoja
 - verkko-, palveluntarjoaja-, laite-, lupa- tai kokoonpanoongelmat
-- kirjanmerkkien, asetusten, välimuistissa olevien tietojen tai API-avainten katoaminen
+- kirjanmerkkien, asetusten tai välimuistissa olevien tietojen katoaminen
 - Sovelluksen käyttö turvallisuuskriittisissä tai korkean riskin tilanteissa
 - ulkoiset verkkosivustot, verkkokameran tarjoajat, tukityökalut tai kolmannen osapuolen palvelut
 
-## 9. Muutokset
+## 8. Muutokset
 Näitä ehtoja voidaan päivittää ajoittain. Sovelluksen käytön jatkaminen päivitettyjen ehtojen julkaisemisen jälkeen merkitsee päivitettyjen ehtojen hyväksymistä.
 
-## 10. Ota yhteyttä
-Jos sinulla on kysyttävää, ota yhteyttä: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Ota yhteyttä
+Jos sinulla on kysyttävää, ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

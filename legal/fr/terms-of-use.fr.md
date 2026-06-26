@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Dernière mise à jour :** 2026-06-26
 
 ## 1. Aperçu
-NearbyWeather (« l'Application ») fournit une interface mobile permettant de découvrir des stations météorologiques, d'afficher les conditions et prévisions météorologiques, de gérer les signets, d'afficher des cartes et des webcams à proximité, et de configurer les notifications météorologiques et les préférences d'application.
+NearbyWeather (« l'Application ») fournit une interface mobile pour les informations météorologiques et les fonctionnalités météorologiques associées.
 
 ## 2. Données météorologiques et services tiers
-Les informations météorologiques, les prévisions, les données sur la qualité de l'air, les données d'altitude, les métadonnées de station, les métadonnées de webcam et les liens externes peuvent provenir de fournisseurs tiers tels que Apple Weather / WeatherKit, OpenWeather, Open-Meteo et de fournisseurs de webcam.
+Les informations météorologiques, les prévisions, les données sur la qualité de l'air, les données d'altitude, les métadonnées de station, les métadonnées de webcam et les liens externes peuvent provenir des services NearbyWeather ou de fournisseurs tiers tels que Apple Weather / WeatherKit, OpenWeather, Open-Meteo et de fournisseurs de webcam.
 
-NearbyWeather n'est pas affilié, approuvé par ou responsable de ces fournisseurs tiers, sauf indication expresse. La disponibilité, l'exactitude des données, les conditions de licence et le comportement du service échappent au contrôle de l'application.
+NearbyWeather peut utiliser des services qui demandent, mettent en cache et renvoient des données météorologiques pour l'application. NearbyWeather n'est pas affilié, approuvé par ou responsable des fournisseurs tiers, sauf indication expresse. La disponibilité, l'exactitude, les conditions de licence et le comportement du service des données tierces échappent au contrôle de l'application.
 
 ## 3. Responsabilité de l'utilisateur
 En utilisant l'Application, vous acceptez que :
 
 - vous utiliserez les données météorologiques à titre informatif uniquement
 - vous ne compterez pas sur l'application pour des décisions critiques en matière de sécurité, d'urgence, aéronautiques, maritimes, médicales ou autres décisions à haut risque
-- vous êtes responsable des clés API, des comptes de fournisseur, des choix de notification et des signets que vous configurez
+- vous êtes responsable des choix de notification, des signets et des paramètres que vous configurez
 - vous n'utiliserez pas l'application ou tout service de fournisseur connecté d'une manière qui viole la loi applicable ou les conditions du fournisseur
 
 ## 4. Emplacement, notifications et fonctionnement en arrière-plan
 Certaines fonctionnalités nécessitent une autorisation de localisation, une autorisation de notification ou une actualisation en arrière-plan. Vous pouvez gérer ces autorisations dans les paramètres iOS. Si les autorisations ou l'accès au réseau ne sont pas disponibles, les fonctionnalités associées peuvent être limitées ou indisponibles.
 
-## 5. OpenWeather API Clés
-Si vous choisissez d'utiliser les fonctionnalités de OpenWeather qui nécessitent votre propre clé API, vous êtes responsable de l'obtention, de la saisie, de la sécurisation et du respect des conditions qui s'appliquent à cette clé. NearbyWeather stocke la clé localement sur votre appareil et l'utilise uniquement pour les requêtes OpenWeather initiées par la fonctionnalité de l'application.
-
-## 6. Liens externes et webcams
+## 5. Liens externes et webcams
 L'application peut ouvrir des sites Web, des pages d'assistance, des pages d'attribution de fournisseur, des pages de webcam, des pages de problèmes GitHub ou des clients de messagerie. NearbyWeather n'est pas responsable du contenu, de la disponibilité, des pratiques de confidentialité ou des conditions des services externes.
 
-## 7. Aucune garantie
+## 6. Aucune garantie
 L'application est fournie « telle quelle » sans garantie d'aucune sorte. Nous ne garantissons pas :
 
 - disponibilité ininterrompue
 - fonctionnement sans erreur
-- compatibilité avec chaque appareil, version iOS, compte fournisseur ou clé API
+- compatibilité avec chaque appareil, version iOS, fournisseur ou condition du réseau
 - l'exactitude, la fraîcheur ou l'exhaustivité des données météorologiques, prévisions, qualité de l'air, altitude, station, carte ou webcam de tiers
 
-## 8. Limitation de responsabilité
+## 7. Limitation de responsabilité
 Dans la mesure permise par la loi, le promoteur ne sera pas responsable des dommages résultant :
 
 - données météorologiques ou données du fournisseur inexactes, retardées, indisponibles ou incomplètes
 - problèmes de réseau, de fournisseur, d'appareil, d'autorisation ou de configuration
-- perte de favoris, de préférences, de données mises en cache ou de clés API
+- perte de favoris, de préférences ou de données mises en cache
 - utilisation de l'application dans des situations critiques pour la sécurité ou à haut risque
 - sites Web externes, fournisseurs de webcams, outils d'assistance ou services tiers
 
-## 9. Modifications
+## 8. Modifications
 Ces conditions peuvent être mises à jour de temps à autre. L'utilisation continue de l'Application après la mise à disposition des Conditions mises à jour constitue l'acceptation des Conditions mises à jour.
 
-## 10. Contacter
-Pour toute question, contactez : [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Contacter
+Pour toute question, contactez : [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

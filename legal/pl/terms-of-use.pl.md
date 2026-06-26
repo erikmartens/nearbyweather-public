@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Ostatnia aktualizacja:** 26.06.2026 r
 
 ## 1. Przegląd
-NearbyWeather („aplikacja”) zapewnia mobilny interfejs umożliwiający wyszukiwanie stacji pogodowych, przeglądanie warunków pogodowych i prognoz, zarządzanie zakładkami, przeglądanie map i pobliskich kamer internetowych oraz konfigurowanie powiadomień związanych z pogodą i preferencji aplikacji.
+NearbyWeather („Aplikacja”) zapewnia mobilny interfejs do informacji o pogodzie i powiązanych funkcji pogodowych.
 
 ## 2. Dane pogodowe i usługi stron trzecich
-Informacje o pogodzie, prognozy, dane o jakości powietrza, dane o wysokości, metadane stacji, metadane kamery internetowej i linki zewnętrzne mogą pochodzić od dostawców zewnętrznych, takich jak Apple Weather / WeatherKit, OpenWeather, Open-Meteo i dostawców kamer internetowych.
+Informacje o pogodzie, prognozy, dane o jakości powietrza, dane o wysokości, metadane stacji, metadane kamery internetowej i linki zewnętrzne mogą pochodzić z usług NearbyWeather lub dostawców zewnętrznych, takich jak Apple Weather / WeatherKit, OpenWeather, Open-Meteo i dostawców kamer internetowych.
 
-NearbyWeather nie jest powiązany, wspierany ani odpowiedzialny za tych zewnętrznych dostawców, chyba że zostało to wyraźnie określone. Dostępność danych, dokładność, warunki licencji i zachowanie usług są poza kontrolą Aplikacji.
+NearbyWeather może korzystać z usług żądających, buforujących i zwracających dane pogodowe dla Aplikacji. NearbyWeather nie jest powiązany, nie jest wspierany przez zewnętrznych dostawców ani nie jest za nie odpowiedzialny, chyba że zostało to wyraźnie określone. Dostępność danych stron trzecich, dokładność, warunki licencji i zachowanie usług są poza kontrolą aplikacji.
 
 ## 3. Odpowiedzialność użytkownika
 Korzystając z Aplikacji, zgadzasz się, że:
 
 - będziesz używać danych pogodowych jedynie jako wskazówek informacyjnych
 - nie będziesz polegać na Aplikacji przy podejmowaniu decyzji krytycznych dla bezpieczeństwa, awaryjnych, lotniczych, morskich, medycznych lub innych decyzji wysokiego ryzyka
-- jesteś odpowiedzialny za klucze API, konta dostawców, opcje powiadomień i konfigurowane zakładki
+- odpowiadasz za opcje powiadomień, zakładki i ustawienia, które konfigurujesz
 - nie będziesz korzystać z Aplikacji ani usług jakiegokolwiek połączonego dostawcy w sposób naruszający obowiązujące prawo lub warunki dostawcy
 
 ## 4. Lokalizacja, powiadomienia i działanie w tle
 Niektóre funkcje wymagają pozwolenia na lokalizację, pozwolenia na powiadomienia lub odświeżenia tła. Możesz zarządzać tymi uprawnieniami w ustawieniach iOS. Jeśli uprawnienia lub dostęp do sieci są niedostępne, powiązane funkcje mogą być ograniczone lub niedostępne.
 
-## 5. OpenWeather API Klucze
-Jeśli zdecydujesz się na korzystanie z funkcji OpenWeather, które wymagają własnego klucza API, jesteś odpowiedzialny za uzyskanie, wprowadzenie, zabezpieczenie i przestrzeganie warunków mających zastosowanie do tego klucza. NearbyWeather przechowuje klucz lokalnie na Twoim urządzeniu i używa go tylko do żądań OpenWeather inicjowanych przez funkcjonalność aplikacji.
-
-## 6. Linki zewnętrzne i kamery internetowe
+## 5. Linki zewnętrzne i kamery internetowe
 Aplikacja może otwierać witryny internetowe, strony pomocy technicznej, strony z informacjami o dostawcach, strony kamer internetowych, strony problemów GitHub lub klientów poczty e-mail. NearbyWeather nie ponosi odpowiedzialności za treść, dostępność, praktyki dotyczące prywatności ani warunki usług zewnętrznych.
 
-## 7. Brak gwarancji
+## 6. Brak gwarancji
 Aplikacja jest dostarczana w stanie takim, w jakim jest, bez jakichkolwiek gwarancji. Nie gwarantujemy:
 
 - nieprzerwana dostępność
 - bezbłędna praca
-- kompatybilność z każdym urządzeniem, wersją iOS, kontem dostawcy lub kluczem API
+- kompatybilność z każdym urządzeniem, wersją iOS, dostawcą i stanem sieci
 - poprawność, aktualność lub kompletność danych o pogodzie, prognozie, jakości powietrza, wysokości, stacji, mapie lub kamerze internetowej pochodzących od osób trzecich
 
-## 8. Ograniczenie odpowiedzialności
+## 7. Ograniczenie odpowiedzialności
 W maksymalnym zakresie dozwolonym przez prawo deweloper nie ponosi odpowiedzialności za szkody powstałe na skutek:
 
 - niedokładne, opóźnione, niedostępne lub niekompletne dane pogodowe lub dane dostawcy
 - problemy z siecią, dostawcą, urządzeniem, uprawnieniami lub konfiguracją
-- utrata zakładek, preferencji, danych w pamięci podręcznej lub kluczy API
+- utrata zakładek, preferencji lub danych zapisanych w pamięci podręcznej
 - korzystania z Aplikacji w sytuacjach krytycznych dla bezpieczeństwa lub wysokiego ryzyka
 - zewnętrzne strony internetowe, dostawcy kamer internetowych, narzędzia wsparcia lub usługi stron trzecich
 
-## 9. Zmiany
+## 8. Zmiany
 Niniejsze Warunki mogą być od czasu do czasu aktualizowane. Dalsze korzystanie z Aplikacji po udostępnieniu zaktualizowanego Regulaminu oznacza akceptację zaktualizowanego Regulaminu.
 
-## 10. Kontakt
-W przypadku pytań skontaktuj się z: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Kontakt
+W przypadku pytań skontaktuj się z: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

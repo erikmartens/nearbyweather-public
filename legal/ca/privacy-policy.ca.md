@@ -22,25 +22,24 @@ Last updated: 2026-06-26
 **Darrera actualització:** 2026-06-26
 
 ## 1. Visió general
-NearbyWeather respecta la vostra privadesa. L'aplicació està dissenyada per mantenir les adreces d'interès, les preferències, les dades meteorològiques a la memòria cau i les claus opcionals API al vostre dispositiu, tret que una funció seleccionada s'hagi de comunicar amb un proveïdor d'informes meteorològics, de localització, d'assistència o d'error.
+NearbyWeather respecta la vostra privadesa. L'aplicació proporciona informació meteorològica i funcions relacionades alhora que manté locals les dades de l'aplicació específiques de l'usuari sempre que sigui possible.
 
 ## 2. Recollida de dades i emmagatzematge local
-NearbyWeather no opera el seu propi backend per a la funcionalitat normal de l'aplicació. L'aplicació no ven dades personals, no utilitza identificadors publicitaris i no crea publicitat ni perfils de seguiment.
+NearbyWeather no requereix un compte d'usuari. L'aplicació no ven dades personals, no utilitza identificadors publicitaris i no crea publicitat ni perfils de seguiment.
 
 L'aplicació pot emmagatzemar la informació següent localment al vostre dispositiu:
 
 - estacions meteorològiques marcades i marcadors suprimits recentment
 - seleccionat a prop, cerca, unitat, notificació, idioma, aspecte i preferències del proveïdor meteorològic
-- la clau opcional OpenWeather API que introduïu
 - Metadades de l'estació meteorològica en memòria cau, dades meteorològiques, estat del mapa i metadades de càmera web necessàries per mostrar el contingut de l'aplicació i donar suport a l'ús fora de línia
 - la preferència opcional d'informes d'error Firebase
 
-Aquestes dades romanen al vostre dispositiu tret que una funció descrita a continuació enviï les dades de sol·licitud necessàries a un proveïdor extern.
+Aquestes dades romanen al vostre dispositiu tret que una funció descrita a continuació enviï les dades de sol·licitud necessàries a un proveïdor de serveis de NearbyWeather o a un tercer.
 
 ## 3. Localització i dades meteorològiques
-Si concedeixes permís d'ubicació, NearbyWeather utilitza la ubicació del teu dispositiu per trobar estacions meteorològiques properes, enfocar mapes i sol·licitar dades meteorològiques per a les coordenades rellevants. En funció del proveïdor meteorològic seleccionat i de la configuració de l'aplicació, l'aplicació pot enviar coordenades, identificadors d'estacions meteorològiques, preferències d'idioma i la vostra clau OpenWeather API a proveïdors externs de meteorologia o d'elevació.
+Si concedeixes permís d'ubicació, NearbyWeather utilitza la ubicació del teu dispositiu per trobar estacions meteorològiques properes, enfocar mapes i sol·licitar dades meteorològiques per a les coordenades rellevants. En funció de la funció seleccionada i de la configuració de l'aplicació, l'aplicació pot enviar coordenades, identificadors d'estacions meteorològiques, opcions de proveïdors, preferències d'idioma i detalls de sol·licitud de temps als serveis de NearbyWeather o a proveïdors externs de meteorologia o elevació.
 
-NearbyWeather pot sol·licitar dades de Apple Weather / WeatherKit, OpenWeather, Open-Meteo i de fonts meteorològiques o d'atribució relacionades. Aquests proveïdors processen les sol·licituds segons les seves pròpies polítiques i condicions de privadesa.
+Els serveis de NearbyWeather poden sol·licitar dades meteorològiques als proveïdors, emmagatzemar dades meteorològiques a la memòria cau i retornar dades meteorològiques a l'aplicació. No estan dissenyats per crear comptes d'usuari o perfils d'usuari per a sol·licituds meteorològiques. Els proveïdors externs processen les sol·licituds segons les seves pròpies polítiques i condicions de privadesa.
 
 ## 4. Informe d'errors i errors (opcional)
 NearbyWeather utilitza Google Firebase Crashlytics per recopilar informes d'error i diagnòstic només quan els informes d'errors estan activats.
@@ -51,7 +50,7 @@ Els informes d'error i diagnòstic poden incloure:
 - versió de l'aplicació i número de compilació
 - Informació tècnica sobre l'accident o esdeveniment de diagnòstic
 
-NearbyWeather no inclou intencionadament les vostres adreces d'interès, les claus API ni la ubicació precisa als informes d'error. Pots desactivar els informes d'errors en qualsevol moment a la configuració de privadesa o d'ajuda de l'aplicació.
+NearbyWeather no inclou intencionadament les vostres adreces d'interès ni la ubicació precisa als informes d'error. Pots desactivar els informes d'errors en qualsevol moment a la configuració de privadesa o d'ajuda de l'aplicació.
 
 ## 5. Notificacions, actualització de fons i insígnia d'icona de l'aplicació
 Si activeu les notificacions o la insígnia de temperatura de la icona de l'aplicació, NearbyWeather pot actualitzar la informació meteorològica en segon pla perquè aquestes funcions es mantinguin actualitzades. Les preferències de notificació i la configuració de la insígnia s'emmagatzemen localment al dispositiu.
@@ -63,13 +62,13 @@ NearbyWeather pot mostrar entrades de càmera web properes i enllaços de prove�
 NearbyWeather no utilitza tecnologies de seguiment, identificadors publicitaris, analítiques publicitàries o perfils amb finalitats publicitàries.
 
 ## 8. Seguretat
-Les dades locals sensibles, inclosa qualsevol clau OpenWeather API que introduïu, romanen al vostre dispositiu. Sou responsable de protegir el vostre dispositiu amb seguretat a nivell de sistema, com ara una contrasenya, Touch ID o Face ID.
+Les dades locals sensibles es mantenen al dispositiu. Sou responsable de protegir el vostre dispositiu amb seguretat a nivell de sistema, com ara una contrasenya, Touch ID o Face ID.
 
 ## 9. Retenció i supressió de dades
 Podeu eliminar les adreces d'interès, les adreces d'interès suprimides recentment i les preferències mitjançant l'aplicació on hi ha els controls pertinents disponibles. També podeu eliminar totes les dades de l'aplicació suprimint l'aplicació del vostre dispositiu. Les metadades de l'estació meteorològica que s'inclouen amb l'aplicació formen part de la instal·lació de l'aplicació.
 
 ## 10. Serveis de tercers
-NearbyWeather pot interactuar amb serveis de tercers com ara Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, serveis de correu electrònic i proveïdors de càmeres web. NearbyWeather no controla aquests serveis i les seves pròpies polítiques de privadesa s'apliquen quan utilitzeu funcions que us posen en contacte.
+NearbyWeather pot interactuar amb serveis de tercers com ara Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, serveis de correu electrònic i proveïdors de càmeres web. NearbyWeather no controla els serveis de tercers, i les seves pròpies polítiques de privadesa s'apliquen quan utilitzeu funcions que us posen en contacte.
 
 ## 11. Nens
 NearbyWeather no està dirigit als nens i no recull de manera conscient dades personals dels nens.
@@ -78,4 +77,4 @@ NearbyWeather no està dirigit als nens i no recull de manera conscient dades pe
 Aquesta Política de privadesa es pot actualitzar en el futur. Els canvis es reflectiran a l'App i als documents legals públics.
 
 ## 13. Contacte
-Per a preguntes relacionades amb la privadesa, poseu-vos en contacte amb: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+Per a preguntes relacionades amb la privadesa, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

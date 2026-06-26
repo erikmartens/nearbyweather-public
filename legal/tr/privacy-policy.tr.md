@@ -22,25 +22,24 @@ Last updated: 2026-06-26
 **Son güncelleme:** 2026-06-26
 
 ## 1. Genel Bakış
-NearbyWeather gizliliğinize saygı duyar. Uygulama, seçilen bir özelliğin hava durumu, konum, destek veya kilitlenme raporlama sağlayıcısıyla iletişim kurması gerekmediği sürece yer işaretlerini, tercihleri, önbelleğe alınmış hava durumu verilerini ve isteğe bağlı API anahtarlarını cihazınızda tutacak şekilde tasarlanmıştır.
+NearbyWeather gizliliğinize saygı duyar. Uygulama, kullanıcıya özel uygulama verilerini mümkün olduğunca yerel tutarken, hava durumu bilgileri ve ilgili özellikler sağlar.
 
 ## 2. Veri Toplama ve Yerel Depolama
-NearbyWeather, normal uygulama işlevselliği için kendi arka ucunu çalıştırmaz. Uygulama kişisel verileri satmaz, reklam tanımlayıcıları kullanmaz ve reklam veya izleme profilleri oluşturmaz.
+NearbyWeather bir kullanıcı hesabı gerektirmez. Uygulama kişisel verileri satmaz, reklam tanımlayıcıları kullanmaz ve reklam veya izleme profilleri oluşturmaz.
 
 Uygulama aşağıdaki bilgileri cihazınızda yerel olarak saklayabilir:
 
 - yer imlerine eklenen hava durumu istasyonları ve yakın zamanda silinen yer imleri
 - yakındaki seçili, arama, birim, bildirim, dil, görünüm ve hava durumu sağlayıcı tercihleri
-- girdiğiniz isteğe bağlı OpenWeather API anahtarı
 - uygulama içeriğini görüntülemek ve çevrimdışı kullanımı desteklemek için önbelleğe alınmış hava durumu istasyonu meta verileri, hava durumu verileri, harita durumu ve web kamerası meta verileri gerekir
 - isteğe bağlı Firebase kilitlenme raporlama tercihi
 
-Aşağıda açıklanan bir özellik gerekli istek verilerini bir üçüncü taraf sağlayıcıya göndermediği sürece bu veriler cihazınızda kalır.
+Aşağıda açıklanan bir özellik gerekli istek verilerini bir NearbyWeather hizmetine veya üçüncü taraf sağlayıcıya göndermediği sürece bu veriler cihazınızda kalır.
 
 ## 3. Konum ve Hava Durumu Verileri
-Konum izni verirseniz NearbyWeather, yakındaki hava istasyonlarını bulmak, haritalara odaklanmak ve ilgili koordinatlar için hava durumu verilerini istemek için cihazınızın konumunu kullanır. Seçtiğiniz hava durumu sağlayıcısına ve uygulama ayarlarına bağlı olarak Uygulama, harici hava durumu veya yükseklik sağlayıcılarına koordinatları, hava durumu istasyonu tanımlayıcılarını, dil tercihlerini ve OpenWeather API anahtarınızı gönderebilir.
+Konum izni verirseniz NearbyWeather, yakındaki hava istasyonlarını bulmak, haritalara odaklanmak ve ilgili koordinatlar için hava durumu verilerini istemek için cihazınızın konumunu kullanır. Seçilen özellik ve uygulama ayarlarına bağlı olarak Uygulama, NearbyWeather hizmetlerine veya harici hava durumu veya yükseklik sağlayıcılarına koordinatları, hava durumu istasyonu tanımlayıcılarını, sağlayıcı seçeneklerini, dil tercihlerini ve hava durumu isteği ayrıntılarını gönderebilir.
 
-NearbyWeather, Apple Weather / WeatherKit, OpenWeather, Open-Meteo ve ilgili hava durumu veya ilişkilendirme kaynaklarından veri talep edebilir. Bu sağlayıcılar talepleri kendi gizlilik politikaları ve koşulları kapsamında işler.
+NearbyWeather hizmetleri, sağlayıcılardan hava durumu verilerini talep edebilir, hava durumu verilerini önbelleğe alabilir ve hava durumu verilerini Uygulamaya gönderebilir. Hava durumu talepleri için kullanıcı hesapları veya kullanıcı profilleri oluşturmak üzere tasarlanmamıştır. Harici sağlayıcılar talepleri kendi gizlilik politikaları ve koşulları kapsamında işler.
 
 ## 4. Kilitlenme ve Hata Raporlaması (İsteğe Bağlı)
 NearbyWeather, yalnızca hata raporlama etkinleştirildiğinde kilitlenme ve teşhis raporlarını toplamak için Google Firebase Crashlytics'i kullanır.
@@ -51,7 +50,7 @@ Kilitlenme ve teşhis raporları şunları içerebilir:
 - uygulama sürümü ve yapı numarası
 - çarpışma veya teşhis olayıyla ilgili teknik bilgiler
 
-NearbyWeather, yer işaretlerinizi, API anahtarlarınızı veya kilitlenme raporlarına kesin konumunuzu kasıtlı olarak dahil etmez. Hata raporlamayı istediğiniz zaman Uygulamanın gizlilik veya yardım ayarlarından devre dışı bırakabilirsiniz.
+NearbyWeather, yer işaretlerinizi veya kesin konumunuzu kilitlenme raporlarına kasıtlı olarak dahil etmez. Hata raporlamayı istediğiniz zaman Uygulamanın gizlilik veya yardım ayarlarından devre dışı bırakabilirsiniz.
 
 ## 5. Bildirimler, Arka Plan Yenileme ve Uygulama Simgesi Rozeti
 Bildirimleri veya uygulama simgesi sıcaklık rozetini etkinleştirirseniz NearbyWeather, bu özelliklerin güncel kalması için arka planda hava durumu bilgilerini yenileyebilir. Bildirim tercihleri ​​ve rozet ayarları cihazınızda yerel olarak depolanır.
@@ -63,13 +62,13 @@ NearbyWeather yakındaki web kamerası girişlerini ve sağlayıcı bağlantıla
 NearbyWeather reklam amacıyla izleme teknolojilerini, reklam tanımlayıcılarını, reklam analizlerini veya profil oluşturmayı kullanmaz.
 
 ## 8. Güvenlik
-Girdiğiniz OpenWeather API anahtarı da dahil olmak üzere hassas yerel veriler cihazınızda kalır. Cihazınızı şifre, Touch ID veya Face ID gibi sistem düzeyinde güvenlikle korumak sizin sorumluluğunuzdadır.
+Hassas yerel veriler cihazınızda kalır. Cihazınızı şifre, Touch ID veya Face ID gibi sistem düzeyinde güvenlikle korumak sizin sorumluluğunuzdadır.
 
 ## 9. Veri Saklama ve Silme
 İlgili kontrollerin mevcut olduğu Uygulama aracılığıyla yer işaretlerini, yakın zamanda silinen yer işaretlerini ve tercihleri kaldırabilirsiniz. Uygulamayı cihazınızdan silerek de tüm uygulama verilerini kaldırabilirsiniz. Uygulamayla birlikte verilen hava durumu istasyonu meta verileri, Uygulama kurulumunun bir parçasıdır.
 
 ## 10. Üçüncü Taraf Hizmetleri
-NearbyWeather, Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-posta hizmetleri ve web kamerası sağlayıcıları gibi üçüncü taraf hizmetleriyle etkileşime girebilir. Bu hizmetler NearbyWeather tarafından kontrol edilmemektedir ve onlarla iletişim kuran özellikleri kullandığınızda kendi gizlilik politikaları geçerli olacaktır.
+NearbyWeather, Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-posta hizmetleri ve web kamerası sağlayıcıları gibi üçüncü taraf hizmetleriyle etkileşime girebilir. Üçüncü taraf hizmetleri NearbyWeather tarafından kontrol edilmez ve onlarla iletişime geçen özellikleri kullandığınızda onların kendi gizlilik politikaları geçerli olur.
 
 ## 11. Çocuklar
 NearbyWeather çocuklara yönelik değildir ve bilerek çocuklardan kişisel veri toplamaz.
@@ -78,4 +77,4 @@ NearbyWeather çocuklara yönelik değildir ve bilerek çocuklardan kişisel ver
 Bu Gizlilik Politikası gelecekte güncellenebilir. Değişiklikler Uygulamaya ve kamuya ait yasal belgelere yansıtılacaktır.
 
 ## 13. İletişim
-Gizlilikle ilgili sorularınız için şu adresle iletişime geçin: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+Gizlilikle ilgili sorularınız için şu adresle iletişime geçin: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

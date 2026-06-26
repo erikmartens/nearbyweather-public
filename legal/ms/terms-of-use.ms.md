@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Terakhir dikemas kini:** 2026-06-26
 
 ## 1. Gambaran keseluruhan
-NearbyWeather ("Apl") menyediakan antara muka mudah alih untuk menemui stesen cuaca, melihat keadaan cuaca dan ramalan, mengurus penanda halaman, melihat peta dan kamera web berdekatan serta mengkonfigurasi pemberitahuan berkaitan cuaca dan pilihan aplikasi.
+NearbyWeather ("Apl") menyediakan antara muka mudah alih untuk maklumat cuaca dan ciri cuaca yang berkaitan.
 
 ## 2. Data Cuaca dan Perkhidmatan Pihak Ketiga
-Maklumat cuaca, ramalan, data kualiti udara, data ketinggian, metadata stesen, metadata kamera web dan pautan luaran mungkin datang daripada penyedia pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo dan penyedia kamera web.
+Maklumat cuaca, ramalan, data kualiti udara, data ketinggian, metadata stesen, metadata kamera web dan pautan luaran mungkin datang daripada perkhidmatan NearbyWeather atau pembekal pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo dan penyedia kamera web.
 
-NearbyWeather tidak bergabung dengan, disokong oleh, atau bertanggungjawab untuk penyedia pihak ketiga tersebut melainkan dinyatakan dengan jelas. Ketersediaan data, ketepatan, syarat pelesenan dan tingkah laku perkhidmatan mereka adalah di luar kawalan Apl.
+NearbyWeather boleh menggunakan perkhidmatan yang meminta, menyimpan cache dan mengembalikan data cuaca untuk Apl. NearbyWeather tidak bergabung dengan, disokong oleh, atau bertanggungjawab untuk penyedia pihak ketiga melainkan dinyatakan dengan jelas. Ketersediaan data pihak ketiga, ketepatan, syarat pelesenan dan tingkah laku perkhidmatan adalah di luar kawalan Apl.
 
 ## 3. Tanggungjawab Pengguna
 Dengan menggunakan Apl, anda bersetuju bahawa:
 
 - anda akan menggunakan data cuaca sebagai panduan maklumat sahaja
 - anda tidak akan bergantung pada Apl untuk keputusan kritikal keselamatan, kecemasan, penerbangan, marin, perubatan atau lain-lain yang berisiko tinggi
-- anda bertanggungjawab untuk kunci API, akaun pembekal, pilihan pemberitahuan dan penanda halaman yang anda konfigurasikan
+- anda bertanggungjawab untuk pilihan pemberitahuan, penanda halaman dan tetapan yang anda konfigurasikan
 - anda tidak akan menggunakan Apl atau mana-mana perkhidmatan pembekal yang disambungkan dengan cara yang melanggar undang-undang atau terma penyedia yang berkenaan
 
 ## 4. Lokasi, Pemberitahuan dan Operasi Latar Belakang
 Sesetengah ciri memerlukan kebenaran lokasi, kebenaran pemberitahuan atau muat semula latar belakang. Anda boleh mengurus kebenaran ini dalam tetapan iOS. Jika kebenaran atau akses rangkaian tidak tersedia, ciri yang berkaitan mungkin terhad atau tidak tersedia.
 
-## 5. OpenWeather API Keys
-Jika anda memilih untuk menggunakan ciri OpenWeather yang memerlukan kunci API anda sendiri, anda bertanggungjawab untuk mendapatkan, memasukkan, mengamankan dan mematuhi terma yang terpakai pada kunci tersebut. NearbyWeather menyimpan kunci secara setempat pada peranti anda dan menggunakannya hanya untuk permintaan OpenWeather yang dimulakan oleh fungsi Apl.
-
-## 6. Pautan Luaran dan Kamera Web
+## 5. Pautan Luaran dan Kamera Web
 Apl boleh membuka tapak web, halaman sokongan, halaman atribusi penyedia, halaman kamera web, halaman terbitan GitHub atau klien e-mel. NearbyWeather tidak bertanggungjawab terhadap kandungan, ketersediaan, amalan privasi atau syarat perkhidmatan luaran.
 
-## 7. Tiada Waranti
+## 6. Tiada Waranti
 Aplikasi ini disediakan "seadanya" tanpa sebarang jenis jaminan. Kami tidak menjamin:
 
 - ketersediaan tanpa gangguan
 - operasi tanpa ralat
-- keserasian dengan setiap peranti, versi iOS, akaun pembekal atau kunci API
+- keserasian dengan setiap peranti, versi iOS, pembekal atau keadaan rangkaian
 - ketepatan, kesegaran atau kesempurnaan data cuaca, ramalan, kualiti udara, ketinggian, stesen, peta atau kamera web pihak ketiga
 
-## 8. Had Liabiliti
+## 7. Had Liabiliti
 Setakat maksimum yang dibenarkan oleh undang-undang, pemaju tidak akan bertanggungjawab ke atas kerosakan yang timbul daripada:
 
 - cuaca yang tidak tepat, tertangguh, tidak tersedia atau data pembekal yang tidak lengkap
 - isu rangkaian, pembekal, peranti, kebenaran atau konfigurasi
-- kehilangan penanda halaman, keutamaan, data cache atau kunci API
+- kehilangan penanda halaman, keutamaan atau data cache
 - penggunaan Apl dalam situasi kritikal keselamatan atau berisiko tinggi
 - tapak web luaran, pembekal kamera web, alat sokongan atau perkhidmatan pihak ketiga
 
-## 9. Perubahan
+## 8. Perubahan
 Syarat ini boleh dikemas kini dari semasa ke semasa. Penggunaan Apl yang berterusan selepas Terma yang dikemas kini tersedia merupakan penerimaan Terma yang dikemas kini.
 
-## 10. Hubungi
-Untuk pertanyaan, hubungi: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Hubungi
+Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

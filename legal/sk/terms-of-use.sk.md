@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Posledná aktualizácia:** 26. 6. 2026
 
 ## 1. Prehľad
-NearbyWeather (ďalej len „aplikácia“) poskytuje mobilné rozhranie na zisťovanie meteorologických staníc, prezeranie poveternostných podmienok a predpovedí, správu záložiek, prezeranie máp a blízkych webových kamier a konfiguráciu upozornení týkajúcich sa počasia a preferencií aplikácií.
+NearbyWeather (ďalej len „aplikácia“) poskytuje mobilné rozhranie pre informácie o počasí a súvisiace funkcie počasia.
 
 ## 2. Údaje o počasí a služby tretích strán
-Informácie o počasí, predpovede, údaje o kvalite ovzdušia, údaje o nadmorskej výške, metadáta staníc, metadáta webovej kamery a externé odkazy môžu pochádzať od poskytovateľov tretích strán, ako sú Apple Weather / WeatherKit, OpenWeather, Open-Meteo a poskytovatelia webových kamier.
+Informácie o počasí, predpovede, údaje o kvalite ovzdušia, údaje o nadmorskej výške, metadáta staníc, metaúdaje webovej kamery a externé odkazy môžu pochádzať zo služieb NearbyWeather alebo poskytovateľov tretích strán, ako sú Apple Weather / WeatherKit, OpenWeather, Open-Meteo a poskytovatelia webových kamier.
 
-NearbyWeather nie je pridružený, podporovaný ani zodpovedný za poskytovateľov tretích strán, pokiaľ to nie je výslovne uvedené. Ich dostupnosť údajov, presnosť, licenčné podmienky a správanie služby sú mimo kontroly aplikácie.
+NearbyWeather môže používať služby, ktoré vyžadujú, vyrovnávajú a vracajú údaje o počasí pre aplikáciu. NearbyWeather nie je prepojený s poskytovateľmi tretích strán, nie je nimi podporovaný ani za ne nezodpovedá, pokiaľ to nie je výslovne uvedené. Dostupnosť údajov tretích strán, presnosť, licenčné podmienky a správanie služby sú mimo kontroly aplikácie.
 
 ## 3. Zodpovednosť užívateľa
 Používaním aplikácie súhlasíte s tým, že:
 
 - údaje o počasí budete používať len ako informačné usmernenie
 - nebudete sa spoliehať na aplikáciu v prípade kritických bezpečnostných, núdzových, leteckých, námorných, lekárskych alebo iných vysoko rizikových rozhodnutí
-- ste zodpovední za kľúče API, účty poskytovateľa, možnosti upozornení a záložky, ktoré nakonfigurujete
+- ste zodpovední za voľby upozornení, záložky a nastavenia, ktoré nakonfigurujete
 - Aplikáciu ani žiadnu pripojenú službu poskytovateľa nebudete používať spôsobom, ktorý porušuje platné zákony alebo podmienky poskytovateľa
 
 ## 4. Poloha, upozornenia a operácie na pozadí
 Niektoré funkcie vyžadujú povolenie na umiestnenie, povolenie na upozornenia alebo obnovenie na pozadí. Tieto povolenia môžete spravovať v nastaveniach iOS. Ak povolenia alebo prístup k sieti nie sú k dispozícii, súvisiace funkcie môžu byť obmedzené alebo nedostupné.
 
-## 5. OpenWeather API kľúče
-Ak sa rozhodnete používať funkcie OpenWeather, ktoré vyžadujú váš vlastný kľúč API, ste zodpovední za získanie, zadanie, zabezpečenie a dodržiavanie podmienok, ktoré sa vzťahujú na tento kľúč. NearbyWeather ukladá kľúč lokálne na vašom zariadení a používa ho iba pre požiadavky OpenWeather iniciované funkciou aplikácie.
-
-## 6. Externé odkazy a webové kamery
+## 5. Externé odkazy a webové kamery
 Aplikácia môže otvárať webové stránky, stránky podpory, stránky s uvedením zdroja, stránky webových kamier, problémové stránky GitHub alebo e-mailových klientov. NearbyWeather nezodpovedá za obsah, dostupnosť, postupy ochrany osobných údajov ani podmienky externých služieb.
 
-## 7. Žiadna záruka
+## 6. Žiadna záruka
 Aplikácia sa poskytuje „tak ako je“ bez záruk akéhokoľvek druhu. Nezaručujeme:
 
 - nepretržitá dostupnosť
 - bezchybná prevádzka
-- kompatibilita s každým zariadením, verziou iOS, účtom poskytovateľa alebo kľúčom API
+- kompatibilita s každým zariadením, verziou iOS, poskytovateľom alebo stavom siete
 - správnosť, aktuálnosť alebo úplnosť údajov o počasí, predpovedi, kvalite vzduchu, nadmorskej výške, stanici, mape alebo webovej kamere tretích strán
 
-## 8. Obmedzenie zodpovednosti
+## 7. Obmedzenie zodpovednosti
 V maximálnom rozsahu povolenom zákonom nenesie developer zodpovednosť za škody vyplývajúce z:
 
 - nepresné, oneskorené, nedostupné alebo neúplné údaje o počasí alebo poskytovateľovi
 - problémy so sieťou, poskytovateľom, zariadením, povoleniami alebo konfiguráciou
-- strata záložiek, preferencií, údajov vo vyrovnávacej pamäti alebo kľúčov API
+- strata záložiek, preferencií alebo údajov vo vyrovnávacej pamäti
 - používanie aplikácie v situáciách kritických z hľadiska bezpečnosti alebo vo vysoko rizikových situáciách
 - externé webové stránky, poskytovatelia webových kamier, nástroje podpory alebo služby tretích strán
 
-## 9. Zmeny
+## 8. Zmeny
 Tieto Podmienky môžu byť z času na čas aktualizované. Pokračovanie v používaní aplikácie po sprístupnení aktualizovaných podmienok znamená prijatie aktualizovaných podmienok.
 
-## 10. Kontakt
-V prípade otázok kontaktujte: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Kontakt
+V prípade otázok kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

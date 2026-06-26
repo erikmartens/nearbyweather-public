@@ -22,49 +22,46 @@ Last updated: 2026-06-26
 **Última actualización:** 2026-06-26
 
 ## 1. Descripción general
-NearbyWeather ("la Aplicación") proporciona una interfaz móvil para descubrir estaciones meteorológicas, ver condiciones y pronósticos meteorológicos, administrar marcadores, ver mapas y cámaras web cercanas, y configurar notificaciones y preferencias de aplicaciones relacionadas con el clima.
+NearbyWeather ("la Aplicación") proporciona una interfaz móvil para información meteorológica y funciones meteorológicas relacionadas.
 
 ## 2. Datos meteorológicos y servicios de terceros
-La información meteorológica, los pronósticos, los datos de calidad del aire, los datos de elevación, los metadatos de estaciones, los metadatos de cámaras web y los enlaces externos pueden provenir de proveedores externos como Apple Weather / WeatherKit, OpenWeather, Open-Meteo y proveedores de cámaras web.
+La información meteorológica, los pronósticos, los datos de calidad del aire, los datos de elevación, los metadatos de estaciones, los metadatos de cámaras web y los enlaces externos pueden provenir de servicios NearbyWeather o de proveedores externos como Apple Weather / WeatherKit, OpenWeather, Open-Meteo y proveedores de cámaras web.
 
-NearbyWeather no está afiliado, respaldado ni responsable de dichos proveedores externos a menos que se indique expresamente. La disponibilidad de sus datos, su precisión, sus términos de licencia y su comportamiento del servicio están fuera del control de la Aplicación.
+NearbyWeather puede utilizar servicios que soliciten, almacenen en caché y devuelvan datos meteorológicos para la Aplicación. NearbyWeather no está afiliado, respaldado ni es responsable de proveedores externos a menos que se indique expresamente. La disponibilidad, precisión, términos de licencia y comportamiento del servicio de los datos de terceros están fuera del control de la Aplicación.
 
 ## 3. Responsabilidad del usuario
 Al utilizar la aplicación, usted acepta que:
 
 - utilizará los datos meteorológicos solo como guía informativa
 - No dependerá de la aplicación para tomar decisiones críticas para la seguridad, de emergencia, de aviación, marítimas, médicas u otras decisiones de alto riesgo
-- usted es responsable de las claves API, las cuentas de proveedores, las opciones de notificación y los marcadores que configure
+- usted es responsable de las opciones de notificación, los marcadores y los ajustes que configure
 - no utilizará la aplicación ni ningún servicio de proveedor conectado de una manera que viole la ley aplicable o los términos del proveedor
 
 ## 4. Ubicación, notificaciones y funcionamiento en segundo plano
 Algunas funciones requieren permiso de ubicación, permiso de notificación o actualización en segundo plano. Puede administrar estos permisos en la configuración de iOS. Si los permisos o el acceso a la red no están disponibles, las funciones relacionadas pueden estar limitadas o no estar disponibles.
 
-## 5. OpenWeather API Claves
-Si elige utilizar funciones OpenWeather que requieren su propia clave API, usted es responsable de obtener, ingresar, proteger y cumplir con los términos que se aplican a esa clave. NearbyWeather almacena la clave localmente en su dispositivo y la usa solo para solicitudes OpenWeather iniciadas por la funcionalidad de la aplicación.
-
-## 6. Enlaces externos y cámaras web
+## 5. Enlaces externos y cámaras web
 La aplicación puede abrir sitios web, páginas de soporte, páginas de atribución de proveedores, páginas de cámaras web, páginas de problemas de GitHub o clientes de correo electrónico. NearbyWeather no es responsable del contenido, la disponibilidad, las prácticas de privacidad o los términos de los servicios externos.
 
-## 7. Sin garantía
+## 6. Sin garantía
 La aplicación se proporciona "tal cual" sin garantías de ningún tipo. No garantizamos:
 
 - disponibilidad ininterrumpida
 - funcionamiento sin errores
-- compatibilidad con todos los dispositivos, versión iOS, cuenta de proveedor o clave API
+- compatibilidad con todos los dispositivos, versión de iOS, proveedor o condición de red
 - exactitud, actualidad o integridad de los datos meteorológicos, pronósticos, calidad del aire, elevación, estaciones, mapas o cámaras web de terceros
 
-## 8. Limitación de responsabilidad
+## 7. Limitación de responsabilidad
 En la máxima medida permitida por la ley, el promotor no será responsable de los daños derivados de:
 
 - datos meteorológicos o del proveedor inexactos, retrasados, no disponibles o incompletos
 - problemas de red, proveedor, dispositivo, permiso o configuración
-- pérdida de marcadores, preferencias, datos almacenados en caché o claves API
+- pérdida de marcadores, preferencias o datos almacenados en caché
 - uso de la aplicación en situaciones críticas para la seguridad o de alto riesgo
 - sitios web externos, proveedores de cámaras web, herramientas de soporte o servicios de terceros
 
-## 9. Cambios
+## 8. Cambios
 Estos Términos pueden actualizarse periódicamente. El uso continuo de la Aplicación después de que los Términos actualizados estén disponibles constituye la aceptación de los Términos actualizados.
 
-## 10. Contacto
-Si tiene preguntas, comuníquese con: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+## 9. Contacto
+Si tiene preguntas, comuníquese con: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -22,25 +22,24 @@ Last updated: 2026-06-26
 **Terakhir dikemas kini:** 2026-06-26
 
 ## 1. Gambaran keseluruhan
-NearbyWeather menghormati privasi anda. Apl ini direka bentuk untuk menyimpan penanda halaman, keutamaan, data cuaca cache dan kekunci API pilihan pada peranti anda melainkan ciri yang dipilih perlu berkomunikasi dengan penyedia cuaca, lokasi, sokongan atau pelapor ranap.
+NearbyWeather menghormati privasi anda. Apl menyediakan maklumat cuaca dan ciri berkaitan sambil mengekalkan data apl khusus pengguna setempat apabila boleh.
 
 ## 2. Pengumpulan Data dan Storan Setempat
-NearbyWeather tidak mengendalikan bahagian belakangnya sendiri untuk fungsi apl biasa. Apl tidak menjual data peribadi, tidak menggunakan pengecam pengiklanan dan tidak membina profil pengiklanan atau penjejakan.
+NearbyWeather tidak memerlukan akaun pengguna. Apl tidak menjual data peribadi, tidak menggunakan pengecam pengiklanan dan tidak membina profil pengiklanan atau penjejakan.
 
 Apl boleh menyimpan maklumat berikut secara setempat pada peranti anda:
 
 - stesen cuaca yang ditanda buku dan penanda halaman yang dipadamkan baru-baru ini
 - dipilih berdekatan, carian, unit, pemberitahuan, bahasa, rupa dan keutamaan pembekal cuaca
-- kunci OpenWeather API pilihan yang anda masukkan
 - metadata stesen cuaca cache, data cuaca, keadaan peta dan metadata kamera web yang diperlukan untuk memaparkan kandungan apl dan menyokong penggunaan luar talian
 - pilihan Firebase pelaporan ranap sistem
 
-Data ini kekal pada peranti anda melainkan ciri yang diterangkan di bawah menghantar data permintaan yang diperlukan kepada pembekal pihak ketiga.
+Data ini kekal pada peranti anda melainkan ciri yang diterangkan di bawah menghantar data permintaan yang diperlukan kepada perkhidmatan NearbyWeather atau pembekal pihak ketiga.
 
 ## 3. Lokasi dan Data Cuaca
-Jika anda memberikan kebenaran lokasi, NearbyWeather menggunakan lokasi peranti anda untuk mencari stesen cuaca berdekatan, peta fokus dan meminta data cuaca untuk koordinat yang berkaitan. Bergantung pada tetapan pembekal cuaca dan apl yang anda pilih, Apl mungkin menghantar koordinat, pengecam stesen cuaca, pilihan bahasa dan kunci OpenWeather API anda kepada pembekal cuaca atau ketinggian luaran.
+Jika anda memberikan kebenaran lokasi, NearbyWeather menggunakan lokasi peranti anda untuk mencari stesen cuaca berdekatan, peta fokus dan meminta data cuaca untuk koordinat yang berkaitan. Bergantung pada ciri dan tetapan aplikasi yang dipilih, Apl mungkin menghantar koordinat, pengecam stesen cuaca, pilihan pembekal, pilihan bahasa dan butiran permintaan cuaca kepada perkhidmatan NearbyWeather atau pembekal cuaca atau ketinggian luaran.
 
-NearbyWeather boleh meminta data daripada Apple Weather / WeatherKit, OpenWeather, Open-Meteo dan sumber cuaca atau atribusi yang berkaitan. Pembekal tersebut memproses permintaan di bawah dasar dan syarat privasi mereka sendiri.
+Perkhidmatan NearbyWeather boleh meminta data cuaca daripada pembekal, cache data cuaca dan mengembalikan data cuaca kepada Apl. Mereka tidak direka untuk membuat akaun pengguna atau profil pengguna untuk permintaan cuaca. Pembekal luar memproses permintaan di bawah dasar dan syarat privasi mereka sendiri.
 
 ## 4. Ranap dan Pelaporan Ralat (Pilihan)
 NearbyWeather menggunakan Google Firebase Crashlytics untuk mengumpul laporan ranap dan diagnostik hanya apabila pelaporan ralat didayakan.
@@ -51,7 +50,7 @@ Laporan ranap sistem dan diagnostik mungkin termasuk:
 - versi apl dan nombor binaan
 - maklumat teknikal tentang ranap atau peristiwa diagnostik
 
-NearbyWeather tidak sengaja memasukkan penanda halaman anda, kunci API atau lokasi tepat dalam laporan ranap sistem. Anda boleh melumpuhkan pelaporan ralat pada bila-bila masa dalam tetapan privasi atau bantuan Apl.
+NearbyWeather tidak sengaja memasukkan penanda halaman atau lokasi tepat anda dalam laporan ranap sistem. Anda boleh melumpuhkan pelaporan ralat pada bila-bila masa dalam tetapan privasi atau bantuan Apl.
 
 ## 5. Pemberitahuan, Muat Semula Latar Belakang dan Lencana Ikon Apl
 Jika anda mendayakan pemberitahuan atau lencana suhu ikon apl, NearbyWeather boleh memuat semula maklumat cuaca di latar belakang supaya ciri tersebut kekal terkini. Keutamaan pemberitahuan dan tetapan lencana disimpan secara setempat pada peranti anda.
@@ -63,13 +62,13 @@ NearbyWeather mungkin menunjukkan entri kamera web dan pautan pembekal berdekata
 NearbyWeather tidak menggunakan teknologi penjejakan, pengecam pengiklanan, analitik pengiklanan atau pemprofilan untuk tujuan pengiklanan.
 
 ## 8. Keselamatan
-Data tempatan sensitif, termasuk sebarang kunci OpenWeather API yang anda masukkan, kekal pada peranti anda. Anda bertanggungjawab untuk melindungi peranti anda dengan keselamatan peringkat sistem seperti kod laluan, Touch ID atau Face ID.
+Data tempatan sensitif kekal pada peranti anda. Anda bertanggungjawab untuk melindungi peranti anda dengan keselamatan peringkat sistem seperti kod laluan, Touch ID atau Face ID.
 
 ## 9. Pengekalan dan Pemadaman Data
 Anda boleh mengalih keluar penanda halaman, penanda halaman yang dipadamkan baru-baru ini dan pilihan melalui Apl yang mempunyai kawalan yang berkaitan. Anda juga boleh mengalih keluar semua data apl dengan memadamkan Apl daripada peranti anda. Metadata stesen cuaca yang digabungkan dengan Apl adalah sebahagian daripada pemasangan Apl.
 
 ## 10. Perkhidmatan Pihak Ketiga
-NearbyWeather mungkin berinteraksi dengan perkhidmatan pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, perkhidmatan e-mel dan penyedia kamera web. Perkhidmatan ini tidak dikawal oleh NearbyWeather dan dasar privasi mereka sendiri terpakai apabila anda menggunakan ciri yang menghubungi mereka.
+NearbyWeather mungkin berinteraksi dengan perkhidmatan pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, perkhidmatan e-mel dan penyedia kamera web. Perkhidmatan pihak ketiga tidak dikawal oleh NearbyWeather dan dasar privasi mereka sendiri terpakai apabila anda menggunakan ciri yang menghubungi mereka.
 
 ## 11. Kanak-kanak
 NearbyWeather tidak ditujukan kepada kanak-kanak dan tidak mengumpul data peribadi daripada kanak-kanak dengan sengaja.
@@ -78,4 +77,4 @@ NearbyWeather tidak ditujukan kepada kanak-kanak dan tidak mengumpul data periba
 Dasar Privasi ini mungkin dikemas kini pada masa hadapan. Perubahan akan ditunjukkan dalam Apl dan dalam dokumen undang-undang awam.
 
 ## 13. Hubungi
-Untuk soalan berkaitan privasi, hubungi: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+Untuk soalan berkaitan privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -22,25 +22,24 @@ Last updated: 2026-06-26
 **Laatst bijgewerkt:** 26-06-2026
 
 ## 1. Overzicht
-NearbyWeather respecteert uw privacy. De app is ontworpen om bladwijzers, voorkeuren, weergegevens in de cache en optionele API-sleutels op uw apparaat te bewaren, tenzij een geselecteerde functie moet communiceren met een weer-, locatie-, ondersteunings- of crashrapportageprovider.
+NearbyWeather respecteert uw privacy. De app biedt weersinformatie en gerelateerde functies, terwijl gebruikersspecifieke app-gegevens waar mogelijk lokaal worden gehouden.
 
 ## 2. Gegevensverzameling en lokale opslag
-NearbyWeather beschikt niet over een eigen backend voor de normale app-functionaliteit. De app verkoopt geen persoonlijke gegevens, gebruikt geen advertentie-identificatoren en bouwt geen advertentie- of trackingprofielen op.
+NearbyWeather vereist geen gebruikersaccount. De app verkoopt geen persoonlijke gegevens, gebruikt geen advertentie-identificatoren en bouwt geen advertentie- of trackingprofielen op.
 
 De app kan de volgende informatie lokaal op uw apparaat opslaan:
 
 - weerstations met bladwijzers en onlangs verwijderde bladwijzers
 - geselecteerde voorkeuren voor dichtbij, zoeken, eenheid, melding, taal, uiterlijk en weerprovider
-- de optionele OpenWeather API-sleutel die u invoert
 - Metagegevens van weerstations in de cache, weersgegevens, kaartstatus en webcam-metagegevens die nodig zijn om app-inhoud weer te geven en offline gebruik te ondersteunen
 - de optionele Firebase crashrapportagevoorkeur
 
-Deze gegevens blijven op uw apparaat staan, tenzij een hieronder beschreven functie de benodigde aanvraaggegevens naar een externe provider verzendt.
+Deze gegevens blijven op uw apparaat staan, tenzij een hieronder beschreven functie de benodigde aanvraaggegevens naar een NearbyWeather-service of externe provider verzendt.
 
 ## 3. Locatie- en weergegevens
-Als u locatietoestemming verleent, gebruikt NearbyWeather de locatie van uw apparaat om weerstations in de buurt te vinden, kaarten te focussen en weergegevens voor relevante coördinaten op te vragen. Afhankelijk van de door u geselecteerde weerprovider en app-instellingen kan de app coördinaten, weerstation-ID's, taalvoorkeuren en uw OpenWeather API-sleutel naar externe weer- of hoogteproviders verzenden.
+Als u locatietoestemming verleent, gebruikt NearbyWeather de locatie van uw apparaat om nabijgelegen weerstations te vinden, kaarten te focussen en weergegevens voor relevante coördinaten op te vragen. Afhankelijk van de geselecteerde functie en app-instellingen kan de app coördinaten, weerstation-ID's, providerkeuzes, taalvoorkeuren en weerverzoekdetails verzenden naar NearbyWeather-services of externe weer- of hoogteproviders.
 
-NearbyWeather kan gegevens opvragen van Apple Weather / WeatherKit, OpenWeather, Open-Meteo en gerelateerde weer- of attributiebronnen. Deze providers verwerken verzoeken onder hun eigen privacybeleid en voorwaarden.
+NearbyWeather-services kunnen weergegevens opvragen bij providers, weersgegevens in het cachegeheugen opslaan en weersgegevens terugsturen naar de app. Ze zijn niet ontworpen om gebruikersaccounts of gebruikersprofielen aan te maken voor weeraanvragen. Externe providers verwerken verzoeken onder hun eigen privacybeleid en voorwaarden.
 
 ## 4. Crash- en foutrapportage (optioneel)
 NearbyWeather gebruikt Google Firebase Crashlytics om crash- en diagnostische rapporten alleen te verzamelen als foutrapportage is ingeschakeld.
@@ -51,25 +50,25 @@ Crash- en diagnostische rapporten kunnen het volgende omvatten:
 - app-versie en buildnummer
 - technische informatie over de crash of diagnostische gebeurtenis
 
-NearbyWeather neemt niet opzettelijk uw bladwijzers, API-sleutels of exacte locatie op in crashrapporten. U kunt de foutrapportage op elk gewenst moment uitschakelen in de privacy- of helpinstellingen van de app.
+NearbyWeather neemt niet opzettelijk uw bladwijzers of exacte locatie op in crashrapporten. U kunt de foutrapportage op elk gewenst moment uitschakelen in de privacy- of helpinstellingen van de app.
 
 ## 5. Meldingen, achtergrondvernieuwing en app-pictogrambadge
 Als u meldingen of de temperatuurbadge van het app-pictogram inschakelt, kan NearbyWeather de weersinformatie op de achtergrond vernieuwen, zodat deze functies actueel blijven. Meldingsvoorkeuren en badge-instellingen worden lokaal op uw apparaat opgeslagen.
 
 ## 6. Webcams en externe links
-NearbyWeather kan webcam-items en providerlinks in de buurt weergeven. Als u een webcam of externe link opent, kunt u naar een website of app van derden gaan. Deze diensten van derden vallen buiten de controle van NearbyWeather en worden beheerst door hun eigen privacybeleid.
+NearbyWeather kan webcam-items en providerlinks in de buurt tonen. Als u een webcam of externe link opent, kunt u naar een website of app van derden gaan. Deze diensten van derden vallen buiten de controle van NearbyWeather en worden beheerst door hun eigen privacybeleid.
 
 ## 7. Geen tracking of reclame
 NearbyWeather maakt geen gebruik van trackingtechnologieën, advertentie-identificatoren, advertentieanalyses of profilering voor advertentiedoeleinden.
 
 ## 8. Beveiliging
-Gevoelige lokale gegevens, inclusief elke OpenWeather API-sleutel die u invoert, blijven op uw apparaat staan. U bent verantwoordelijk voor het beschermen van uw apparaat met beveiliging op systeemniveau, zoals een toegangscode, Touch ID of Face ID.
+Gevoelige lokale gegevens blijven op uw apparaat staan. U bent verantwoordelijk voor het beschermen van uw apparaat met beveiliging op systeemniveau, zoals een toegangscode, Touch ID of Face ID.
 
 ## 9. Bewaren en verwijderen van gegevens
 U kunt bladwijzers, onlangs verwijderde bladwijzers en voorkeuren verwijderen via de app waar de relevante bedieningselementen beschikbaar zijn. U kunt ook alle app-gegevens verwijderen door de app van uw apparaat te verwijderen. Metagegevens van weerstations die bij de app zijn gebundeld, maken deel uit van de app-installatie.
 
 ## 10. Diensten van derden
-NearbyWeather kan communiceren met diensten van derden, zoals Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-maildiensten en webcamproviders. Deze services worden niet beheerd door NearbyWeather en hun eigen privacybeleid is van toepassing wanneer u functies gebruikt die contact met hen opnemen.
+NearbyWeather kan communiceren met diensten van derden, zoals Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-maildiensten en webcamproviders. Diensten van derden worden niet beheerd door NearbyWeather, en hun eigen privacybeleid is van toepassing wanneer u functies gebruikt die contact met hen opnemen.
 
 ## 11. Kinderen
 NearbyWeather is niet gericht op kinderen en verzamelt niet bewust persoonlijke gegevens van kinderen.
@@ -78,4 +77,4 @@ NearbyWeather is niet gericht op kinderen en verzamelt niet bewust persoonlijke 
 Dit privacybeleid kan in de toekomst worden bijgewerkt. Wijzigingen zullen worden weerspiegeld in de App en in de openbare juridische documenten.
 
 ## 13. Contactpersoon
-Voor privacygerelateerde vragen kunt u contact opnemen met: [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
+Voor privacygerelateerde vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
