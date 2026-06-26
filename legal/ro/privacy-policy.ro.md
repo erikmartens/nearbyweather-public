@@ -24,7 +24,7 @@ Last updated: 2026-06-26
 ## 1. Prezentare generală
 NearbyWeather vă respectă confidențialitatea. Aplicația oferă informații despre vreme și funcții conexe, păstrând în același timp datele aplicației specifice utilizatorului la nivel local, ori de câte ori este posibil.
 
-## 2. Colectarea datelor și stocarea locală
+## 2. Colectarea informațiilor și stocarea locală
 NearbyWeather nu necesită un cont de utilizator. Aplicația nu vinde date personale, nu folosește identificatori de publicitate și nu creează profiluri de publicitate sau de urmărire.
 
 Aplicația poate stoca următoarele informații local pe dispozitivul dvs.:
@@ -34,15 +34,15 @@ Aplicația poate stoca următoarele informații local pe dispozitivul dvs.:
 - metadatele stației meteo în cache, datele meteo, starea hărții și metadatele camerei web necesare pentru a afișa conținutul aplicației și pentru a accepta utilizarea offline
 - preferința opțională de raportare a erorilor Firebase
 
-Aceste date rămân pe dispozitivul dvs., cu excepția cazului în care o funcție descrisă mai jos trimite datele necesare solicitării unui serviciu NearbyWeather sau unui furnizor terță parte.
+Aceste date rămân pe dispozitivul dvs., cu excepția cazului în care o funcție descrisă mai jos trimite datele necesare cererii unui furnizor de servicii NearbyWeather sau terță parte.
 
-## 3. Date despre locație și vreme
-Dacă acordați permisiunea de locație, NearbyWeather utilizează locația dispozitivului dvs. pentru a găsi stații meteo din apropiere, pentru a focaliza hărți și pentru a solicita date meteo pentru coordonatele relevante. În funcție de caracteristica selectată și de setările aplicației, aplicația poate trimite coordonatele, identificatorii stației meteo, opțiunile furnizorului, preferințele de limbă și detaliile cererii de vreme către serviciile NearbyWeather sau furnizorilor externi de vreme sau altitudine.
+## 3. Informații despre locație și date meteo
+Dacă acordați permisiunea de locație, NearbyWeather utilizează locația dispozitivului dvs. („Informații despre locație”) pentru a găsi stații meteo din apropiere, pentru a focaliza hărți și pentru a solicita date meteo pentru coordonatele relevante. În funcție de caracteristica selectată și de setările aplicației, aplicația poate trimite informații despre locație, identificatori de stații meteo, opțiuni ale furnizorului, preferințe de limbă și detalii despre cererea de vreme către serviciile NearbyWeather sau furnizorilor și procesatorilor de date terți.
 
-Serviciile NearbyWeather pot solicita date meteo de la furnizori, memorează în cache datele meteo și returnează date meteo în aplicație. Ele nu sunt concepute pentru a crea conturi de utilizator sau profiluri de utilizator pentru solicitările meteorologice. Furnizorii externi procesează cererile conform propriilor politici de confidențialitate și termeni.
+Acolo unde este posibil, serviciile NearbyWeather sunt destinate să acționeze ca intermediar între aplicație și furnizorii de date terți. Acestea pot solicita, stoca în cache și returnează date meteo, dar nu sunt concepute pentru a crea conturi de utilizator sau profiluri de utilizator pentru solicitările de vreme. Furnizorii de date și procesatorii terți gestionează cererile în conformitate cu propriile politici și termeni de confidențialitate.
 
 ## 4. Raportarea erorilor și a erorilor (opțional)
-NearbyWeather folosește Google Firebase Crashlytics pentru a colecta rapoarte de blocare și diagnosticare numai atunci când raportarea erorilor este activată.
+NearbyWeather utilizează Google Firebase Crashlytics pentru a colecta rapoarte de blocare și diagnosticare numai atunci când raportarea erorilor este activată.
 
 Rapoartele de blocare și diagnosticare pot include:
 
@@ -52,29 +52,38 @@ Rapoartele de blocare și diagnosticare pot include:
 
 NearbyWeather nu include în mod intenționat marcajele sau locația precisă în rapoartele de blocare. Puteți dezactiva oricând raportarea erorilor din confidențialitatea sau setările de ajutor ale aplicației.
 
-## 5. Notificări, reîmprospătare fundal și insignă pentru pictograma aplicației
+## 5. Comunicații legate de asistență
+Dacă contactați asistența, mesajul și orice informații pe care alegeți să le includeți, cum ar fi capturi de ecran, diagnostice, jurnale, setări exportate sau alte atașamente, pot fi folosite pentru a răspunde solicitării dvs. Vă rugăm să nu includeți informații pe care nu doriți să le partajați.
+
+## 6. Notificări, reîmprospătare fundal și insigna pictogramei aplicației
 Dacă activați notificările sau insigna de temperatură a pictogramei aplicației, NearbyWeather poate reîmprospăta informațiile despre vreme în fundal, astfel încât aceste funcții să rămână actuale. Preferințele de notificare și setările insignei sunt stocate local pe dispozitivul dvs.
 
-## 6. Camere web și legături externe
+## 7. Camere web și legături terțe
 NearbyWeather poate afișa intrări de cameră web din apropiere și link-uri la furnizori. Deschiderea unei camere web sau a unui link extern vă poate duce la un site web sau o aplicație terță parte. Aceste servicii terță parte sunt în afara controlului NearbyWeather și sunt guvernate de propriile politici de confidențialitate.
 
-## 7. Fără urmărire sau publicitate
+## 8. Fără urmărire sau publicitate
 NearbyWeather nu utilizează tehnologii de urmărire, identificatori de publicitate, analize publicitare sau profilare în scopuri publicitare.
 
-## 8. Securitate
-Datele locale sensibile rămân pe dispozitiv. Sunteți responsabil pentru protejarea dispozitivului dvs. cu securitate la nivel de sistem, cum ar fi un cod de acces, Touch ID sau Face ID.
+## 9. Securitate
+Datele locale sensibile rămân pe dispozitiv. Pentru serviciile NearbyWeather sunt utilizate garanții tehnice rezonabile, dar niciun sistem de transmisie sau stocare în rețea nu poate fi garantat a fi perfect sigur. Sunteți responsabil pentru protejarea dispozitivului dvs. cu securitate la nivel de sistem, cum ar fi un cod de acces, Touch ID sau Face ID.
 
-## 9. Reținerea și ștergerea datelor
+## 10. Reținerea și ștergerea datelor
 Puteți elimina marcajele, marcajele șterse recent și preferințele prin intermediul aplicației, unde sunt disponibile controalele relevante. De asemenea, puteți elimina toate datele aplicației ștergând aplicația de pe dispozitiv. Metadatele stației meteo incluse în aplicație fac parte din instalarea aplicației.
 
-## 10. Servicii de la terți
-NearbyWeather poate interacționa cu servicii terțe, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servicii de e-mail și furnizori de camere web. Serviciile terțelor părți nu sunt controlate de NearbyWeather, iar propriile politici de confidențialitate se aplică atunci când utilizați funcții care îi contactează.
+## 11. Furnizori de date și procesatori terți
+NearbyWeather poate interacționa cu furnizori și procesatori de date terți, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servicii de e-mail și furnizori de camere web. Serviciile terțelor părți nu sunt controlate de NearbyWeather, iar propriile politici de confidențialitate se aplică atunci când utilizați funcții care îi contactează.
 
-## 11. Copii
-NearbyWeather nu este adresat copiilor și nu colectează cu bună știință date personale de la copii.
+## 12. Cerințe legale și protecție a serviciilor
+NearbyWeather poate păstra sau dezvălui informații dacă este necesar în mod rezonabil pentru a respecta legea aplicabilă, a răspunde la procesele legale, a proteja utilizatorii, a proteja integritatea serviciului, a investiga problemele de securitate sau tehnice sau pentru a aplica termenii aplicabili.
 
-## 12. Schimbări
+## 13. Prelucrare internațională
+Serviciile NearbyWeather și furnizorii sau procesatorii terți pot prelucra informații în alte țări decât cea în care locuiți. Atunci când se întâmplă acest lucru, prelucrarea este guvernată de termenii de confidențialitate ai serviciului relevant și de legea aplicabilă.
+
+## 14. Copii
+NearbyWeather nu se adresează copiilor și nu colectează cu bună știință date personale de la copii.
+
+## 15. Actualizări ale politicii de confidențialitate
 Această politică de confidențialitate poate fi actualizată în viitor. Modificările vor fi reflectate în aplicație și în documentele juridice publice.
 
-## 13. Contact
+## 16. Contact
 Pentru întrebări legate de confidențialitate, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

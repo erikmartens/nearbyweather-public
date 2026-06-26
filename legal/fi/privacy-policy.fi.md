@@ -36,13 +36,13 @@ Sovellus voi tallentaa seuraavat tiedot paikallisesti laitteellesi:
 
 Nämä tiedot säilyvät laitteessasi, ellei alla kuvattu ominaisuus lähetä tarvittavia pyyntötietoja NearbyWeather-palvelulle tai kolmannelle osapuolelle.
 
-## 3. Sijainti- ja säätiedot
-Jos myönnät sijaintiluvan, NearbyWeather käyttää laitteesi sijaintia lähellä olevien sääasemien, tarkennuskarttojen ja asianmukaisten koordinaattien säätietojen etsimiseen. Valitusta ominaisuudesta ja sovelluksen asetuksista riippuen sovellus voi lähettää koordinaatteja, sääasemien tunnisteita, tarjoajan valintoja, kieliasetuksia ja sääpyyntötietoja NearbyWeather-palveluille tai ulkoisille sää- tai korkeuspalveluntarjoajille.
+## 3. Sijaintitiedot ja säätiedot
+Jos myönnät sijaintiluvan, NearbyWeather käyttää laitteesi sijaintia ("Sijaintitiedot") löytääkseen lähellä olevia sääasemia, tarkentaakseen karttoja ja pyytääkseen säätietoja asiaankuuluville koordinaateille. Valitusta ominaisuudesta ja sovelluksen asetuksista riippuen sovellus voi lähettää sijaintitietoja, sääasemien tunnisteita, palveluntarjoajan valintoja, kieliasetuksia ja sääpyyntötietoja NearbyWeather-palveluille tai kolmannen osapuolen tiedontarjoajille ja käsittelijöille.
 
-NearbyWeather-palvelut voivat pyytää säätietoja palveluntarjoajilta, tallentaa säätiedot välimuistiin ja palauttaa säätiedot sovellukseen. Niitä ei ole suunniteltu luomaan käyttäjätilejä tai käyttäjäprofiileja sääpyyntöjä varten. Ulkoiset palveluntarjoajat käsittelevät pyyntöjä omien tietosuojakäytäntöjensä ja ehtojensa mukaisesti.
+Mikäli mahdollista, NearbyWeather-palvelut on tarkoitettu toimimaan välittäjänä Sovelluksen ja kolmannen osapuolen tiedontarjoajien välillä. Ne voivat pyytää, tallentaa ja palauttaa säätietoja, mutta niitä ei ole suunniteltu luomaan käyttäjätilejä tai käyttäjäprofiileja sääpyyntöjä varten. Kolmannen osapuolen tietojen tarjoajat ja käsittelijät käsittelevät pyyntöjä omien tietosuojakäytäntöjensä ja ehtojensa mukaisesti.
 
 ## 4. Kaatumis- ja virheraportointi (valinnainen)
-NearbyWeather käyttää Googlen Firebase Crashlytics kaatumis- ja diagnostiikkaraporttien keräämiseen vain, kun virheraportointi on käytössä.
+NearbyWeather käyttää Google Firebase Crashlytics:ta kaatumis- ja diagnostiikkaraporttien keräämiseen vain, kun virheraportointi on käytössä.
 
 Kaatumis- ja diagnostiikkaraportit voivat sisältää:
 
@@ -52,29 +52,38 @@ Kaatumis- ja diagnostiikkaraportit voivat sisältää:
 
 NearbyWeather ei tarkoituksella sisällytä kirjanmerkkejäsi tai tarkkaa sijaintiasi virheraportteihin. Voit poistaa virheraportoinnin käytöstä milloin tahansa sovelluksen tietosuoja- tai ohjeasetuksista.
 
-## 5. Ilmoitukset, taustan päivitys ja sovelluskuvake
-Jos otat ilmoitukset käyttöön tai sovelluskuvakkeen lämpötilamerkin, NearbyWeather voi päivittää säätiedot taustalla, jotta ominaisuudet pysyvät ajan tasalla. Ilmoitusasetukset ja merkkiasetukset tallennetaan paikallisesti laitteellesi.
+## 5. Tukiin liittyvä viestintä
+Jos otat yhteyttä tukeen, viestiä ja kaikkia haluamiasi tietoja, kuten kuvakaappauksia, diagnostiikkatietoja, lokeja, vietyjä asetuksia tai muita liitteitä, voidaan käyttää pyyntöösi vastaamiseen. Älä lisää tietoja, joita et halua jakaa.
 
-## 6. Verkkokamerat ja ulkoiset linkit
-NearbyWeather saattaa näyttää lähellä olevia verkkokameramerkintöjä ja palveluntarjoajan linkkejä. Verkkokameran tai ulkoisen linkin avaaminen voi viedä sinut kolmannen osapuolen verkkosivustolle tai sovellukseen. Nämä kolmannen osapuolen palvelut ovat NearbyWeatherin hallinnan ulkopuolella, ja niitä säätelevät heidän omat tietosuojakäytäntönsä.
+## 6. Ilmoitukset, taustan päivitys ja sovelluskuvake
+Jos otat ilmoitukset käyttöön tai sovelluskuvakkeen lämpötilamerkin, NearbyWeather saattaa päivittää säätiedot taustalla, jotta ominaisuudet pysyvät ajan tasalla. Ilmoitusasetukset ja merkkiasetukset tallennetaan paikallisesti laitteellesi.
 
-## 7. Ei seurantaa tai mainontaa
+## 7. Verkkokamerat ja kolmannen osapuolen linkit
+NearbyWeather saattaa näyttää lähellä olevia verkkokameramerkintöjä ja palveluntarjoajan linkkejä. Verkkokameran tai ulkoisen linkin avaaminen voi viedä sinut kolmannen osapuolen verkkosivustolle tai sovellukseen. Nämä kolmannen osapuolen palvelut ovat NearbyWeather:n hallinnan ulkopuolella, ja niitä säätelevät heidän omat tietosuojakäytäntönsä.
+
+## 8. Ei seurantaa tai mainontaa
 NearbyWeather ei käytä seurantatekniikoita, mainostunnisteita, mainosanalytiikkaa tai profilointia mainontatarkoituksiin.
 
-## 8. Turvallisuus
-Arkaluonteiset paikalliset tiedot pysyvät laitteessasi. Olet vastuussa laitteesi suojaamisesta järjestelmätason suojauksella, kuten salasanalla, Touch ID tai Face ID.
+## 9. Turvallisuus
+Arkaluonteiset paikalliset tiedot pysyvät laitteessasi. NearbyWeather-palveluissa käytetään kohtuullisia teknisiä suojatoimia, mutta minkään verkon lähetys- tai tallennusjärjestelmän täydellistä turvallisuutta ei voida taata. Olet vastuussa laitteesi suojaamisesta järjestelmätason suojauksella, kuten salasanalla, Touch ID tai Face ID.
 
-## 9. Tietojen säilyttäminen ja poistaminen
+## 10. Tietojen säilyttäminen ja poistaminen
 Voit poistaa kirjanmerkkejä, äskettäin poistettuja kirjanmerkkejä ja asetuksia sovelluksen kautta, jossa tarvittavat säätimet ovat käytettävissä. Voit myös poistaa kaikki sovellustiedot poistamalla sovelluksen laitteeltasi. Sovelluksen mukana toimitetut sääaseman metatiedot ovat osa sovelluksen asennusta.
 
-## 10. Kolmannen osapuolen palvelut
-NearbyWeather voi olla vuorovaikutuksessa kolmansien osapuolten palvelujen, kuten Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, sähköpostipalvelujen ja verkkokameran tarjoajien kanssa. NearbyWeather ei hallitse kolmannen osapuolen palveluita, ja niiden omat tietosuojakäytännöt ovat voimassa, kun käytät ominaisuuksia, jotka ovat yhteydessä niihin.
+## 11. Kolmannen osapuolen tietojen tarjoajat ja käsittelijät
+NearbyWeather voi olla vuorovaikutuksessa kolmansien osapuolien tiedontarjoajien ja käsittelijöiden, kuten Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, sähköpostipalvelujen ja verkkokameran tarjoajien kanssa. NearbyWeather ei hallitse kolmansien osapuolten palveluita, ja niiden omat tietosuojakäytännöt ovat voimassa, kun käytät ominaisuuksia, jotka ovat yhteydessä niihin.
 
-## 11. Lapset
+## 12. Lailliset vaatimukset ja palvelun suojaus
+NearbyWeather voi säilyttää tai paljastaa tietoja, jos se on kohtuudella tarpeen sovellettavan lain noudattamiseksi, oikeusprosessiin vastaamiseksi, käyttäjien suojelemiseksi, palvelun eheyden suojelemiseksi, turvallisuus- tai teknisten ongelmien tutkimiseksi tai sovellettavien ehtojen noudattamiseksi.
+
+## 13. Kansainvälinen käsittely
+NearbyWeather-palvelut ja kolmannen osapuolen palveluntarjoajat tai käsittelijät voivat käsitellä tietoja muissa maissa kuin siinä, jossa asut. Kun näin tapahtuu, käsittelyä säätelevät asianomaisen palvelun tietosuojaehdot ja sovellettava laki.
+
+## 14. Lapset
 NearbyWeather ei ole suunnattu lapsille, eikä se tietoisesti kerää henkilötietoja lapsilta.
 
-## 12. Muutokset
+## 15. Tietosuojakäytännön päivitykset
 Tätä tietosuojakäytäntöä voidaan päivittää tulevaisuudessa. Muutokset näkyvät sovelluksessa ja julkisissa oikeudellisissa asiakirjoissa.
 
-## 13. Ota yhteyttä
+## 16. Ota yhteyttä
 Yksityisyyteen liittyvissä kysymyksissä ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

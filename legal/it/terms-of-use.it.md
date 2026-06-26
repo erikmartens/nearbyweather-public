@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Ultimo aggiornamento:** 26-06-2026
 
 ## 1. Panoramica
-NearbyWeather ("l'App") fornisce un'interfaccia mobile per le informazioni meteorologiche e le relative funzionalità meteorologiche.
+Le presenti Condizioni d'uso regolano l'utilizzo di NearbyWeather ("l'App"). L'App fornisce un'interfaccia mobile per le informazioni meteorologiche e le relative funzionalità meteorologiche.
 
-## 2. Dati meteorologici e servizi di terze parti
-Le informazioni meteorologiche, le previsioni, i dati sulla qualità dell'aria, i dati sull'elevazione, i metadati delle stazioni, i metadati della webcam e i collegamenti esterni possono provenire da servizi NearbyWeather o fornitori di terze parti come Apple Weather / WeatherKit, OpenWeather, Open-Meteo e fornitori di webcam.
+## 2. Privacy
+L'utilizzo dell'App è inoltre soggetto all'Informativa sulla privacy NearbyWeather, che descrive il modo in cui l'App gestisce le informazioni.
 
-NearbyWeather può utilizzare servizi che richiedono, memorizzano nella cache e restituiscono dati meteorologici per l'App. NWPLACEholder4TOKEN non è affiliato, approvato o responsabile per fornitori di terze parti se non espressamente indicato. La disponibilità, l'accuratezza, i termini di licenza e il comportamento del servizio dei dati di terze parti sono fuori dal controllo dell'App.
+## 3. Dati meteorologici e fornitori di dati di terze parti
+Le informazioni meteorologiche, le previsioni, i dati sulla qualità dell'aria, i dati sull'elevazione, i metadati delle stazioni, i metadati delle webcam e i collegamenti esterni possono provenire da servizi NearbyWeather o fornitori di terze parti come Apple Weather / WeatherKit, OpenWeather, Open-Meteo e fornitori di webcam.
 
-## 3. Responsabilità dell'utente
+NearbyWeather può utilizzare servizi che richiedono, memorizzano nella cache e restituiscono dati meteorologici per l'App. NearbyWeather non è affiliato, approvato o responsabile per fornitori di dati di terze parti se non espressamente indicato. La disponibilità, l'accuratezza, i termini di licenza e il comportamento del servizio dei dati di terze parti sono fuori dal controllo dell'App. I fornitori di terze parti potrebbero cambiare, diventare non disponibili o essere sostituiti e l'App non garantisce che alcun fornitore specifico rimanga disponibile.
+
+## 4. Responsabilità dell'utente
 Utilizzando l'App, accetti che:
 
 - Utilizzerai i dati meteorologici solo come guida informativa
@@ -37,21 +40,24 @@ Utilizzando l'App, accetti che:
 - sei responsabile delle scelte di notifica, dei segnalibri e delle impostazioni che configuri
 - non utilizzerai l'App o qualsiasi servizio del fornitore collegato in un modo che violi la legge applicabile o i termini del fornitore
 
-## 4. Posizione, notifiche e operazioni in background
-Alcune funzionalità richiedono l'autorizzazione alla posizione, l'autorizzazione alle notifiche o l'aggiornamento in background. Puoi gestire queste autorizzazioni nelle impostazioni di iOS. Se le autorizzazioni o l'accesso alla rete non sono disponibili, le funzionalità correlate potrebbero essere limitate o non disponibili.
+## 5. Posizione, notifiche e operazioni in background
+Alcune funzionalità richiedono l'autorizzazione alla posizione, l'autorizzazione alle notifiche o l'aggiornamento in background. Puoi gestire queste autorizzazioni nelle impostazioni iOS. Se le autorizzazioni o l'accesso alla rete non sono disponibili, le funzionalità correlate potrebbero essere limitate o non disponibili.
 
-## 5. Collegamenti esterni e webcam
-L'App può aprire siti Web, pagine di supporto, pagine di attribuzione del fornitore, pagine di webcam, pagine di problema di NWPLACEholder13TOKEN o client di posta elettronica. NWPLACEholder4TOKEN non è responsabile del contenuto, della disponibilità, delle pratiche sulla privacy o dei termini dei servizi esterni.
+## 6. Collegamenti esterni e webcam
+L'App può aprire siti Web, pagine di supporto, pagine di attribuzione del fornitore, pagine di webcam, pagine di problemi GitHub o client di posta elettronica. NearbyWeather non è responsabile del contenuto, della disponibilità, delle pratiche sulla privacy o dei termini dei servizi esterni.
 
-## 6. Nessuna garanzia
-L'App viene fornita "così com'è" senza garanzie di alcun tipo. Non garantiamo:
+## 7. Proprietà intellettuale
+L'App, il suo design, il codice e i contenuti non di terze parti sono di proprietà dello sviluppatore o dei relativi concessori di licenza. I dati di terze parti, i marchi, i nomi dei fornitori, i contenuti delle mappe e i contenuti esterni rimangono di proprietà dei rispettivi proprietari. I presenti Termini non ti concedono diritti oltre all'uso personale dell'App.
+
+## 8. Nessuna garanzia
+L'App viene fornita "così com'è" e "come disponibile" senza garanzie di alcun tipo. Non garantiamo:
 
 - disponibilità ininterrotta
 - funzionamento senza errori
-- compatibilità con ogni dispositivo, versione NWPLACEholder14TOKEN, provider o condizione di rete
+- compatibilità con ogni dispositivo, versione iOS, provider o condizione di rete
 - correttezza, aggiornamento o completezza dei dati meteorologici, previsioni, qualità dell'aria, altitudine, stazione, mappa o webcam di terze parti
 
-## 7. Limitazione di responsabilità
+## 9. Limitazione di responsabilità
 Nella misura massima consentita dalla legge, lo sviluppatore non sarà responsabile per danni derivanti da:
 
 - dati meteorologici o del fornitore imprecisi, ritardati, non disponibili o incompleti
@@ -60,8 +66,11 @@ Nella misura massima consentita dalla legge, lo sviluppatore non sarà responsab
 - utilizzo dell'App in situazioni critiche o ad alto rischio per la sicurezza
 - siti Web esterni, fornitori di webcam, strumenti di supporto o servizi di terze parti
 
-## 8. Modifiche
+## 10. Modifiche all'App e ai Provider
+Le funzionalità di NearbyWeather, le integrazioni dei fornitori, le origini dati e il comportamento del servizio possono cambiare nel tempo. Le funzionalità possono essere aggiunte, modificate, sospese o interrotte senza garantire la disponibilità continua di alcun fornitore, origine dati o funzionalità specifica.
+
+## 11. Aggiornamenti ai presenti Termini
 I presenti Termini possono essere aggiornati di volta in volta. L'uso continuato dell'App dopo che i Termini aggiornati sono stati resi disponibili costituisce l'accettazione dei Termini aggiornati.
 
-## 9. Contatto
-Per domande, contattare: [erikmartens.developer@gmail.com]NWPLACEholder0TOKEN
+## 12. Contatto
+Per domande, contattare: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

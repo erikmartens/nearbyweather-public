@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Ostatnia aktualizacja:** 26.06.2026 r
 
 ## 1. Przegląd
-NearbyWeather („Aplikacja”) zapewnia mobilny interfejs do informacji o pogodzie i powiązanych funkcji pogodowych.
+Niniejsze Warunki użytkowania regulują korzystanie z NearbyWeather („Aplikacja”). Aplikacja zapewnia mobilny interfejs do informacji o pogodzie i powiązanych funkcji pogodowych.
 
-## 2. Dane pogodowe i usługi stron trzecich
-Informacje o pogodzie, prognozy, dane o jakości powietrza, dane o wysokości, metadane stacji, metadane kamery internetowej i linki zewnętrzne mogą pochodzić z usług NearbyWeather lub dostawców zewnętrznych, takich jak Apple Weather / WeatherKit, OpenWeather, Open-Meteo i dostawców kamer internetowych.
+## 2. Prywatność
+Korzystanie z Aplikacji podlega także Polityce prywatności NearbyWeather, która opisuje sposób, w jaki Aplikacja obsługuje informacje.
 
-NearbyWeather może korzystać z usług żądających, buforujących i zwracających dane pogodowe dla Aplikacji. NearbyWeather nie jest powiązany, nie jest wspierany przez zewnętrznych dostawców ani nie jest za nie odpowiedzialny, chyba że zostało to wyraźnie określone. Dostępność danych stron trzecich, dokładność, warunki licencji i zachowanie usług są poza kontrolą aplikacji.
+## 3. Dane pogodowe i zewnętrzni dostawcy danych
+Informacje o pogodzie, prognozy, dane o jakości powietrza, dane o wysokości, metadane stacji, metadane kamery internetowej i linki zewnętrzne mogą pochodzić z usług NearbyWeather lub od zewnętrznych dostawców, takich jak Apple Weather / WeatherKit, OpenWeather, Open-Meteo i dostawców kamer internetowych.
 
-## 3. Odpowiedzialność użytkownika
+NearbyWeather może korzystać z usług żądających, buforujących i zwracających dane pogodowe dla Aplikacji. NearbyWeather nie jest powiązany, nie jest wspierany przez zewnętrznych dostawców danych ani nie jest za nie odpowiedzialny, chyba że zostało to wyraźnie zaznaczone. Dostępność danych stron trzecich, dokładność, warunki licencji i zachowanie usług są poza kontrolą aplikacji. Dostawcy zewnętrzni mogą się zmienić, stać się niedostępni lub zostać zastąpieni, a Aplikacja nie gwarantuje, że żaden konkretny dostawca pozostanie dostępny.
+
+## 4. Odpowiedzialność użytkownika
 Korzystając z Aplikacji, zgadzasz się, że:
 
 - będziesz używać danych pogodowych jedynie jako wskazówek informacyjnych
@@ -37,21 +40,24 @@ Korzystając z Aplikacji, zgadzasz się, że:
 - odpowiadasz za opcje powiadomień, zakładki i ustawienia, które konfigurujesz
 - nie będziesz korzystać z Aplikacji ani usług jakiegokolwiek połączonego dostawcy w sposób naruszający obowiązujące prawo lub warunki dostawcy
 
-## 4. Lokalizacja, powiadomienia i działanie w tle
+## 5. Lokalizacja, powiadomienia i działanie w tle
 Niektóre funkcje wymagają pozwolenia na lokalizację, pozwolenia na powiadomienia lub odświeżenia tła. Możesz zarządzać tymi uprawnieniami w ustawieniach iOS. Jeśli uprawnienia lub dostęp do sieci są niedostępne, powiązane funkcje mogą być ograniczone lub niedostępne.
 
-## 5. Linki zewnętrzne i kamery internetowe
+## 6. Linki zewnętrzne i kamery internetowe
 Aplikacja może otwierać witryny internetowe, strony pomocy technicznej, strony z informacjami o dostawcach, strony kamer internetowych, strony problemów GitHub lub klientów poczty e-mail. NearbyWeather nie ponosi odpowiedzialności za treść, dostępność, praktyki dotyczące prywatności ani warunki usług zewnętrznych.
 
-## 6. Brak gwarancji
-Aplikacja jest dostarczana w stanie takim, w jakim jest, bez jakichkolwiek gwarancji. Nie gwarantujemy:
+## 7. Własność intelektualna
+Aplikacja, jej projekt, kod i zawartość stron trzecich stanowią własność dewelopera lub odpowiednich licencjodawców. Dane stron trzecich, znaki towarowe, nazwy dostawców, zawartość map i treści zewnętrzne pozostają własnością ich odpowiednich właścicieli. Niniejsze Warunki nie przyznają Ci praw wykraczających poza osobisty użytek z Aplikacji.
+
+## 8. Brak gwarancji
+Aplikacja jest dostarczana w stanie „takim, jakim jest” i „w miarę dostępności”, bez jakichkolwiek gwarancji. Nie gwarantujemy:
 
 - nieprzerwana dostępność
 - bezbłędna praca
 - kompatybilność z każdym urządzeniem, wersją iOS, dostawcą i stanem sieci
 - poprawność, aktualność lub kompletność danych o pogodzie, prognozie, jakości powietrza, wysokości, stacji, mapie lub kamerze internetowej pochodzących od osób trzecich
 
-## 7. Ograniczenie odpowiedzialności
+## 9. Ograniczenie odpowiedzialności
 W maksymalnym zakresie dozwolonym przez prawo deweloper nie ponosi odpowiedzialności za szkody powstałe na skutek:
 
 - niedokładne, opóźnione, niedostępne lub niekompletne dane pogodowe lub dane dostawcy
@@ -60,8 +66,11 @@ W maksymalnym zakresie dozwolonym przez prawo deweloper nie ponosi odpowiedzialn
 - korzystania z Aplikacji w sytuacjach krytycznych dla bezpieczeństwa lub wysokiego ryzyka
 - zewnętrzne strony internetowe, dostawcy kamer internetowych, narzędzia wsparcia lub usługi stron trzecich
 
-## 8. Zmiany
+## 10. Zmiany w Aplikacji i Dostawcach
+Funkcje NearbyWeather, integracje dostawców, źródła danych i zachowanie usług mogą z czasem ulec zmianie. Funkcje można dodawać, modyfikować, zawieszać lub wycofywać bez gwarantowania ciągłej dostępności konkretnego dostawcy, źródła danych lub funkcji.
+
+## 11. Aktualizacje niniejszych Warunków
 Niniejsze Warunki mogą być od czasu do czasu aktualizowane. Dalsze korzystanie z Aplikacji po udostępnieniu zaktualizowanego Regulaminu oznacza akceptację zaktualizowanego Regulaminu.
 
-## 9. Kontakt
+## 12. Kontakt
 W przypadku pytań skontaktuj się z: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

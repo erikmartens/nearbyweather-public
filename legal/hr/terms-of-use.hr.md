@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Zadnje ažuriranje:** 2026-06-26
 
 ## 1. Pregled
-NearbyWeather ("Aplikacija") pruža mobilno sučelje za informacije o vremenu i povezane vremenske značajke.
+Ovi Uvjeti korištenja reguliraju vašu upotrebu NearbyWeather ("Aplikacija"). Aplikacija pruža mobilno sučelje za podatke o vremenu i povezane vremenske značajke.
 
-## 2. Podaci o vremenu i usluge trećih strana
+## 2. Privatnost
+Vaše korištenje aplikacije također podliježe Pravilima o privatnosti NearbyWeather, koja opisuju kako aplikacija postupa s podacima.
+
+## 3. Podaci o vremenu i pružatelji podataka trećih strana
 Informacije o vremenu, prognoze, podaci o kvaliteti zraka, podaci o nadmorskoj visini, metapodaci stanica, metapodaci web-kamera i vanjske veze mogu dolaziti od usluga NearbyWeather ili dobavljača trećih strana kao što su Apple Weather / WeatherKit, OpenWeather, Open-Meteo i pružatelja web-kamera.
 
-NearbyWeather može koristiti usluge koje zahtijevaju, spremaju i vraćaju vremenske podatke za aplikaciju. NearbyWeather nije povezan s pružateljima trećih strana, nije ih odobrio niti je odgovoran za njih, osim ako nije izričito navedeno. Dostupnost podataka trećih strana, točnost, uvjeti licenciranja i ponašanje usluge izvan su kontrole aplikacije.
+NearbyWeather može koristiti usluge koje traže, spremaju i vraćaju vremenske podatke za aplikaciju. NearbyWeather nije povezan s pružateljima podataka trećih strana, nije ih odobrio niti je odgovoran za njih, osim ako nije izričito navedeno. Dostupnost podataka trećih strana, točnost, uvjeti licenciranja i ponašanje usluge izvan su kontrole aplikacije. Pružatelji trećih strana mogu se promijeniti, postati nedostupni ili biti zamijenjeni, a Aplikacija ne jamči da će neki određeni pružatelj ostati dostupan.
 
-## 3. Odgovornost korisnika
+## 4. Odgovornost korisnika
 Korištenjem aplikacije suglasni ste da:
 
 - podatke o vremenu koristit ćete samo kao informativne smjernice
@@ -37,21 +40,24 @@ Korištenjem aplikacije suglasni ste da:
 - vi ste odgovorni za odabire obavijesti, oznake i postavke koje konfigurirate
 - nećete koristiti Aplikaciju ili bilo koju povezanu uslugu pružatelja na način koji krši primjenjivi zakon ili uvjete pružatelja
 
-## 4. Lokacija, obavijesti i rad u pozadini
+## 5. Lokacija, obavijesti i rad u pozadini
 Neke značajke zahtijevaju dopuštenje za lokaciju, dopuštenje za obavijesti ili osvježavanje pozadine. Ovim dozvolama možete upravljati u postavkama iOS. Ako dopuštenja ili pristup mreži nisu dostupni, povezane značajke mogu biti ograničene ili nedostupne.
 
-## 5. Vanjske veze i web kamere
-Aplikacija može otvarati web-mjesta, stranice za podršku, stranice s atribucijom pružatelja usluga, stranice s web-kamerama, stranice s problemom GitHub ili klijente e-pošte. NearbyWeather nije odgovoran za sadržaj, dostupnost, prakse privatnosti ili uvjete vanjskih usluga.
+## 6. Vanjske veze i web kamere
+Aplikacija može otvarati web-mjesta, stranice za podršku, stranice s atribucijom pružatelja usluga, stranice s web-kamerama, stranice s problemima GitHub ili klijente e-pošte. NearbyWeather nije odgovoran za sadržaj, dostupnost, prakse privatnosti ili uvjete vanjskih usluga.
 
-## 6. Nema jamstva
-Aplikacija se daje "kakva jest" bez ikakvih jamstava. Ne jamčimo:
+## 7. Intelektualno vlasništvo
+Aplikacija, njezin dizajn, kôd i sadržaj koji nije treći u vlasništvu su razvojnog programera ili relevantnih davatelja licence. Podaci trećih strana, zaštitni znakovi, nazivi pružatelja usluga, sadržaj karte i vanjski sadržaj ostaju u vlasništvu svojih vlasnika. Ovi Uvjeti vam ne daju prava izvan osobne upotrebe aplikacije.
+
+## 8. Nema jamstva
+Aplikacija se daje "kakva jest" i "kako je dostupna" bez ikakvih jamstava. Ne jamčimo:
 
 - neprekidna dostupnost
 - rad bez grešaka
 - kompatibilnost sa svakim uređajem, iOS verzijom, pružateljem ili mrežnim stanjem
 - točnost, svježina ili potpunost podataka treće strane o vremenu, prognozi, kvaliteti zraka, nadmorskoj visini, stanici, karti ili web kameri
 
-## 7. Ograničenje odgovornosti
+## 9. Ograničenje odgovornosti
 U najvećoj mjeri dopuštenoj zakonom, razvojni programer neće biti odgovoran za štetu koja proizlazi iz:
 
 - netočni, odgođeni, nedostupni ili nepotpuni podaci o vremenu ili davatelju usluga
@@ -60,8 +66,11 @@ U najvećoj mjeri dopuštenoj zakonom, razvojni programer neće biti odgovoran z
 - korištenje aplikacije u situacijama kritičnim za sigurnost ili visokim rizikom
 - vanjske web stranice, pružatelji web kamera, alati za podršku ili usluge trećih strana
 
-## 8. Promjene
+## 10. Promjene u aplikaciji i pružateljima usluga
+Značajke NearbyWeather, integracije pružatelja usluga, izvori podataka i ponašanje usluge mogu se promijeniti tijekom vremena. Značajke se mogu dodavati, mijenjati, suspendirati ili ukinuti bez jamstva kontinuirane dostupnosti bilo kojeg određenog pružatelja usluga, izvora podataka ili značajke.
+
+## 11. Ažuriranja ovih Uvjeta
 Ovi Uvjeti mogu se ažurirati s vremena na vrijeme. Nastavak korištenja aplikacije nakon što ažurirani Uvjeti postanu dostupni predstavlja prihvaćanje ažuriranih Uvjeta.
 
-## 9. Kontakt
+## 12. Kontakt
 Za pitanja kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

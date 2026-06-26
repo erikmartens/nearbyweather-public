@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Última atualização:** 26/06/2026
 
 ## 1. Visão geral
-NearbyWeather ("o Aplicativo") fornece uma interface móvel para informações meteorológicas e recursos meteorológicos relacionados.
+Estes Termos de Uso regem o uso do NearbyWeather ("o Aplicativo"). O aplicativo fornece uma interface móvel para informações meteorológicas e recursos meteorológicos relacionados.
 
-## 2. Dados meteorológicos e serviços de terceiros
+## 2. Privacidade
+O uso do Aplicativo também está sujeito à Política de Privacidade NearbyWeather, que descreve como o Aplicativo trata as informações.
+
+## 3. Dados meteorológicos e provedores de dados terceirizados
 Informações meteorológicas, previsões, dados de qualidade do ar, dados de elevação, metadados de estação, metadados de webcam e links externos podem vir de serviços NearbyWeather ou de provedores terceirizados, como Apple Weather / WeatherKit, OpenWeather, Open-Meteo e provedores de webcam.
 
-NearbyWeather pode usar serviços que solicitam, armazenam em cache e retornam dados meteorológicos para o Aplicativo. NearbyWeather não é afiliado, endossado ou responsável por fornecedores terceirizados, a menos que expressamente declarado. A disponibilidade, precisão, termos de licenciamento e comportamento do serviço de dados de terceiros estão fora do controle do Aplicativo.
+NearbyWeather pode usar serviços que solicitam, armazenam em cache e retornam dados meteorológicos para o Aplicativo. NearbyWeather não é afiliado, endossado ou responsável por provedores de dados terceirizados, a menos que expressamente declarado. A disponibilidade, precisão, termos de licenciamento e comportamento do serviço de dados de terceiros estão fora do controle do Aplicativo. Os fornecedores terceirizados podem mudar, ficar indisponíveis ou ser substituídos, e o Aplicativo não garante que qualquer fornecedor específico permanecerá disponível.
 
-## 3. Responsabilidade do usuário
+## 4. Responsabilidade do usuário
 Ao usar o Aplicativo, você concorda que:
 
 - você usará dados meteorológicos apenas como orientação informativa
@@ -37,21 +40,24 @@ Ao usar o Aplicativo, você concorda que:
 - você é responsável pelas opções de notificação, favoritos e configurações definidas por você
 - você não usará o aplicativo ou qualquer serviço de provedor conectado de forma que viole a lei aplicável ou os termos do provedor
 
-## 4. Localização, notificações e operação em segundo plano
-Alguns recursos exigem permissão de localização, permissão de notificação ou atualização em segundo plano. Você pode gerenciar essas permissões nas configurações de iOS. Se as permissões ou o acesso à rede não estiverem disponíveis, os recursos relacionados poderão estar limitados ou indisponíveis.
+## 5. Localização, notificações e operação em segundo plano
+Alguns recursos exigem permissão de localização, permissão de notificação ou atualização em segundo plano. Você pode gerenciar essas permissões nas configurações do iOS. Se as permissões ou o acesso à rede não estiverem disponíveis, os recursos relacionados poderão estar limitados ou indisponíveis.
 
-## 5. Links externos e webcams
-O aplicativo pode abrir sites, páginas de suporte, páginas de atribuição de provedores, páginas de webcam, páginas de problemas GitHub ou clientes de e-mail. NearbyWeather não é responsável pelo conteúdo, disponibilidade, práticas de privacidade ou termos de serviços externos.
+## 6. Links externos e webcams
+O aplicativo pode abrir sites, páginas de suporte, páginas de atribuição de provedores, páginas de webcam, páginas de problemas do GitHub ou clientes de e-mail. NearbyWeather não é responsável pelo conteúdo, disponibilidade, práticas de privacidade ou termos de serviços externos.
 
-## 6. Sem garantia
-O aplicativo é fornecido "como está", sem garantias de qualquer tipo. Não garantimos:
+## 7. Propriedade Intelectual
+O Aplicativo, seu design, código e conteúdo que não é de terceiros são de propriedade do desenvolvedor ou dos licenciantes relevantes. Dados de terceiros, marcas registradas, nomes de fornecedores, conteúdo de mapas e conteúdo externo permanecem propriedade de seus respectivos proprietários. Estes Termos não concedem a você direitos além do uso pessoal do Aplicativo.
+
+## 8. Sem garantia
+O Aplicativo é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo. Não garantimos:
 
 - disponibilidade ininterrupta
 - operação sem erros
-- compatibilidade com todos os dispositivos, versão iOS, provedor ou condição de rede
+- compatibilidade com cada dispositivo, versão iOS, provedor ou condição de rede
 - exatidão, atualização ou integridade de dados meteorológicos, previsões, qualidade do ar, elevação, estação, mapa ou webcam de terceiros
 
-## 7. Limitação de responsabilidade
+## 9. Limitação de responsabilidade
 Na extensão máxima permitida por lei, o desenvolvedor não será responsável por danos decorrentes de:
 
 - dados meteorológicos ou do fornecedor imprecisos, atrasados, indisponíveis ou incompletos
@@ -60,8 +66,11 @@ Na extensão máxima permitida por lei, o desenvolvedor não será responsável 
 - uso do aplicativo em situações críticas de segurança ou de alto risco
 - sites externos, provedores de webcam, ferramentas de suporte ou serviços de terceiros
 
-## 8. Mudanças
+## 10. Mudanças no aplicativo e nos provedores
+Os recursos do NearbyWeather, integrações de provedores, fontes de dados e comportamento do serviço podem mudar com o tempo. Os recursos podem ser adicionados, modificados, suspensos ou descontinuados sem garantir a disponibilidade contínua de qualquer provedor, fonte de dados ou recurso específico.
+
+## 11. Atualizações destes Termos
 Estes Termos podem ser atualizados de tempos em tempos. O uso continuado do Aplicativo após a disponibilização dos Termos atualizados constitui aceitação dos Termos atualizados.
 
-## 9. Contato
+## 12. Contato
 Em caso de dúvidas, entre em contato com: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

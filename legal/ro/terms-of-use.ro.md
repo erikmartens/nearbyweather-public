@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Ultima actualizare:** 2026-06-26
 
 ## 1. Prezentare generală
-NearbyWeather ("aplicația") oferă o interfață mobilă pentru informații despre vreme și caracteristici meteorologice aferente.
+Acești Termeni de utilizare guvernează utilizarea de către dvs. a NearbyWeather ("aplicația"). Aplicația oferă o interfață mobilă pentru informații despre vreme și caracteristici meteorologice aferente.
 
-## 2. Date meteo și servicii terțe
-Informațiile meteo, prognozele, datele despre calitatea aerului, datele de altitudine, metadatele stației, metadatele camerei web și legăturile externe pot proveni de la serviciile NearbyWeather sau de la furnizori terți, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo și furnizori de camere web.
+## 2. Confidențialitate
+Utilizarea de către dvs. a aplicației este, de asemenea, supusă Politicii de confidențialitate NearbyWeather, care descrie modul în care aplicația gestionează informațiile.
 
-NearbyWeather poate utiliza servicii care solicită, memorează în cache și returnează date meteo pentru aplicație. NearbyWeather nu este afiliat, susținut de sau responsabil pentru furnizori terți, cu excepția cazului în care este specificat în mod expres. Disponibilitatea datelor terțelor părți, acuratețea, termenii de licențiere și comportamentul serviciilor sunt în afara controlului aplicației.
+## 3. Date meteo și furnizori de date terți
+Informațiile meteo, prognozele, datele despre calitatea aerului, datele de altitudine, metadatele stației, metadatele camerei web și legăturile externe pot proveni de la servicii NearbyWeather sau de la furnizori terți, cum ar fi Apple Weather / WeatherKit, OpenWeather, Open-Meteo și furnizori de camere web.
 
-## 3. Responsabilitatea utilizatorului
+NearbyWeather poate utiliza servicii care solicită, memorează în cache și returnează date meteo pentru aplicație. NearbyWeather nu este afiliat, susținut de sau responsabil pentru furnizorii de date terți, cu excepția cazului în care este specificat în mod expres. Disponibilitatea datelor terțelor părți, acuratețea, termenii de licențiere și comportamentul serviciilor sunt în afara controlului aplicației. Furnizorii terți se pot schimba, deveni indisponibili sau înlocuiți, iar Aplicația nu garantează că un anumit furnizor va rămâne disponibil.
+
+## 4. Responsabilitatea utilizatorului
 Prin utilizarea aplicației, sunteți de acord că:
 
 - veți folosi datele meteo doar ca ghid informativ
@@ -37,21 +40,24 @@ Prin utilizarea aplicației, sunteți de acord că:
 - sunteți responsabil pentru opțiunile de notificare, marcajele și setările pe care le configurați
 - nu veți utiliza aplicația sau orice serviciu de furnizor conectat într-un mod care încalcă legea sau termenii furnizorilor aplicabili
 
-## 4. Locație, notificări și operațiuni în fundal
+## 5. Locație, notificări și operațiuni în fundal
 Unele funcții necesită permisiunea de locație, permisiunea de notificare sau reîmprospătarea fundalului. Puteți gestiona aceste permisiuni în setările iOS. Dacă permisiunile sau accesul la rețea nu sunt disponibile, funcțiile asociate pot fi limitate sau indisponibile.
 
-## 5. Legături externe și camere web
-Aplicația poate deschide site-uri web, pagini de asistență, pagini de atribuire a furnizorilor, pagini web, pagini cu probleme GitHub sau clienți de e-mail. NearbyWeather nu este responsabil pentru conținutul, disponibilitatea, practicile de confidențialitate sau termenii serviciilor externe.
+## 6. Legături externe și camere web
+Aplicația poate deschide site-uri web, pagini de asistență, pagini de atribuire a furnizorilor, pagini de cameră web, pagini de probleme GitHub sau clienți de e-mail. NearbyWeather nu este responsabil pentru conținut, disponibilitate, practicile de confidențialitate sau termenii serviciilor externe.
 
-## 6. Fără garanție
-Aplicația este furnizată „ca atare”, fără garanții de niciun fel. Nu garantam:
+## 7. Proprietatea intelectuală
+Aplicația, designul, codul și conținutul care nu aparțin unei terțe părți sunt deținute de dezvoltator sau de licențiatorii relevanți. Datele terțelor părți, mărcile comerciale, numele furnizorilor, conținutul hărților și conținutul extern rămân proprietatea proprietarilor respectivi. Acești Termeni nu vă acordă drepturi dincolo de utilizarea personală a aplicației.
+
+## 8. Fără garanție
+Aplicația este furnizată „ca atare” și „așa cum este disponibilă”, fără garanții de niciun fel. Nu garantam:
 
 - disponibilitate neîntreruptă
 - funcționare fără erori
 - compatibilitate cu fiecare dispozitiv, versiune iOS, furnizor sau stare de rețea
 - corectitudinea, prospețimea sau caracterul complet al datelor despre vreme, prognoză, calitatea aerului, altitudine, stație, hărți sau webcam de la terți
 
-## 7. Limitarea răspunderii
+## 9. Limitarea răspunderii
 În măsura maximă permisă de lege, dezvoltatorul nu va fi răspunzător pentru daunele rezultate din:
 
 - date meteo sau furnizor inexacte, întârziate, indisponibile sau incomplete
@@ -60,8 +66,11 @@ Aplicația este furnizată „ca atare”, fără garanții de niciun fel. Nu ga
 - utilizarea aplicației în situații critice pentru siguranță sau cu risc ridicat
 - site-uri web externe, furnizori de camere web, instrumente de asistență sau servicii terțe
 
-## 8. Schimbări
+## 10. Modificări ale aplicației și furnizorilor
+Caracteristicile NearbyWeather, integrările furnizorilor, sursele de date și comportamentul serviciilor se pot schimba în timp. Funcțiile pot fi adăugate, modificate, suspendate sau întrerupte fără a garanta disponibilitatea continuă a unui anumit furnizor, sursă de date sau caracteristică.
+
+## 11. Actualizări ale acestor Termeni
 Acești Termeni pot fi actualizați din când în când. Folosirea în continuare a aplicației după ce Termenii actualizați sunt pusi la dispoziție reprezintă acceptarea Termenilor actualizați.
 
-## 9. Contact
+## 12. Contact
 Pentru întrebări, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

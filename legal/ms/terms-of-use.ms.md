@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Terakhir dikemas kini:** 2026-06-26
 
 ## 1. Gambaran keseluruhan
-NearbyWeather ("Apl") menyediakan antara muka mudah alih untuk maklumat cuaca dan ciri cuaca yang berkaitan.
+Syarat Penggunaan ini mengawal penggunaan NearbyWeather ("Apl"). Aplikasi ini menyediakan antara muka mudah alih untuk maklumat cuaca dan ciri cuaca yang berkaitan.
 
-## 2. Data Cuaca dan Perkhidmatan Pihak Ketiga
+## 2. Privasi
+Penggunaan Apl anda juga tertakluk pada Dasar Privasi NearbyWeather, yang menerangkan cara Apl mengendalikan maklumat.
+
+## 3. Data Cuaca dan Pembekal Data Pihak Ketiga
 Maklumat cuaca, ramalan, data kualiti udara, data ketinggian, metadata stesen, metadata kamera web dan pautan luaran mungkin datang daripada perkhidmatan NearbyWeather atau pembekal pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo dan penyedia kamera web.
 
-NearbyWeather boleh menggunakan perkhidmatan yang meminta, menyimpan cache dan mengembalikan data cuaca untuk Apl. NearbyWeather tidak bergabung dengan, disokong oleh, atau bertanggungjawab untuk penyedia pihak ketiga melainkan dinyatakan dengan jelas. Ketersediaan data pihak ketiga, ketepatan, syarat pelesenan dan tingkah laku perkhidmatan adalah di luar kawalan Apl.
+NearbyWeather boleh menggunakan perkhidmatan yang meminta, menyimpan cache dan mengembalikan data cuaca untuk Apl. NearbyWeather tidak bergabung dengan, disokong oleh, atau bertanggungjawab untuk pembekal data pihak ketiga melainkan dinyatakan dengan jelas. Ketersediaan data pihak ketiga, ketepatan, syarat pelesenan dan tingkah laku perkhidmatan adalah di luar kawalan Apl. Pembekal pihak ketiga boleh berubah, menjadi tidak tersedia, atau diganti, dan Apl tidak menjamin bahawa mana-mana pembekal khusus akan kekal tersedia.
 
-## 3. Tanggungjawab Pengguna
+## 4. Tanggungjawab Pengguna
 Dengan menggunakan Apl, anda bersetuju bahawa:
 
 - anda akan menggunakan data cuaca sebagai panduan maklumat sahaja
@@ -37,21 +40,24 @@ Dengan menggunakan Apl, anda bersetuju bahawa:
 - anda bertanggungjawab untuk pilihan pemberitahuan, penanda halaman dan tetapan yang anda konfigurasikan
 - anda tidak akan menggunakan Apl atau mana-mana perkhidmatan pembekal yang disambungkan dengan cara yang melanggar undang-undang atau terma penyedia yang berkenaan
 
-## 4. Lokasi, Pemberitahuan dan Operasi Latar Belakang
+## 5. Lokasi, Pemberitahuan dan Operasi Latar Belakang
 Sesetengah ciri memerlukan kebenaran lokasi, kebenaran pemberitahuan atau muat semula latar belakang. Anda boleh mengurus kebenaran ini dalam tetapan iOS. Jika kebenaran atau akses rangkaian tidak tersedia, ciri yang berkaitan mungkin terhad atau tidak tersedia.
 
-## 5. Pautan Luaran dan Kamera Web
-Apl boleh membuka tapak web, halaman sokongan, halaman atribusi penyedia, halaman kamera web, halaman terbitan GitHub atau klien e-mel. NearbyWeather tidak bertanggungjawab terhadap kandungan, ketersediaan, amalan privasi atau syarat perkhidmatan luaran.
+## 6. Pautan Luaran dan Kamera Web
+Apl boleh membuka tapak web, halaman sokongan, halaman atribusi penyedia, halaman kamera web, halaman keluaran GitHub atau klien e-mel. NearbyWeather tidak bertanggungjawab terhadap kandungan, ketersediaan, amalan privasi atau syarat perkhidmatan luaran.
 
-## 6. Tiada Waranti
-Aplikasi ini disediakan "seadanya" tanpa sebarang jenis jaminan. Kami tidak menjamin:
+## 7. Harta Intelek
+Apl, reka bentuk, kod dan kandungan bukan pihak ketiga dimiliki oleh pembangun atau pemberi lesen yang berkaitan. Data pihak ketiga, tanda dagangan, nama pembekal, kandungan peta dan kandungan luaran kekal menjadi hak milik pemilik masing-masing. Terma ini tidak memberikan anda hak di luar penggunaan peribadi Apl.
+
+## 8. Tiada Waranti
+Aplikasi ini disediakan "sebagaimana adanya" dan "sebagaimana tersedia" tanpa sebarang jenis jaminan. Kami tidak menjamin:
 
 - ketersediaan tanpa gangguan
 - operasi tanpa ralat
 - keserasian dengan setiap peranti, versi iOS, pembekal atau keadaan rangkaian
 - ketepatan, kesegaran atau kesempurnaan data cuaca, ramalan, kualiti udara, ketinggian, stesen, peta atau kamera web pihak ketiga
 
-## 7. Had Liabiliti
+## 9. Had Liabiliti
 Setakat maksimum yang dibenarkan oleh undang-undang, pemaju tidak akan bertanggungjawab ke atas kerosakan yang timbul daripada:
 
 - cuaca yang tidak tepat, tertangguh, tidak tersedia atau data pembekal yang tidak lengkap
@@ -60,8 +66,11 @@ Setakat maksimum yang dibenarkan oleh undang-undang, pemaju tidak akan bertanggu
 - penggunaan Apl dalam situasi kritikal keselamatan atau berisiko tinggi
 - tapak web luaran, pembekal kamera web, alat sokongan atau perkhidmatan pihak ketiga
 
-## 8. Perubahan
+## 10. Perubahan pada Apl dan Pembekal
+Ciri NearbyWeather, integrasi pembekal, sumber data dan tingkah laku perkhidmatan mungkin berubah dari semasa ke semasa. Ciri boleh ditambah, diubah suai, digantung atau dihentikan tanpa menjamin ketersediaan berterusan mana-mana pembekal, sumber data atau ciri tertentu.
+
+## 11. Kemas Kini Terma Ini
 Syarat ini boleh dikemas kini dari semasa ke semasa. Penggunaan Apl yang berterusan selepas Terma yang dikemas kini tersedia merupakan penerimaan Terma yang dikemas kini.
 
-## 9. Hubungi
+## 12. Hubungi
 Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

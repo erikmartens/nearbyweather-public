@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Terakhir diperbarui:** 26-06-2026
 
 ## 1. Ikhtisar
-NearbyWeather ("Aplikasi") menyediakan antarmuka seluler untuk informasi cuaca dan fitur cuaca terkait.
+Ketentuan Penggunaan ini mengatur penggunaan Anda atas NearbyWeather ("Aplikasi"). Aplikasi ini menyediakan antarmuka seluler untuk informasi cuaca dan fitur cuaca terkait.
 
-## 2. Data Cuaca dan Layanan Pihak Ketiga
+## 2. Privasi
+Penggunaan Anda atas Aplikasi juga tunduk pada Kebijakan Privasi NearbyWeather, yang menjelaskan cara Aplikasi menangani informasi.
+
+## 3. Data Cuaca dan Penyedia Data Pihak Ketiga
 Informasi cuaca, prakiraan cuaca, data kualitas udara, data ketinggian, metadata stasiun, metadata webcam, dan tautan eksternal mungkin berasal dari layanan NearbyWeather atau penyedia pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo, dan penyedia webcam.
 
-NearbyWeather dapat menggunakan layanan yang meminta, menyimpan cache, dan mengembalikan data cuaca untuk Aplikasi. NearbyWeather tidak berafiliasi dengan, didukung oleh, atau bertanggung jawab atas penyedia pihak ketiga kecuali dinyatakan secara tegas. Ketersediaan data pihak ketiga, keakuratan, persyaratan lisensi, dan perilaku layanan berada di luar kendali Aplikasi.
+NearbyWeather dapat menggunakan layanan yang meminta, menyimpan cache, dan mengembalikan data cuaca untuk Aplikasi. NearbyWeather tidak berafiliasi dengan, didukung oleh, atau bertanggung jawab atas penyedia data pihak ketiga kecuali dinyatakan secara tegas. Ketersediaan data pihak ketiga, keakuratan, persyaratan lisensi, dan perilaku layanan berada di luar kendali Aplikasi. Penyedia pihak ketiga dapat berubah, menjadi tidak tersedia, atau diganti, dan Aplikasi tidak menjamin bahwa penyedia tertentu akan tetap tersedia.
 
-## 3. Tanggung Jawab Pengguna
+## 4. Tanggung Jawab Pengguna
 Dengan menggunakan Aplikasi, Anda setuju bahwa:
 
 - Anda akan menggunakan data cuaca sebagai panduan informasi saja
@@ -37,21 +40,24 @@ Dengan menggunakan Aplikasi, Anda setuju bahwa:
 - Anda bertanggung jawab atas pilihan notifikasi, bookmark, dan pengaturan yang Anda konfigurasi
 - Anda tidak akan menggunakan Aplikasi atau layanan penyedia apa pun yang terhubung dengan cara yang melanggar hukum atau ketentuan penyedia yang berlaku
 
-## 4. Lokasi, Notifikasi, dan Latar Belakang Operasi
+## 5. Lokasi, Notifikasi, dan Latar Belakang Operasi
 Beberapa fitur memerlukan izin lokasi, izin notifikasi, atau penyegaran latar belakang. Anda dapat mengelola izin ini di pengaturan iOS. Jika izin atau akses jaringan tidak tersedia, fitur terkait mungkin terbatas atau tidak tersedia.
 
-## 5. Tautan Eksternal dan Webcam
+## 6. Tautan Eksternal dan Webcam
 Aplikasi dapat membuka situs web, halaman dukungan, halaman atribusi penyedia, halaman webcam, halaman penerbitan GitHub, atau klien email. NearbyWeather tidak bertanggung jawab atas konten, ketersediaan, praktik privasi, atau ketentuan layanan eksternal.
 
-## 6. Tidak Ada Garansi
-Aplikasi disediakan "sebagaimana adanya" tanpa jaminan apa pun. Kami tidak menjamin:
+## 7. Kekayaan Intelektual
+Aplikasi, desain, kode, dan konten non-pihak ketiga dimiliki oleh pengembang atau pemberi lisensi terkait. Data pihak ketiga, merek dagang, nama penyedia, konten peta, dan konten eksternal tetap menjadi milik pemiliknya masing-masing. Ketentuan ini tidak memberi Anda hak selain penggunaan pribadi atas Aplikasi.
+
+## 8. Tidak Ada Garansi
+Aplikasi disediakan "sebagaimana adanya" dan "sebagaimana tersedia" tanpa jaminan apa pun. Kami tidak menjamin:
 
 - ketersediaan tanpa gangguan
 - operasi bebas kesalahan
-- Kompatibilitas dengan setiap perangkat, versi iOS, penyedia, atau kondisi jaringan
+- kompatibilitas dengan setiap perangkat, versi iOS, penyedia, atau kondisi jaringan
 - kebenaran, kesegaran, atau kelengkapan data cuaca, ramalan cuaca, kualitas udara, ketinggian, stasiun, peta, atau webcam pihak ketiga
 
-## 7. Batasan Tanggung Jawab
+## 9. Batasan Tanggung Jawab
 Sejauh diizinkan oleh undang-undang, pengembang tidak bertanggung jawab atas kerugian yang timbul dari:
 
 - cuaca atau data penyedia yang tidak akurat, tertunda, tidak tersedia, atau tidak lengkap
@@ -60,8 +66,11 @@ Sejauh diizinkan oleh undang-undang, pengembang tidak bertanggung jawab atas ker
 - penggunaan Aplikasi dalam situasi yang kritis terhadap keselamatan atau berisiko tinggi
 - situs web eksternal, penyedia webcam, alat pendukung, atau layanan pihak ketiga
 
-## 8. Perubahan
+## 10. Perubahan pada Aplikasi dan Penyedia
+Fitur NearbyWeather, integrasi penyedia, sumber data, dan perilaku layanan dapat berubah seiring waktu. Fitur dapat ditambahkan, dimodifikasi, ditangguhkan, atau dihentikan tanpa menjamin kelanjutan ketersediaan penyedia, sumber data, atau fitur tertentu.
+
+## 11. Pembaruan Ketentuan Ini
 Ketentuan ini dapat diperbarui dari waktu ke waktu. Penggunaan Aplikasi yang berkelanjutan setelah Ketentuan yang diperbarui tersedia merupakan penerimaan terhadap Ketentuan yang diperbarui.
 
-## 9. Kontak
+## 12. Kontak
 Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

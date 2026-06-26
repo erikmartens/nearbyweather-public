@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Sist oppdatert:** 2026-06-26
 
 ## 1. Oversikt
-NearbyWeather ("appen") gir et mobilgrensesnitt for værinformasjon og relaterte værfunksjoner.
+These Terms of Use govern your use of NearbyWeather ("the App"). Appen gir et mobilgrensesnitt for værinformasjon og relaterte værfunksjoner.
 
-## 2. Værdata og tredjepartstjenester
-Værinformasjon, værmeldinger, luftkvalitetsdata, høydedata, stasjonsmetadata, webkamerametadata og eksterne lenker kan komme fra NearbyWeather-tjenester eller tredjepartsleverandører som Apple Weather / WeatherKit, OpenWeather, Open-Meteo og webkameraleverandører.
+## 2. Personvern
+Your use of the App is also subject to the NearbyWeather Privacy Policy, which describes how the App handles information.
 
-NearbyWeather kan bruke tjenester som ber om, cacher og returnerer værdata for appen. NearbyWeather er ikke tilknyttet, godkjent av eller ansvarlig for tredjepartsleverandører med mindre det er uttrykkelig angitt. Tredjeparts datatilgjengelighet, nøyaktighet, lisensvilkår og tjenesteatferd er utenfor appens kontroll.
+## 3. Weather Data and Third-Party Data Providers
+Værinformasjon, prognoser, luftkvalitetsdata, høydedata, stasjonsmetadata, webkamerametadata og eksterne lenker kan komme fra NearbyWeather-tjenester eller tredjepartsleverandører som Apple Weather / WeatherKit, OpenWeather, Open-Meteo og webkameraleverandører.
 
-## 3. Brukeransvar
+NearbyWeather kan bruke tjenester som ber om, cacher og returnerer værdata for appen. NearbyWeather is not affiliated with, endorsed by, or responsible for third-party data providers unless expressly stated. Tredjeparts datatilgjengelighet, nøyaktighet, lisensvilkår og tjenesteatferd er utenfor appens kontroll. Tredjepartsleverandører kan endres, bli utilgjengelige eller erstattes, og appen garanterer ikke at noen spesifikke leverandører forblir tilgjengelige.
+
+## 4. Brukeransvar
 Ved å bruke appen godtar du at:
 
 - du vil kun bruke værdata som informasjonsveiledning
@@ -37,21 +40,24 @@ Ved å bruke appen godtar du at:
 - du er ansvarlig for varslingsvalg, bokmerker og innstillinger du konfigurerer
 - du vil ikke bruke appen eller noen tilkoblede leverandørtjenester på en måte som bryter gjeldende lov eller leverandørvilkår
 
-## 4. Plassering, varsler og bakgrunnsoperasjon
-Noen funksjoner krever plasseringstillatelse, varslingstillatelse eller bakgrunnsoppdatering. Du kan administrere disse tillatelsene i iOS-innstillingene. Hvis tillatelser eller nettverkstilgang ikke er tilgjengelig, kan relaterte funksjoner være begrenset eller utilgjengelig.
+## 5. Location, Notifications, and Background Operation
+Noen funksjoner krever plasseringstillatelse, varslingstillatelse eller bakgrunnsoppdatering. You can manage these permissions in iOS settings. Hvis tillatelser eller nettverkstilgang ikke er tilgjengelig, kan relaterte funksjoner være begrenset eller utilgjengelig.
 
-## 5. Eksterne lenker og webkameraer
-Appen kan åpne nettsteder, støttesider, leverandørattribusjonssider, webkamerasider, GitHub-problemsider eller e-postklienter. NearbyWeather er ikke ansvarlig for innhold, tilgjengelighet, personvernpraksis eller vilkår for eksterne tjenester.
+## 6. Eksterne lenker og webkameraer
+Appen kan åpne nettsteder, støttesider, leverandørattribusjonssider, webkamerasider, GitHub-problemsider eller e-postklienter. NearbyWeather is not responsible for the content, availability, privacy practices, or terms of external services.
 
-## 6. Ingen garanti
-Appen leveres "som den er" uten garantier av noe slag. Vi garanterer ikke:
+## 7. Intellektuell eiendom
+The App, its design, code, and non-third-party content are owned by the developer or the relevant licensors. Third-party data, trademarks, provider names, map content, and external content remain the property of their respective owners. These Terms do not grant you rights beyond personal use of the App.
+
+## 8. Ingen garanti
+The App is provided "as is" and "as available" without warranties of any kind. Vi garanterer ikke:
 
 - Uavbrutt tilgjengelighet
 - feilfri drift
-- kompatibilitet med hver enhet, iOS-versjon, leverandør eller nettverkstilstand
+- compatibility with every device, iOS version, provider, or network condition
 - korrekthet, friskhet eller fullstendighet av tredjeparts vær-, værvarsel, luftkvalitet, høyde, stasjon, kart eller webkameradata
 
-## 7. Ansvarsbegrensning
+## 9. Ansvarsbegrensning
 I den grad loven tillater det, skal ikke utbygger holdes ansvarlig for skader som oppstår fra:
 
 - unøyaktig, forsinket, utilgjengelig eller ufullstendig vær- eller leverandørdata
@@ -60,8 +66,11 @@ I den grad loven tillater det, skal ikke utbygger holdes ansvarlig for skader so
 - bruk av appen i sikkerhetskritiske eller høyrisikosituasjoner
 - eksterne nettsteder, webkameraleverandører, støtteverktøy eller tredjepartstjenester
 
-## 8. Endringer
+## 10. Endringer i appen og leverandører
+NearbyWeather features, provider integrations, data sources, and service behavior may change over time. Funksjoner kan legges til, endres, suspenderes eller avvikles uten å garantere fortsatt tilgjengelighet for noen spesifikk leverandør, datakilde eller funksjon.
+
+## 11. Oppdateringer av disse vilkårene
 Disse vilkårene kan bli oppdatert fra tid til annen. Fortsatt bruk av appen etter at oppdaterte vilkår er gjort tilgjengelige, utgjør aksept av de oppdaterte vilkårene.
 
-## 9. Kontakt
+## 12. Kontakt
 For spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

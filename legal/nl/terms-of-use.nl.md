@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Laatst bijgewerkt:** 26-06-2026
 
 ## 1. Overzicht
-NearbyWeather ("de app") biedt een mobiele interface voor weersinformatie en gerelateerde weerfuncties.
+Deze Gebruiksvoorwaarden zijn van toepassing op uw gebruik van NearbyWeather ("de App"). De app biedt een mobiele interface voor weersinformatie en gerelateerde weerfuncties.
 
-## 2. Weergegevens en diensten van derden
-Weerinformatie, voorspellingen, gegevens over de luchtkwaliteit, hoogtegegevens, metadata van stations, metadata van webcams en externe links kunnen afkomstig zijn van NearbyWeather-services of externe providers zoals Apple Weather / WeatherKit, OpenWeather, Open-Meteo en webcamproviders.
+## 2. Privacy
+Op uw gebruik van de App is tevens het NearbyWeather Privacybeleid van toepassing, waarin wordt beschreven hoe de App omgaat met informatie.
 
-NearbyWeather kan services gebruiken die weergegevens voor de app opvragen, in het cachegeheugen opslaan en retourneren. NearbyWeather is niet gelieerd aan, onderschreven door of verantwoordelijk voor externe leveranciers, tenzij uitdrukkelijk vermeld. Beschikbaarheid, nauwkeurigheid, licentievoorwaarden en servicegedrag van derden vallen buiten de controle van de App.
+## 3. Weergegevens en externe gegevensproviders
+Weersinformatie, voorspellingen, gegevens over de luchtkwaliteit, hoogtegegevens, metadata van stations, metadata van webcams en externe links kunnen afkomstig zijn van NearbyWeather-services of externe providers zoals Apple Weather / WeatherKit, OpenWeather, Open-Meteo en webcamproviders.
 
-## 3. Verantwoordelijkheid van de gebruiker
+NearbyWeather kan services gebruiken die weergegevens voor de app opvragen, in het cachegeheugen opslaan en retourneren. NearbyWeather is niet gelieerd aan, onderschreven door of verantwoordelijk voor externe gegevensproviders, tenzij uitdrukkelijk vermeld. Beschikbaarheid, nauwkeurigheid, licentievoorwaarden en servicegedrag van derden vallen buiten de controle van de App. Externe providers kunnen veranderen, niet meer beschikbaar zijn of worden vervangen, en de App garandeert niet dat een specifieke provider beschikbaar zal blijven.
+
+## 4. Verantwoordelijkheid van de gebruiker
 Door de app te gebruiken, gaat u ermee akkoord dat:
 
 - u zult weergegevens uitsluitend als informatieve leidraad gebruiken
@@ -37,21 +40,24 @@ Door de app te gebruiken, gaat u ermee akkoord dat:
 - u bent verantwoordelijk voor de meldingskeuzes, bladwijzers en instellingen die u configureert
 - u de App of een aangesloten providerdienst niet zult gebruiken op een manier die in strijd is met de toepasselijke wetgeving of de voorwaarden van de provider
 
-## 4. Locatie, meldingen en achtergrondbediening
+## 5. Locatie, meldingen en achtergrondbediening
 Voor sommige functies is locatietoestemming, meldingstoestemming of achtergrondvernieuwing vereist. U kunt deze machtigingen beheren in de iOS-instellingen. Als machtigingen of netwerktoegang niet beschikbaar zijn, zijn gerelateerde functies mogelijk beperkt of niet beschikbaar.
 
-## 5. Externe links en webcams
+## 6. Externe links en webcams
 De app kan websites, ondersteuningspagina's, leveranciersattributiepagina's, webcampagina's, GitHub-uitgavepagina's of e-mailclients openen. NearbyWeather is niet verantwoordelijk voor de inhoud, beschikbaarheid, privacypraktijken of voorwaarden van externe diensten.
 
-## 6. Geen garantie
-De App wordt geleverd "as is" zonder enige vorm van garantie. Wij garanderen niet:
+## 7. Intellectuele eigendom
+De app, het ontwerp, de code en de inhoud van niet-derden zijn eigendom van de ontwikkelaar of de relevante licentiegevers. Gegevens van derden, handelsmerken, namen van providers, kaartinhoud en externe inhoud blijven eigendom van hun respectievelijke eigenaren. Deze Voorwaarden verlenen u geen rechten die verder gaan dan persoonlijk gebruik van de App.
+
+## 8. Geen garantie
+De App wordt geleverd "zoals hij is" en "zoals beschikbaar" zonder enige vorm van garantie. Wij garanderen niet:
 
 - ononderbroken beschikbaarheid
 - foutloze werking
 - compatibiliteit met elk apparaat, iOS-versie, provider of netwerkconditie
 - juistheid, actualiteit of volledigheid van weers-, voorspellings-, luchtkwaliteit-, hoogte-, station-, kaart- of webcamgegevens van derden
 
-## 7. Beperking van aansprakelijkheid
+## 9. Beperking van aansprakelijkheid
 Voor zover maximaal toegestaan door de wet, is de ontwikkelaar niet aansprakelijk voor schade die voortvloeit uit:
 
 - onnauwkeurige, vertraagde, niet-beschikbare of onvolledige weer- of providergegevens
@@ -60,8 +66,11 @@ Voor zover maximaal toegestaan door de wet, is de ontwikkelaar niet aansprakelij
 - gebruik van de App in veiligheidskritische of risicovolle situaties
 - externe websites, webcamproviders, ondersteuningstools of diensten van derden
 
-## 8. Wijzigingen
+## 10. Wijzigingen in de app en providers
+NearbyWeather-functies, providerintegraties, gegevensbronnen en servicegedrag kunnen in de loop van de tijd veranderen. Functies kunnen worden toegevoegd, gewijzigd, opgeschort of stopgezet zonder de voortdurende beschikbaarheid van een specifieke provider, gegevensbron of functie te garanderen.
+
+## 11. Updates van deze voorwaarden
 Deze Voorwaarden kunnen van tijd tot tijd worden bijgewerkt. Voortgezet gebruik van de App nadat bijgewerkte Voorwaarden beschikbaar zijn gesteld, houdt aanvaarding in van de bijgewerkte Voorwaarden.
 
-## 9. Contactpersoon
+## 12. Contactpersoon
 Voor vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

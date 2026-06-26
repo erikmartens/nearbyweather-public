@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Senast uppdaterad:** 2026-06-26
 
 ## 1. Översikt
-NearbyWeather ("appen") tillhandahåller ett mobilt gränssnitt för väderinformation och relaterade väderfunktioner.
+Dessa användarvillkor reglerar din användning av NearbyWeather ("appen"). Appen tillhandahåller ett mobilt gränssnitt för väderinformation och relaterade väderfunktioner.
 
-## 2. Väderdata och tjänster från tredje part
+## 2. Sekretess
+Din användning av appen är också föremål för NearbyWeathers integritetspolicy, som beskriver hur appen hanterar information.
+
+## 3. Väderdata och tredje parts dataleverantörer
 Väderinformation, prognoser, luftkvalitetsdata, höjddata, stationsmetadata, webbkamerametadata och externa länkar kan komma från NearbyWeather-tjänster eller tredjepartsleverantörer som Apple Weather / WeatherKit, OpenWeather, Open-Meteo och webbkameraleverantörer.
 
-NearbyWeather kan använda tjänster som begär, cachelagrar och returnerar väderdata för appen. NearbyWeather är inte ansluten till, godkänd av eller ansvarig för tredjepartsleverantörer såvida det inte uttryckligen anges. Tredjeparts datatillgänglighet, noggrannhet, licensvillkor och tjänstbeteende ligger utanför appens kontroll.
+NearbyWeather kan använda tjänster som begär, cachelagrar och returnerar väderdata för appen. NearbyWeather är inte ansluten till, godkänd av eller ansvarig för tredjepartsdataleverantörer om inte det uttryckligen anges. Tredjeparts datatillgänglighet, noggrannhet, licensvillkor och tjänstbeteende ligger utanför appens kontroll. Tredjepartsleverantörer kan ändras, bli otillgängliga eller ersättas, och appen garanterar inte att någon specifik leverantör förblir tillgänglig.
 
-## 3. Användaransvar
+## 4. Användaransvar
 Genom att använda appen godkänner du att:
 
 - du kommer endast att använda väderdata som informationsvägledning
@@ -37,21 +40,24 @@ Genom att använda appen godkänner du att:
 - du är ansvarig för val av meddelanden, bokmärken och inställningar du konfigurerar
 - du kommer inte att använda appen eller någon ansluten leverantörstjänst på ett sätt som bryter mot tillämplig lag eller leverantörsvillkor
 
-## 4. Plats, meddelanden och bakgrundsdrift
+## 5. Plats, meddelanden och bakgrundsdrift
 Vissa funktioner kräver platsbehörighet, meddelandebehörighet eller bakgrundsuppdatering. Du kan hantera dessa behörigheter i iOS-inställningarna. Om behörigheter eller nätverksåtkomst inte är tillgängliga kan relaterade funktioner vara begränsade eller otillgängliga.
 
-## 5. Externa länkar och webbkameror
+## 6. Externa länkar och webbkameror
 Appen kan öppna webbplatser, supportsidor, leverantörsattributsidor, webbkamerasidor, GitHub-problemsidor eller e-postklienter. NearbyWeather ansvarar inte för innehåll, tillgänglighet, sekretesspraxis eller villkor för externa tjänster.
 
-## 6. Ingen garanti
-Appen tillhandahålls "i befintligt skick" utan garantier av något slag. Vi garanterar inte:
+## 7. Immateriella rättigheter
+Appen, dess design, kod och icke-tredje parts innehåll ägs av utvecklaren eller relevanta licensgivare. Tredjepartsdata, varumärken, leverantörsnamn, kartinnehåll och externt innehåll förblir deras respektive ägares egendom. Dessa villkor ger dig inga rättigheter utöver personlig användning av appen.
+
+## 8. Ingen garanti
+Appen tillhandahålls "i befintligt skick" och "som tillgänglig" utan garantier av något slag. Vi garanterar inte:
 
 - oavbruten tillgänglighet
 - felfri drift
 - kompatibilitet med varje enhet, iOS version, leverantör eller nätverkstillstånd
 - korrekthet, färskhet eller fullständighet av tredje parts väder-, prognos-, luftkvalitets-, höjd-, stations-, karta- eller webbkameradata
 
-## 7. Ansvarsbegränsning
+## 9. Ansvarsbegränsning
 I den utsträckning som lagen tillåter, ska byggherren inte vara ansvarig för skador som uppstår på grund av:
 
 - felaktiga, försenade, otillgängliga eller ofullständiga väder- eller leverantörsdata
@@ -60,8 +66,11 @@ I den utsträckning som lagen tillåter, ska byggherren inte vara ansvarig för 
 - användning av appen i säkerhetskritiska eller högrisksituationer
 - externa webbplatser, webbkameraleverantörer, supportverktyg eller tredjepartstjänster
 
-## 8. Ändringar
+## 10. Ändringar av appen och leverantörerna
+NearbyWeather funktioner, leverantörsintegrationer, datakällor och tjänstbeteende kan förändras över tiden. Funktioner kan läggas till, modifieras, stängas av eller avbrytas utan att garantera fortsatt tillgänglighet för någon specifik leverantör, datakälla eller funktion.
+
+## 11. Uppdateringar av dessa villkor
 Dessa villkor kan komma att uppdateras då och då. Fortsatt användning av appen efter att uppdaterade villkor har gjorts tillgängliga utgör ett godkännande av de uppdaterade villkoren.
 
-## 9. Kontakt
+## 12. Kontakt
 För frågor, kontakta: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

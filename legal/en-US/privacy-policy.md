@@ -24,7 +24,7 @@ Last updated: 2026-06-26
 ## 1. Overview
 NearbyWeather respects your privacy. The App provides weather information and related features while keeping user-specific app data local whenever possible.
 
-## 2. Data Collection and Local Storage
+## 2. Information Collection and Local Storage
 NearbyWeather does not require a user account. The App does not sell personal data, does not use advertising identifiers, and does not build advertising or tracking profiles.
 
 The App may store the following information locally on your device:
@@ -36,10 +36,10 @@ The App may store the following information locally on your device:
 
 This data remains on your device unless a feature described below sends the necessary request data to a NearbyWeather service or third-party provider.
 
-## 3. Location and Weather Data
-If you grant location permission, NearbyWeather uses your device location to find nearby weather stations, focus maps, and request weather data for relevant coordinates. Depending on the selected feature and app settings, the App may send coordinates, weather station identifiers, provider choices, language preferences, and weather request details to NearbyWeather services or external weather or elevation providers.
+## 3. Location Information and Weather Data
+If you grant location permission, NearbyWeather uses your device location ("Location Information") to find nearby weather stations, focus maps, and request weather data for relevant coordinates. Depending on the selected feature and app settings, the App may send Location Information, weather station identifiers, provider choices, language preferences, and weather request details to NearbyWeather services or third-party data providers and processors.
 
-NearbyWeather services may request weather data from providers, cache weather data, and return weather data to the App. They are not designed to create user accounts or user profiles for weather requests. External providers process requests under their own privacy policies and terms.
+Where possible, NearbyWeather services are intended to act as an intermediary between the App and third-party data providers. They may request, cache, and return weather data, but they are not designed to create user accounts or user profiles for weather requests. Third-party data providers and processors handle requests under their own privacy policies and terms.
 
 ## 4. Crash and Error Reporting (Optional)
 NearbyWeather uses Google Firebase Crashlytics to collect crash and diagnostic reports only when error reporting is enabled.
@@ -52,29 +52,38 @@ Crash and diagnostic reports may include:
 
 NearbyWeather does not intentionally include your bookmarks or precise location in crash reports. You can disable error reporting at any time in the App's privacy or help settings.
 
-## 5. Notifications, Background Refresh, and App Icon Badge
+## 5. Support-Related Communications
+If you contact support, the message and any information you choose to include, such as screenshots, diagnostics, logs, exported settings, or other attachments, may be used to respond to your request. Please do not include information you do not want to share.
+
+## 6. Notifications, Background Refresh, and App Icon Badge
 If you enable notifications or the app icon temperature badge, NearbyWeather may refresh weather information in the background so those features stay current. Notification preferences and badge settings are stored locally on your device.
 
-## 6. Webcams and External Links
+## 7. Webcams and Third-Party Links
 NearbyWeather may show nearby webcam entries and provider links. Opening a webcam or external link may take you to a third-party website or app. Those third-party services are outside NearbyWeather's control and are governed by their own privacy policies.
 
-## 7. No Tracking or Advertising
+## 8. No Tracking or Advertising
 NearbyWeather does not use tracking technologies, advertising identifiers, advertising analytics, or profiling for advertising purposes.
 
-## 8. Security
-Sensitive local data stays on your device. You are responsible for protecting your device with system-level security such as a passcode, Touch ID, or Face ID.
+## 9. Security
+Sensitive local data stays on your device. Reasonable technical safeguards are used for NearbyWeather services, but no network transmission or storage system can be guaranteed to be perfectly secure. You are responsible for protecting your device with system-level security such as a passcode, Touch ID, or Face ID.
 
-## 9. Data Retention and Deletion
+## 10. Data Retention and Deletion
 You can remove bookmarks, recently deleted bookmarks, and preferences through the App where the relevant controls are available. You can also remove all app data by deleting the App from your device. Weather station metadata bundled with the App is part of the App installation.
 
-## 10. Third-Party Services
-NearbyWeather may interact with third-party services such as Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, email services, and webcam providers. Third-party services are not controlled by NearbyWeather, and their own privacy policies apply when you use features that contact them.
+## 11. Third-Party Data Providers and Processors
+NearbyWeather may interact with third-party data providers and processors such as Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, email services, and webcam providers. Third-party services are not controlled by NearbyWeather, and their own privacy policies apply when you use features that contact them.
 
-## 11. Children
+## 12. Legal Requirements and Service Protection
+NearbyWeather may preserve or disclose information if reasonably necessary to comply with applicable law, respond to legal process, protect users, protect service integrity, investigate security or technical issues, or enforce applicable terms.
+
+## 13. International Processing
+NearbyWeather services and third-party providers or processors may process information in countries other than the one where you live. When that happens, processing is governed by the privacy terms of the relevant service and applicable law.
+
+## 14. Children
 NearbyWeather is not directed to children and does not knowingly collect personal data from children.
 
-## 12. Changes
+## 15. Privacy Policy Updates
 This Privacy Policy may be updated in the future. Changes will be reflected in the App and in the public legal documents.
 
-## 13. Contact
+## 16. Contact
 For privacy-related questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

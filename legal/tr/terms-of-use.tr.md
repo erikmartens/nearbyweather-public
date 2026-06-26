@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Son güncelleme:** 2026-06-26
 
 ## 1. Genel Bakış
-NearbyWeather ("Uygulama") hava durumu bilgileri ve ilgili hava durumu özellikleri için mobil bir arayüz sağlar.
+Bu Kullanım Koşulları, NearbyWeather ("Uygulama") kullanımınızı yönetir. Uygulama, hava durumu bilgileri ve ilgili hava durumu özellikleri için mobil bir arayüz sağlar.
 
-## 2. Hava Durumu Verileri ve Üçüncü Taraf Hizmetleri
+## 2. Gizlilik
+Uygulamayı kullanımınız aynı zamanda Uygulamanın bilgileri nasıl işlediğini açıklayan NearbyWeather Gizlilik Politikasına da tabidir.
+
+## 3. Hava Durumu Verileri ve Üçüncü Taraf Veri Sağlayıcıları
 Hava durumu bilgileri, tahminler, hava kalitesi verileri, yükseklik verileri, istasyon meta verileri, web kamerası meta verileri ve harici bağlantılar, NearbyWeather hizmetlerinden veya Apple Weather / WeatherKit, OpenWeather, Open-Meteo gibi üçüncü taraf sağlayıcılardan ve web kamerası sağlayıcılarından gelebilir.
 
-NearbyWeather, Uygulama için hava durumu verilerini talep eden, önbelleğe alan ve döndüren hizmetleri kullanabilir. NearbyWeather, açıkça belirtilmediği sürece üçüncü taraf sağlayıcılara bağlı değildir, bunlar tarafından desteklenmez veya onlardan sorumlu değildir. Üçüncü taraf verilerinin kullanılabilirliği, doğruluğu, lisans koşulları ve hizmet davranışı Uygulamanın kontrolü dışındadır.
+NearbyWeather, Uygulama için hava durumu verilerini talep eden, önbelleğe alan ve döndüren hizmetleri kullanabilir. NearbyWeather, açıkça belirtilmediği sürece üçüncü taraf veri sağlayıcılarına bağlı değildir, bunlar tarafından desteklenmez veya onlardan sorumlu değildir. Üçüncü taraf verilerinin kullanılabilirliği, doğruluğu, lisans koşulları ve hizmet davranışı Uygulamanın kontrolü dışındadır. Üçüncü taraf sağlayıcılar değişebilir, kullanılamaz hale gelebilir veya değiştirilebilir ve Uygulama herhangi bir sağlayıcının kullanılabilir kalacağını garanti etmez.
 
-## 3. Kullanıcı Sorumluluğu
+## 4. Kullanıcı Sorumluluğu
 Uygulamayı kullanarak şunları kabul etmiş olursunuz:
 
 - hava durumu verilerini yalnızca bilgilendirme amaçlı olarak kullanacaksınız
@@ -37,21 +40,24 @@ Uygulamayı kullanarak şunları kabul etmiş olursunuz:
 - yapılandırdığınız bildirim seçeneklerinden, yer imlerinden ve ayarlardan siz sorumlusunuz
 - Uygulamayı veya herhangi bir bağlı sağlayıcı hizmetini yürürlükteki yasaları veya sağlayıcı şartlarını ihlal edecek şekilde kullanmayacaksınız
 
-## 4. Konum, Bildirimler ve Arka Planda İşlem
-Bazı özellikler konum izni, bildirim izni veya arka planda yenileme gerektirir. Bu izinleri iOS ayarlarından yönetebilirsiniz. İzinler veya ağ erişimi kullanılamıyorsa ilgili özellikler sınırlı olabilir veya kullanılamayabilir.
+## 5. Konum, Bildirimler ve Arka Planda İşlem
+Bazı özellikler konum izni, bildirim izni veya arka planda yenileme gerektirir. Bu izinleri iOS ayarlarında yönetebilirsiniz. İzinler veya ağ erişimi kullanılamıyorsa ilgili özellikler sınırlı olabilir veya kullanılamayabilir.
 
-## 5. Dış Bağlantılar ve Web Kameraları
-Uygulama web sitelerini, destek sayfalarını, sağlayıcı özellik sayfalarını, web kamerası sayfalarını, GitHub sorun sayfalarını veya e-posta istemcilerini açabilir. NearbyWeather harici hizmetlerin içeriğinden, kullanılabilirliğinden, gizlilik uygulamalarından veya koşullarından sorumlu değildir.
+## 6. Dış Bağlantılar ve Web Kameraları
+Uygulama web sitelerini, destek sayfalarını, sağlayıcı atıf sayfalarını, web kamerası sayfalarını, GitHub sorun sayfalarını veya e-posta istemcilerini açabilir. NearbyWeather, harici hizmetlerin içeriğinden, kullanılabilirliğinden, gizlilik uygulamalarından veya koşullarından sorumlu değildir.
 
-## 6. Garanti Yok
-Uygulama, herhangi bir garanti olmaksızın "olduğu gibi" sağlanmaktadır. Aşağıdakileri garanti etmiyoruz:
+## 7. Fikri Mülkiyet
+Uygulamanın, tasarımının, kodunun ve üçüncü taraf olmayan içeriğin mülkiyeti geliştiriciye veya ilgili lisans verenlere aittir. Üçüncü taraf verileri, ticari markalar, sağlayıcı adları, harita içeriği ve harici içerik, ilgili sahiplerinin mülkiyetinde kalır. Bu Şartlar size Uygulamanın kişisel kullanımının ötesinde haklar vermez.
+
+## 8. Garanti Yok
+Uygulama, herhangi bir garanti olmaksızın "olduğu gibi" ve "mevcut olduğu şekilde" sağlanmaktadır. Aşağıdakileri garanti etmiyoruz:
 
 - kesintisiz kullanılabilirlik
 - hatasız çalışma
 - her cihazla, iOS sürümüyle, sağlayıcıyla veya ağ koşuluyla uyumluluk
 - üçüncü taraf hava durumu, tahmini, hava kalitesi, rakım, istasyon, harita veya web kamerası verilerinin doğruluğu, güncelliği veya eksiksizliği
 
-## 7. Sorumluluğun Sınırlandırılması
+## 9. Sorumluluğun Sınırlandırılması
 Yasaların izin verdiği azami ölçüde, geliştirici aşağıdakilerden kaynaklanan zararlardan sorumlu olmayacaktır:
 
 - hatalı, gecikmeli, kullanılamayan veya eksik hava durumu veya sağlayıcı verileri
@@ -60,8 +66,11 @@ Yasaların izin verdiği azami ölçüde, geliştirici aşağıdakilerden kaynak
 - Uygulamanın güvenlik açısından kritik veya yüksek riskli durumlarda kullanılması
 - harici web siteleri, web kamerası sağlayıcıları, destek araçları veya üçüncü taraf hizmetleri
 
-## 8. Değişiklikler
+## 10. Uygulamada ve Sağlayıcılarda Yapılan Değişiklikler
+NearbyWeather özellikleri, sağlayıcı entegrasyonları, veri kaynakları ve hizmet davranışı zamanla değişebilir. Belirli bir sağlayıcının, veri kaynağının veya özelliğin sürekli kullanılabilirliği garanti edilmeksizin özellikler eklenebilir, değiştirilebilir, askıya alınabilir veya durdurulabilir.
+
+## 11. Bu Koşullarda Yapılan Güncellemeler
 Bu Şartlar zaman zaman güncellenebilir. Güncellenen Şartlar kullanıma sunulduktan sonra Uygulamanın kullanılmaya devam edilmesi, güncellenen Şartların kabul edildiği anlamına gelir.
 
-## 9. İletişim
-Sorularınız için iletişim kurun: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
+## 12. İletişim
+Sorularınız için şu adresle iletişime geçin: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

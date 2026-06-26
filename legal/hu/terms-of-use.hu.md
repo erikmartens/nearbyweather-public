@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Utolsó frissítés:** 2026-06-26
 
 ## 1. Áttekintés
-Az NearbyWeather ("az alkalmazás") mobil felületet biztosít az időjárási információkhoz és a kapcsolódó időjárási szolgáltatásokhoz.
+Ezek a használati feltételek szabályozzák a NearbyWeather („az alkalmazás”) használatát. Az alkalmazás mobil felületet biztosít az időjárási információkhoz és a kapcsolódó időjárási funkciókhoz.
 
-## 2. Időjárási adatok és harmadik féltől származó szolgáltatások
-Időjárási információk, előrejelzések, levegőminőségi adatok, magassági adatok, állomás metaadatai, webkamera metaadatai és külső hivatkozások származhatnak NearbyWeather szolgáltatásoktól vagy külső szolgáltatóktól, például Apple Weather / WeatherKit, OpenWeather, Open-Meteo és webkamera-szolgáltatóktól.
+## 2. Adatvédelem
+Az alkalmazás használatára a NearbyWeather adatvédelmi szabályzata is vonatkozik, amely leírja, hogy az alkalmazás hogyan kezeli az információkat.
 
-Az NearbyWeather olyan szolgáltatásokat vehet igénybe, amelyek időjárási adatokat kérnek, gyorsítótáraznak és visszaadnak az alkalmazáshoz. Az NearbyWeather nem áll kapcsolatban harmadik fél szolgáltatókkal, nem hagyja jóvá, és nem felelős azokért, kivéve, ha kifejezetten kimondják. A harmadik féltől származó adatok elérhetősége, pontossága, licencfeltételei és szolgáltatási viselkedése kívül esik az Alkalmazás ellenőrzésén.
+## 3. Időjárási adatok és külső adatszolgáltatók
+Időjárási információk, előrejelzések, levegőminőségi adatok, magassági adatok, állomás metaadatai, webkamera metaadatai és külső hivatkozások származhatnak a NearbyWeather szolgáltatásoktól vagy külső szolgáltatóktól, például a Apple Weather / WeatherKit, OpenWeather, Open-Meteo és webkamera-szolgáltatóktól.
 
-## 3. Felhasználó felelőssége
+A NearbyWeather olyan szolgáltatásokat vehet igénybe, amelyek időjárási adatokat kérnek, gyorsítótáraznak és visszaadnak az alkalmazáshoz. A NearbyWeather nem áll kapcsolatban harmadik felek adatszolgáltatóival, nem hagyja jóvá, és nem felelős azokért, kivéve, ha kifejezetten kimondják. A harmadik féltől származó adatok elérhetősége, pontossága, licencfeltételei és szolgáltatási viselkedése kívül esik az Alkalmazás ellenőrzésén. A harmadik felek szolgáltatói módosulhatnak, elérhetetlenné válhatnak vagy kicserélődhetnek, és az Alkalmazás nem garantálja, hogy bármely adott szolgáltató elérhető marad.
+
+## 4. Felhasználó felelőssége
 Az alkalmazás használatával Ön elfogadja, hogy:
 
 - az időjárási adatokat csak tájékoztató jellegűnek fogja használni
@@ -37,21 +40,24 @@ Az alkalmazás használatával Ön elfogadja, hogy:
 - Ön felelős az értesítési lehetőségekért, a könyvjelzőkért és a konfigurált beállításokért
 - nem fogja az Alkalmazást vagy a kapcsolódó szolgáltatói szolgáltatást olyan módon használni, amely sérti a vonatkozó jogszabályokat vagy a szolgáltatói feltételeket
 
-## 4. Hely, értesítések és háttérművelet
-Egyes funkciókhoz helyengedély, értesítési engedély vagy háttérfrissítés szükséges. Ezeket az engedélyeket az iOS beállításaiban kezelheti. Ha az engedélyek vagy a hálózati hozzáférés nem elérhető, előfordulhat, hogy a kapcsolódó szolgáltatások korlátozottak vagy nem érhetők el.
+## 5. Helyszín, értesítések és háttérművelet
+Egyes funkciókhoz helyengedély, értesítési engedély vagy háttérfrissítés szükséges. Ezeket az engedélyeket a iOS beállításaiban kezelheti. Ha az engedélyek vagy a hálózati hozzáférés nem elérhető, előfordulhat, hogy a kapcsolódó szolgáltatások korlátozottak vagy nem érhetők el.
 
-## 5. Külső hivatkozások és webkamerák
-Az Alkalmazás megnyithat webhelyeket, támogatási oldalakat, szolgáltatói hozzárendelési oldalakat, webkamerás oldalakat, GitHub kiadási oldalakat vagy e-mail klienseket. Az NearbyWeather nem vállal felelősséget a külső szolgáltatások tartalmáért, elérhetőségéért, adatvédelmi gyakorlatáért vagy feltételeiért.
+## 6. Külső hivatkozások és webkamerák
+Az alkalmazás webhelyeket, támogatási oldalakat, szolgáltatói hozzárendelési oldalakat, webkamerás oldalakat, GitHub problémaoldalakat vagy e-mail klienseket nyithat meg. A NearbyWeather nem vállal felelősséget a külső szolgáltatások tartalmáért, elérhetőségéért, adatvédelmi gyakorlatáért vagy feltételeiért.
 
-## 6. Nincs garancia
-Az alkalmazást "ahogyan" biztosítjuk, mindenféle garancia nélkül. Nem vállalunk garanciát:
+## 7. Szellemi tulajdon
+Az Alkalmazás, annak kialakítása, kódja és a nem harmadik féltől származó tartalom a fejlesztő vagy az érintett licencadók tulajdonában van. A harmadik felektől származó adatok, védjegyek, szolgáltatók nevei, térképtartalmak és külső tartalmak a megfelelő tulajdonosok tulajdonában maradnak. Ezek a feltételek nem biztosítanak Önnek az Alkalmazás személyes használatán túlmutató jogokat.
+
+## 8. Nincs garancia
+Az Alkalmazás „ahogy van” és „ahogy elérhető” mindenféle garancia nélkül. Nem vállalunk garanciát:
 
 - zavartalan elérhetőség
 - hibamentes működés
 - kompatibilitás minden eszközzel, iOS verzióval, szolgáltatóval vagy hálózati feltétellel
 - harmadik féltől származó időjárási, előrejelzési, levegőminőségi, magassági, állomás-, térkép- vagy webkamera-adatok helyessége, frissessége vagy teljessége
 
-## 7. A felelősség korlátozása
+## 9. A felelősség korlátozása
 A törvény által megengedett maximális mértékig a fejlesztő nem vállal felelősséget a következőkből eredő károkért:
 
 - pontatlan, késleltetett, nem elérhető vagy hiányos időjárási vagy szolgáltatói adatok
@@ -60,8 +66,11 @@ A törvény által megengedett maximális mértékig a fejlesztő nem vállal fe
 - az App használata biztonsági szempontból kritikus vagy magas kockázatú helyzetekben
 - külső webhelyek, webkamera-szolgáltatók, támogatási eszközök vagy harmadik féltől származó szolgáltatások
 
-## 8. Változások
+## 10. Az alkalmazás és a szolgáltatók változásai
+A NearbyWeather szolgáltatásai, szolgáltatói integrációi, adatforrásai és szolgáltatási viselkedése idővel változhat. A funkciók hozzáadhatók, módosíthatók, felfüggeszthetők vagy leállíthatók anélkül, hogy garantálnák bármely adott szolgáltató, adatforrás vagy funkció folyamatos elérhetőségét.
+
+## 11. A feltételek frissítései
 Ezek a feltételek időről időre frissülhetnek. Az Alkalmazás további használata a frissített Feltételek elérhetővé tétele után a frissített Feltételek elfogadását jelenti.
 
-## 9. Kapcsolat
+## 12. Kapcsolat
 Kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

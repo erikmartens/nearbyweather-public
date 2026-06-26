@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Poslední aktualizace:** 26. 6. 2026
 
 ## 1. Přehled
-NearbyWeather ("aplikace") poskytuje mobilní rozhraní pro informace o počasí a související funkce počasí.
+Tyto podmínky použití upravují vaše používání NearbyWeather (dále jen „aplikace“). Aplikace poskytuje mobilní rozhraní pro informace o počasí a související funkce počasí.
 
-## 2. Údaje o počasí a služby třetích stran
+## 2. Soukromí
+Vaše používání aplikace také podléhá Zásadám ochrany osobních údajů NearbyWeather, které popisují, jak aplikace nakládá s informacemi.
+
+## 3. Údaje o počasí a poskytovatelé dat třetích stran
 Informace o počasí, předpovědi, údaje o kvalitě ovzduší, údaje o nadmořské výšce, metadata stanic, metadata webových kamer a externí odkazy mohou pocházet ze služeb NearbyWeather nebo poskytovatelů třetích stran, jako jsou Apple Weather / WeatherKit, OpenWeather, Open-Meteo a poskytovatelů webových kamer.
 
-NearbyWeather může používat služby, které vyžadují, ukládají do mezipaměti a vracejí data o počasí pro aplikaci. NearbyWeather není přidružen k poskytovatelům třetích stran, není jimi podporován ani za ně není odpovědný, pokud to není výslovně uvedeno. Dostupnost dat třetích stran, přesnost, licenční podmínky a chování služby jsou mimo kontrolu aplikace.
+NearbyWeather může používat služby, které vyžadují, ukládají do mezipaměti a vracejí data o počasí pro aplikaci. NearbyWeather není spojen s poskytovateli dat třetích stran, není jimi podporován ani za ně není odpovědný, pokud to není výslovně uvedeno. Dostupnost dat třetích stran, přesnost, licenční podmínky a chování služby jsou mimo kontrolu aplikace. Poskytovatelé třetích stran se mohou změnit, stát se nedostupnými nebo nahrazeni a aplikace nezaručuje, že některý konkrétní poskytovatel zůstane dostupný.
 
-## 3. Odpovědnost uživatele
+## 4. Odpovědnost uživatele
 Používáním aplikace souhlasíte s tím, že:
 
 - údaje o počasí budete používat pouze jako informační vodítko
@@ -37,21 +40,24 @@ Používáním aplikace souhlasíte s tím, že:
 - jste zodpovědní za volby oznámení, záložky a nastavení, která nakonfigurujete
 - nebudete používat aplikaci ani žádnou službu připojeného poskytovatele způsobem, který porušuje platné zákony nebo podmínky poskytovatele
 
-## 4. Umístění, upozornění a operace na pozadí
+## 5. Umístění, upozornění a operace na pozadí
 Některé funkce vyžadují oprávnění k poloze, oprávnění k oznámení nebo aktualizaci na pozadí. Tato oprávnění můžete spravovat v nastavení iOS. Pokud nejsou k dispozici oprávnění nebo přístup k síti, související funkce mohou být omezené nebo nedostupné.
 
-## 5. Externí odkazy a webové kamery
-Aplikace může otevírat webové stránky, stránky podpory, stránky s uvedením poskytovatele, stránky webových kamer, problémové stránky GitHub nebo e-mailové klienty. NearbyWeather nenese odpovědnost za obsah, dostupnost, postupy ochrany osobních údajů nebo podmínky externích služeb.
+## 6. Externí odkazy a webové kamery
+Aplikace může otevírat webové stránky, stránky podpory, stránky s uvedením zdroje, stránky webových kamer, stránky problémů GitHub nebo e-mailové klienty. NearbyWeather nezodpovídá za obsah, dostupnost, postupy ochrany osobních údajů nebo podmínky externích služeb.
 
-## 6. Žádná záruka
-Aplikace je poskytována „tak jak je“ bez jakýchkoli záruk. Nezaručujeme:
+## 7. Duševní vlastnictví
+Aplikace, její design, kód a obsah, který není třetí stranou, jsou ve vlastnictví vývojáře nebo příslušných poskytovatelů licencí. Data třetích stran, ochranné známky, názvy poskytovatelů, obsah map a externí obsah zůstávají majetkem příslušných vlastníků. Tyto podmínky vám neudělují práva nad rámec osobního používání aplikace.
+
+## 8. Žádná záruka
+Aplikace je poskytována „tak jak je“ a „jak je k dispozici“ bez záruk jakéhokoli druhu. Nezaručujeme:
 
 - nepřetržitá dostupnost
 - bezchybný provoz
 - kompatibilita s každým zařízením, verzí iOS, poskytovatelem nebo stavem sítě
 - správnost, aktuálnost nebo úplnost údajů o počasí, předpovědi, kvalitě vzduchu, nadmořské výšce, stanici, mapě nebo webové kameře od třetích stran
 
-## 7. Omezení odpovědnosti
+## 9. Omezení odpovědnosti
 V maximálním rozsahu povoleném zákonem nenese developer odpovědnost za škody vyplývající z:
 
 - nepřesné, zpožděné, nedostupné nebo neúplné údaje o počasí nebo poskytovateli
@@ -60,8 +66,11 @@ V maximálním rozsahu povoleném zákonem nenese developer odpovědnost za ško
 - používání aplikace v situacích kritických z hlediska bezpečnosti nebo vysoce rizikových situacích
 - externí webové stránky, poskytovatelé webových kamer, nástroje podpory nebo služby třetích stran
 
-## 8. Změny
+## 10. Změny aplikace a poskytovatelů
+Funkce NearbyWeather, integrace poskytovatelů, zdroje dat a chování služeb se mohou v průběhu času měnit. Funkce mohou být přidány, upraveny, pozastaveny nebo ukončeny, aniž by byla zaručena trvalá dostupnost jakéhokoli konkrétního poskytovatele, zdroje dat nebo funkce.
+
+## 11. Aktualizace těchto podmínek
 Tyto Podmínky mohou být čas od času aktualizovány. Další používání aplikace po zpřístupnění aktualizovaných podmínek znamená přijetí aktualizovaných podmínek.
 
-## 9. Kontakt
+## 12. Kontakt
 V případě dotazů kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

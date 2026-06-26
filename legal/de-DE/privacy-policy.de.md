@@ -24,7 +24,7 @@ Last updated: 2026-06-26
 ## 1. Übersicht
 NearbyWeather respektiert Ihre Privatsphäre. Die App stellt Wetterinformationen und zugehörige Funktionen bereit und hält benutzerspezifische App-Daten nach Möglichkeit lokal.
 
-## 2. Datenerfassung und lokale Speicherung
+## 2. Informationssammlung und lokale Speicherung
 Für NearbyWeather ist kein Benutzerkonto erforderlich. Die App verkauft keine personenbezogenen Daten, verwendet keine Werbekennungen und erstellt keine Werbe- oder Trackingprofile.
 
 Die App speichert möglicherweise die folgenden Informationen lokal auf Ihrem Gerät:
@@ -32,49 +32,58 @@ Die App speichert möglicherweise die folgenden Informationen lokal auf Ihrem Ge
 - Gemerkte Wetterstationen und kürzlich gelöschte Lesezeichen
 - Auswahl in der Nähe, Suche, Gerät, Benachrichtigung, Sprache, Aussehen und Wetteranbietereinstellungen
 - Zwischengespeicherte Wetterstations-Metadaten, Wetterdaten, Kartenstatus und Webcam-Metadaten, die zur Anzeige von App-Inhalten und zur Unterstützung der Offline-Nutzung erforderlich sind
-- die optionale Absturzberichtseinstellung Firebase
+- die optionale Firebase-Absturzberichtseinstellung
 
 Diese Daten verbleiben auf Ihrem Gerät, es sei denn, eine unten beschriebene Funktion sendet die erforderlichen Anforderungsdaten an einen NearbyWeather-Dienst oder Drittanbieter.
 
-## 3. Standort- und Wetterdaten
-Wenn Sie die Standortberechtigung erteilen, verwendet NearbyWeather den Standort Ihres Geräts, um nahegelegene Wetterstationen zu finden, Karten zu fokussieren und Wetterdaten für relevante Koordinaten anzufordern. Abhängig von der ausgewählten Funktion und den App-Einstellungen kann die App Koordinaten, Wetterstationskennungen, Anbieterauswahl, Spracheinstellungen und Wetteranfragedetails an NearbyWeather-Dienste oder externe Wetter- oder Höhenanbieter senden.
+## 3. Standortinformationen und Wetterdaten
+Wenn Sie die Standortberechtigung erteilen, verwendet NearbyWeather den Standort Ihres Geräts („Standortinformationen“), um nahegelegene Wetterstationen zu finden, Karten zu fokussieren und Wetterdaten für relevante Koordinaten anzufordern. Abhängig von der ausgewählten Funktion und den App-Einstellungen sendet die App möglicherweise Standortinformationen, Wetterstationskennungen, Anbieterauswahl, Spracheinstellungen und Details zu Wetteranfragen an NearbyWeather-Dienste oder Datenanbieter und Auftragsverarbeiter Dritter.
 
-NearbyWeather-Dienste können Wetterdaten von Anbietern anfordern, Wetterdaten zwischenspeichern und Wetterdaten an die App zurückgeben. Sie sind nicht dazu gedacht, Benutzerkonten oder Benutzerprofile für Wetteranfragen zu erstellen. Externe Anbieter verarbeiten Anfragen im Rahmen ihrer eigenen Datenschutzrichtlinien und -bedingungen.
+Sofern möglich, sollen die Dienste von NearbyWeather als Vermittler zwischen der App und Datenanbietern Dritter fungieren. Sie können Wetterdaten anfordern, zwischenspeichern und zurückgeben, sie sind jedoch nicht dafür konzipiert, Benutzerkonten oder Benutzerprofile für Wetteranfragen zu erstellen. Datenanbieter und Auftragsverarbeiter Dritter verarbeiten Anfragen gemäß ihren eigenen Datenschutzrichtlinien und -bedingungen.
 
 ## 4. Absturz- und Fehlerberichte (optional)
-NearbyWeather verwendet Google Firebase Crashlytics, um Absturz- und Diagnoseberichte nur dann zu sammeln, wenn die Fehlerberichterstattung aktiviert ist.
+NearbyWeather verwendet Google Firebase Crashlytics, um Absturz- und Diagnoseberichte nur zu sammeln, wenn die Fehlerberichterstattung aktiviert ist.
 
 Absturz- und Diagnoseberichte können Folgendes umfassen:
 
-- Gerätemodell und Betriebssystemversion
+- Gerätetyp und Betriebssystemversion
 - App-Version und Build-Nummer
 - technische Informationen zum Absturz oder Diagnoseereignis
 
 NearbyWeather bezieht Ihre Lesezeichen oder Ihren genauen Standort nicht absichtlich in Absturzberichte ein. Sie können die Fehlerberichterstattung jederzeit in den Datenschutz- oder Hilfeeinstellungen der App deaktivieren.
 
-## 5. Benachrichtigungen, Hintergrundaktualisierung und Kennzeichen am App-Symbol
-Wenn Sie Benachrichtigungen oder ein Temperatur-Kennzeichen am App-Symbol aktivieren, aktualisiert NearbyWeather möglicherweise die Wetterinformationen im Hintergrund, sodass diese Funktionen aktuell bleiben. Benachrichtigungseinstellungen und Kennzeichen-Einstellungen werden lokal auf Ihrem Gerät gespeichert.
+## 5. Supportbezogene Kommunikation
+Wenn Sie sich an den Support wenden, können die Nachricht und alle von Ihnen ausgewählten Informationen, wie z. B. Screenshots, Diagnosen, Protokolle, exportierte Einstellungen oder andere Anhänge, zur Beantwortung Ihrer Anfrage verwendet werden. Bitte geben Sie keine Informationen an, die Sie nicht weitergeben möchten.
 
-## 6. Webcams und externe Links
+## 6. Benachrichtigungen, Hintergrundaktualisierung und Kennzeichen am App-Symbol
+Wenn Sie Benachrichtigungen oder das Temperatur-Kennzeichen am App-Symbol aktivieren, aktualisiert NearbyWeather möglicherweise die Wetterinformationen im Hintergrund, sodass diese Funktionen aktuell bleiben. Benachrichtigungseinstellungen und Kennzeichen-Einstellungen werden lokal auf Ihrem Gerät gespeichert.
+
+## 7. Webcams und Links von Drittanbietern
 NearbyWeather zeigt möglicherweise Webcam-Einträge und Anbieterlinks in der Nähe an. Wenn Sie eine Webcam oder einen externen Link öffnen, gelangen Sie möglicherweise zu einer Website oder App eines Drittanbieters. Diese Dienste Dritter liegen außerhalb der Kontrolle von NearbyWeather und unterliegen ihren eigenen Datenschutzrichtlinien.
 
-## 7. Kein Tracking oder Werbung
+## 8. Kein Tracking oder Werbung
 NearbyWeather verwendet keine Tracking-Technologien, Werbekennungen, Werbeanalysen oder Profilerstellung für Werbezwecke.
 
-## 8. Sicherheit
-Sensible lokale Daten bleiben auf Ihrem Gerät. Sie sind dafür verantwortlich, Ihr Gerät mit Sicherheit auf Systemebene zu schützen, z. B. einem Code, Touch ID oder Face ID.
+## 9. Sicherheit
+Sensible lokale Daten bleiben auf Ihrem Gerät. Für NearbyWeather-Dienste werden angemessene technische Sicherheitsvorkehrungen getroffen, es kann jedoch nicht garantiert werden, dass ein Netzwerkübertragungs- oder Speichersystem vollkommen sicher ist. Sie sind dafür verantwortlich, Ihr Gerät mit Sicherheit auf Systemebene zu schützen, z. B. einem Passcode, Touch ID oder Face ID.
 
-## 9. Datenaufbewahrung und -löschung
+## 10. Datenaufbewahrung und -löschung
 Sie können Lesezeichen, kürzlich gelöschte Lesezeichen und Einstellungen über die App entfernen, wo die entsprechenden Steuerelemente verfügbar sind. Sie können auch alle App-Daten entfernen, indem Sie die App von Ihrem Gerät löschen. Die mit der App gebündelten Wetterstationsmetadaten sind Teil der App-Installation.
 
-## 10. Dienste Dritter
-NearbyWeather kann mit Drittanbieterdiensten wie Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, E-Mail-Diensten und Webcam-Anbietern interagieren. Dienste Dritter unterliegen nicht der Kontrolle von NearbyWeather und es gelten deren eigene Datenschutzrichtlinien, wenn Sie Funktionen nutzen, die mit ihnen in Kontakt treten.
+## 11. Datenanbieter und Auftragsverarbeiter Dritter
+NearbyWeather kann mit Datenanbietern und Auftragsverarbeitern Dritter wie Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, E-Mail-Diensten und Webcam-Anbietern interagieren. Dienste Dritter unterliegen nicht der Kontrolle von NearbyWeather und es gelten deren eigene Datenschutzrichtlinien, wenn Sie Funktionen nutzen, die mit ihnen in Kontakt treten.
 
-## 11. Kinder
+## 12. Rechtliche Anforderungen und Schutz des Dienstes
+NearbyWeather kann Informationen aufbewahren oder offenlegen, wenn dies vernünftigerweise erforderlich ist, um geltendes Recht einzuhalten, auf rechtliche Verfahren zu reagieren, Benutzer zu schützen, die Dienstintegrität zu schützen, Sicherheits- oder technische Probleme zu untersuchen oder geltende Bedingungen durchzusetzen.
+
+## 13. Internationale Verarbeitung
+NearbyWeather-Dienste und Drittanbieter oder Auftragsverarbeiter können Informationen in anderen Ländern als dem Land, in dem Sie leben, verarbeiten. In diesem Fall unterliegt die Verarbeitung den Datenschutzbestimmungen des jeweiligen Dienstes und dem geltenden Recht.
+
+## 14. Kinder
 NearbyWeather richtet sich nicht an Kinder und erfasst nicht wissentlich personenbezogene Daten von Kindern.
 
-## 12. Änderungen
+## 15. Aktualisierungen der Datenschutzrichtlinien
 Diese Datenschutzrichtlinie kann in Zukunft aktualisiert werden. Änderungen werden in der App und in den öffentlichen Rechtsdokumenten berücksichtigt.
 
-## 13. Kontakt
+## 16. Kontakt
 Bei Fragen zum Datenschutz wenden Sie sich bitte an: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Viimeksi päivitetty:** 26.6.2026
 
 ## 1. Yleiskatsaus
-NearbyWeather ("sovellus") tarjoaa mobiilikäyttöliittymän säätiedoille ja niihin liittyville sääominaisuuksille.
+Nämä käyttöehdot säätelevät NearbyWeather:n ("sovellus") käyttöä. Sovellus tarjoaa mobiilikäyttöliittymän säätiedoille ja niihin liittyville sääominaisuuksille.
 
-## 2. Säätiedot ja kolmannen osapuolen palvelut
-Säätiedot, ennusteet, ilmanlaatutiedot, korkeustiedot, aseman metatiedot, verkkokameran metatiedot ja ulkoiset linkit voivat olla peräisin NearbyWeather-palveluista tai kolmannen osapuolen tarjoajilta, kuten Apple Weather / WeatherKit, OpenWeather, Open-Meteo ja verkkokameran tarjoajilta.
+## 2. Yksityisyys
+Sovelluksen käyttöäsi koskee myös NearbyWeather-tietosuojakäytäntö, joka kuvaa, kuinka sovellus käsittelee tietoja.
 
-NearbyWeather voi käyttää palveluita, jotka pyytävät, tallentavat välimuistiin ja palauttavat säätietoja sovellukselle. NearbyWeather ei ole sidoksissa kolmannen osapuolen palveluntarjoajiin, ole niiden tukema tai vastuussa niistä, ellei nimenomaisesti mainita. Kolmannen osapuolen tietojen saatavuus, tarkkuus, lisenssiehdot ja palvelukäyttäytyminen eivät ole sovelluksen hallinnassa.
+## 3. Säätiedot ja kolmannen osapuolen tiedontarjoajat
+Säätiedot, ennusteet, ilmanlaatutiedot, korkeustiedot, aseman metatiedot, verkkokameran metatiedot ja ulkoiset linkit voivat olla peräisin NearbyWeather-palveluista tai kolmansien osapuolien tarjoajilta, kuten Apple Weather / WeatherKit, OpenWeather, Open-Meteo ja verkkokameran tarjoajilta.
 
-## 3. Käyttäjän vastuu
+NearbyWeather voi käyttää palveluita, jotka pyytävät, tallentavat välimuistiin ja palauttavat säätietoja sovellukselle. NearbyWeather ei ole sidoksissa kolmansien osapuolien tiedontarjoajiin, ole niiden tukema tai vastuussa niistä, ellei nimenomaisesti mainita. Kolmannen osapuolen tietojen saatavuus, tarkkuus, lisenssiehdot ja palvelukäyttäytyminen eivät ole sovelluksen hallinnassa. Kolmannen osapuolen palveluntarjoajat voivat muuttua, tulla pois käytöstä tai korvautua, eikä sovellus takaa, että jokin tietty palveluntarjoaja pysyy saatavilla.
+
+## 4. Käyttäjän vastuu
 Käyttämällä sovellusta hyväksyt, että:
 
 - käytät säätietoja vain ohjeena
@@ -37,21 +40,24 @@ Käyttämällä sovellusta hyväksyt, että:
 - olet vastuussa ilmoitusvalinnoista, kirjanmerkeistä ja määrittämistäsi asetuksista
 - et käytä sovellusta tai mitään yhdistettyä palveluntarjoajapalvelua tavalla, joka rikkoo sovellettavaa lakia tai palveluntarjoajan ehtoja
 
-## 4. Sijainti, ilmoitukset ja taustatoiminto
+## 5. Sijainti, ilmoitukset ja taustatoiminto
 Jotkut ominaisuudet vaativat sijaintiluvan, ilmoitusluvan tai taustapäivityksen. Voit hallita näitä käyttöoikeuksia iOS-asetuksissa. Jos käyttöoikeuksia tai verkkoon pääsyä ei ole saatavilla, liittyvät ominaisuudet voivat olla rajoitettuja tai poissa käytöstä.
 
-## 5. Ulkoiset linkit ja web-kamerat
-Sovellus voi avata verkkosivustoja, tukisivuja, palveluntarjoajien attribuutiosivuja, verkkokamerasivuja, GitHub-ongelmasivuja tai sähköpostiohjelmia. NearbyWeather ei ole vastuussa ulkoisten palveluiden sisällöstä, saatavuudesta, tietosuojakäytännöistä tai ehdoista.
+## 6. Ulkoiset linkit ja web-kamerat
+Sovellus voi avata verkkosivustoja, tukisivuja, palveluntarjoajien attribuutiosivuja, verkkokamerasivuja, GitHub-ongelmasivuja tai sähköpostiohjelmia. NearbyWeather ei ole vastuussa ulkoisten palvelujen sisällöstä, saatavuudesta, tietosuojakäytännöistä tai ehdoista.
 
-## 6. Ei takuuta
-Sovellus tarjotaan "sellaisenaan" ilman minkäänlaisia takuita. Emme takaa:
+## 7. Immateriaalioikeudet
+Sovellus, sen suunnittelu, koodi ja ei-kolmannen osapuolen sisältö ovat kehittäjän tai asianomaisten lisenssinantajien omistuksessa. Kolmannen osapuolen tiedot, tavaramerkit, tarjoajien nimet, karttasisältö ja ulkoinen sisältö ovat omistajiensa omaisuutta. Nämä ehdot eivät myönnä sinulle oikeuksia sovelluksen henkilökohtaiseen käyttöön.
+
+## 8. Ei takuuta
+Sovellus tarjotaan "sellaisenaan" ja "sellaisena kuin saatavilla" ilman minkäänlaisia takuita. Emme takaa:
 
 - keskeytymätön saatavuus
 - virheetön toiminta
 - Yhteensopivuus jokaisen laitteen, iOS-version, palveluntarjoajan tai verkkotilan kanssa
 - kolmannen osapuolen sää-, ennuste-, ilmanlaatu-, korkeus-, asema-, kartta- tai verkkokameratietojen oikeellisuus, tuoreus tai täydellisyys
 
-## 7. Vastuun rajoitus
+## 9. Vastuun rajoitus
 Rakennuttaja ei ole lain sallimissa rajoissa vastuussa vahingoista, jotka johtuvat:
 
 - epätarkkoja, viivästyneitä, epätäydellisiä tai puutteellisia sää- tai palveluntarjoajan tietoja
@@ -60,8 +66,11 @@ Rakennuttaja ei ole lain sallimissa rajoissa vastuussa vahingoista, jotka johtuv
 - Sovelluksen käyttö turvallisuuskriittisissä tai korkean riskin tilanteissa
 - ulkoiset verkkosivustot, verkkokameran tarjoajat, tukityökalut tai kolmannen osapuolen palvelut
 
-## 8. Muutokset
+## 10. Sovelluksen ja palveluntarjoajien muutokset
+NearbyWeather-ominaisuudet, palveluntarjoajan integraatiot, tietolähteet ja palvelukäyttäytyminen voivat muuttua ajan myötä. Ominaisuuksia voidaan lisätä, muokata, jäädyttää tai lopettaa ilman minkään tietyn palveluntarjoajan, tietolähteen tai ominaisuuden jatkuvan saatavuuden takaamista.
+
+## 11. Päivitykset näihin ehtoihin
 Näitä ehtoja voidaan päivittää ajoittain. Sovelluksen käytön jatkaminen päivitettyjen ehtojen julkaisemisen jälkeen merkitsee päivitettyjen ehtojen hyväksymistä.
 
-## 9. Ota yhteyttä
+## 12. Ota yhteyttä
 Jos sinulla on kysyttävää, ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

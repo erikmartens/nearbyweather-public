@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Last updated:** 2026-06-26
 
 ## 1. Overview
-NearbyWeather ("the App") provides a mobile interface for weather information and related weather features.
+These Terms of Use govern your use of NearbyWeather ("the App"). The App provides a mobile interface for weather information and related weather features.
 
-## 2. Weather Data and Third-Party Services
+## 2. Privacy
+Your use of the App is also subject to the NearbyWeather Privacy Policy, which describes how the App handles information.
+
+## 3. Weather Data and Third-Party Data Providers
 Weather information, forecasts, air quality data, elevation data, station metadata, webcam metadata, and external links may come from NearbyWeather services or third-party providers such as Apple Weather / WeatherKit, OpenWeather, Open-Meteo, and webcam providers.
 
-NearbyWeather may use services that request, cache, and return weather data for the App. NearbyWeather is not affiliated with, endorsed by, or responsible for third-party providers unless expressly stated. Third-party data availability, accuracy, licensing terms, and service behavior are outside the App's control.
+NearbyWeather may use services that request, cache, and return weather data for the App. NearbyWeather is not affiliated with, endorsed by, or responsible for third-party data providers unless expressly stated. Third-party data availability, accuracy, licensing terms, and service behavior are outside the App's control. Third-party providers may change, become unavailable, or be replaced, and the App does not guarantee that any specific provider will remain available.
 
-## 3. User Responsibility
+## 4. User Responsibility
 By using the App, you agree that:
 
 - you will use weather data as informational guidance only
@@ -37,21 +40,24 @@ By using the App, you agree that:
 - you are responsible for notification choices, bookmarks, and settings you configure
 - you will not use the App or any connected provider service in a way that violates applicable law or provider terms
 
-## 4. Location, Notifications, and Background Operation
+## 5. Location, Notifications, and Background Operation
 Some features require location permission, notification permission, or background refresh. You can manage these permissions in iOS settings. If permissions or network access are unavailable, related features may be limited or unavailable.
 
-## 5. External Links and Webcams
+## 6. External Links and Webcams
 The App may open websites, support pages, provider attribution pages, webcam pages, GitHub issue pages, or email clients. NearbyWeather is not responsible for the content, availability, privacy practices, or terms of external services.
 
-## 6. No Warranty
-The App is provided "as is" without warranties of any kind. We do not guarantee:
+## 7. Intellectual Property
+The App, its design, code, and non-third-party content are owned by the developer or the relevant licensors. Third-party data, trademarks, provider names, map content, and external content remain the property of their respective owners. These Terms do not grant you rights beyond personal use of the App.
+
+## 8. No Warranty
+The App is provided "as is" and "as available" without warranties of any kind. We do not guarantee:
 
 - uninterrupted availability
 - error-free operation
 - compatibility with every device, iOS version, provider, or network condition
 - correctness, freshness, or completeness of third-party weather, forecast, air quality, elevation, station, map, or webcam data
 
-## 7. Limitation of Liability
+## 9. Limitation of Liability
 To the maximum extent permitted by law, the developer shall not be liable for damages arising from:
 
 - inaccurate, delayed, unavailable, or incomplete weather or provider data
@@ -60,8 +66,11 @@ To the maximum extent permitted by law, the developer shall not be liable for da
 - use of the App in safety-critical or high-risk situations
 - external websites, webcam providers, support tools, or third-party services
 
-## 8. Changes
+## 10. Changes to the App and Providers
+NearbyWeather features, provider integrations, data sources, and service behavior may change over time. Features may be added, modified, suspended, or discontinued without guaranteeing continued availability of any specific provider, data source, or feature.
+
+## 11. Updates to These Terms
 These Terms may be updated from time to time. Continued use of the App after updated Terms are made available constitutes acceptance of the updated Terms.
 
-## 9. Contact
+## 12. Contact
 For questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

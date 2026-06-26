@@ -24,7 +24,7 @@ Last updated: 2026-06-26
 ## 1. Descripción general
 NearbyWeather respeta su privacidad. La aplicación proporciona información meteorológica y funciones relacionadas y, al mismo tiempo, mantiene locales los datos de la aplicación específicos del usuario siempre que sea posible.
 
-## 2. Recopilación de datos y almacenamiento local
+## 2. Recopilación de información y almacenamiento local
 NearbyWeather no requiere una cuenta de usuario. La Aplicación no vende datos personales, no utiliza identificadores publicitarios y no crea perfiles publicitarios o de seguimiento.
 
 La aplicación puede almacenar la siguiente información localmente en su dispositivo:
@@ -36,10 +36,10 @@ La aplicación puede almacenar la siguiente información localmente en su dispos
 
 Estos datos permanecen en su dispositivo a menos que una función que se describe a continuación envíe los datos de solicitud necesarios a un servicio NearbyWeather o a un proveedor externo.
 
-## 3. Datos meteorológicos y de ubicación
-Si otorga permiso de ubicación, NearbyWeather utiliza la ubicación de su dispositivo para encontrar estaciones meteorológicas cercanas, enfocar mapas y solicitar datos meteorológicos para coordenadas relevantes. Dependiendo de la función seleccionada y la configuración de la aplicación, la aplicación puede enviar coordenadas, identificadores de estaciones meteorológicas, opciones de proveedores, preferencias de idioma y detalles de solicitudes meteorológicas a servicios NearbyWeather o proveedores externos de clima o elevación.
+## 3. Información de ubicación y datos meteorológicos
+Si otorga permiso de ubicación, NearbyWeather utiliza la ubicación de su dispositivo ("Información de ubicación") para encontrar estaciones meteorológicas cercanas, enfocar mapas y solicitar datos meteorológicos para coordenadas relevantes. Dependiendo de la función seleccionada y la configuración de la aplicación, la aplicación puede enviar información de ubicación, identificadores de estaciones meteorológicas, opciones de proveedores, preferencias de idioma y detalles de solicitudes meteorológicas a los servicios de NearbyWeather o a proveedores de datos y encargados del tratamiento de terceros.
 
-Los servicios NearbyWeather pueden solicitar datos meteorológicos de los proveedores, almacenar en caché datos meteorológicos y devolver datos meteorológicos a la aplicación. No están diseñados para crear cuentas de usuario o perfiles de usuario para solicitudes meteorológicas. Los proveedores externos procesan las solicitudes según sus propias políticas y términos de privacidad.
+Siempre que sea posible, los servicios de NearbyWeather están destinados a actuar como intermediario entre la Aplicación y terceros proveedores de datos. Pueden solicitar, almacenar en caché y devolver datos meteorológicos, pero no están diseñados para crear cuentas de usuario o perfiles de usuario para solicitudes meteorológicas. Los proveedores y procesadores de datos externos manejan las solicitudes según sus propias políticas y términos de privacidad.
 
 ## 4. Informes de fallos y errores (opcional)
 NearbyWeather utiliza Google Firebase Crashlytics para recopilar informes de fallos y diagnósticos solo cuando los informes de errores están habilitados.
@@ -52,29 +52,38 @@ Los informes de fallos y diagnósticos pueden incluir:
 
 NearbyWeather no incluye intencionalmente sus marcadores ni su ubicación precisa en los informes de fallos. Puede desactivar el informe de errores en cualquier momento en la configuración de privacidad o ayuda de la aplicación.
 
-## 5. Notificaciones, actualización en segundo plano e insignia del icono de la aplicación
+## 5. Comunicaciones relacionadas con el soporte
+Si se comunica con el soporte, el mensaje y cualquier información que elija incluir, como capturas de pantalla, diagnósticos, registros, configuraciones exportadas u otros archivos adjuntos, se pueden utilizar para responder a su solicitud. No incluya información que no desee compartir.
+
+## 6. Notificaciones, actualización en segundo plano e insignia del icono de la aplicación
 Si habilita las notificaciones o la insignia de temperatura del ícono de la aplicación, NearbyWeather puede actualizar la información meteorológica en segundo plano para que esas funciones se mantengan actualizadas. Las preferencias de notificación y la configuración de la insignia se almacenan localmente en su dispositivo.
 
-## 6. Cámaras web y enlaces externos
+## 7. Cámaras web y enlaces de terceros
 NearbyWeather puede mostrar entradas de cámaras web cercanas y enlaces de proveedores. Abrir una cámara web o un enlace externo puede llevarlo a un sitio web o una aplicación de terceros. Esos servicios de terceros están fuera del control de NearbyWeather y se rigen por sus propias políticas de privacidad.
 
-## 7. Sin seguimiento ni publicidad
+## 8. Sin seguimiento ni publicidad
 NearbyWeather no utiliza tecnologías de seguimiento, identificadores de publicidad, análisis de publicidad ni elaboración de perfiles con fines publicitarios.
 
-## 8. Seguridad
-Los datos locales confidenciales permanecen en su dispositivo. Usted es responsable de proteger su dispositivo con seguridad a nivel del sistema, como un código de acceso, Touch ID o Face ID.
+## 9. Seguridad
+Los datos locales confidenciales permanecen en su dispositivo. Se utilizan salvaguardias técnicas razonables para los servicios NearbyWeather, pero no se puede garantizar que ningún sistema de almacenamiento o transmisión de red sea perfectamente seguro. Usted es responsable de proteger su dispositivo con seguridad a nivel del sistema, como un código de acceso, Touch ID o Face ID.
 
-## 9. Retención y eliminación de datos
+## 10. Retención y eliminación de datos
 Puede eliminar marcadores, marcadores eliminados recientemente y preferencias a través de la aplicación, donde están disponibles los controles relevantes. También puede eliminar todos los datos de la aplicación eliminándola de su dispositivo. Los metadatos de la estación meteorológica incluidos con la aplicación son parte de la instalación de la aplicación.
 
-## 10. Servicios de terceros
-NearbyWeather puede interactuar con servicios de terceros como Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servicios de correo electrónico y proveedores de cámaras web. Los servicios de terceros no están controlados por NearbyWeather y se aplican sus propias políticas de privacidad cuando utiliza funciones que contactan con ellos.
+## 11. Proveedores y procesadores de datos de terceros
+NearbyWeather puede interactuar con proveedores de datos y encargados del tratamiento de terceros como Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servicios de correo electrónico y proveedores de cámaras web. Los servicios de terceros no están controlados por NearbyWeather y se aplican sus propias políticas de privacidad cuando utiliza funciones que contactan con ellos.
 
-## 11. Niños
+## 12. Requisitos legales y protección del servicio
+NearbyWeather puede preservar o divulgar información si es razonablemente necesario para cumplir con la ley aplicable, responder a procesos legales, proteger a los usuarios, proteger la integridad del servicio, investigar problemas técnicos o de seguridad, o hacer cumplir los términos aplicables.
+
+## 13. Procesamiento Internacional
+Los servicios de NearbyWeather y los proveedores o procesadores externos pueden procesar información en países distintos de aquel en el que usted vive. Cuando eso sucede, el procesamiento se rige por los términos de privacidad del servicio correspondiente y la ley aplicable.
+
+## 14. Niños
 NearbyWeather no está dirigido a niños y no recopila deliberadamente datos personales de niños.
 
-## 12. Cambios
+## 15. Actualizaciones de la política de privacidad
 Esta Política de Privacidad puede actualizarse en el futuro. Los cambios se reflejarán en la App y en los documentos legales públicos.
 
-## 13. Contacto
+## 16. Contacto
 Si tiene preguntas relacionadas con la privacidad, comuníquese con: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

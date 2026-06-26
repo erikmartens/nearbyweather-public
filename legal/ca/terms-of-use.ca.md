@@ -22,14 +22,17 @@ Last updated: 2026-06-26
 **Darrera actualització:** 2026-06-26
 
 ## 1. Visió general
-NearbyWeather ("l'aplicació") proporciona una interfície mòbil per a informació meteorològica i funcions meteorològiques relacionades.
+Aquestes Condicions d'ús regeixen el vostre ús de NearbyWeather ("l'aplicació"). L'aplicació proporciona una interfície mòbil per a informació meteorològica i funcions meteorològiques relacionades.
 
-## 2. Dades meteorològiques i serveis de tercers
-La informació meteorològica, les previsions, les dades de qualitat de l'aire, les dades d'elevació, les metadades de l'estació, les metadades de la càmera web i els enllaços externs poden provenir dels serveis de NearbyWeather o de proveïdors de tercers com Apple Weather / WeatherKit, OpenWeather, Open-Meteo i proveïdors de càmeres web.
+## 2. Privadesa
+El vostre ús de l'aplicació també està subjecte a la Política de privadesa de NearbyWeather, que descriu com l'aplicació gestiona la informació.
 
-NearbyWeather pot utilitzar serveis que sol·licitin, emmagatzemin en memòria cau i retornin dades meteorològiques per a l'aplicació. NearbyWeather no està afiliat, avalat ni responsable de proveïdors de tercers tret que s'indiqui expressament. La disponibilitat de dades de tercers, la precisió, els termes de llicència i el comportament del servei estan fora del control de l'aplicació.
+## 3. Dades meteorològiques i proveïdors de dades de tercers
+La informació meteorològica, les previsions, les dades de qualitat de l'aire, les dades d'elevació, les metadades de l'estació, les metadades de la càmera web i els enllaços externs poden provenir dels serveis de NearbyWeather o de proveïdors de tercers com ara Apple Weather / WeatherKit, OpenWeather, Open-Meteo i proveïdors de càmeres web.
 
-## 3. Responsabilitat de l'usuari
+NearbyWeather pot utilitzar serveis que sol·licitin, emmagatzemin en memòria cau i retornin dades meteorològiques per a l'aplicació. NearbyWeather no està afiliat, avalat ni responsable de proveïdors de dades de tercers tret que s'indiqui expressament. La disponibilitat de dades de tercers, la precisió, els termes de llicència i el comportament del servei estan fora del control de l'aplicació. Els proveïdors de tercers poden canviar, no estar disponibles o ser substituïts, i l'aplicació no garanteix que cap proveïdor específic romangui disponible.
+
+## 4. Responsabilitat de l'usuari
 En utilitzar l'aplicació, accepteu que:
 
 - Utilitzareu les dades meteorològiques només com a orientació informativa
@@ -37,21 +40,24 @@ En utilitzar l'aplicació, accepteu que:
 - Sou responsable de les opcions de notificació, les adreces d'interès i la configuració que configureu
 - no utilitzareu l'aplicació ni cap servei de proveïdor connectat d'una manera que infringeixi la llei o els termes del proveïdor aplicables
 
-## 4. Ubicació, notificacions i funcionament en segon pla
+## 5. Ubicació, notificacions i funcionament en segon pla
 Algunes funcions requereixen permís d'ubicació, permís de notificació o actualització de fons. Podeu gestionar aquests permisos a la configuració de iOS. Si els permisos o l'accés a la xarxa no estan disponibles, les funcions relacionades poden estar limitades o no disponibles.
 
-## 5. Enllaços externs i càmeres web
+## 6. Enllaços externs i càmeres web
 L'aplicació pot obrir llocs web, pàgines d'assistència, pàgines d'atribució de proveïdors, pàgines de càmera web, pàgines de problemes de GitHub o clients de correu electrònic. NearbyWeather no es fa responsable del contingut, la disponibilitat, les pràctiques de privadesa o les condicions dels serveis externs.
 
-## 6. Sense garantia
-L'aplicació es proporciona "tal com està" sense garanties de cap tipus. No garantim:
+## 7. Propietat intel·lectual
+L'aplicació, el seu disseny, codi i contingut que no sigui de tercers són propietat del desenvolupador o dels llicenciants corresponents. Les dades de tercers, les marques comercials, els noms dels proveïdors, el contingut del mapa i el contingut extern segueixen sent propietat dels seus respectius propietaris. Aquestes Condicions no us atorguen drets més enllà de l'ús personal de l'aplicació.
+
+## 8. Sense garantia
+L'aplicació es proporciona "tal com està" i "segons està disponible" sense garanties de cap tipus. No garantim:
 
 - disponibilitat ininterrompuda
 - Funcionament sense errors
-- compatibilitat amb tots els dispositius, versió de iOS, proveïdor o condició de xarxa
+- compatibilitat amb tots els dispositius, versió iOS, proveïdor o condició de xarxa
 - Correcció, frescor o exhaustivitat de les dades meteorològiques, de pronòstic, de qualitat de l'aire, d'elevació, d'estació, de mapa o de càmera web de tercers
 
-## 7. Limitació de responsabilitat
+## 9. Limitació de responsabilitat
 En la mesura màxima permesa per la llei, el promotor no serà responsable dels danys derivats de:
 
 - dades meteorològiques o del proveïdor inexactes, retardades, no disponibles o incompletes
@@ -60,8 +66,11 @@ En la mesura màxima permesa per la llei, el promotor no serà responsable dels 
 - Ús de l'App en situacions crítiques per a la seguretat o d'alt risc
 - llocs web externs, proveïdors de càmeres web, eines de suport o serveis de tercers
 
-## 8. Canvis
+## 10. Canvis a l'aplicació i als proveïdors
+Les funcions de NearbyWeather, les integracions de proveïdors, les fonts de dades i el comportament del servei poden canviar amb el temps. Les funcions es poden afegir, modificar, suspendre o suspendre sense garantir la disponibilitat continuada de cap proveïdor, font de dades o funció específics.
+
+## 11. Actualitzacions d'aquestes condicions
 Aquestes Condicions es poden actualitzar de tant en tant. L'ús continuat de l'aplicació després que les Condicions actualitzades estiguin disponibles constitueix l'acceptació de les Condicions actualitzades.
 
-## 9. Contacte
+## 12. Contacte
 Per a preguntes, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
