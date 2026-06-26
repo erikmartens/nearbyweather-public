@@ -11,7 +11,7 @@ Last updated: 2026-06-26
 
 🌍 **This Document is available in other Languages:**
 
-🇺🇸 English
+🇺🇸 English | [🇩🇪 Deutsch](../de-DE/privacy-policy.de.md) | [🇸🇦 العربية](../ar/privacy-policy.ar.md) | [🇪🇸 Català](../ca/privacy-policy.ca.md) | [🇨🇿 Čeština](../cs/privacy-policy.cs.md) | [🇩🇰 Dansk](../da/privacy-policy.da.md) | [🇬🇷 Ελληνικά](../el/privacy-policy.el.md) | [🇪🇸 Español](../es/privacy-policy.es.md) | [🇲🇽 Español (México)](../es-MX/privacy-policy.es-MX.md) | [🇫🇮 Suomi](../fi/privacy-policy.fi.md) | [🇫🇷 Français](../fr/privacy-policy.fr.md) | [🇮🇱 עברית](../he/privacy-policy.he.md) | [🇮🇳 हिन्दी](../hi/privacy-policy.hi.md) | [🇭🇷 Hrvatski](../hr/privacy-policy.hr.md) | [🇭🇺 Magyar](../hu/privacy-policy.hu.md) | [🇮🇩 Bahasa Indonesia](../id/privacy-policy.id.md) | [🇮🇹 Italiano](../it/privacy-policy.it.md) | [🇯🇵 日本語](../ja/privacy-policy.ja.md) | [🇰🇷 한국어](../ko/privacy-policy.ko.md) | [🇲🇾 Bahasa Melayu](../ms/privacy-policy.ms.md) | [🇳🇴 Norsk Bokmål](../nb/privacy-policy.nb.md) | [🇳🇱 Nederlands](../nl/privacy-policy.nl.md) | [🇵🇱 Polski](../pl/privacy-policy.pl.md) | [🇧🇷 Português (Brasil)](../pt-BR/privacy-policy.pt-BR.md) | [🇵🇹 Português (Portugal)](../pt-PT/privacy-policy.pt-PT.md) | [🇷🇴 Română](../ro/privacy-policy.ro.md) | [🇷🇺 Русский](../ru/privacy-policy.ru.md) | [🇸🇰 Slovenčina](../sk/privacy-policy.sk.md) | [🇸🇪 Svenska](../sv/privacy-policy.sv.md) | [🇹🇭 ไทย](../th/privacy-policy.th.md) | [🇹🇷 Türkçe](../tr/privacy-policy.tr.md) | [🇺🇦 Українська](../uk/privacy-policy.uk.md) | [🇻🇳 Tiếng Việt](../vi/privacy-policy.vi.md) | [🇨🇳 简体中文](../zh-Hans/privacy-policy.zh-Hans.md) | [🇹🇼 繁體中文](../zh-Hant/privacy-policy.zh-Hant.md)
 
 ---
 

@@ -11,7 +11,7 @@ Last updated: 2026-06-26
 
 🌍 **This Document is available in other Languages:**
 
-🇺🇸 English
+🇺🇸 English | [🇩🇪 Deutsch](legal/de-DE/terms-of-use.de.md) | [🇸🇦 العربية](legal/ar/terms-of-use.ar.md) | [🇪🇸 Català](legal/ca/terms-of-use.ca.md) | [🇨🇿 Čeština](legal/cs/terms-of-use.cs.md) | [🇩🇰 Dansk](legal/da/terms-of-use.da.md) | [🇬🇷 Ελληνικά](legal/el/terms-of-use.el.md) | [🇪🇸 Español](legal/es/terms-of-use.es.md) | [🇲🇽 Español (México)](legal/es-MX/terms-of-use.es-MX.md) | [🇫🇮 Suomi](legal/fi/terms-of-use.fi.md) | [🇫🇷 Français](legal/fr/terms-of-use.fr.md) | [🇮🇱 עברית](legal/he/terms-of-use.he.md) | [🇮🇳 हिन्दी](legal/hi/terms-of-use.hi.md) | [🇭🇷 Hrvatski](legal/hr/terms-of-use.hr.md) | [🇭🇺 Magyar](legal/hu/terms-of-use.hu.md) | [🇮🇩 Bahasa Indonesia](legal/id/terms-of-use.id.md) | [🇮🇹 Italiano](legal/it/terms-of-use.it.md) | [🇯🇵 日本語](legal/ja/terms-of-use.ja.md) | [🇰🇷 한국어](legal/ko/terms-of-use.ko.md) | [🇲🇾 Bahasa Melayu](legal/ms/terms-of-use.ms.md) | [🇳🇴 Norsk Bokmål](legal/nb/terms-of-use.nb.md) | [🇳🇱 Nederlands](legal/nl/terms-of-use.nl.md) | [🇵🇱 Polski](legal/pl/terms-of-use.pl.md) | [🇧🇷 Português (Brasil)](legal/pt-BR/terms-of-use.pt-BR.md) | [🇵🇹 Português (Portugal)](legal/pt-PT/terms-of-use.pt-PT.md) | [🇷🇴 Română](legal/ro/terms-of-use.ro.md) | [🇷🇺 Русский](legal/ru/terms-of-use.ru.md) | [🇸🇰 Slovenčina](legal/sk/terms-of-use.sk.md) | [🇸🇪 Svenska](legal/sv/terms-of-use.sv.md) | [🇹🇭 ไทย](legal/th/terms-of-use.th.md) | [🇹🇷 Türkçe](legal/tr/terms-of-use.tr.md) | [🇺🇦 Українська](legal/uk/terms-of-use.uk.md) | [🇻🇳 Tiếng Việt](legal/vi/terms-of-use.vi.md) | [🇨🇳 简体中文](legal/zh-Hans/terms-of-use.zh-Hans.md) | [🇹🇼 繁體中文](legal/zh-Hant/terms-of-use.zh-Hant.md)
 
 ---
 

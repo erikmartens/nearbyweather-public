@@ -1,0 +1,70 @@
+<!--
+Generated from NearbyWeather app legal Markdown.
+Do not edit manually.
+Version: 3.0
+Last updated: 2026-06-26
+-->
+
+# Conditions d'utilisation
+
+---
+
+🌍 **This Document is available in other Languages:**
+
+[🇺🇸 English](../en-US/terms-of-use.md) | [🇩🇪 Deutsch](../de-DE/terms-of-use.de.md) | [🇸🇦 العربية](../ar/terms-of-use.ar.md) | [🇪🇸 Català](../ca/terms-of-use.ca.md) | [🇨🇿 Čeština](../cs/terms-of-use.cs.md) | [🇩🇰 Dansk](../da/terms-of-use.da.md) | [🇬🇷 Ελληνικά](../el/terms-of-use.el.md) | [🇪🇸 Español](../es/terms-of-use.es.md) | [🇲🇽 Español (México)](../es-MX/terms-of-use.es-MX.md) | [🇫🇮 Suomi](../fi/terms-of-use.fi.md) | 🇫🇷 Français | [🇮🇱 עברית](../he/terms-of-use.he.md) | [🇮🇳 हिन्दी](../hi/terms-of-use.hi.md) | [🇭🇷 Hrvatski](../hr/terms-of-use.hr.md) | [🇭🇺 Magyar](../hu/terms-of-use.hu.md) | [🇮🇩 Bahasa Indonesia](../id/terms-of-use.id.md) | [🇮🇹 Italiano](../it/terms-of-use.it.md) | [🇯🇵 日本語](../ja/terms-of-use.ja.md) | [🇰🇷 한국어](../ko/terms-of-use.ko.md) | [🇲🇾 Bahasa Melayu](../ms/terms-of-use.ms.md) | [🇳🇴 Norsk Bokmål](../nb/terms-of-use.nb.md) | [🇳🇱 Nederlands](../nl/terms-of-use.nl.md) | [🇵🇱 Polski](../pl/terms-of-use.pl.md) | [🇧🇷 Português (Brasil)](../pt-BR/terms-of-use.pt-BR.md) | [🇵🇹 Português (Portugal)](../pt-PT/terms-of-use.pt-PT.md) | [🇷🇴 Română](../ro/terms-of-use.ro.md) | [🇷🇺 Русский](../ru/terms-of-use.ru.md) | [🇸🇰 Slovenčina](../sk/terms-of-use.sk.md) | [🇸🇪 Svenska](../sv/terms-of-use.sv.md) | [🇹🇭 ไทย](../th/terms-of-use.th.md) | [🇹🇷 Türkçe](../tr/terms-of-use.tr.md) | [🇺🇦 Українська](../uk/terms-of-use.uk.md) | [🇻🇳 Tiếng Việt](../vi/terms-of-use.vi.md) | [🇨🇳 简体中文](../zh-Hans/terms-of-use.zh-Hans.md) | [🇹🇼 繁體中文](../zh-Hant/terms-of-use.zh-Hant.md)
+
+---
+
+
+
+**Version :** 3.0
+
+**Dernière mise à jour :** 2026-06-26
+
+## 1. Aperçu
+NearbyWeather (« l'Application ») fournit une interface mobile permettant de découvrir des stations météorologiques, d'afficher les conditions et prévisions météorologiques, de gérer les signets, d'afficher des cartes et des webcams à proximité, et de configurer les notifications météorologiques et les préférences d'application.
+
+## 2. Données météorologiques et services tiers
+Les informations météorologiques, les prévisions, les données sur la qualité de l'air, les données d'altitude, les métadonnées de station, les métadonnées de webcam et les liens externes peuvent provenir de fournisseurs tiers tels que Apple Weather / WeatherKit, OpenWeather, Open-Meteo et de fournisseurs de webcam.
+
+NearbyWeather n'est pas affilié, approuvé par ou responsable de ces fournisseurs tiers, sauf indication expresse. La disponibilité, l'exactitude des données, les conditions de licence et le comportement du service échappent au contrôle de l'application.
+
+## 3. Responsabilité de l'utilisateur
+En utilisant l'Application, vous acceptez que :
+
+- vous utiliserez les données météorologiques à titre informatif uniquement
+- vous ne compterez pas sur l'application pour des décisions critiques en matière de sécurité, d'urgence, aéronautiques, maritimes, médicales ou autres décisions à haut risque
+- vous êtes responsable des clés API, des comptes de fournisseur, des choix de notification et des signets que vous configurez
+- vous n'utiliserez pas l'application ou tout service de fournisseur connecté d'une manière qui viole la loi applicable ou les conditions du fournisseur
+
+## 4. Emplacement, notifications et fonctionnement en arrière-plan
+Certaines fonctionnalités nécessitent une autorisation de localisation, une autorisation de notification ou une actualisation en arrière-plan. Vous pouvez gérer ces autorisations dans les paramètres iOS. Si les autorisations ou l'accès au réseau ne sont pas disponibles, les fonctionnalités associées peuvent être limitées ou indisponibles.
+
+## 5. OpenWeather API Clés
+Si vous choisissez d'utiliser les fonctionnalités de OpenWeather qui nécessitent votre propre clé API, vous êtes responsable de l'obtention, de la saisie, de la sécurisation et du respect des conditions qui s'appliquent à cette clé. NearbyWeather stocke la clé localement sur votre appareil et l'utilise uniquement pour les requêtes OpenWeather initiées par la fonctionnalité de l'application.
+
+## 6. Liens externes et webcams
+L'application peut ouvrir des sites Web, des pages d'assistance, des pages d'attribution de fournisseur, des pages de webcam, des pages de problèmes GitHub ou des clients de messagerie. NearbyWeather n'est pas responsable du contenu, de la disponibilité, des pratiques de confidentialité ou des conditions des services externes.
+
+## 7. Aucune garantie
+L'application est fournie « telle quelle » sans garantie d'aucune sorte. Nous ne garantissons pas :
+
+- disponibilité ininterrompue
+- fonctionnement sans erreur
+- compatibilité avec chaque appareil, version iOS, compte fournisseur ou clé API
+- l'exactitude, la fraîcheur ou l'exhaustivité des données météorologiques, prévisions, qualité de l'air, altitude, station, carte ou webcam de tiers
+
+## 8. Limitation de responsabilité
+Dans la mesure permise par la loi, le promoteur ne sera pas responsable des dommages résultant :
+
+- données météorologiques ou données du fournisseur inexactes, retardées, indisponibles ou incomplètes
+- problèmes de réseau, de fournisseur, d'appareil, d'autorisation ou de configuration
+- perte de favoris, de préférences, de données mises en cache ou de clés API
+- utilisation de l'application dans des situations critiques pour la sécurité ou à haut risque
+- sites Web externes, fournisseurs de webcams, outils d'assistance ou services tiers
+
+## 9. Modifications
+Ces conditions peuvent être mises à jour de temps à autre. L'utilisation continue de l'Application après la mise à disposition des Conditions mises à jour constitue l'acceptation des Conditions mises à jour.
+
+## 10. Contacter
+Pour toute question, contactez : [erikmartens.dev@icloud.com](mailto:erikmartens.dev@icloud.com)
