@@ -1,0 +1,76 @@
+<!--
+Generated from NearbyWeather app legal JSON.
+Do not edit manually.
+Version: 3.0
+Last updated: 2026-06-26
+-->
+
+# Termos de Uso
+
+---
+
+🌍 **This Document is available in other Languages:**
+
+[🇺🇸 English](../en-US/terms-of-use.md) | [🇩🇪 Deutsch](../de-DE/terms-of-use.de.md) | [🇸🇦 العربية](../ar/terms-of-use.ar.md) | [🇪🇸 Català](../ca/terms-of-use.ca.md) | [🇨🇿 Čeština](../cs/terms-of-use.cs.md) | [🇩🇰 Dansk](../da/terms-of-use.da.md) | [🇬🇷 Ελληνικά](../el/terms-of-use.el.md) | [🇪🇸 Español](../es/terms-of-use.es.md) | [🇲🇽 Español (México)](../es-MX/terms-of-use.es-MX.md) | [🇫🇮 Suomi](../fi/terms-of-use.fi.md) | [🇫🇷 Français](../fr/terms-of-use.fr.md) | [🇮🇱 עברית](../he/terms-of-use.he.md) | [🇮🇳 हिन्दी](../hi/terms-of-use.hi.md) | [🇭🇷 Hrvatski](../hr/terms-of-use.hr.md) | [🇭🇺 Magyar](../hu/terms-of-use.hu.md) | [🇮🇩 Bahasa Indonesia](../id/terms-of-use.id.md) | [🇮🇹 Italiano](../it/terms-of-use.it.md) | [🇯🇵 日本語](../ja/terms-of-use.ja.md) | [🇰🇷 한국어](../ko/terms-of-use.ko.md) | [🇲🇾 Bahasa Melayu](../ms/terms-of-use.ms.md) | [🇳🇴 Norsk Bokmål](../nb/terms-of-use.nb.md) | [🇳🇱 Nederlands](../nl/terms-of-use.nl.md) | [🇵🇱 Polski](../pl/terms-of-use.pl.md) | 🇧🇷 Português (Brasil) | [🇵🇹 Português (Portugal)](../pt-PT/terms-of-use.pt-PT.md) | [🇷🇴 Română](../ro/terms-of-use.ro.md) | [🇷🇺 Русский](../ru/terms-of-use.ru.md) | [🇸🇰 Slovenčina](../sk/terms-of-use.sk.md) | [🇸🇪 Svenska](../sv/terms-of-use.sv.md) | [🇹🇭 ไทย](../th/terms-of-use.th.md) | [🇹🇷 Türkçe](../tr/terms-of-use.tr.md) | [🇺🇦 Українська](../uk/terms-of-use.uk.md) | [🇻🇳 Tiếng Việt](../vi/terms-of-use.vi.md) | [🇨🇳 简体中文](../zh-Hans/terms-of-use.zh-Hans.md) | [🇹🇼 繁體中文](../zh-Hant/terms-of-use.zh-Hant.md)
+
+---
+
+
+
+**Versão:** 3.0
+
+**Última atualização:** 26/06/2026
+
+## 1. Visão geral
+Estes Termos de Uso regem o uso do NearbyWeather ("o Aplicativo"). O aplicativo fornece uma interface móvel para informações meteorológicas e recursos meteorológicos relacionados.
+
+## 2. Privacidade
+O uso do Aplicativo também está sujeito à Política de Privacidade NearbyWeather, que descreve como o Aplicativo trata as informações.
+
+## 3. Dados meteorológicos e provedores de dados terceirizados
+Informações meteorológicas, previsões, dados de qualidade do ar, dados de elevação, metadados de estação, metadados de webcam e links externos podem vir de serviços NearbyWeather ou de provedores terceirizados, como Apple Weather / WeatherKit, OpenWeather, Open-Meteo e provedores de webcam.
+
+NearbyWeather pode usar serviços que solicitam, armazenam em cache e retornam dados meteorológicos para o Aplicativo. NearbyWeather não é afiliado, endossado ou responsável por provedores de dados terceirizados, a menos que expressamente declarado. A disponibilidade, precisão, termos de licenciamento e comportamento do serviço de dados de terceiros estão fora do controle do Aplicativo. Os fornecedores terceirizados podem mudar, ficar indisponíveis ou ser substituídos, e o Aplicativo não garante que qualquer fornecedor específico permanecerá disponível.
+
+## 4. Responsabilidade do usuário
+Ao usar o Aplicativo, você concorda que:
+
+- você usará dados meteorológicos apenas como orientação informativa
+- você não confiará no aplicativo para decisões críticas de segurança, emergência, aviação, marinha, médica ou outras decisões de alto risco
+- você é responsável pelas opções de notificação, favoritos e configurações definidas por você
+- você não usará o aplicativo ou qualquer serviço de provedor conectado de forma que viole a lei aplicável ou os termos do provedor
+
+## 5. Localização, notificações e operação em segundo plano
+Alguns recursos exigem permissão de localização, permissão de notificação ou atualização em segundo plano. Você pode gerenciar essas permissões nas configurações do iOS. Se as permissões ou o acesso à rede não estiverem disponíveis, os recursos relacionados poderão estar limitados ou indisponíveis.
+
+## 6. Links externos e webcams
+O aplicativo pode abrir sites, páginas de suporte, páginas de atribuição de provedores, páginas de webcam, páginas de problemas do GitHub ou clientes de e-mail. NearbyWeather não é responsável pelo conteúdo, disponibilidade, práticas de privacidade ou termos de serviços externos.
+
+## 7. Propriedade Intelectual
+O Aplicativo, seu design, código e conteúdo que não é de terceiros são de propriedade do desenvolvedor ou dos licenciantes relevantes. Dados de terceiros, marcas registradas, nomes de fornecedores, conteúdo de mapas e conteúdo externo permanecem propriedade de seus respectivos proprietários. Estes Termos não concedem a você direitos além do uso pessoal do Aplicativo.
+
+## 8. Sem garantia
+O Aplicativo é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo. Não garantimos:
+
+- disponibilidade ininterrupta
+- operação sem erros
+- compatibilidade com cada dispositivo, versão iOS, provedor ou condição de rede
+- exatidão, atualização ou integridade de dados meteorológicos, previsões, qualidade do ar, elevação, estação, mapa ou webcam de terceiros
+
+## 9. Limitação de responsabilidade
+Na extensão máxima permitida por lei, o desenvolvedor não será responsável por danos decorrentes de:
+
+- dados meteorológicos ou do fornecedor imprecisos, atrasados, indisponíveis ou incompletos
+- problemas de rede, provedor, dispositivo, permissão ou configuração
+- perda de marcadores, preferências ou dados em cache
+- uso do aplicativo em situações críticas de segurança ou de alto risco
+- sites externos, provedores de webcam, ferramentas de suporte ou serviços de terceiros
+
+## 10. Mudanças no aplicativo e nos provedores
+Os recursos do NearbyWeather, integrações de provedores, fontes de dados e comportamento do serviço podem mudar com o tempo. Os recursos podem ser adicionados, modificados, suspensos ou descontinuados sem garantir a disponibilidade contínua de qualquer provedor, fonte de dados ou recurso específico.
+
+## 11. Atualizações destes Termos
+Estes Termos podem ser atualizados de tempos em tempos. O uso continuado do Aplicativo após a disponibilização dos Termos atualizados constitui aceitação dos Termos atualizados.
+
+## 12. Contato
+Em caso de dúvidas, entre em contato com: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
