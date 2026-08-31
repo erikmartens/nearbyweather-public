@@ -1,0 +1,15 @@
+---
+schema: 1
+profile: emm-public-documentation
+revision: agents-contract-v2.0.0
+generated_sha256: 763f2ea4ecdb404193c151904a1d4b6f5be322edd05a7d18523608d0ae2e8210
+fragments:
+- name: documentation-contract
+  revision: agents-contract-v2.0.0
+  sha256: 401a2c3f9ed2ff2379979ab352ad5c4e6532e4b30d2e569424df82104386350b
+- name: public-repository-boundary
+  revision: agents-contract-v2.0.0
+  sha256: 13b121d6df710f136b2329fa648dd49c2c6da276a468ab52d44d779a0e798e42
+- name: release-publication-contract
+  revision: agents-contract-v2.0.0
+  sha256: a0cd1b33cb4945e812dd555aef88a265686570f7524ce407c99346ccfbe50215
