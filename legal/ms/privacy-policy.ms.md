@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.0
-Last updated: 2026-06-26
+Version: 3.1
+Last updated: 2026-09-01
 -->
 
 # Dasar Privasi
@@ -17,9 +17,9 @@ Last updated: 2026-06-26
 
 
 
-**Versi:** 3.0
+**Versi:** 3.1
 
-**Terakhir dikemas kini:** 2026-06-26
+**Terakhir dikemas kini:** 2026-09-01
 
 ## 1. Gambaran keseluruhan
 NearbyWeather menghormati privasi anda. Apl menyediakan maklumat cuaca dan ciri berkaitan sambil mengekalkan data apl khusus pengguna setempat apabila boleh.
@@ -41,7 +41,14 @@ Jika anda memberikan kebenaran lokasi, NearbyWeather menggunakan lokasi peranti 
 
 Jika boleh, perkhidmatan NearbyWeather bertujuan untuk bertindak sebagai perantara antara Apl dan pembekal data pihak ketiga. Mereka mungkin meminta, menyimpan cache dan mengembalikan data cuaca, tetapi mereka tidak direka bentuk untuk membuat akaun pengguna atau profil pengguna untuk permintaan cuaca. Pembekal data dan pemproses pihak ketiga mengendalikan permintaan di bawah dasar dan syarat privasi mereka sendiri.
 
-## 4. Ranap dan Pelaporan Ralat (Pilihan)
+## 4. Integriti aplikasi dan analitik perkhidmatan yang melindungi privasi
+Untuk mengesahkan bahawa permintaan terlindung datang daripada pemasangan NearbyWeather yang tulen, mencegah ulangan dan penyalahgunaan serta melindungi kuota penyedia pihak ketiga, perkhidmatan NearbyWeather boleh memproses kelayakan App Attest khusus aplikasi, pembilang penegasan, cabaran jangka pendek dan status kuota setiap pemasangan. Nilai keselamatan ini bukan pengecam pengiklanan dan tidak digunakan untuk mewujudkan akaun pengguna atau sejarah lokasi cuaca atau penyedia yang diminta. Kelayakan dan pembilang aktif disimpan selagi diperlukan untuk pengesahan dan pembatalan; cabaran tamat tempoh, status kuota tidak aktif dan kelayakan dibatalkan dipadam mengikut jadual penyelenggaraan terhad.
+
+Untuk melindungi, mengendalikan dan merancang perkhidmatan, NearbyWeather juga boleh menganggarkan bilangan pemasangan berbeza yang membuat permintaan diterima dan mengira jumlah permintaan dalam tempoh tetap. Kelayakan integriti hanya digunakan sebagai input sementara dan segera ditukar kepada sumbangan sehala khusus tempoh kepada anggaran agregat. NearbyWeather tidak menyimpan kelayakan dalam set data analitik, pengecam analitik stabil, senarai pemasangan tepat atau pautan antara tempoh. Hanya lakaran agregat anggaran, kiraan permintaan, sempadan tempoh dan cap masa kesegaran disimpan. Pengekalan maksimum ialah 48 jam bagi agregat 15 minit, 90 hari bagi harian, 56 minggu bagi mingguan dan 13 bulan bagi bulanan. Hasil dalaman di bawah 10 pemasangan berbeza disekat.
+
+Pemprosesan ini menyokong keselamatan, perancangan kapasiti, kebolehpercayaan dan keputusan produk agregat. Jika berkenaan, asas undang-undangnya ialah kepentingan sah NearbyWeather untuk mengendalikan perkhidmatan yang selamat, boleh dipercayai dan cekap, diseimbangkan melalui peminimuman data, pemisahan tempoh, sekatan akses dan pengekalan terhad. Data tidak digunakan untuk pengiklanan, tidak mewujudkan senarai klien yang dapat dilihat pengendali dan tidak digunakan untuk menghantar pemberitahuan. Sistem pemberitahuan sebelah pelayan pada masa hadapan akan mempunyai pendedahan serta peraturan persetujuan dan kitar hayat berasingan. Anda boleh membantah pemprosesan berdasarkan kepentingan sah melalui hubungan dalam Bahagian 17.
+
+## 5. Ranap dan Pelaporan Ralat (Pilihan)
 NearbyWeather menggunakan Google Firebase Crashlytics untuk mengumpul laporan ranap dan diagnostik hanya apabila pelaporan ralat didayakan.
 
 Laporan ranap sistem dan diagnostik mungkin termasuk:
@@ -52,38 +59,38 @@ Laporan ranap sistem dan diagnostik mungkin termasuk:
 
 NearbyWeather tidak sengaja memasukkan penanda halaman atau lokasi tepat anda dalam laporan ranap sistem. Anda boleh melumpuhkan pelaporan ralat pada bila-bila masa dalam tetapan privasi atau bantuan Apl.
 
-## 5. Komunikasi Berkaitan Sokongan
+## 6. Komunikasi Berkaitan Sokongan
 Jika anda menghubungi sokongan, mesej dan sebarang maklumat yang anda pilih untuk disertakan, seperti tangkapan skrin, diagnostik, log, tetapan yang dieksport atau lampiran lain, boleh digunakan untuk membalas permintaan anda. Tolong jangan sertakan maklumat yang anda tidak mahu kongsikan.
 
-## 6. Pemberitahuan, Muat Semula Latar Belakang dan Lencana Ikon Apl
+## 7. Pemberitahuan, Muat Semula Latar Belakang dan Lencana Ikon Apl
 Jika anda mendayakan pemberitahuan atau lencana suhu ikon apl, NearbyWeather boleh memuat semula maklumat cuaca di latar belakang supaya ciri tersebut kekal terkini. Keutamaan pemberitahuan dan tetapan lencana disimpan secara setempat pada peranti anda.
 
-## 7. Webcam dan Pautan Pihak Ketiga
+## 8. Webcam dan Pautan Pihak Ketiga
 NearbyWeather mungkin menunjukkan entri kamera web dan pautan pembekal berdekatan. Membuka kamera web atau pautan luaran mungkin membawa anda ke tapak web atau apl pihak ketiga. Perkhidmatan pihak ketiga tersebut berada di luar kawalan NearbyWeather dan dikawal oleh dasar privasi mereka sendiri.
 
-## 8. Tiada Penjejakan atau Pengiklanan
+## 9. Tiada Penjejakan atau Pengiklanan
 NearbyWeather tidak menggunakan teknologi penjejakan, pengecam pengiklanan, analitik pengiklanan atau pemprofilan untuk tujuan pengiklanan.
 
-## 9. Keselamatan
+## 10. Keselamatan
 Data tempatan sensitif kekal pada peranti anda. Perlindungan teknikal yang munasabah digunakan untuk perkhidmatan NearbyWeather, tetapi tiada sistem penghantaran atau storan rangkaian boleh dijamin selamat dengan sempurna. Anda bertanggungjawab untuk melindungi peranti anda dengan keselamatan peringkat sistem seperti kod laluan, Touch ID atau Face ID.
 
-## 10. Pengekalan dan Pemadaman Data
+## 11. Pengekalan dan Pemadaman Data
 Anda boleh mengalih keluar penanda halaman, penanda halaman yang dipadamkan baru-baru ini dan pilihan melalui Apl yang mempunyai kawalan yang berkaitan. Anda juga boleh mengalih keluar semua data apl dengan memadamkan Apl daripada peranti anda. Metadata stesen cuaca yang digabungkan dengan Apl adalah sebahagian daripada pemasangan Apl.
 
-## 11. Pembekal dan Pemproses Data Pihak Ketiga
+## 12. Pembekal dan Pemproses Data Pihak Ketiga
 NearbyWeather mungkin berinteraksi dengan pembekal dan pemproses data pihak ketiga seperti Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, perkhidmatan e-mel dan penyedia kamera web. Perkhidmatan pihak ketiga tidak dikawal oleh NearbyWeather dan dasar privasi mereka sendiri terpakai apabila anda menggunakan ciri yang menghubungi mereka.
 
-## 12. Keperluan Undang-undang dan Perlindungan Perkhidmatan
+## 13. Keperluan Undang-undang dan Perlindungan Perkhidmatan
 NearbyWeather boleh menyimpan atau mendedahkan maklumat jika perlu secara munasabah untuk mematuhi undang-undang yang terpakai, bertindak balas terhadap proses undang-undang, melindungi pengguna, melindungi integriti perkhidmatan, menyiasat isu keselamatan atau teknikal, atau menguatkuasakan syarat yang berkenaan.
 
-## 13. Pemprosesan Antarabangsa
+## 14. Pemprosesan Antarabangsa
 Perkhidmatan NearbyWeather dan pembekal atau pemproses pihak ketiga boleh memproses maklumat di negara selain negara tempat anda tinggal. Apabila itu berlaku, pemprosesan dikawal oleh syarat privasi perkhidmatan yang berkaitan dan undang-undang yang berkenaan.
 
-## 14. Kanak-kanak
+## 15. Kanak-kanak
 NearbyWeather tidak ditujukan kepada kanak-kanak dan tidak mengumpul data peribadi daripada kanak-kanak secara sengaja.
 
-## 15. Kemas Kini Dasar Privasi
+## 16. Kemas Kini Dasar Privasi
 Dasar Privasi ini mungkin dikemas kini pada masa hadapan. Perubahan akan ditunjukkan dalam Apl dan dalam dokumen undang-undang awam.
 
-## 16. Hubungi
+## 17. Hubungi
 Untuk soalan berkaitan privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

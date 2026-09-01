@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.0
-Last updated: 2026-06-26
+Version: 3.1
+Last updated: 2026-09-01
 -->
 
 # Politika privatnosti
@@ -17,9 +17,9 @@ Last updated: 2026-06-26
 
 
 
-**Verzija:** 3.0
+**Verzija:** 3.1
 
-**Zadnje ažuriranje:** 2026-06-26
+**Zadnje ažuriranje:** 2026-09-01
 
 ## 1. Pregled
 NearbyWeather poštuje vašu privatnost. Aplikacija pruža informacije o vremenskoj prognozi i povezane značajke dok podatke o aplikaciji specifične za korisnika čuvaju lokalnim kad god je to moguće.
@@ -41,7 +41,14 @@ Ako date dopuštenje za lokaciju, NearbyWeather koristi lokaciju vašeg uređaja
 
 Gdje je to moguće, usluge NearbyWeather namijenjene su djelovanju kao posrednik između aplikacije i pružatelja podataka trećih strana. Oni mogu zahtijevati, spremati i vraćati podatke o vremenu, ali nisu dizajnirani za stvaranje korisničkih računa ili korisničkih profila za zahtjeve o vremenu. Pružatelji podataka i obrađivači podataka trećih strana obrađuju zahtjeve prema vlastitim pravilima i uvjetima privatnosti.
 
-## 4. Izvještavanje o rušenju i pogreškama (neobavezno)
+## 4. Integritet aplikacije i analitika usluge koja čuva privatnost
+Kako bi provjerile da zaštićeni zahtjevi dolaze iz autentičnih instalacija NearbyWeathera, spriječile ponavljanje i zlouporabu te zaštitile kvote vanjskih pružatelja, usluge NearbyWeather mogu obrađivati vjerodajnicu App Attest specifičnu za aplikaciju, brojače potvrda, kratkotrajne izazove i stanje kvote po instalaciji. Te sigurnosne vrijednosti nisu oglašivački identifikatori i ne služe izradi korisničkog računa ni povijesti traženih vremenskih lokacija ili pružatelja. Aktivne vjerodajnice i brojači čuvaju se dok su potrebni za provjeru i opoziv; istekli izazovi, neaktivno stanje kvote i opozvane vjerodajnice brišu se prema ograničenim rasporedima održavanja.
+
+Radi zaštite, rada i planiranja usluge, NearbyWeather može procjenjivati koliko različitih instalacija uspješno šalje odobrene zahtjeve te brojiti ukupne zahtjeve u fiksnim razdobljima. Vjerodajnica integriteta koristi se samo privremeno i odmah se pretvara u jednosmjerni doprinos specifičan za razdoblje približnoj agregiranoj procjeni. NearbyWeather u analitičkom skupu ne pohranjuje vjerodajnicu, stabilan analitički identifikator, točan popis instalacija ni vezu između razdoblja. Pohranjuju se samo približne agregirane skice, brojevi zahtjeva, granice razdoblja i oznake svježine. Najdulje čuvanje je 48 sati za 15-minutne agregate, 90 dana za dnevne, 56 tjedana za tjedne i 13 mjeseci za mjesečne. Interni rezultati ispod 10 različitih instalacija se skrivaju.
+
+Obrada podržava sigurnost, planiranje kapaciteta, pouzdanost i agregirane odluke o proizvodu. Gdje je primjenjivo, pravna osnova su legitimni interesi NearbyWeathera za sigurno, pouzdano i učinkovito pružanje usluge, uravnoteženi smanjenjem podataka, odvajanjem razdoblja, ograničenjem pristupa i čuvanja. Ne koristi se za oglašavanje, ne stvara popis klijenata vidljiv operaterima i ne služi slanju obavijesti. Budući poslužiteljski sustav obavijesti imat će zasebnu obavijest te pravila privole i životnog ciklusa. Obradi na temelju legitimnih interesa možete prigovoriti putem kontakta u odjeljku 17.
+
+## 5. Izvještavanje o rušenju i pogreškama (neobavezno)
 NearbyWeather koristi Google Firebase Crashlytics za prikupljanje izvješća o padu i dijagnostici samo kada je omogućeno izvješćivanje o pogreškama.
 
 Izvješća o padu i dijagnostička izvješća mogu uključivati:
@@ -52,38 +59,38 @@ Izvješća o padu i dijagnostička izvješća mogu uključivati:
 
 NearbyWeather ne uključuje namjerno vaše oznake ili točnu lokaciju u izvješća o padu programa. Možete onemogućiti izvješćivanje o pogreškama u bilo kojem trenutku u postavkama privatnosti ili pomoći aplikacije.
 
-## 5. Komunikacija vezana uz podršku
+## 6. Komunikacija vezana uz podršku
 Ako se obratite podršci, poruka i sve informacije koje odaberete uključiti, poput snimaka zaslona, dijagnostike, zapisa, izvezenih postavki ili drugih privitaka, mogu se koristiti za odgovor na vaš zahtjev. Nemojte uključivati ​​informacije koje ne želite podijeliti.
 
-## 6. Obavijesti, osvježavanje pozadine i značka ikone aplikacije
+## 7. Obavijesti, osvježavanje pozadine i značka ikone aplikacije
 Ako omogućite obavijesti ili temperaturnu značku ikone aplikacije, NearbyWeather može osvježiti informacije o vremenu u pozadini kako bi te značajke ostale aktualne. Postavke obavijesti i značke pohranjuju se lokalno na vašem uređaju.
 
-## 7. Web kamere i veze trećih strana
+## 8. Web kamere i veze trećih strana
 NearbyWeather može prikazati unose obližnjih web kamera i veze pružatelja usluga. Otvaranje web-kamere ili vanjske veze može vas odvesti na web-mjesto ili aplikaciju treće strane. Te su usluge trećih strana izvan kontrole NearbyWeather i regulirane su njihovim vlastitim pravilima o privatnosti.
 
-## 8. Nema praćenja ili oglašavanja
+## 9. Nema praćenja ili oglašavanja
 NearbyWeather ne koristi tehnologije praćenja, identifikatore oglašavanja, analitiku oglašavanja ili profiliranje u svrhe oglašavanja.
 
-## 9. Sigurnost
+## 10. Sigurnost
 Osjetljivi lokalni podaci ostaju na vašem uređaju. Razumne tehničke mjere zaštite koriste se za NearbyWeather usluge, ali niti za jedan mrežni prijenos ili sustav za pohranu ne može se jamčiti da je savršeno siguran. Vi ste odgovorni za zaštitu svog uređaja sigurnošću na razini sustava kao što je šifra, Touch ID ili Face ID.
 
-## 10. Zadržavanje i brisanje podataka
+## 11. Zadržavanje i brisanje podataka
 Možete ukloniti oznake, nedavno izbrisane oznake i postavke putem aplikacije u kojoj su dostupne relevantne kontrole. Također možete ukloniti sve podatke aplikacije brisanjem aplikacije sa svog uređaja. Metapodaci meteorološke stanice u paketu s aplikacijom dio su instalacije aplikacije.
 
-## 11. Pružatelji podataka i obrađivači podataka treće strane
+## 12. Pružatelji podataka i obrađivači podataka treće strane
 NearbyWeather može komunicirati s pružateljima podataka i obrađivačima trećih strana kao što su Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, uslugama e-pošte i pružateljima web kamera. Usluge trećih strana nisu pod kontrolom NearbyWeather, a njihova vlastita pravila privatnosti primjenjuju se kada koristite značajke koje ih kontaktiraju.
 
-## 12. Pravni zahtjevi i zaštita usluge
+## 13. Pravni zahtjevi i zaštita usluge
 NearbyWeather može sačuvati ili otkriti informacije ako je to razumno potrebno radi usklađivanja s primjenjivim zakonom, odgovora na pravni postupak, zaštite korisnika, zaštite integriteta usluge, istraživanja sigurnosnih ili tehničkih problema ili provedbe primjenjivih uvjeta.
 
-## 13. Međunarodna obrada
+## 14. Međunarodna obrada
 NearbyWeather usluge i dobavljači ili obrađivači trećih strana mogu obrađivati informacije u drugim zemljama osim one u kojoj živite. Kada se to dogodi, obrada je regulirana uvjetima privatnosti relevantne usluge i primjenjivim zakonom.
 
-## 14. Djeca
+## 15. Djeca
 NearbyWeather nije usmjeren na djecu i ne prikuplja svjesno osobne podatke od djece.
 
-## 15. Ažuriranja pravila o privatnosti
+## 16. Ažuriranja pravila o privatnosti
 Ova Pravila privatnosti mogu se ažurirati u budućnosti. Promjene će se odraziti na aplikaciju i javne pravne dokumente.
 
-## 16. Kontakt
+## 17. Kontakt
 Za pitanja u vezi s privatnošću kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

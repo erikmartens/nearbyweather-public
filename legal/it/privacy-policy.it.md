@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.0
-Last updated: 2026-06-26
+Version: 3.1
+Last updated: 2026-09-01
 -->
 
 #Informativa sulla privacy
@@ -17,9 +17,9 @@ Last updated: 2026-06-26
 
 
 
-**Versione:** 3.0
+**Versione:** 3.1
 
-**Ultimo aggiornamento:** 26-06-2026
+**Ultimo aggiornamento:** 2026-09-01
 
 ## 1. Panoramica
 NearbyWeather rispetta la tua privacy. L'app fornisce informazioni meteorologiche e funzionalità correlate mantenendo locali i dati dell'app specifici dell'utente, quando possibile.
@@ -41,7 +41,14 @@ Se concedi l'autorizzazione alla posizione, NearbyWeather utilizza la posizione 
 
 Ove possibile, i servizi NearbyWeather intendono fungere da intermediario tra l'App e i fornitori di dati di terze parti. Possono richiedere, memorizzare nella cache e restituire dati meteorologici, ma non sono progettati per creare account utente o profili utente per richieste meteorologiche. I fornitori e i processori di dati di terze parti gestiscono le richieste secondo le proprie politiche e termini sulla privacy.
 
-## 4. Segnalazione di arresti anomali ed errori (facoltativo)
+## 4. Integrità dell'app e analisi del servizio rispettosa della privacy
+Per verificare che le richieste protette provengano da installazioni autentiche di NearbyWeather, impedire replay e abusi e proteggere le quote dei fornitori terzi, i servizi NearbyWeather possono trattare una credenziale App Attest specifica dell'app, contatori delle asserzioni, sfide di breve durata e stato della quota per installazione. Questi valori di sicurezza non sono identificatori pubblicitari e non servono a creare un account o una cronologia delle località meteo o dei fornitori richiesti. Le credenziali e i contatori attivi sono conservati finché necessari per verifica e revoca; sfide scadute, quote inattive e credenziali revocate sono eliminate secondo programmi di manutenzione limitati.
+
+Per proteggere, gestire e pianificare il servizio, NearbyWeather può inoltre stimare quante installazioni distinte effettuano richieste ammesse e contare le richieste totali in periodi fissi. La credenziale di integrità è solo un input temporaneo, convertito immediatamente in un contributo unidirezionale specifico del periodo a una stima aggregata approssimativa. NearbyWeather non conserva nel set analitico la credenziale, un identificatore analitico stabile, un elenco esatto delle installazioni o un collegamento tra periodi. Sono memorizzati soltanto sketch aggregati approssimativi, conteggi delle richieste, limiti dei periodi e indicatori temporali di aggiornamento. La conservazione massima è 48 ore per aggregati di 15 minuti, 90 giorni per quelli giornalieri, 56 settimane per quelli settimanali e 13 mesi per quelli mensili. I risultati interni inferiori a 10 installazioni distinte sono soppressi.
+
+Il trattamento sostiene sicurezza, pianificazione della capacità, affidabilità e decisioni aggregate sul prodotto. Ove applicabile, la base giuridica è il legittimo interesse di NearbyWeather a gestire un servizio sicuro, affidabile ed efficiente, bilanciato da minimizzazione dei dati, separazione dei periodi, accesso limitato e conservazione circoscritta. Non è usato per pubblicità, non crea un elenco di clienti visibile agli operatori e non serve a inviare notifiche. Un futuro sistema di notifiche lato server avrà informativa e regole di consenso e ciclo di vita separate. Puoi opporti al trattamento fondato sul legittimo interesse tramite il contatto nella Sezione 17.
+
+## 5. Segnalazione di arresti anomali ed errori (facoltativo)
 NearbyWeather utilizza Google Firebase Crashlytics per raccogliere report diagnostici e sugli arresti anomali solo quando è abilitata la segnalazione degli errori.
 
 I rapporti sugli arresti anomali e diagnostici possono includere:
@@ -52,38 +59,38 @@ I rapporti sugli arresti anomali e diagnostici possono includere:
 
 NearbyWeather non include intenzionalmente i tuoi segnalibri o la tua posizione precisa nei rapporti sugli arresti anomali. Puoi disattivare la segnalazione degli errori in qualsiasi momento nelle impostazioni della privacy o della guida dell'app.
 
-## 5. Comunicazioni relative al supporto
+## 6. Comunicazioni relative al supporto
 Se contatti l'assistenza, il messaggio e qualsiasi informazione che scegli di includere, come screenshot, diagnostica, registri, impostazioni esportate o altri allegati, potrebbero essere utilizzati per rispondere alla tua richiesta. Si prega di non includere informazioni che non si desidera condividere.
 
-## 6. Notifiche, aggiornamento dello sfondo e badge dell'icona dell'app
+## 7. Notifiche, aggiornamento dello sfondo e badge dell'icona dell'app
 Se abiliti le notifiche o il badge della temperatura sull'icona dell'app, NearbyWeather potrebbe aggiornare le informazioni meteo in background in modo che tali funzionalità rimangano aggiornate. Le preferenze di notifica e le impostazioni del badge vengono archiviate localmente sul tuo dispositivo.
 
-## 7. Webcam e collegamenti di terze parti
+## 8. Webcam e collegamenti di terze parti
 NearbyWeather potrebbe mostrare voci di webcam vicine e collegamenti a provider. L'apertura di una webcam o di un collegamento esterno potrebbe portarti a un sito Web o a un'app di terze parti. Tali servizi di terze parti sono fuori dal controllo di NearbyWeather e sono regolati dalle rispettive politiche sulla privacy.
 
-## 8. Nessun tracciamento o pubblicità
+## 9. Nessun tracciamento o pubblicità
 NearbyWeather non utilizza tecnologie di tracciamento, identificatori pubblicitari, analisi pubblicitarie o profilazione per scopi pubblicitari.
 
-## 9. Sicurezza
+## 10. Sicurezza
 I dati locali sensibili rimangono sul tuo dispositivo. Per i servizi NearbyWeather vengono utilizzate ragionevoli garanzie tecniche, ma nessun sistema di trasmissione o archiviazione di rete può essere garantito che sia perfettamente sicuro. Sei responsabile della protezione del tuo dispositivo con sicurezza a livello di sistema come un passcode, Touch ID o Face ID.
 
-## 10. Conservazione e cancellazione dei dati
+## 11. Conservazione e cancellazione dei dati
 Puoi rimuovere segnalibri, segnalibri eliminati di recente e preferenze tramite l'app dove sono disponibili i relativi controlli. Puoi anche rimuovere tutti i dati dell'app eliminando l'app dal tuo dispositivo. I metadati della stazione meteorologica forniti con l'app fanno parte dell'installazione dell'app.
 
-## 11. Fornitori e responsabili del trattamento dei dati di terze parti
+## 12. Fornitori e responsabili del trattamento dei dati di terze parti
 NearbyWeather può interagire con fornitori e processori di dati di terze parti come Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, servizi di posta elettronica e provider di webcam. I servizi di terze parti non sono controllati da NearbyWeather e le loro politiche sulla privacy si applicano quando utilizzi funzionalità che li contattano.
 
-## 12. Requisiti legali e tutela del servizio
+## 13. Requisiti legali e tutela del servizio
 NearbyWeather può conservare o divulgare informazioni se ragionevolmente necessario per conformarsi alla legge applicabile, rispondere a procedimenti legali, proteggere gli utenti, proteggere l'integrità del servizio, indagare su problemi tecnici o di sicurezza o applicare i termini applicabili.
 
-## 13. Elaborazione internazionale
+## 14. Elaborazione internazionale
 I servizi NearbyWeather e i fornitori o i processori di terze parti potrebbero elaborare le informazioni in paesi diversi da quello in cui vivi. Quando ciò accade, il trattamento è regolato dai termini sulla privacy del relativo servizio e dalla legge applicabile.
 
-## 14. Bambini
+## 15. Bambini
 NearbyWeather non è rivolto ai bambini e non raccoglie consapevolmente dati personali dei bambini.
 
-## 15. Aggiornamenti della politica sulla privacy
+## 16. Aggiornamenti della politica sulla privacy
 La presente Informativa sulla privacy potrebbe essere aggiornata in futuro. Le modifiche si rifletteranno nell'App e nei documenti legali pubblici.
 
-## 16. Contatto
+## 17. Contatto
 Per domande relative alla privacy, contattare: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
