@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.0
-Last updated: 2026-06-26
+Version: 3.1
+Last updated: 2026-09-01
 -->
 
 # Adatvédelmi szabályzat
@@ -17,9 +17,9 @@ Last updated: 2026-06-26
 
 
 
-**Verzió:** 3.0
+**Verzió:** 3.1
 
-**Utolsó frissítés:** 2026-06-26
+**Utolsó frissítés:** 2026-09-01
 
 ## 1. Áttekintés
 A NearbyWeather tiszteletben tartja az Ön személyes adatait. Az alkalmazás időjárási információkat és kapcsolódó funkciókat biztosít, miközben lehetőség szerint helyi szinten tartja a felhasználóspecifikus alkalmazásadatokat.
@@ -41,7 +41,14 @@ Ha megadja a helymeghatározási engedélyt, a NearbyWeather az eszköz helyadat
 
 Ahol lehetséges, a NearbyWeather szolgáltatások közvetítőként szolgálnak az Alkalmazás és a harmadik fél adatszolgáltatók között. Kérhetnek, gyorsítótárazhatnak és visszaküldhetnek időjárási adatokat, de nem arra szolgálnak, hogy felhasználói fiókokat vagy felhasználói profilokat hozzanak létre időjárási kérésekhez. A harmadik fél adatszolgáltatók és -feldolgozók a kéréseket saját adatvédelmi szabályzataik és feltételeik szerint kezelik.
 
-## 4. Összeomlás- és hibajelentés (opcionális)
+## 4. Alkalmazásintegritás és adatvédelmet biztosító szolgáltatáselemzés
+Annak ellenőrzéséhez, hogy a védett kérések valódi NearbyWeather-telepítésektől származnak, valamint a visszajátszás, a visszaélés és a külső szolgáltatói kvóták védelme érdekében a NearbyWeather szolgáltatásai alkalmazásspecifikus App Attest hitelesítő adatot, állításszámlálókat, rövid életű kihívásokat és telepítésenkénti kvótaállapotot kezelhetnek. Ezek nem hirdetési azonosítók, és nem használjuk őket felhasználói fiók vagy a kért időjárási helyek és szolgáltatók előzményeinek létrehozására. Az aktív hitelesítő adatokat és számlálókat az ellenőrzéshez és visszavonáshoz szükséges ideig őrizzük; a lejárt kihívásokat, inaktív kvótaállapotot és visszavont adatokat korlátozott karbantartási ütem szerint töröljük.
+
+A szolgáltatás biztonságos működtetéséhez és tervezéséhez a NearbyWeather megbecsülheti, hány különböző alkalmazástelepítés küld sikeresen engedélyezett kérést, és rögzítheti a kérések összesített számát rögzített időszakokban. Az integritási adat csak átmeneti bemenet, amelyet azonnal időszakspecifikus, egyirányú hozzájárulássá alakítunk egy közelítő összesítéshez. Az elemzési adatok között nem tároljuk a hitelesítő adatot, tartós elemzési azonosítót, pontos telepítési listát vagy időszakok közötti kapcsolatot. Csak közelítő összesítő vázlatok, kérésszámok, időszakhatárok és frissességi időbélyegek maradnak. A maximális megőrzés 48 óra a 15 perces, 90 nap a napi, 56 hét a heti és 13 hónap a havi összesítéseknél. A 10-nél kevesebb különböző telepítésre vonatkozó belső eredményeket elrejtjük.
+
+A kezelés a szolgáltatásbiztonságot, kapacitástervezést, megbízhatóságot és összesített termékdöntéseket szolgálja. Ahol alkalmazandó, jogalapja a NearbyWeather biztonságos, megbízható és hatékony működéséhez fűződő jogos érdeke, amelyet adatminimalizálás, időszak-elválasztás, korlátozott hozzáférés és megőrzés ellensúlyoz. Nem használjuk hirdetésre, operátorok számára látható ügyféllista készítésére vagy értesítések küldésére. Egy jövőbeli szerveroldali értesítési rendszer külön tájékoztatást, hozzájárulási és életciklus-szabályokat kap. A jogos érdeken alapuló kezelés ellen a 17. szakasz elérhetőségén tiltakozhat.
+
+## 5. Összeomlás- és hibajelentés (opcionális)
 A NearbyWeather a Google Firebase Crashlytics szolgáltatást használja az összeomlási és diagnosztikai jelentések összegyűjtésére, ha a hibajelentés engedélyezve van.
 
 Az összeomlási és diagnosztikai jelentések a következőket tartalmazhatják:
@@ -52,38 +59,38 @@ Az összeomlási és diagnosztikai jelentések a következőket tartalmazhatják
 
 A NearbyWeather szándékosan nem tartalmazza az Ön könyvjelzőit vagy pontos helyét a hibajelentésekben. A hibajelentést bármikor letilthatja az Alkalmazás adatvédelmi vagy súgóbeállításaiban.
 
-## 5. Támogatással kapcsolatos kommunikáció
+## 6. Támogatással kapcsolatos kommunikáció
 Ha felveszi a kapcsolatot az ügyfélszolgálattal, akkor az üzenetet és a belefoglalni kívánt információkat (például képernyőképeket, diagnosztikát, naplókat, exportált beállításokat vagy egyéb mellékleteket) felhasználhatjuk a kérés megválaszolására. Kérjük, ne adjon meg olyan információkat, amelyeket nem szeretne megosztani.
 
-## 6. Értesítések, háttérfrissítés és alkalmazásikon jelvény
+## 7. Értesítések, háttérfrissítés és alkalmazásikon jelvény
 Ha engedélyezi az értesítéseket vagy az alkalmazás ikonjának hőmérsékleti jelvényét, a NearbyWeather frissítheti az időjárási információkat a háttérben, hogy ezek a funkciók naprakészek maradjanak. Az értesítési beállítások és a jelvénybeállítások helyileg az eszközön tárolódnak.
 
-## 7. Webkamerák és harmadik féltől származó hivatkozások
+## 8. Webkamerák és harmadik féltől származó hivatkozások
 A NearbyWeather megjelenítheti a közeli webkamera bejegyzéseket és a szolgáltatói linkeket. Webkamera vagy külső hivatkozás megnyitása harmadik fél webhelyére vagy alkalmazására vezethet. Ezek a harmadik féltől származó szolgáltatások kívül esnek a NearbyWeather ellenőrzésén, és saját adatvédelmi szabályzataik szabályozzák őket.
 
-## 8. Nincs nyomon követés vagy hirdetés
+## 9. Nincs nyomon követés vagy hirdetés
 A NearbyWeather nem használ nyomkövetési technológiákat, hirdetésazonosítókat, hirdetéselemzést vagy profilalkotást hirdetési célokra.
 
-## 9. Biztonság
+## 10. Biztonság
 Az érzékeny helyi adatok az eszközön maradnak. A NearbyWeather szolgáltatásokhoz ésszerű műszaki biztosítékokat alkalmaznak, de egyetlen hálózati átviteli vagy tárolórendszer sem garantálható, hogy tökéletesen biztonságos. Ön felelős azért, hogy eszközét rendszerszintű biztonsággal védje, például jelkóddal, Touch ID vagy Face ID.
 
-## 10. Adatmegőrzés és törlés
+## 11. Adatmegőrzés és törlés
 Eltávolíthatja a könyvjelzőket, a nemrég törölt könyvjelzőket és a beállításokat az alkalmazáson keresztül, ahol a megfelelő vezérlők elérhetők. Az összes alkalmazásadatot úgy is eltávolíthatja, hogy törli az alkalmazást az eszközről. Az alkalmazáshoz mellékelt meteorológiai állomás metaadatai az alkalmazás telepítésének részét képezik.
 
-## 11. Harmadik fél adatszolgáltatók és -feldolgozók
+## 12. Harmadik fél adatszolgáltatók és -feldolgozók
 A NearbyWeather kapcsolatba léphet harmadik fél adatszolgáltatókkal és -feldolgozókkal, például a Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, e-mail-szolgáltatókkal és webkamera-szolgáltatókkal. A harmadik felek szolgáltatásait a NearbyWeather nem szabályozza, és a velük kapcsolatba lépő funkciók használatakor saját adatvédelmi irányelveik érvényesek.
 
-## 12. Jogi követelmények és szolgáltatásvédelem
+## 13. Jogi követelmények és szolgáltatásvédelem
 A NearbyWeather megőrizheti vagy közzéteheti az információkat, ha az ésszerűen szükséges a vonatkozó jogszabályok betartásához, a jogi eljárásokra való reagáláshoz, a felhasználók védelméhez, a szolgáltatás integritásának védelméhez, a biztonsági vagy műszaki problémák kivizsgálásához vagy a vonatkozó feltételek betartatásához.
 
-## 13. Nemzetközi feldolgozás
+## 14. Nemzetközi feldolgozás
 A NearbyWeather szolgáltatások és a külső szolgáltatók vagy feldolgozók az Ön lakóhelyétől eltérő országokban dolgozhatnak fel információkat. Amikor ez megtörténik, a feldolgozásra az adott szolgáltatás adatvédelmi feltételei és a vonatkozó jogszabályok az irányadók.
 
-## 14. Gyerekek
+## 15. Gyerekek
 A NearbyWeather nem gyermekeknek szól, és nem gyűjt tudatosan személyes adatokat gyermekektől.
 
-## 15. Adatvédelmi irányelvek frissítései
+## 16. Adatvédelmi irányelvek frissítései
 Ez az adatvédelmi szabályzat a jövőben frissítésre kerülhet. A változások az Alkalmazásban és a nyilvános jogi dokumentumokban is megjelennek.
 
-## 16. Kapcsolat
+## 17. Kapcsolat
 Adatvédelemmel kapcsolatos kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
