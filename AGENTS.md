@@ -2,10 +2,10 @@
 GENERATED FILE — do not edit directly.
 Generated from the repository's pinned public instruction contract.
 profile:  emm-public-documentation
-revision: agents-contract-v2.0.0
+revision: agents-contract-v3.0.0
 fragments:
   - documentation-contract (sha256:401a2c3f9ed2)
-  - public-repository-boundary (sha256:13b121d6df71)
+  - public-repository-boundary (sha256:43d83d7d0459)
   - release-publication-contract (sha256:a0cd1b33cb49)
 -->
 
@@ -21,7 +21,7 @@ fragments:
 - Documentation-only work does not run unrelated builds or tests. Validate links, diagrams, examples, and generated-document contracts appropriate to the edited pages.
 
 ## Public Repository Boundary
-- Keep instructions and documentation self-contained for a public reader. Do not reference private sibling paths, private repositories, internal model maps, private delivery procedures, or unavailable organizational tooling.
+- Keep instructions and documentation self-contained for a public reader. Do not reference private sibling paths, private repositories, private delivery procedures, or unavailable organizational tooling.
 - Never publish secrets, credentials, private endpoints, customer or operator data, internal incident details, private evidence notes, or security-sensitive infrastructure topology.
 - Public examples use non-sensitive placeholder values and explain which values an adopter must supply.
 - Public release, contribution, setup, and security instructions describe only workflows that external users can actually access.
