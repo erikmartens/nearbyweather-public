@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.0
-Last updated: 2026-06-26
+Version: 3.1
+Last updated: 2026-09-01
 -->
 
 # Política de privadesa
@@ -17,9 +17,9 @@ Last updated: 2026-06-26
 
 
 
-**Versió:** 3.0
+**Versió:** 3.1
 
-**Darrera actualització:** 2026-06-26
+**Darrera actualització:** 2026-09-01
 
 ## 1. Visió general
 NearbyWeather respecta la vostra privadesa. L'aplicació proporciona informació meteorològica i funcions relacionades alhora que manté locals les dades de l'aplicació específiques de l'usuari sempre que sigui possible.
@@ -41,7 +41,14 @@ Si concedeixes permís d'ubicació, NearbyWeather utilitza la ubicació del teu 
 
 Quan sigui possible, els serveis de NearbyWeather tenen la intenció d'actuar com a intermediari entre l'aplicació i els proveïdors de dades de tercers. Poden sol·licitar, emmagatzemar a la memòria cau i retornar dades meteorològiques, però no estan dissenyats per crear comptes d'usuari o perfils d'usuari per a sol·licituds meteorològiques. Els proveïdors i processadors de dades de tercers gestionen les sol·licituds segons les seves pròpies polítiques i condicions de privadesa.
 
-## 4. Informe d'errors i errors (opcional)
+## 4. Integritat de l'aplicació i analítica del servei respectuosa amb la privadesa
+Per verificar que les sol·licituds protegides provenen d'instal·lacions genuïnes de NearbyWeather, evitar repeticions i abusos i protegir les quotes de proveïdors externs, els serveis de NearbyWeather poden tractar una credencial App Attest específica de l'aplicació, comptadors d'assercions, reptes de curta durada i l'estat de quota per instal·lació. Aquests valors de seguretat no són identificadors publicitaris i no s'utilitzen per crear un compte d'usuari ni un historial de les ubicacions meteorològiques o els proveïdors sol·licitats. Les credencials i els comptadors actius es conserven mentre calguin per a la verificació i la revocació; els reptes caducats, l'estat de quota inactiu i les credencials revocades s'eliminen segons calendaris de manteniment limitats.
+
+Per protegir, operar i planificar el servei, NearbyWeather també pot estimar quantes instal·lacions diferents fan sol·licituds admeses correctament i comptar el total de sol·licituds en períodes fixos. La credencial d'integritat només s'utilitza com a entrada temporal i es converteix immediatament en una contribució unidireccional específica del període a una estimació agregada aproximada. NearbyWeather no emmagatzema la credencial al conjunt analític, ni un identificador analític estable, ni una llista exacta d'instal·lacions, ni un enllaç entre períodes. Només es desen esbossos agregats aproximats, recomptes de sol·licituds, límits de període i marques de frescor. La retenció màxima és de 48 hores per als agregats de 15 minuts, 90 dies per als diaris, 56 setmanes per als setmanals i 13 mesos per als mensuals. Els resultats interns inferiors a 10 instal·lacions diferents se suprimeixen.
+
+Aquest tractament serveix per a la seguretat, la planificació de capacitat, la fiabilitat i decisions agregades de producte. Quan sigui aplicable, la base jurídica són els interessos legítims de NearbyWeather a operar un servei segur, fiable i eficient, equilibrats mitjançant minimització de dades, separació de períodes, accés restringit i retenció limitada. No s'utilitza per a publicitat, no crea una llista de clients visible per operadors i no s'utilitza per enviar notificacions. Un futur sistema de notificacions del servidor tindrà informació i regles de consentiment i cicle de vida separades. Podeu oposar-vos al tractament basat en interessos legítims mitjançant el contacte de la secció 17.
+
+## 5. Informe d'errors i errors (opcional)
 NearbyWeather utilitza Google Firebase Crashlytics per recopilar informes d'error i diagnòstic només quan els informes d'errors estan activats.
 
 Els informes d'error i diagnòstic poden incloure:
@@ -52,38 +59,38 @@ Els informes d'error i diagnòstic poden incloure:
 
 NearbyWeather no inclou intencionadament les vostres adreces d'interès ni la ubicació precisa als informes d'error. Pots desactivar els informes d'errors en qualsevol moment a la configuració de privadesa o d'ajuda de l'aplicació.
 
-## 5. Comunicacions relacionades amb el suport
+## 6. Comunicacions relacionades amb el suport
 Si us poseu en contacte amb el servei d'assistència, el missatge i qualsevol informació que trieu incloure, com ara captures de pantalla, diagnòstics, registres, configuracions exportades o altres fitxers adjunts, es poden utilitzar per respondre a la vostra sol·licitud. Si us plau, no incloguis informació que no vulguis compartir.
 
-## 6. Notificacions, actualització de fons i insígnia d'icona de l'aplicació
+## 7. Notificacions, actualització de fons i insígnia d'icona de l'aplicació
 Si activeu les notificacions o la insígnia de temperatura de la icona de l'aplicació, NearbyWeather pot actualitzar la informació meteorològica en segon pla perquè aquestes funcions es mantinguin actualitzades. Les preferències de notificació i la configuració de la insígnia s'emmagatzemen localment al dispositiu.
 
-## 7. Càmeres web i enllaços de tercers
+## 8. Càmeres web i enllaços de tercers
 NearbyWeather pot mostrar entrades de càmera web properes i enllaços de proveïdors. Obrir una càmera web o un enllaç extern pot portar-vos a un lloc web o una aplicació de tercers. Aquests serveis de tercers estan fora del control de NearbyWeather i es regeixen per les seves pròpies polítiques de privadesa.
 
-## 8. Sense seguiment ni publicitat
+## 9. Sense seguiment ni publicitat
 NearbyWeather no utilitza tecnologies de seguiment, identificadors publicitaris, analítiques publicitàries o perfils amb finalitats publicitàries.
 
-## 9. Seguretat
+## 10. Seguretat
 Les dades locals sensibles es mantenen al dispositiu. S'utilitzen garanties tècniques raonables per als serveis de NearbyWeather, però no es pot garantir que cap sistema de transmissió o emmagatzematge de xarxa sigui perfectament segur. Sou responsable de protegir el vostre dispositiu amb seguretat a nivell del sistema, com ara una contrasenya, Touch ID o Face ID.
 
-## 10. Retenció i supressió de dades
+## 11. Retenció i supressió de dades
 Podeu eliminar les adreces d'interès, les adreces d'interès suprimides recentment i les preferències mitjançant l'aplicació on hi ha els controls pertinents disponibles. També podeu eliminar totes les dades de l'aplicació suprimint l'aplicació del vostre dispositiu. Les metadades de l'estació meteorològica que s'inclouen amb l'aplicació formen part de la instal·lació de l'aplicació.
 
-## 11. Proveïdors i processadors de dades de tercers
+## 12. Proveïdors i processadors de dades de tercers
 NearbyWeather pot interactuar amb proveïdors i processadors de dades de tercers com ara Apple Weather / WeatherKit, OpenWeather, Open-Meteo, Firebase Crashlytics, GitHub, serveis de correu electrònic i proveïdors de càmeres web. Els serveis de tercers no estan controlats per NearbyWeather i les seves pròpies polítiques de privadesa s'apliquen quan utilitzeu funcions que us posen en contacte.
 
-## 12. Requisits legals i protecció del servei
+## 13. Requisits legals i protecció del servei
 NearbyWeather pot conservar o revelar informació si és raonablement necessari per complir la llei aplicable, respondre a processos legals, protegir els usuaris, protegir la integritat del servei, investigar problemes tècnics o de seguretat o fer complir els termes aplicables.
 
-## 13. Processament internacional
+## 14. Processament internacional
 Els serveis de NearbyWeather i els proveïdors o processadors de tercers poden processar informació en països diferents d'aquell on viviu. Quan això succeeix, el processament es regeix per les condicions de privadesa del servei rellevant i la llei aplicable.
 
-## 14. Nens
+## 15. Nens
 NearbyWeather no està dirigit als nens i no recull de manera conscient dades personals dels nens.
 
-## 15. Actualitzacions de la política de privadesa
+## 16. Actualitzacions de la política de privadesa
 Aquesta Política de privadesa es pot actualitzar en el futur. Els canvis es reflectiran a l'App i als documents legals públics.
 
-## 16. Contacte
+## 17. Contacte
 Per a preguntes relacionades amb la privadesa, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
