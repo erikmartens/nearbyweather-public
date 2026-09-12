@@ -71,6 +71,3 @@ NearbyWeather features, provider integrations, data sources, and service behavio
 
 ## 11. Oppdateringer av disse vilkårene
 Disse vilkårene kan bli oppdatert fra tid til annen. Fortsatt bruk av appen etter at oppdaterte vilkår er gjort tilgjengelige, utgjør aksept av de oppdaterte vilkårene.
-
-## 12. Kontakt
-For spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

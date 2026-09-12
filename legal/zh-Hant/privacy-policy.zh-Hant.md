@@ -91,6 +91,3 @@ NearbyWeather 不針對兒童，也不會刻意收集兒童的個人資料。
 
 ## 16. 隱私權政策更新
 本隱私權政策將來可能會更新。更改將反映在應用程式和公共法律文件中。
-
-## 17. 聯絡方式
-有關隱私相關的問題，請聯絡：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

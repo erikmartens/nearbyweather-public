@@ -91,6 +91,3 @@ NearbyWeather ne s’adresse pas aux enfants et ne collecte pas sciemment de don
 
 ## 16. Mises à jour de la politique de confidentialité
 Cette politique de confidentialité peut être mise à jour à l'avenir. Les modifications seront reflétées dans l'application et dans les documents juridiques publics.
-
-## 17. Contacter
-Pour toute question relative à la confidentialité, contactez : [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

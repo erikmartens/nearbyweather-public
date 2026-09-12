@@ -91,6 +91,3 @@ NearbyWeather không hướng tới trẻ em và không cố ý thu thập dữ 
 
 ## 16. Cập nhật chính sách quyền riêng tư
 Chính sách quyền riêng tư này có thể được cập nhật trong tương lai. Các thay đổi sẽ được phản ánh trong Ứng dụng và trong các văn bản pháp luật công khai.
-
-## 17. Liên hệ
-Đối với các câu hỏi liên quan đến quyền riêng tư, hãy liên hệ: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

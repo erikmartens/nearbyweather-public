@@ -71,6 +71,3 @@ Caracteristicile NearbyWeather, integrările furnizorilor, sursele de date și c
 
 ## 11. Actualizări ale acestor Termeni
 Acești Termeni pot fi actualizați din când în când. Folosirea în continuare a aplicației după ce Termenii actualizați sunt pusi la dispoziție reprezintă acceptarea Termenilor actualizați.
-
-## 12. Contact
-Pentru întrebări, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

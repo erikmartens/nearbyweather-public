@@ -71,6 +71,3 @@ NearbyWeather-functies, providerintegraties, gegevensbronnen en servicegedrag ku
 
 ## 11. Updates van deze voorwaarden
 Deze Voorwaarden kunnen van tijd tot tijd worden bijgewerkt. Voortgezet gebruik van de App nadat bijgewerkte Voorwaarden beschikbaar zijn gesteld, houdt aanvaarding in van de bijgewerkte Voorwaarden.
-
-## 12. Contactpersoon
-Voor vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

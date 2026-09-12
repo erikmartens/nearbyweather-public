@@ -71,6 +71,3 @@ Funkcie NearbyWeather, integrácie poskytovateľov, zdroje údajov a správanie 
 
 ## 11. Aktualizácie týchto podmienok
 Tieto Podmienky môžu byť z času na čas aktualizované. Pokračovanie v používaní aplikácie po sprístupnení aktualizovaných podmienok znamená prijatie aktualizovaných podmienok.
-
-## 12. Kontakt
-V prípade otázok kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

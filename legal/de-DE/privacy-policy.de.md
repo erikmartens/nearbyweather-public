@@ -91,6 +91,3 @@ NearbyWeather richtet sich nicht an Kinder und erfasst nicht wissentlich persone
 
 ## 16. Aktualisierungen der Datenschutzrichtlinien
 Diese Datenschutzrichtlinie kann in Zukunft aktualisiert werden. Änderungen werden in der App und in den öffentlichen Rechtsdokumenten berücksichtigt.
-
-## 17. Kontakt
-Bei Fragen zum Datenschutz wenden Sie sich bitte an: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

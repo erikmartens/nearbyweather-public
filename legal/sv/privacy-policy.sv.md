@@ -91,6 +91,3 @@ NearbyWeather riktar sig inte till barn och samlar inte medvetet in personuppgif
 
 ## 16. Uppdateringar av sekretesspolicyn
 Denna integritetspolicy kan komma att uppdateras i framtiden. Ändringar kommer att återspeglas i appen och i de offentliga juridiska dokumenten.
-
-## 17. Kontakt
-För integritetsrelaterade frågor, kontakta: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
