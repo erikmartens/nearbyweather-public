@@ -71,6 +71,3 @@ Les fonctionnalités de NearbyWeather, les intégrations de fournisseurs, les so
 
 ## 11. Mises à jour de ces conditions
 Ces conditions peuvent être mises à jour de temps à autre. L'utilisation continue de l'Application après la mise à disposition des Conditions mises à jour constitue l'acceptation des Conditions mises à jour.
-
-## 12. Contacter
-Pour toute question, contactez : [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

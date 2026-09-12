@@ -71,6 +71,3 @@ NearbyWeather 功能、提供商集成、数据源和服务行为可能会随着
 
 ## 11. 这些条款的更新
 这些条款可能会不时更新。在更新的条款可用后继续使用该应用程序即表示接受更新的条款。
-
-## 12. 联系方式
-如有疑问，请联系：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

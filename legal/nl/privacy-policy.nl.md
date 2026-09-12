@@ -91,6 +91,3 @@ NearbyWeather is niet gericht op kinderen en verzamelt niet bewust persoonsgegev
 
 ## 16. Updates van het privacybeleid
 Dit privacybeleid kan in de toekomst worden bijgewerkt. Wijzigingen zullen worden weerspiegeld in de App en in de openbare juridische documenten.
-
-## 17. Contactpersoon
-Voor privacygerelateerde vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -71,6 +71,3 @@ A NearbyWeather szolgáltatásai, szolgáltatói integrációi, adatforrásai é
 
 ## 11. A feltételek frissítései
 Ezek a feltételek időről időre frissülhetnek. Az Alkalmazás további használata a frissített Feltételek elérhetővé tétele után a frissített Feltételek elfogadását jelenti.
-
-## 12. Kapcsolat
-Kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

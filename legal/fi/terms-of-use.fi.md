@@ -71,6 +71,3 @@ NearbyWeather-ominaisuudet, palveluntarjoajan integraatiot, tietolähteet ja pal
 
 ## 11. Päivitykset näihin ehtoihin
 Näitä ehtoja voidaan päivittää ajoittain. Sovelluksen käytön jatkaminen päivitettyjen ehtojen julkaisemisen jälkeen merkitsee päivitettyjen ehtojen hyväksymistä.
-
-## 12. Ota yhteyttä
-Jos sinulla on kysyttävää, ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

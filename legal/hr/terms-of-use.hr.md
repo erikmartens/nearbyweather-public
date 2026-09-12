@@ -71,6 +71,3 @@ Značajke NearbyWeather, integracije pružatelja usluga, izvori podataka i pona�
 
 ## 11. Ažuriranja ovih Uvjeta
 Ovi Uvjeti mogu se ažurirati s vremena na vrijeme. Nastavak korištenja aplikacije nakon što ažurirani Uvjeti postanu dostupni predstavlja prihvaćanje ažuriranih Uvjeta.
-
-## 12. Kontakt
-Za pitanja kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

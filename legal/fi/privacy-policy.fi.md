@@ -91,6 +91,3 @@ NearbyWeather ei ole suunnattu lapsille, eikä se tietoisesti kerää henkilöti
 
 ## 16. Tietosuojakäytännön päivitykset
 Tätä tietosuojakäytäntöä voidaan päivittää tulevaisuudessa. Muutokset näkyvät sovelluksessa ja julkisissa oikeudellisissa asiakirjoissa.
-
-## 17. Ota yhteyttä
-Yksityisyyteen liittyvissä kysymyksissä ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

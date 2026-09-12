@@ -71,6 +71,3 @@ Funkce NearbyWeather, integrace poskytovatelů, zdroje dat a chování služeb s
 
 ## 11. Aktualizace těchto podmínek
 Tyto Podmínky mohou být čas od času aktualizovány. Další používání aplikace po zpřístupnění aktualizovaných podmínek znamená přijetí aktualizovaných podmínek.
-
-## 12. Kontakt
-V případě dotazů kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

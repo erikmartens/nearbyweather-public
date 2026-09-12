@@ -71,6 +71,3 @@ NearbyWeather の機能、プロバイダーの統合、データ ソース、�
 
 ## 11. 本規約の更新
 本規約は随時更新される場合があります。更新された規約が利用可能になった後もアプリを継続して使用すると、更新された規約に同意したものとみなされます。
-
-## 12. 連絡先
-ご質問がある場合は、[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com) までお問い合わせください。

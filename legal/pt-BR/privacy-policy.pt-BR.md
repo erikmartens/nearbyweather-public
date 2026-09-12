@@ -91,6 +91,3 @@ NearbyWeather não é direcionado a crianças e não coleta intencionalmente dad
 
 ## 16. Atualizações da Política de Privacidade
 Esta Política de Privacidade poderá ser atualizada no futuro. As alterações serão refletidas no App e nos documentos legais públicos.
-
-## 17. Contato
-Para questões relacionadas à privacidade, entre em contato com: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

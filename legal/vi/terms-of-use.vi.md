@@ -71,6 +71,3 @@ Các tính năng của NearbyWeather, sự tích hợp của nhà cung cấp, ng
 
 ## 11. Cập nhật các Điều khoản này
 Các Điều khoản này có thể được cập nhật theo thời gian. Việc tiếp tục sử dụng Ứng dụng sau khi Điều khoản cập nhật được cung cấp sẽ đồng nghĩa với việc chấp nhận Điều khoản cập nhật.
-
-##12. Liên hệ
-Nếu có thắc mắc, hãy liên hệ: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

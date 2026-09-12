@@ -91,6 +91,3 @@ A NearbyWeather nem gyermekeknek szól, és nem gyűjt tudatosan személyes adat
 
 ## 16. Adatvédelmi irányelvek frissítései
 Ez az adatvédelmi szabályzat a jövőben frissítésre kerülhet. A változások az Alkalmazásban és a nyilvános jogi dokumentumokban is megjelennek.
-
-## 17. Kapcsolat
-Adatvédelemmel kapcsolatos kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
