@@ -33,6 +33,8 @@
 
 ⚠️ By starting up the app you automatically agree to its [privacy policy](PRIVACYPOLICY.md) and its [terms of use](TERMSOFUSE.md).
 
+Data-source credits and license links are available in [Additional Data Sources](DATA_ATTRIBUTIONS.md).
+
 ## About the App
 
 NearbyWeather provides current weather information for for bookmarked weather stations, as well as nearby weather stations. The app uses the OpenWeatherMap API to download weather data.
