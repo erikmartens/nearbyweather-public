@@ -71,6 +71,3 @@ Fitur NearbyWeather, integrasi penyedia, sumber data, dan perilaku layanan dapat
 
 ## 11. Pembaruan Ketentuan Ini
 Ketentuan ini dapat diperbarui dari waktu ke waktu. Penggunaan Aplikasi yang berkelanjutan setelah Ketentuan yang diperbarui tersedia merupakan penerimaan terhadap Ketentuan yang diperbarui.
-
-## 12. Kontak
-Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

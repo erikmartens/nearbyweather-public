@@ -71,6 +71,3 @@ NearbyWeather özellikleri, sağlayıcı entegrasyonları, veri kaynakları ve h
 
 ## 11. Bu Koşullarda Yapılan Güncellemeler
 Bu Şartlar zaman zaman güncellenebilir. Güncellenen Şartlar kullanıma sunulduktan sonra Uygulamanın kullanılmaya devam edilmesi, güncellenen Şartların kabul edildiği anlamına gelir.
-
-## 12. İletişim
-Sorularınız için şu adresle iletişime geçin: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

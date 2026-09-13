@@ -71,6 +71,3 @@ Funkcje NearbyWeather, integracje dostawców, źródła danych i zachowanie usł
 
 ## 11. Aktualizacje niniejszych Warunków
 Niniejsze Warunki mogą być od czasu do czasu aktualizowane. Dalsze korzystanie z Aplikacji po udostępnieniu zaktualizowanego Regulaminu oznacza akceptację zaktualizowanego Regulaminu.
-
-## 12. Kontakt
-W przypadku pytań skontaktuj się z: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

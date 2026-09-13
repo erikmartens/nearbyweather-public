@@ -71,6 +71,3 @@ NearbyWeather features, provider integrations, data sources, and service behavio
 
 ## 11. Updates to These Terms
 These Terms may be updated from time to time. Continued use of the App after updated Terms are made available constitutes acceptance of the updated Terms.
-
-## 12. Contact
-For questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

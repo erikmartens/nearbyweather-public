@@ -91,6 +91,3 @@ NearbyWeather er ikke rettet mot barn og samler ikke bevisst inn personopplysnin
 
 ## 16. Oppdateringer av personvernregler
 Denne personvernerklæringen kan bli oppdatert i fremtiden. Endringer vil gjenspeiles i appen og i de offentlige juridiske dokumentene.
-
-## 17. Kontakt
-For personvernrelaterte spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

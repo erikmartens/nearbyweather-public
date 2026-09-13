@@ -71,6 +71,3 @@ NearbyWeather 기능, 공급자 통합, 데이터 소스 및 서비스 동작은
 
 ## 11. 본 약관 업데이트
 본 약관은 수시로 업데이트될 수 있습니다. 업데이트된 약관이 공개된 후에도 앱을 계속 사용하면 업데이트된 약관에 동의하는 것으로 간주됩니다.
-
-## 12. 연락처
-질문이 있는 경우 다음으로 문의하세요. [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

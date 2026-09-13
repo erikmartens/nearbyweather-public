@@ -71,6 +71,3 @@ NearbyWeather 功能、提供者整合、資料來源和服務行為可能會隨
 
 ## 11. 這些條款的更新
 這些條款可能會不時更新。在更新的條款可用後繼續使用該應用程式即表示接受更新的條款。
-
-## 12. 聯絡方式
-如有疑問，請聯絡：[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -91,6 +91,3 @@ NearbyWeather není zaměřen na děti a vědomě neshromažďuje osobní údaje
 
 ## 16. Aktualizace zásad ochrany osobních údajů
 Tyto zásady ochrany osobních údajů mohou být v budoucnu aktualizovány. Změny se projeví v aplikaci a ve veřejných právních dokumentech.
-
-## 17. Kontakt
-Máte-li dotazy týkající se ochrany osobních údajů, kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

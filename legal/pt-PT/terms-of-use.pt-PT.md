@@ -71,6 +71,3 @@ Os recursos do NearbyWeather, integrações de provedores, fontes de dados e com
 
 ## 11. Atualizações destes Termos
 Estes Termos podem ser atualizados de tempos em tempos. O uso continuado do Aplicativo após a disponibilização dos Termos atualizados constitui aceitação dos Termos atualizados.
-
-## 12. Contato
-Em caso de dúvidas, entre em contato com: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

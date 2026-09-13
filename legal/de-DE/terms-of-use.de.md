@@ -71,6 +71,3 @@ NearbyWeather-Funktionen, Anbieterintegrationen, Datenquellen und Dienstverhalte
 
 ## 11. Aktualisierungen dieser Bedingungen
 Diese Bedingungen können von Zeit zu Zeit aktualisiert werden. Die fortgesetzte Nutzung der App nach der Bereitstellung der aktualisierten Bedingungen stellt die Annahme der aktualisierten Bedingungen dar.
-
-## 12. Kontakt
-Bei Fragen wenden Sie sich bitte an: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

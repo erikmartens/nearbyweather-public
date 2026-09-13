@@ -91,6 +91,3 @@ NearbyWeather nu se adresează copiilor și nu colectează cu bună știință d
 
 ## 16. Actualizări ale politicii de confidențialitate
 Această politică de confidențialitate poate fi actualizată în viitor. Modificările vor fi reflectate în aplicație și în documentele juridice publice.
-
-## 17. Contact
-Pentru întrebări legate de confidențialitate, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

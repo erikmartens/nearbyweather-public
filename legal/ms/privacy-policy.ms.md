@@ -91,6 +91,3 @@ NearbyWeather tidak ditujukan kepada kanak-kanak dan tidak mengumpul data periba
 
 ## 16. Kemas Kini Dasar Privasi
 Dasar Privasi ini mungkin dikemas kini pada masa hadapan. Perubahan akan ditunjukkan dalam Apl dan dalam dokumen undang-undang awam.
-
-## 17. Hubungi
-Untuk soalan berkaitan privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

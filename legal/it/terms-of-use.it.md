@@ -71,6 +71,3 @@ Le funzionalità di NearbyWeather, le integrazioni dei fornitori, le origini dat
 
 ## 11. Aggiornamenti ai presenti Termini
 I presenti Termini possono essere aggiornati di volta in volta. L'uso continuato dell'App dopo che i Termini aggiornati sono stati resi disponibili costituisce l'accettazione dei Termini aggiornati.
-
-## 12. Contatto
-Per domande, contattare: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

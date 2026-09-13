@@ -91,6 +91,3 @@ NearbyWeather tidak ditujukan untuk anak-anak dan tidak dengan sengaja mengumpul
 
 ## 16. Pembaruan Kebijakan Privasi
 Kebijakan Privasi ini mungkin diperbarui di masa mendatang. Perubahan akan tercermin dalam Aplikasi dan dokumen hukum publik.
-
-## 17. Kontak
-Untuk pertanyaan terkait privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -71,6 +71,3 @@ Les funcions de NearbyWeather, les integracions de proveïdors, les fonts de dad
 
 ## 11. Actualitzacions d'aquestes condicions
 Aquestes Condicions es poden actualitzar de tant en tant. L'ús continuat de l'aplicació després que les Condicions actualitzades estiguin disponibles constitueix l'acceptació de les Condicions actualitzades.
-
-## 12. Contacte
-Per a preguntes, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

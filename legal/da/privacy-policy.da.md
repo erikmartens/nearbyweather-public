@@ -91,6 +91,3 @@ NearbyWeather er ikke rettet mod børn og indsamler ikke bevidst personlige data
 
 ## 16. Opdateringer af fortrolighedspolitik
 Denne privatlivspolitik kan blive opdateret i fremtiden. Ændringer vil blive afspejlet i appen og i de offentlige juridiske dokumenter.
-
-## 17. Kontakt
-For privatlivsrelaterede spørgsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

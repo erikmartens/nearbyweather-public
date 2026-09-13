@@ -71,6 +71,3 @@ Las funciones de NearbyWeather, las integraciones de proveedores, las fuentes de
 
 ## 11. Actualizaciones de estos términos
 Estos Términos pueden actualizarse periódicamente. El uso continuo de la Aplicación después de que los Términos actualizados estén disponibles constituye la aceptación de los Términos actualizados.
-
-## 12. Contacto
-Si tiene preguntas, comuníquese con: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

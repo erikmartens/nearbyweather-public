@@ -91,6 +91,3 @@ NearbyWeather çocuklara yönelik değildir ve bilerek çocuklardan kişisel ver
 
 ## 16. Gizlilik Politikası Güncellemeleri
 Bu Gizlilik Politikası gelecekte güncellenebilir. Değişiklikler Uygulamaya ve kamuya ait yasal belgelere yansıtılacaktır.
-
-## 17. İletişim
-Gizlilikle ilgili sorularınız için şu adresle iletişime geçin: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

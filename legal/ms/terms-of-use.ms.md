@@ -71,6 +71,3 @@ Ciri NearbyWeather, integrasi pembekal, sumber data dan tingkah laku perkhidmata
 
 ## 11. Kemas Kini Terma Ini
 Syarat ini boleh dikemas kini dari semasa ke semasa. Penggunaan Apl yang berterusan selepas Terma yang dikemas kini tersedia merupakan penerimaan Terma yang dikemas kini.
-
-## 12. Hubungi
-Untuk pertanyaan, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

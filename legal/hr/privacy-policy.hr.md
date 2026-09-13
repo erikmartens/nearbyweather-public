@@ -91,6 +91,3 @@ NearbyWeather nije usmjeren na djecu i ne prikuplja svjesno osobne podatke od dj
 
 ## 16. Ažuriranja pravila o privatnosti
 Ova Pravila privatnosti mogu se ažurirati u budućnosti. Promjene će se odraziti na aplikaciju i javne pravne dokumente.
-
-## 17. Kontakt
-Za pitanja u vezi s privatnošću kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

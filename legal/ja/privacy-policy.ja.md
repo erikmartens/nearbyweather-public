@@ -91,6 +91,3 @@ NearbyWeather は子供を対象としたものではなく、子供から意図
 
 ## 16. プライバシーポリシーの更新
 このプライバシーポリシーは将来更新される可能性があります。変更はアプリおよび公的法的文書に反映されます。
-
-## 17. 連絡先
-プライバシー関連の質問については、[erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com) までお問い合わせください。
