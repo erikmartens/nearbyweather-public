@@ -2,12 +2,19 @@
 GENERATED FILE — do not edit directly.
 Generated from the repository's pinned public instruction contract.
 profile:  emm-public-documentation
-revision: agents-contract-v3.0.6
+revision: agents-contract-v3.2.1
 fragments:
+  - instruction-ownership (sha256:8f39f4e402ab)
   - documentation-contract (sha256:401a2c3f9ed2)
   - public-repository-boundary (sha256:43d83d7d0459)
+  - task-cleanup (sha256:8c824853baba)
   - release-publication-contract (sha256:a0cd1b33cb49)
 -->
+
+## Instruction Ownership
+- Before adding or changing a rule, check whether it governs behavior shared across projects. Shared rules belong in the canonical shared contract repository and applicable profiles, not in a project's local instructions. Extend or consolidate an existing rule before adding another one.
+- Default to zero project-local rules: most repositories should need only a shared profile and version pin, with no local rules file. Project-local rules are allowed only for a constraint unique to that project or subtree. Record what makes it unique; a project-specific example, name or path does not make a general rule local. Do not duplicate or override shared rules in local instruction files. Apply this check during enrollment and when revisiting existing local rules too.
+- If shared versus project-local ownership is uncertain, present the scope and evidence to the user and let the user decide before adding the rule. Do not default uncertainty into a local exception.
 
 ## Documentation Requirements
 - Lead every substantial page with a short TL;DR that states the outcome, audience, prerequisites, and the next action.
@@ -26,6 +33,13 @@ fragments:
 - Public examples use non-sensitive placeholder values and explain which values an adopter must supply.
 - Public release, contribution, setup, and security instructions describe only workflows that external users can actually access.
 - If a change depends on private context, keep that context in the private owner and publish only the minimum stable public contract needed by this repository.
+
+## Task Completion Cleanup
+- Track temporary paths and simulator or emulator identifiers created or launched for the task. Reuse them while needed, then clean up resources whose work has finished before the final handoff.
+- Prune task-owned caches, build intermediates, scratch files and disposable output once no running process, verification, review or follow-up needs them. Preserve deliverables, unique work, user files, required diagnostic evidence and shared caches still in use; completion alone does not make every output disposable.
+- Shut down simulators and emulators launched for completed task processes after confirming that no other task or user session still needs them. Close their unused windows without stopping unrelated devices or sessions; shutting down a simulator does not require deleting its device or stored data.
+- Use exact task-owned paths and resource identifiers with the owning tool's cleanup mechanism. Do not blanket-purge global caches, temporary directories or simulator fleets. When ownership or retention is unclear, leave the resource intact and note why it remains.
+- Verify that cleanup succeeded. Include any meaningful retained resources or cleanup failures in the handoff so they can be resolved without losing work.
 
 ## Release Publication Requirements
 - A GitHub release entry is part of the released artifact. Creating or moving only a Git tag does not complete a release.
