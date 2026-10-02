@@ -2,7 +2,7 @@
 GENERATED FILE — do not edit directly.
 Generated from the repository's pinned public instruction contract.
 profile:  emm-public-documentation
-revision: agents-contract-v3.2.1
+revision: agents-contract-v3.2.2
 fragments:
   - instruction-ownership (sha256:8f39f4e402ab)
   - documentation-contract (sha256:401a2c3f9ed2)
