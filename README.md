@@ -37,7 +37,10 @@ Data-source credits and license links are available in [Additional Data Sources]
 
 ## About the App
 
-NearbyWeather provides current weather information for for bookmarked weather stations, as well as nearby weather stations. The app uses the OpenWeatherMap API to download weather data.
+The historical public release described below provides weather information for
+bookmarked and nearby weather stations using OpenWeatherMap. The screenshots,
+language table and 2.2.1 notes describe that release; they are not a specification
+or availability announcement for the next version under development.
 
 <p align="center">
 <img src="Resources/screenshots.PNG" alt="NearbyWeather Screenshots">
@@ -57,8 +60,8 @@ Release notes for past version are documented in this repository. Future release
 
 | Type | Version | Release Date |
 |:--|:--|:--|
-| Current Release | [2.2.1](Releases/version_2_2_1.md) | Dec 31 2020 |
-| Next Release | [3.0.0](Releases/version_3_0_0.md) | _TBA_ |
+| Documented historical release | [2.2.1](Releases/version_2_2_1.md) | Dec 31 2020 |
+| Planned release (not an availability announcement) | [3.0.0](Releases/version_3_0_0.md) | _TBA_ |
 
 [Contributors v1.0.0 - v2.2.1](Contributors/CONTRIBUTORS.md)
 
