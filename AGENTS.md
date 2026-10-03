@@ -2,10 +2,10 @@
 GENERATED FILE — do not edit directly.
 Generated from the repository's pinned public instruction contract.
 profile:  emm-public-documentation
-revision: agents-contract-v3.2.3
+revision: agents-contract-v3.3.0
 fragments:
   - instruction-ownership (sha256:8f39f4e402ab)
-  - documentation-contract (sha256:401a2c3f9ed2)
+  - documentation-contract (sha256:32182cf5e563)
   - public-repository-boundary (sha256:43d83d7d0459)
   - task-cleanup (sha256:8c824853baba)
   - release-publication-contract (sha256:a0cd1b33cb49)
@@ -24,7 +24,7 @@ fragments:
 - Architecture documentation covers components, ownership, interfaces, data models, class/component views, runtime/sequence views, external dependencies, security boundaries, and failure behavior.
 - Operator documentation follows the real lifecycle: choose a lane, plan and pin, verify, package, configure secrets/trust, deploy, validate, promote, observe, update/rollback, back up, and recover.
 - State clearly which lanes are implemented, experimental, future, or unsupported. Documentation must never claim a runnable deployment, security property, or recovery path that has not been verified.
-- Keep pages current in the same slice as the code or contract they explain. Remove obsolete procedures and repair indexes when ownership or paths change.
+- Keep pages current in the same slice as the code or contract they explain. Apply the engineering documentation-impact check where applicable: repair missing coverage and stale guidance at their authoritative owners, include local updates with the implementation and link required companion documentation PRs. Remove obsolete procedures and repair indexes when ownership or paths change. Preserve proposed, merged and released status and public/private boundaries.
 - Documentation-only work does not run unrelated builds or tests. Validate links, diagrams, examples, and generated-document contracts appropriate to the edited pages.
 
 ## Public Repository Boundary
