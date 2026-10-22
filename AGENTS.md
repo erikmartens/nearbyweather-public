@@ -1,51 +1,49 @@
 <!--
-GENERATED FILE — do not edit directly.
-Generated from the repository's pinned public instruction contract.
-profile:  emm-public-documentation
-revision: agents-contract-v4.2.0
-fragments:
-  - instruction-ownership (sha256:8f39f4e402ab)
-  - documentation-contract (sha256:32182cf5e563)
-  - public-repository-boundary (sha256:43d83d7d0459)
-  - task-cleanup (sha256:8c824853baba)
-  - release-publication-contract (sha256:a0cd1b33cb49)
+GENERATED reviewed projection; do not edit. Human source remains authoritative.
+profile: emm-public-documentation; revision: agents-contract-v4.2.1
+Source/projection checksums: .agents/contract.lock
 -->
 
 ## Instruction Ownership
-- Before adding or changing a rule, check whether it governs behavior shared across projects. Shared rules belong in the canonical shared contract repository and applicable profiles, not in a project's local instructions. Extend or consolidate an existing rule before adding another one.
-- Default to zero project-local rules: most repositories should need only a shared profile and version pin, with no local rules file. Project-local rules are allowed only for a constraint unique to that project or subtree. Record what makes it unique; a project-specific example, name or path does not make a general rule local. Do not duplicate or override shared rules in local instruction files. Apply this check during enrollment and when revisiting existing local rules too.
-- If shared versus project-local ownership is uncertain, present the scope and evidence to the user and let the user decide before adding the rule. Do not default uncertainty into a local exception.
+
+- Shared behavior rules belong in canonical shared profiles, not project instructions; extend/consolidate before adding.
+- Default no local rules. Only unique project/subtree constraints qualify: record uniqueness; names/paths/examples do not establish it. Never duplicate/override shared rules, including enrollment/revisits.
+- Uncertain ownership: present scope/evidence for user decision; never invent local exceptions.
 
 ## Documentation Requirements
-- Lead every substantial page with a short TL;DR that states the outcome, audience, prerequisites, and the next action.
-- Structure documentation from a holistic index into progressively detailed architecture, setup, operator, API, security, and troubleshooting pages. Avoid multiple competing entry points for the same procedure.
-- Use short step-by-step guides where an operator must create files, secrets, certificates, databases, deployment packages, backups, or rollback artifacts.
-- Distinguish product overview, application architecture, backend architecture, networking/data exchange, setup, developer workflow, deployment/operator procedure, API/contracts, security, and evidence. Link between owners instead of duplicating a drifting copy.
-- Architecture documentation covers components, ownership, interfaces, data models, class/component views, runtime/sequence views, external dependencies, security boundaries, and failure behavior.
-- Operator documentation follows the real lifecycle: choose a lane, plan and pin, verify, package, configure secrets/trust, deploy, validate, promote, observe, update/rollback, back up, and recover.
-- State clearly which lanes are implemented, experimental, future, or unsupported. Documentation must never claim a runnable deployment, security property, or recovery path that has not been verified.
-- Keep pages current in the same slice as the code or contract they explain. Apply the engineering documentation-impact check where applicable: repair missing coverage and stale guidance at their authoritative owners, include local updates with the implementation and link required companion documentation PRs. Remove obsolete procedures and repair indexes when ownership or paths change. Preserve proposed, merged and released status and public/private boundaries.
-- Documentation-only work does not run unrelated builds or tests. Validate links, diagrams, examples, and generated-document contracts appropriate to the edited pages.
+
+- Substantial pages start with TL;DR: outcome/audience/prerequisites/next action.
+- One holistic index leads to architecture/setup/operator/API/security/troubleshooting detail; no competing procedure entries.
+- Use short steps for creating files/secrets/certificates/databases/packages/backups/rollback artifacts.
+- Distinguish product/app/backend/network/setup/workflow/operations/API/security/evidence docs; link owners, never duplicate drifting copies.
+- Architecture covers components/owners/interfaces/data/static and runtime views/dependencies/security/failure.
+- Operations follow lane choice, planning/pins, verification/package, secrets/trust, deploy/validate/promote/observe/update/rollback/backup/recovery.
+- Label implemented/experimental/future/unsupported; never claim unverified deployment/security/recovery.
+- Keep docs with code/contract slices; repair missing/stale owner guidance, local/companion PRs, obsolete procedures/indexes/links. Preserve proposal/merge/release/privacy boundaries.
+- Docs-only: no unrelated builds/tests; validate relevant links/diagrams/examples/generated contracts.
 
 ## Public Repository Boundary
-- Keep instructions and documentation self-contained for a public reader. Do not reference private sibling paths, private repositories, private delivery procedures, or unavailable organizational tooling.
-- Never publish secrets, credentials, private endpoints, customer or operator data, internal incident details, private evidence notes, or security-sensitive infrastructure topology.
-- Public examples use non-sensitive placeholder values and explain which values an adopter must supply.
-- Public release, contribution, setup, and security instructions describe only workflows that external users can actually access.
-- If a change depends on private context, keep that context in the private owner and publish only the minimum stable public contract needed by this repository.
+
+- Public instructions/docs self-contained; no private paths/repos/procedures/unavailable tooling.
+- Never publish secrets/credentials/private endpoints/customer-operator data/incidents/private evidence/sensitive topology.
+- Examples use safe placeholders; explain adopter-supplied values.
+- Public release/contribution/setup/security workflows must be externally accessible.
+- Keep private-dependent context private; publish only required stable public contract.
 
 ## Task Completion Cleanup
-- Track temporary paths and simulator or emulator identifiers created or launched for the task. Reuse them while needed, then clean up resources whose work has finished before the final handoff.
-- Prune task-owned caches, build intermediates, scratch files and disposable output once no running process, verification, review or follow-up needs them. Preserve deliverables, unique work, user files, required diagnostic evidence and shared caches still in use; completion alone does not make every output disposable.
-- Shut down simulators and emulators launched for completed task processes after confirming that no other task or user session still needs them. Close their unused windows without stopping unrelated devices or sessions; shutting down a simulator does not require deleting its device or stored data.
-- Use exact task-owned paths and resource identifiers with the owning tool's cleanup mechanism. Do not blanket-purge global caches, temporary directories or simulator fleets. When ownership or retention is unclear, leave the resource intact and note why it remains.
-- Verify that cleanup succeeded. Include any meaningful retained resources or cleanup failures in the handoff so they can be resolved without losing work.
+
+- Track exact task-owned paths/devices; reuse while needed, clean when finished before handoff.
+- Remove task caches/intermediates/scratch only when no process/verification/review/follow-up needs them. Preserve deliverables/unique work/user files/diagnostics/in-use shared caches.
+- Shut down task-launched devices/unused windows after checking other sessions need none; never stop unrelated devices or delete stored data merely for shutdown.
+- Use owning cleanup tools/exact IDs, never global purges. Unclear ownership/retention: preserve and explain.
+- Verify cleanup; report meaningful retained resources/failures.
 
 ## Release Publication Requirements
-- A GitHub release entry is part of the released artifact. Creating or moving only a Git tag does not complete a release.
-- In a repository with one release stream, the GitHub release title equals the exact Git tag, including its case, separators, and version prefix.
-- A repository with multiple independently versioned release streams may title an entry `<stream>-<tag>`, where `stream` uses lowercase words separated only by hyphens. Do not add a second prefix when the tag already identifies its stream.
-- Do not use display names, title case, spaces, or descriptive prose in a release title. Put human-readable context in the release notes.
-- Release notes state the material changes, compatibility or migration impact, verification evidence, and known limitations appropriate to the repository.
-- Work that changes a versioned artifact uses a feature or integration branch and a pull request. After the branch reaches a coherent state and merges, publish the next warranted version; do not leave release-worthy changes indefinitely on the designated base without a release.
-- Before declaring multi-repository delivery complete, verify every changed versioned artifact has its required immutable tag and correctly titled release entry.
+
+- Release requires GitHub entry, not tag alone.
+- Single-stream release title equals exact tag, case/prefix/separators included.
+- Multiple streams may use `<lowercase-hyphenated-stream>-<tag>`; do not duplicate a stream already in tag.
+- No prose/display names/title case/spaces in titles; context belongs in notes.
+- Notes cover material changes/compatibility/migration/verification/limits as relevant.
+- Versioned changes use feature/integration PR; after coherent merge publish warranted next version. Never leave release-worthy changes indefinitely unreleased.
+- Before multi-repo completion, verify every changed artifact's immutable tag and correctly titled release.

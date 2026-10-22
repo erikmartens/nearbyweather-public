@@ -1,21 +1,29 @@
 ---
-schema: 1
+schema: 2
 profile: emm-public-documentation
-revision: agents-contract-v4.2.0
-generated_sha256: 697bb871f33c07c33c288210f7a021e0c26b0ed4659c02d6f8b32b73e633274a
+revision: agents-contract-v4.2.1
+generated_sha256: 6aa65b4314b67f3748f8eca9513b1b8a7aee305d3e9fcfbf55fdfd9d0cacab8d
 fragments:
 - name: instruction-ownership
-  revision: agents-contract-v4.2.0
+  revision: agents-contract-v4.2.1
   sha256: 8f39f4e402abac730e1e418d1b572cd7a03160e7194689b728cf282e1ed9748e
+  projection_sha256: 3cc984a30f45adf663dea7ac9c0828d0203fd65fc41e746fdfacdbc241592f51
 - name: documentation-contract
-  revision: agents-contract-v4.2.0
+  revision: agents-contract-v4.2.1
   sha256: 32182cf5e563a5081c165580e5d3538bebe7a49b45e6345f4a16ad46edd03fdc
+  projection_sha256: a59bd1cc953e07644ee060032e4325acf02db2554c711a5b5c69cd67ab70d38c
 - name: public-repository-boundary
-  revision: agents-contract-v4.2.0
+  revision: agents-contract-v4.2.1
   sha256: 43d83d7d0459ff6727e7b898ea6fad7f783662e9887d292c9128eb7b1118ad75
+  projection_sha256: 3c5b5836e7e736b0395be34f7d71d92a78b7e06729541f7254dfe99c93b492aa
 - name: task-cleanup
-  revision: agents-contract-v4.2.0
+  revision: agents-contract-v4.2.1
   sha256: 8c824853baba1f72a6a5df9c678f90779eb648066c6b05a71f17aae46fddc1f5
+  projection_sha256: 5370be1fbd87cb6231ea662a6b790c94bb565b3bb1e8f9aa2c8f939c242829b5
 - name: release-publication-contract
-  revision: agents-contract-v4.2.0
+  revision: agents-contract-v4.2.1
   sha256: a0cd1b33cb4945e812dd555aef88a265686570f7524ce407c99346ccfbe50215
+  projection_sha256: 7fb1722339dd45e9a2aa5d27bb380005afec11e568b8215838429cc334a34ee5
+projection:
+  format: reviewed-v1
+  max_bytes: 32768
