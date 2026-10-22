@@ -17,7 +17,20 @@ ruby -ryaml -rdigest -ropen3 -e '
   lock = YAML.safe_load(staged(".agents/contract.lock"))
   contract = YAML.safe_load(staged(".agents/contract.yaml")).fetch("contract")
   expected = lock["generated_sha256"]
-  actual = Digest::SHA256.hexdigest(staged("AGENTS.md"))
+  document = staged("AGENTS.md")
+  actual = Digest::SHA256.hexdigest(document)
+  case lock["schema"]
+  when 1
+    abort("Compact metadata requires lock schema 2.") if lock.key?("projection")
+  when 2
+    projection = lock["projection"]
+    unless projection == { "format" => "reviewed-v1", "max_bytes" => 32768 }
+      abort("Unknown compact contract budget; update emm-agents and re-render.")
+    end
+    abort("AGENTS.md exceeds its compact byte budget.") if document.bytesize > projection.fetch("max_bytes")
+  else
+    abort("Unknown contract lock schema; update emm-agents and re-render.")
+  end
   abort("AGENTS.md has been edited since it was generated; re-render with emm-agents.") unless expected && actual == expected
   abort("The pinned contract profile does not match the lock; re-render with emm-agents.") unless contract["profile"].to_s == lock["profile"].to_s
   abort("The pinned contract revision does not match the lock; re-render with emm-agents.") unless contract["revision"].to_s == lock["revision"].to_s
