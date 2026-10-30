@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Personvernerklæring
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versjon:** 3.1
+**Versjon:** 3.2
 
-**Sist oppdatert:** 2026-09-01
+**Sist oppdatert:** 2026-10-30
 
 ## 1. Oversikt
 NearbyWeather respekterer personvernet ditt. Appen gir værinformasjon og relaterte funksjoner samtidig som brukerspesifikke appdata holdes lokale når det er mulig.
@@ -48,19 +48,15 @@ For å sikre, drive og planlegge tjenesten kan NearbyWeather også anslå hvor m
 
 Behandlingen støtter tjenestesikkerhet, kapasitetsplanlegging, pålitelighet og aggregerte produktbeslutninger. Der det er relevant, er behandlingsgrunnlaget NearbyWeathers berettigede interesser i å drive en sikker, pålitelig og effektiv tjeneste, balansert gjennom dataminimering, periodeskille, tilgangsbegrensning og avgrenset lagring. Den brukes ikke til reklame, oppretter ikke en operatørsynlig klientliste og brukes ikke til varsler. Et eventuelt fremtidig serverbasert varslingssystem får egen informasjon samt egne samtykke- og livssyklusregler. Du kan protestere mot behandling basert på berettigede interesser via kontakten i del 17.
 
-## 5. Krasj- og feilrapportering (valgfritt)
-NearbyWeather bruker Google Firebase Crashlytics for å samle inn krasj- og diagnoserapporter kun når feilrapportering er aktivert.
+## 5. Lokal diagnostikk og valgfri feilrapportering
+NearbyWeather lagrer renset teknisk diagnostikk lokalt, også når automatisk rapportering er slått av. Feilposter inneholder tidsstempler, faste operasjonsnavn, feiltyper/-koder, app- og enhetsinformasjon samt støttede native krasjdetaljer. Grenser: 7 dager, 512 poster eller 1 MiB. Separat lokal kontekst registrerer skjermenes synlighet, appens livssyklus, antall oppdateringer og utvalgte innstillingsflagg/antall; grenser: 24 timer, 200 poster eller 256 KiB. De eldste postene fjernes når en grense nås. Posisjoner, søk, bokmerker, stedsidentifikatorer, nettadresser, påloggingsdata og rå feilmeldinger utelates.
 
-Krasj- og diagnoserapporter kan omfatte:
-
-- enhetstype og operativsystemversjon
-- appversjon og byggenummer
-- teknisk informasjon om krasj eller diagnostikkhendelse
-
-NearbyWeather inkluderer ikke med vilje bokmerkene dine eller den nøyaktige plasseringen i krasjrapporter. Du kan deaktivere feilrapportering når som helst i appens personvern- eller hjelpeinnstillinger.
+Firebase Crashlytics mottar bare rensede feil og native krasjrapporter hvis det lagrede valget ditt aktiverer automatisk rapportering. Crashlytics bruker også installasjons-/øktidentifikatorer, så rapportene er ikke helt anonyme. Lokal kontekst sendes aldri til Firebase. Du kan endre rapportering under Hjelp eller Personvern; appen forklarer når omstart kreves.
 
 ## 6. Support-relatert kommunikasjon
 Hvis du kontakter support, kan meldingen og all informasjon du velger å inkludere, for eksempel skjermbilder, diagnostikk, logger, eksporterte innstillinger eller andre vedlegg, brukes til å svare på forespørselen din. Vennligst ikke inkluder informasjon du ikke vil dele.
+
+Du kan se en JSON-rapport via Feillogger under Hjelp eller Personvern. En ønsket eksport inneholder lagrede feil/kontekst, gjeldende app-/enhetsmiljø, det lagrede rapporteringsvalget og lagringskapasitet målt bare for eksporten. Du velger om rapporten deles eller legges ved; opprettelsen sender den ikke. Du kan kontakte støtte uten logger eller avbryte.
 
 ## 7. Varsler, bakgrunnsoppdatering og appikonmerke
 Hvis du aktiverer varsler eller appikonets temperaturmerke, kan NearbyWeather oppdatere værinformasjon i bakgrunnen slik at disse funksjonene forblir oppdaterte. Varslingspreferanser og merkeinnstillinger lagres lokalt på enheten din.
@@ -91,3 +87,6 @@ NearbyWeather er ikke rettet mot barn og samler ikke bevisst inn personopplysnin
 
 ## 16. Oppdateringer av personvernregler
 Denne personvernerklæringen kan bli oppdatert i fremtiden. Endringer vil gjenspeiles i appen og i de offentlige juridiske dokumentene.
+
+## 17. Kontakt
+For personvernrelaterte spørsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

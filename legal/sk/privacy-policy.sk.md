@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Zásady ochrany osobných údajov
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Verzia:** 3.1
+**Verzia:** 3.2
 
-**Posledná aktualizácia:** 2026-09-01
+**Posledná aktualizácia:** 2026-10-30
 
 ## 1. Prehľad
 NearbyWeather rešpektuje vaše súkromie. Aplikácia poskytuje informácie o počasí a súvisiace funkcie a zároveň uchováva údaje aplikácie špecifické pre používateľa vždy, keď je to možné.
@@ -48,19 +48,15 @@ Na zabezpečenie, prevádzku a plánovanie služby môže NearbyWeather odhadova
 
 Spracúvanie podporuje bezpečnosť, plánovanie kapacity, spoľahlivosť a súhrnné produktové rozhodnutia. Ak je to relevantné, právnym základom sú oprávnené záujmy NearbyWeather na bezpečnej, spoľahlivej a efektívnej prevádzke, vyvážené minimalizáciou údajov, oddelením období, obmedzeným prístupom a uchovaním. Nepoužíva sa na reklamu, nevytvára zoznam klientov viditeľný operátorom a neposiela oznámenia. Budúci serverový systém oznámení bude mať samostatné informácie a pravidlá súhlasu a životného cyklu. Proti spracúvaniu na základe oprávnených záujmov môžete namietať prostredníctvom kontaktu v časti 17.
 
-## 5. Hlásenie zlyhaní a chýb (voliteľné)
-NearbyWeather používa službu Google Firebase Crashlytics na zhromažďovanie správ o zlyhaní a diagnostických správ iba vtedy, keď je hlásenie chýb povolené.
+## 5. Miestna diagnostika a voliteľné hlásenie chýb
+NearbyWeather ukladá očistené technické diagnostické údaje miestne aj pri vypnutom automatickom hlásení. Záznamy chýb obsahujú čas, pevné názvy operácií, typy/kódy chýb, údaje o aplikácii a zariadení a podporované systémové podrobnosti pádov. Limity: 7 dní, 512 záznamov alebo 1 MiB. Samostatný miestny kontext zaznamenáva viditeľnosť obrazoviek, životný cyklus aplikácie, počty obnovení a vybrané príznaky/počty nastavení; limity: 24 hodín, 200 položiek alebo 256 KiB. Pri dosiahnutí ktoréhokoľvek limitu sa najstaršie položky odstránia. Polohy, vyhľadávania, záložky, identifikátory miest, URL, prihlasovacie údaje a nespracované chybové správy sú vylúčené.
 
-Správy o zlyhaní a diagnostike môžu zahŕňať:
-
-- typ zariadenia a verzia operačného systému
-- verzia aplikácie a číslo zostavy
-- technické informácie o nehode alebo diagnostickej udalosti
-
-NearbyWeather zámerne nezahŕňa vaše záložky ani presnú polohu v správach o zlyhaní. Hlásenie chýb môžete kedykoľvek zakázať v nastaveniach ochrany osobných údajov alebo pomocníka aplikácie.
+Firebase Crashlytics dostáva očistené chyby a systémové hlásenia pádov len vtedy, keď vaša uložená voľba zapína automatické hlásenie. Crashlytics používa aj identifikátory inštalácie/relácie, preto hlásenia nie sú úplne anonymné. Miestny kontext sa nikdy neposiela do Firebase. Hlásenie môžete zmeniť v Pomocníkovi alebo Súkromí; aplikácia vysvetlí, kedy je potrebný reštart.
 
 ## 6. Komunikácia súvisiaca s podporou
 Ak kontaktujete podporu, správa a akékoľvek informácie, ktoré sa rozhodnete zahrnúť, ako sú snímky obrazovky, diagnostika, denníky, exportované nastavenia alebo iné prílohy, môžu byť použité ako odpoveď na vašu žiadosť. Neuvádzajte informácie, ktoré nechcete zdieľať.
+
+V denníkoch chýb v Pomocníkovi alebo Súkromí si môžete prezrieť správu JSON. Vyžiadaný export obsahuje uchované chyby/kontext, aktuálne prostredie aplikácie/zariadenia, uloženú voľbu hlásenia a kapacitu úložiska zistenú len pre tento export. O zdieľaní alebo priložení správy rozhodujete vy; vytvorenie nič neodosiela. Podporu môžete kontaktovať bez denníkov alebo akciu zrušiť.
 
 ## 7. Upozornenia, obnovenie na pozadí a odznak ikony aplikácie
 Ak povolíte upozornenia alebo teplotný odznak ikony aplikácie, NearbyWeather môže obnoviť informácie o počasí na pozadí, aby tieto funkcie zostali aktuálne. Predvoľby upozornení a nastavenia odznaku sú uložené lokálne vo vašom zariadení.
@@ -91,3 +87,6 @@ NearbyWeather nie je zameraný na deti a vedome nezhromažďuje osobné údaje o
 
 ## 16. Aktualizácie zásad ochrany osobných údajov
 Tieto Zásady ochrany osobných údajov môžu byť v budúcnosti aktualizované. Zmeny sa prejavia v aplikácii a vo verejných právnych dokumentoch.
+
+## 17. Kontakt
+Ak máte otázky týkajúce sa ochrany osobných údajov, kontaktujte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

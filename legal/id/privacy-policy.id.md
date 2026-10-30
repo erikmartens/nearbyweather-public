@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Kebijakan Privasi
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versi:** 3.1
+**Versi:** 3.2
 
-**Terakhir diperbarui:** 2026-09-01
+**Terakhir diperbarui:** 2026-10-30
 
 ## 1. Ikhtisar
 NearbyWeather menghormati privasi Anda. Aplikasi ini menyediakan informasi cuaca dan fitur terkait sambil menjaga data aplikasi spesifik pengguna tetap lokal bila memungkinkan.
@@ -48,19 +48,15 @@ Untuk mengamankan, mengoperasikan, dan merencanakan layanan, NearbyWeather juga 
 
 Pemrosesan ini mendukung keamanan layanan, perencanaan kapasitas, keandalan, dan keputusan produk agregat. Jika berlaku, dasar hukumnya adalah kepentingan sah NearbyWeather untuk menjalankan layanan yang aman, andal, dan efisien, diseimbangkan dengan minimisasi data, pemisahan periode, pembatasan akses, dan retensi terbatas. Data tidak digunakan untuk iklan, tidak membentuk daftar klien yang terlihat operator, dan tidak digunakan untuk mengirim notifikasi. Sistem notifikasi sisi server di masa depan akan memiliki pengungkapan serta aturan persetujuan dan siklus hidup yang terpisah. Anda dapat menolak pemrosesan berdasarkan kepentingan sah melalui kontak di Bagian 17.
 
-## 5. Pelaporan Kerusakan dan Kesalahan (Opsional)
-NearbyWeather menggunakan Google Firebase Crashlytics untuk mengumpulkan laporan kerusakan dan diagnostik hanya jika pelaporan kesalahan diaktifkan.
+## 5. Diagnostik lokal dan pelaporan kesalahan opsional
+NearbyWeather menyimpan diagnostik teknis yang disanitasi secara lokal, meski pelaporan otomatis dimatikan. Catatan kesalahan memuat waktu, nama operasi tetap, jenis/kode kesalahan, informasi aplikasi dan perangkat, serta detail crash native yang didukung. Batas: 7 hari, 512 catatan, atau 1 MiB. Konteks lokal terpisah mencatat visibilitas layar, siklus hidup aplikasi, jumlah penyegaran, dan penanda/jumlah preferensi tertentu; batas: 24 jam, 200 entri, atau 256 KiB. Entri tertua dihapus saat salah satu batas tercapai. Lokasi, pencarian, markah, pengenal tempat, URL, kredensial, dan pesan kesalahan mentah dikecualikan.
 
-Laporan kerusakan dan diagnostik mungkin mencakup:
-
-- jenis perangkat dan versi sistem operasi
-- versi aplikasi dan nomor build
-- informasi teknis tentang kecelakaan atau kejadian diagnostik
-
-NearbyWeather tidak sengaja menyertakan bookmark atau lokasi persis Anda dalam laporan kerusakan. Anda dapat menonaktifkan pelaporan kesalahan kapan saja di pengaturan privasi atau bantuan Aplikasi.
+Firebase Crashlytics hanya menerima kesalahan yang disanitasi dan laporan crash native jika pilihan tersimpan Anda mengaktifkan pelaporan otomatis. Crashlytics juga memakai pengenal instalasi/sesi, jadi laporan tidak sepenuhnya anonim. Konteks lokal tidak pernah dikirim ke Firebase. Anda dapat mengubah pelaporan di Bantuan atau Privasi; aplikasi menjelaskan kapan perlu dimulai ulang.
 
 ## 6. Komunikasi Terkait Dukungan
 Jika Anda menghubungi dukungan, pesan dan informasi apa pun yang Anda pilih untuk disertakan, seperti tangkapan layar, diagnostik, log, pengaturan yang diekspor, atau lampiran lainnya, dapat digunakan untuk menanggapi permintaan Anda. Harap jangan menyertakan informasi yang tidak ingin Anda bagikan.
+
+Anda dapat meninjau laporan JSON melalui log kesalahan di Bantuan atau Privasi. Ekspor yang diminta berisi kesalahan/konteks tersimpan, lingkungan aplikasi/perangkat saat ini, pilihan pelaporan tersimpan, dan kapasitas penyimpanan yang diukur hanya untuk ekspor tersebut. Anda memilih untuk membagikan atau melampirkan laporan; pembuatannya tidak mengirimkannya. Anda dapat menghubungi dukungan tanpa log atau membatalkan.
 
 ## 7. Notifikasi, Penyegaran Latar Belakang, dan Lencana Ikon Aplikasi
 Jika Anda mengaktifkan notifikasi atau lencana suhu ikon aplikasi, NearbyWeather dapat menyegarkan informasi cuaca di latar belakang sehingga fitur tersebut tetap terkini. Preferensi pemberitahuan dan pengaturan lencana disimpan secara lokal di perangkat Anda.
@@ -91,3 +87,6 @@ NearbyWeather tidak ditujukan untuk anak-anak dan tidak dengan sengaja mengumpul
 
 ## 16. Pembaruan Kebijakan Privasi
 Kebijakan Privasi ini mungkin diperbarui di masa mendatang. Perubahan akan tercermin dalam Aplikasi dan dokumen hukum publik.
+
+## 17. Kontak
+Untuk pertanyaan terkait privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

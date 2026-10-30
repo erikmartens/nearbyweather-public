@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Polityka prywatności
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Wersja:** 3.1
+**Wersja:** 3.2
 
-**Ostatnia aktualizacja:** 2026-09-01
+**Ostatnia aktualizacja:** 2026-10-30
 
 ## 1. Przegląd
 NearbyWeather szanuje Twoją prywatność. Aplikacja udostępnia informacje o pogodzie i powiązane funkcje, zachowując jednocześnie, jeśli to możliwe, dane aplikacji specyficzne dla użytkownika lokalnie.
@@ -48,19 +48,15 @@ W celu zabezpieczenia, obsługi i planowania usługi NearbyWeather może także 
 
 Przetwarzanie wspiera bezpieczeństwo, planowanie pojemności, niezawodność i zbiorcze decyzje produktowe. Tam, gdzie ma to zastosowanie, podstawą prawną jest prawnie uzasadniony interes NearbyWeather w bezpiecznym, niezawodnym i wydajnym działaniu, równoważony minimalizacją danych, rozdzieleniem okresów, ograniczeniem dostępu i przechowywania. Dane nie służą reklamie, nie tworzą listy klientów widocznej dla operatora i nie są używane do wysyłania powiadomień. Przyszły system powiadomień serwerowych będzie miał osobną informację oraz zasady zgody i cyklu życia. Sprzeciw wobec przetwarzania na podstawie uzasadnionego interesu można zgłosić przez kontakt w sekcji 17.
 
-## 5. Raportowanie awarii i błędów (opcjonalnie)
-NearbyWeather używa Google Firebase Crashlytics do zbierania raportów o awariach i diagnostyce tylko wtedy, gdy włączone jest raportowanie błędów.
+## 5. Lokalna diagnostyka i opcjonalne raportowanie błędów
+NearbyWeather przechowuje oczyszczone dane diagnostyczne lokalnie, także przy wyłączonym raportowaniu automatycznym. Zapisy błędów zawierają czas, stałe nazwy operacji, typy/kody błędów, informacje o aplikacji i urządzeniu oraz obsługiwane systemowe szczegóły awarii. Limity: 7 dni, 512 zapisów lub 1 MiB. Oddzielny kontekst lokalny obejmuje widoczność ekranów, cykl życia aplikacji, liczby odświeżeń oraz wybrane flagi/liczniki preferencji; limity: 24 godziny, 200 wpisów lub 256 KiB. Po osiągnięciu dowolnego limitu najstarsze wpisy są usuwane. Lokalizacje, wyszukiwania, zakładki, identyfikatory miejsc, adresy URL, dane uwierzytelniające i surowe komunikaty błędów są wykluczone.
 
-Raporty o awariach i raporty diagnostyczne mogą obejmować:
-
-- typ urządzenia i wersja systemu operacyjnego
-- wersja aplikacji i numer kompilacji
-- informacje techniczne dotyczące awarii lub zdarzenia diagnostycznego
-
-NearbyWeather nie uwzględnia celowo Twoich zakładek ani dokładnej lokalizacji w raportach o awariach. W każdej chwili możesz wyłączyć raportowanie błędów w ustawieniach prywatności lub pomocy Aplikacji.
+Firebase Crashlytics otrzymuje oczyszczone błędy i systemowe raporty awarii tylko wtedy, gdy zapisany wybór włącza raportowanie automatyczne. Crashlytics używa również identyfikatorów instalacji/sesji, więc raporty nie są całkowicie anonimowe. Kontekst lokalny nigdy nie trafia do Firebase. Raportowanie można zmienić w Pomocy lub Prywatności; aplikacja wyjaśnia, kiedy konieczne jest ponowne uruchomienie.
 
 ## 6. Komunikacja związana ze wsparciem
 Jeśli skontaktujesz się z pomocą techniczną, wiadomość i wszelkie informacje, które zdecydujesz się dołączyć, takie jak zrzuty ekranu, dane diagnostyczne, dzienniki, wyeksportowane ustawienia lub inne załączniki, mogą zostać wykorzystane w odpowiedzi na Twoją prośbę. Nie zamieszczaj informacji, którymi nie chcesz się podzielić.
+
+Raport JSON można przejrzeć w dziennikach błędów w Pomocy lub Prywatności. Eksport na żądanie zawiera zachowane błędy/kontekst, bieżące środowisko aplikacji/urządzenia, zapisany wybór raportowania i pojemność pamięci mierzoną tylko dla tego eksportu. To Ty decydujesz o udostępnieniu lub dołączeniu raportu; utworzenie go niczego nie wysyła. Możesz skontaktować się z pomocą bez dzienników albo anulować.
 
 ## 7. Powiadomienia, odświeżanie w tle i ikona aplikacji
 Jeśli włączysz powiadomienia lub plakietkę temperatury na ikonie aplikacji, NearbyWeather może odświeżać informacje o pogodzie w tle, aby funkcje te pozostały aktualne. Preferencje powiadomień i ustawienia plakietki są przechowywane lokalnie na Twoim urządzeniu.
@@ -91,3 +87,6 @@ NearbyWeather nie jest skierowany do dzieci i nie gromadzi świadomie danych oso
 
 ## 16. Aktualizacje Polityki Prywatności
 Niniejsza Polityka prywatności może być w przyszłości aktualizowana. Zmiany zostaną odzwierciedlone w Aplikacji oraz w publicznych dokumentach prawnych.
+
+## 17. Kontakt
+W przypadku pytań związanych z prywatnością skontaktuj się z: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

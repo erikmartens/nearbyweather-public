@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Privacybeleid
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versie:** 3.1
+**Versie:** 3.2
 
-**Laatst bijgewerkt:** 2026-09-01
+**Laatst bijgewerkt:** 2026-10-30
 
 ## 1. Overzicht
 NearbyWeather respecteert uw privacy. De app biedt weersinformatie en gerelateerde functies, terwijl gebruikersspecifieke app-gegevens waar mogelijk lokaal worden gehouden.
@@ -48,19 +48,15 @@ Om de service te beveiligen, uit te voeren en te plannen kan NearbyWeather ook s
 
 Deze verwerking ondersteunt servicebeveiliging, capaciteitsplanning, betrouwbaarheid en geaggregeerde productbeslissingen. Waar van toepassing is de rechtsgrond het gerechtvaardigde belang van NearbyWeather bij een veilige, betrouwbare en efficiënte service, afgewogen met gegevensminimalisatie, periodescheiding, beperkte toegang en bewaring. Ze wordt niet gebruikt voor advertenties, maakt geen voor operators zichtbare klantenlijst en wordt niet gebruikt om meldingen te sturen. Een toekomstig servermeldingssysteem krijgt een afzonderlijke toelichting en eigen toestemmings- en levenscyclusregels. U kunt via het contact in sectie 17 bezwaar maken tegen verwerking op grond van gerechtvaardigd belang.
 
-## 5. Crash- en foutrapportage (optioneel)
-NearbyWeather gebruikt Google Firebase Crashlytics om crash- en diagnostische rapporten alleen te verzamelen als foutrapportage is ingeschakeld.
+## 5. Lokale diagnostiek en optionele foutmeldingen
+NearbyWeather bewaart opgeschoonde technische diagnostiek lokaal, ook als automatische rapportage uitstaat. Foutrecords bevatten tijdstippen, vaste bewerkingsnamen, fouttypen/codes, app- en apparaatinformatie en ondersteunde native crashdetails. Grenzen: 7 dagen, 512 records of 1 MiB. Aparte lokale context registreert schermzichtbaarheid, de app-levenscyclus, aantallen verversingen en geselecteerde voorkeursvlaggen/aantallen; grenzen: 24 uur, 200 items of 256 KiB. Zodra een grens is bereikt worden de oudste items verwijderd. Locaties, zoekopdrachten, bladwijzers, plaats-ID’s, URL’s, inloggegevens en onbewerkte foutteksten zijn uitgesloten.
 
-Crash- en diagnostische rapporten kunnen het volgende omvatten:
-
-- apparaattype en versie van het besturingssysteem
-- app-versie en buildnummer
-- technische informatie over de crash of diagnostische gebeurtenis
-
-NearbyWeather neemt niet opzettelijk uw bladwijzers of exacte locatie op in crashrapporten. U kunt de foutrapportage op elk gewenst moment uitschakelen in de privacy- of helpinstellingen van de app.
+Firebase Crashlytics ontvangt opgeschoonde fouten en native crashrapporten alleen als uw opgeslagen keuze automatische rapportage inschakelt. Crashlytics gebruikt ook installatie-/sessie-ID’s, dus de rapporten zijn niet volledig anoniem. Lokale context wordt nooit naar Firebase gestuurd. U kunt rapportage wijzigen onder Help of Privacy; de app legt uit wanneer herstarten nodig is.
 
 ## 6. Ondersteuningsgerelateerde communicatie
 Als u contact opneemt met de ondersteuning, kunnen het bericht en alle informatie die u wilt toevoegen, zoals schermafbeeldingen, diagnostische gegevens, logboeken, geëxporteerde instellingen of andere bijlagen, worden gebruikt om op uw verzoek te reageren. Voeg alstublieft geen informatie toe die u niet wilt delen.
+
+Via Foutlogboeken in Help of Privacy kunt u een JSON-rapport bekijken. Een aangevraagde export bevat bewaarde fouten/context, de huidige app-/apparaatomgeving, de opgeslagen rapportagekeuze en opslagcapaciteit die alleen voor die export wordt gemeten. U kiest of u het rapport deelt of bijvoegt; aanmaken verstuurt niets. U kunt ondersteuning zonder logboeken benaderen of annuleren.
 
 ## 7. Meldingen, achtergrondvernieuwing en app-pictogrambadge
 Als u meldingen of de temperatuurbadge van het app-pictogram inschakelt, kan NearbyWeather de weersinformatie op de achtergrond vernieuwen, zodat deze functies actueel blijven. Meldingsvoorkeuren en badge-instellingen worden lokaal op uw apparaat opgeslagen.
@@ -91,3 +87,6 @@ NearbyWeather is niet gericht op kinderen en verzamelt niet bewust persoonsgegev
 
 ## 16. Updates van het privacybeleid
 Dit privacybeleid kan in de toekomst worden bijgewerkt. Wijzigingen zullen worden weerspiegeld in de App en in de openbare juridische documenten.
+
+## 17. Contactpersoon
+Voor privacygerelateerde vragen kunt u contact opnemen met: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

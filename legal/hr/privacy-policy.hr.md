@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Politika privatnosti
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Verzija:** 3.1
+**Verzija:** 3.2
 
-**Zadnje ažuriranje:** 2026-09-01
+**Zadnje ažuriranje:** 2026-10-30
 
 ## 1. Pregled
 NearbyWeather poštuje vašu privatnost. Aplikacija pruža informacije o vremenskoj prognozi i povezane značajke dok podatke o aplikaciji specifične za korisnika čuvaju lokalnim kad god je to moguće.
@@ -48,19 +48,15 @@ Radi zaštite, rada i planiranja usluge, NearbyWeather može procjenjivati kolik
 
 Obrada podržava sigurnost, planiranje kapaciteta, pouzdanost i agregirane odluke o proizvodu. Gdje je primjenjivo, pravna osnova su legitimni interesi NearbyWeathera za sigurno, pouzdano i učinkovito pružanje usluge, uravnoteženi smanjenjem podataka, odvajanjem razdoblja, ograničenjem pristupa i čuvanja. Ne koristi se za oglašavanje, ne stvara popis klijenata vidljiv operaterima i ne služi slanju obavijesti. Budući poslužiteljski sustav obavijesti imat će zasebnu obavijest te pravila privole i životnog ciklusa. Obradi na temelju legitimnih interesa možete prigovoriti putem kontakta u odjeljku 17.
 
-## 5. Izvještavanje o rušenju i pogreškama (neobavezno)
-NearbyWeather koristi Google Firebase Crashlytics za prikupljanje izvješća o padu i dijagnostici samo kada je omogućeno izvješćivanje o pogreškama.
+## 5. Lokalna dijagnostika i neobavezno prijavljivanje pogrešaka
+NearbyWeather lokalno čuva očišćene tehničke dijagnostičke podatke, čak i kada je automatsko prijavljivanje isključeno. Zapisi sadrže vrijeme, stalne nazive radnji, vrste/kodove pogrešaka, podatke o aplikaciji i uređaju te podržane izvorne detalje rušenja. Ograničenja: 7 dana, 512 zapisa ili 1 MiB. Odvojeni lokalni kontekst bilježi vidljivost zaslona, životni ciklus aplikacije, broj osvježavanja i odabrane oznake/brojeve postavki; ograničenja: 24 sata, 200 unosa ili 256 KiB. Najstariji unosi uklanjaju se kada se dosegne bilo koje ograničenje. Lokacije, pretraživanja, oznake, identifikatori mjesta, URL-ovi, vjerodajnice i neobrađene poruke pogrešaka isključeni su.
 
-Izvješća o padu i dijagnostička izvješća mogu uključivati:
-
-- vrstu uređaja i verziju operativnog sustava
-- verzija aplikacije i broj izrade
-- tehničke informacije o sudaru ili dijagnostičkom događaju
-
-NearbyWeather ne uključuje namjerno vaše oznake ili točnu lokaciju u izvješća o padu programa. Možete onemogućiti izvješćivanje o pogreškama u bilo kojem trenutku u postavkama privatnosti ili pomoći aplikacije.
+Firebase Crashlytics prima očišćene pogreške i izvorna izvješća o rušenju samo ako vaš spremljeni odabir omogućuje automatsko prijavljivanje. Crashlytics koristi i identifikatore instalacije/sesije, pa izvješća nisu potpuno anonimna. Lokalni kontekst nikad se ne šalje Firebaseu. Prijavljivanje možete promijeniti u Pomoći ili Privatnosti; aplikacija objašnjava kada je potrebno ponovno pokretanje.
 
 ## 6. Komunikacija vezana uz podršku
 Ako se obratite podršci, poruka i sve informacije koje odaberete uključiti, poput snimaka zaslona, dijagnostike, zapisa, izvezenih postavki ili drugih privitaka, mogu se koristiti za odgovor na vaš zahtjev. Nemojte uključivati ​​informacije koje ne želite podijeliti.
+
+JSON izvješće možete pregledati u zapisnicima pogrešaka u Pomoći ili Privatnosti. Zatraženi izvoz sadrži zadržane pogreške/kontekst, trenutačno okruženje aplikacije/uređaja, spremljeni odabir prijavljivanja i kapacitet pohrane izmjeren samo za taj izvoz. Vi birate hoćete li izvješće podijeliti ili priložiti; izrada ga ne šalje. Podršku možete kontaktirati bez zapisnika ili odustati.
 
 ## 7. Obavijesti, osvježavanje pozadine i značka ikone aplikacije
 Ako omogućite obavijesti ili temperaturnu značku ikone aplikacije, NearbyWeather može osvježiti informacije o vremenu u pozadini kako bi te značajke ostale aktualne. Postavke obavijesti i značke pohranjuju se lokalno na vašem uređaju.
@@ -91,3 +87,6 @@ NearbyWeather nije usmjeren na djecu i ne prikuplja svjesno osobne podatke od dj
 
 ## 16. Ažuriranja pravila o privatnosti
 Ova Pravila privatnosti mogu se ažurirati u budućnosti. Promjene će se odraziti na aplikaciju i javne pravne dokumente.
+
+## 17. Kontakt
+Za pitanja u vezi s privatnošću kontaktirajte: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

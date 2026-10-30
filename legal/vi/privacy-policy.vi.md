@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 #Chính sách quyền riêng tư
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Phiên bản:** 3.1
+**Phiên bản:** 3.2
 
-**Cập nhật lần cuối:** 2026-09-01
+**Cập nhật lần cuối:** 2026-10-30
 
 ## 1. Tổng quan
 NearbyWeather tôn trọng quyền riêng tư của bạn. Ứng dụng cung cấp thông tin thời tiết và các tính năng liên quan trong khi vẫn giữ dữ liệu ứng dụng dành riêng cho người dùng bất cứ khi nào có thể.
@@ -48,19 +48,15 @@ Nếu có thể, các dịch vụ NearbyWeather nhằm mục đích đóng vai t
 
 Việc xử lý hỗ trợ bảo mật, lập kế hoạch năng lực, độ tin cậy và quyết định sản phẩm tổng hợp. Khi áp dụng, cơ sở pháp lý là lợi ích hợp pháp của NearbyWeather trong việc vận hành dịch vụ an toàn, đáng tin cậy và hiệu quả, được cân bằng bằng giảm thiểu dữ liệu, tách kỳ, hạn chế truy cập và lưu giữ. Không dùng cho quảng cáo, không tạo danh sách khách hàng hiển thị cho người vận hành và không gửi thông báo. Hệ thống thông báo phía máy chủ trong tương lai sẽ có công bố cùng quy tắc đồng ý và vòng đời riêng. Bạn có thể phản đối xử lý dựa trên lợi ích hợp pháp qua liên hệ ở Mục 17.
 
-## 5. Báo cáo sự cố và lỗi (Tùy chọn)
-NearbyWeather sử dụng Google Firebase Crashlytics để chỉ thu thập các báo cáo chẩn đoán và sự cố khi bật báo cáo lỗi.
+## 5. Chẩn đoán cục bộ và báo cáo lỗi tùy chọn
+NearbyWeather lưu dữ liệu chẩn đoán kỹ thuật đã lọc ngay trên thiết bị, kể cả khi tắt báo cáo tự động. Bản ghi lỗi chứa thời gian, tên thao tác cố định, loại/mã lỗi, thông tin ứng dụng và thiết bị cùng chi tiết sự cố gốc được hỗ trợ. Giới hạn: 7 ngày, 512 bản ghi hoặc 1 MiB. Ngữ cảnh cục bộ riêng ghi trạng thái hiển thị màn hình, vòng đời ứng dụng, số lần làm mới và một số cờ/số lượng tùy chọn; giới hạn: 24 giờ, 200 mục hoặc 256 KiB. Mục cũ nhất bị xóa khi đạt bất kỳ giới hạn nào. Không bao gồm vị trí, tìm kiếm, dấu trang, mã địa điểm, URL, thông tin xác thực và thông báo lỗi thô.
 
-Báo cáo sự cố và chẩn đoán có thể bao gồm:
-
-- loại thiết bị và phiên bản hệ điều hành
-- phiên bản ứng dụng và số bản dựng
-- thông tin kỹ thuật về sự cố hoặc sự kiện chẩn đoán
-
-NearbyWeather không cố ý đưa dấu trang hoặc vị trí chính xác của bạn vào báo cáo sự cố. Bạn có thể tắt tính năng báo cáo lỗi bất cứ lúc nào trong cài đặt trợ giúp hoặc quyền riêng tư của Ứng dụng.
+Firebase Crashlytics chỉ nhận lỗi đã lọc và báo cáo sự cố gốc khi lựa chọn đã lưu của bạn bật báo cáo tự động. Crashlytics cũng dùng mã cài đặt/phiên, nên báo cáo không hoàn toàn ẩn danh. Ngữ cảnh cục bộ không bao giờ được gửi tới Firebase. Bạn có thể đổi báo cáo trong Trợ giúp hoặc Quyền riêng tư; ứng dụng giải thích khi nào cần khởi động lại.
 
 ## 6. Truyền thông liên quan đến hỗ trợ
 Nếu bạn liên hệ với bộ phận hỗ trợ, tin nhắn và bất kỳ thông tin nào bạn chọn đưa vào, chẳng hạn như ảnh chụp màn hình, chẩn đoán, nhật ký, cài đặt đã xuất hoặc các tệp đính kèm khác, có thể được sử dụng để đáp ứng yêu cầu của bạn. Vui lòng không bao gồm thông tin bạn không muốn chia sẻ.
+
+Bạn có thể xem báo cáo JSON qua nhật ký lỗi trong Trợ giúp hoặc Quyền riêng tư. Bản xuất theo yêu cầu gồm lỗi/ngữ cảnh còn lưu, môi trường ứng dụng/thiết bị hiện tại, lựa chọn báo cáo đã lưu và dung lượng lưu trữ chỉ được đo cho lần xuất đó. Bạn chọn chia sẻ hay đính kèm báo cáo; việc tạo không gửi báo cáo đi. Bạn có thể liên hệ hỗ trợ không kèm nhật ký hoặc hủy.
 
 ## 7. Thông báo, Làm mới nền và Huy hiệu biểu tượng ứng dụng
 Nếu bạn bật thông báo hoặc huy hiệu nhiệt độ của biểu tượng ứng dụng, NearbyWeather có thể làm mới thông tin thời tiết ở chế độ nền để các tính năng đó luôn cập nhật. Tùy chọn thông báo và cài đặt huy hiệu được lưu trữ cục bộ trên thiết bị của bạn.
@@ -91,3 +87,6 @@ NearbyWeather không hướng tới trẻ em và không cố ý thu thập dữ 
 
 ## 16. Cập nhật chính sách quyền riêng tư
 Chính sách quyền riêng tư này có thể được cập nhật trong tương lai. Các thay đổi sẽ được phản ánh trong Ứng dụng và trong các văn bản pháp luật công khai.
+
+## 17. Liên hệ
+Đối với các câu hỏi liên quan đến quyền riêng tư, hãy liên hệ: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
