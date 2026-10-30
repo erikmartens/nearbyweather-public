@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Política de privacidad
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versión:** 3.1
+**Versión:** 3.2
 
-**Última actualización:** 2026-09-01
+**Última actualización:** 2026-10-30
 
 ## 1. Descripción general
 NearbyWeather respeta su privacidad. La aplicación proporciona información meteorológica y funciones relacionadas y, al mismo tiempo, mantiene locales los datos de la aplicación específicos del usuario siempre que sea posible.
@@ -48,19 +48,15 @@ Para proteger, operar y planear el servicio, NearbyWeather también puede estima
 
 Este procesamiento respalda la seguridad, la planeación de capacidad, la confiabilidad y decisiones agregadas de producto. Cuando corresponda, la base jurídica son los intereses legítimos de NearbyWeather en operar un servicio seguro, confiable y eficiente, equilibrados mediante minimización de datos, separación de periodos, acceso restringido y retención limitada. No se usa para publicidad, no crea una lista de clientes visible para operadores ni se usa para enviar notificaciones. Un futuro sistema de notificaciones del servidor tendrá información y reglas de consentimiento y ciclo de vida separadas. Puede oponerse al procesamiento basado en intereses legítimos mediante el contacto de la sección 17.
 
-## 5. Informes de fallos y errores (opcional)
-NearbyWeather utiliza Google Firebase Crashlytics para recopilar informes de fallos y diagnósticos solo cuando los informes de errores están habilitados.
+## 5. Diagnósticos locales e informes de errores opcionales
+NearbyWeather guarda diagnósticos técnicos depurados localmente, incluso con los informes automáticos desactivados. Los errores contienen fechas, nombres fijos de operaciones, tipos/códigos de error, información de la app y del dispositivo y detalles nativos de fallos compatibles. Límites: 7 días, 512 registros o 1 MiB. Un contexto local separado registra la visibilidad de las pantallas, el ciclo de vida de la app, cantidades de actualizaciones y algunos indicadores/recuentos de preferencias; límites: 24 horas, 200 entradas o 256 KiB. Al alcanzar cualquier límite se eliminan las entradas más antiguas. Se excluyen ubicaciones, búsquedas, favoritos, identificadores de lugares, URL, credenciales y mensajes de error sin procesar.
 
-Los informes de fallos y diagnósticos pueden incluir:
-
-- tipo de dispositivo y versión del sistema operativo
-- versión de la aplicación y número de compilación
-- información técnica sobre el accidente o evento de diagnóstico
-
-NearbyWeather no incluye intencionalmente sus marcadores ni su ubicación precisa en los informes de fallos. Puede desactivar el informe de errores en cualquier momento en la configuración de privacidad o ayuda de la aplicación.
+Firebase Crashlytics solo recibe errores depurados e informes nativos de fallos si tu elección guardada activa los informes automáticos. Crashlytics también usa identificadores de instalación/sesión, por lo que los informes no son totalmente anónimos. El contexto local nunca se envía a Firebase. Puedes cambiar los informes en Ayuda o Privacidad; la app indica cuándo hace falta reiniciarla.
 
 ## 6. Comunicaciones relacionadas con el soporte
 Si se comunica con el soporte, el mensaje y cualquier información que elija incluir, como capturas de pantalla, diagnósticos, registros, configuraciones exportadas u otros archivos adjuntos, se pueden utilizar para responder a su solicitud. No incluya información que no desee compartir.
+
+Puedes revisar un informe JSON en Registros de errores, dentro de Ayuda o Privacidad. La exportación solicitada incluye los errores/contexto conservados, el entorno actual de la app/dispositivo, la elección guardada de informes y la capacidad de almacenamiento medida solo para esa exportación. Tú eliges compartir o adjuntar el informe; crearlo no lo envía. Puedes contactar con soporte sin registros o cancelar.
 
 ## 7. Notificaciones, actualización en segundo plano e insignia del icono de la aplicación
 Si habilita las notificaciones o la insignia de temperatura del ícono de la aplicación, NearbyWeather puede actualizar la información meteorológica en segundo plano para que esas funciones se mantengan actualizadas. Las preferencias de notificación y la configuración de la insignia se almacenan localmente en su dispositivo.
@@ -91,3 +87,6 @@ NearbyWeather no está dirigido a niños y no recopila deliberadamente datos per
 
 ## 16. Actualizaciones de la política de privacidad
 Esta Política de Privacidad puede actualizarse en el futuro. Los cambios se reflejarán en la App y en los documentos legales públicos.
+
+## 17. Contacto
+Si tiene preguntas relacionadas con la privacidad, comuníquese con: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

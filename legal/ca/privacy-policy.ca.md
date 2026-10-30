@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Política de privadesa
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versió:** 3.1
+**Versió:** 3.2
 
-**Darrera actualització:** 2026-09-01
+**Darrera actualització:** 2026-10-30
 
 ## 1. Visió general
 NearbyWeather respecta la vostra privadesa. L'aplicació proporciona informació meteorològica i funcions relacionades alhora que manté locals les dades de l'aplicació específiques de l'usuari sempre que sigui possible.
@@ -48,19 +48,15 @@ Per protegir, operar i planificar el servei, NearbyWeather també pot estimar qu
 
 Aquest tractament serveix per a la seguretat, la planificació de capacitat, la fiabilitat i decisions agregades de producte. Quan sigui aplicable, la base jurídica són els interessos legítims de NearbyWeather a operar un servei segur, fiable i eficient, equilibrats mitjançant minimització de dades, separació de períodes, accés restringit i retenció limitada. No s'utilitza per a publicitat, no crea una llista de clients visible per operadors i no s'utilitza per enviar notificacions. Un futur sistema de notificacions del servidor tindrà informació i regles de consentiment i cicle de vida separades. Podeu oposar-vos al tractament basat en interessos legítims mitjançant el contacte de la secció 17.
 
-## 5. Informe d'errors i errors (opcional)
-NearbyWeather utilitza Google Firebase Crashlytics per recopilar informes d'error i diagnòstic només quan els informes d'errors estan activats.
+## 5. Diagnòstic local i informes d’errors opcionals
+NearbyWeather desa diagnòstics tècnics depurats localment, encara que els informes automàtics estiguin desactivats. Els errors contenen dates, noms fixos d’operacions, tipus/codis d’error, informació de l’app i del dispositiu i detalls natius de fallades compatibles. Límits: 7 dies, 512 registres o 1 MiB. Un context local separat registra la visibilitat de les pantalles, el cicle de vida de l’app, recomptes d’actualitzacions i alguns indicadors/recomptes de preferències; límits: 24 hores, 200 entrades o 256 KiB. En arribar a qualsevol límit s’eliminen les entrades més antigues. S’exclouen ubicacions, cerques, preferits, identificadors de llocs, URL, credencials i missatges d’error sense processar.
 
-Els informes d'error i diagnòstic poden incloure:
-
-- tipus de dispositiu i versió del sistema operatiu
-- versió de l'aplicació i número de compilació
-- Informació tècnica sobre l'accident o esdeveniment de diagnòstic
-
-NearbyWeather no inclou intencionadament les vostres adreces d'interès ni la ubicació precisa als informes d'error. Pots desactivar els informes d'errors en qualsevol moment a la configuració de privadesa o d'ajuda de l'aplicació.
+Firebase Crashlytics només rep errors depurats i informes natius de fallades si l’opció desada activa els informes automàtics. Crashlytics també utilitza identificadors d’instal·lació/sessió, de manera que els informes no són completament anònims. El context local mai no s’envia a Firebase. Pots canviar els informes a Ajuda o Privadesa; l’app indica quan cal reiniciar-la.
 
 ## 6. Comunicacions relacionades amb el suport
 Si us poseu en contacte amb el servei d'assistència, el missatge i qualsevol informació que trieu incloure, com ara captures de pantalla, diagnòstics, registres, configuracions exportades o altres fitxers adjunts, es poden utilitzar per respondre a la vostra sol·licitud. Si us plau, no incloguis informació que no vulguis compartir.
+
+Pots consultar un informe JSON als registres d’errors d’Ajuda o Privadesa. L’exportació sol·licitada inclou errors/context conservats, l’entorn actual de l’app/dispositiu, l’opció d’informes desada i la capacitat d’emmagatzematge mesurada només per a aquesta exportació. Tu decideixes si comparteixes o adjuntes l’informe; crear-lo no l’envia. Pots contactar amb el suport sense registres o cancel·lar.
 
 ## 7. Notificacions, actualització de fons i insígnia d'icona de l'aplicació
 Si activeu les notificacions o la insígnia de temperatura de la icona de l'aplicació, NearbyWeather pot actualitzar la informació meteorològica en segon pla perquè aquestes funcions es mantinguin actualitzades. Les preferències de notificació i la configuració de la insígnia s'emmagatzemen localment al dispositiu.
@@ -91,3 +87,6 @@ NearbyWeather no està dirigit als nens i no recull de manera conscient dades pe
 
 ## 16. Actualitzacions de la política de privadesa
 Aquesta Política de privadesa es pot actualitzar en el futur. Els canvis es reflectiran a l'App i als documents legals públics.
+
+## 17. Contacte
+Per a preguntes relacionades amb la privadesa, poseu-vos en contacte amb: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

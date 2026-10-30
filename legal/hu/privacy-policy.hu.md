@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Adatvédelmi szabályzat
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Verzió:** 3.1
+**Verzió:** 3.2
 
-**Utolsó frissítés:** 2026-09-01
+**Utolsó frissítés:** 2026-10-30
 
 ## 1. Áttekintés
 A NearbyWeather tiszteletben tartja az Ön személyes adatait. Az alkalmazás időjárási információkat és kapcsolódó funkciókat biztosít, miközben lehetőség szerint helyi szinten tartja a felhasználóspecifikus alkalmazásadatokat.
@@ -48,19 +48,15 @@ A szolgáltatás biztonságos működtetéséhez és tervezéséhez a NearbyWeat
 
 A kezelés a szolgáltatásbiztonságot, kapacitástervezést, megbízhatóságot és összesített termékdöntéseket szolgálja. Ahol alkalmazandó, jogalapja a NearbyWeather biztonságos, megbízható és hatékony működéséhez fűződő jogos érdeke, amelyet adatminimalizálás, időszak-elválasztás, korlátozott hozzáférés és megőrzés ellensúlyoz. Nem használjuk hirdetésre, operátorok számára látható ügyféllista készítésére vagy értesítések küldésére. Egy jövőbeli szerveroldali értesítési rendszer külön tájékoztatást, hozzájárulási és életciklus-szabályokat kap. A jogos érdeken alapuló kezelés ellen a 17. szakasz elérhetőségén tiltakozhat.
 
-## 5. Összeomlás- és hibajelentés (opcionális)
-A NearbyWeather a Google Firebase Crashlytics szolgáltatást használja az összeomlási és diagnosztikai jelentések összegyűjtésére, ha a hibajelentés engedélyezve van.
+## 5. Helyi diagnosztika és választható hibajelentés
+A NearbyWeather helyben tárolja a megtisztított műszaki diagnosztikai adatokat akkor is, ha az automatikus jelentés ki van kapcsolva. A hibarekordok időbélyeget, rögzített műveletneveket, hibatípusokat/-kódokat, alkalmazás- és eszközadatokat, valamint támogatott natív összeomlási részleteket tartalmaznak. Korlátok: 7 nap, 512 rekord vagy 1 MiB. A külön helyi kontextus a képernyők láthatóságát, az alkalmazás életciklusát, a frissítések számát és egyes beállítások jelzőit/számait rögzíti; korlátok: 24 óra, 200 bejegyzés vagy 256 KiB. Bármely korlát elérésekor a legrégebbi bejegyzések törlődnek. Helyadatok, keresések, könyvjelzők, helyazonosítók, URL-ek, hitelesítő adatok és nyers hibaüzenetek nem kerülnek bele.
 
-Az összeomlási és diagnosztikai jelentések a következőket tartalmazhatják:
-
-- eszköz típusa és operációs rendszer verziója
-- az alkalmazás verziója és a build száma
-- műszaki információk az ütközéssel vagy diagnosztikai eseménnyel kapcsolatban
-
-A NearbyWeather szándékosan nem tartalmazza az Ön könyvjelzőit vagy pontos helyét a hibajelentésekben. A hibajelentést bármikor letilthatja az Alkalmazás adatvédelmi vagy súgóbeállításaiban.
+A Firebase Crashlytics csak akkor kap megtisztított hibákat és natív összeomlási jelentéseket, ha a mentett választás engedélyezi az automatikus jelentést. A Crashlytics telepítés-/munkamenet-azonosítókat is használ, így a jelentések nem teljesen névtelenek. A helyi kontextus sosem kerül a Firebase-hez. A jelentés a Súgó vagy Adatvédelem alatt módosítható; az alkalmazás jelzi, ha újraindítás szükséges.
 
 ## 6. Támogatással kapcsolatos kommunikáció
 Ha felveszi a kapcsolatot az ügyfélszolgálattal, akkor az üzenetet és a belefoglalni kívánt információkat (például képernyőképeket, diagnosztikát, naplókat, exportált beállításokat vagy egyéb mellékleteket) felhasználhatjuk a kérés megválaszolására. Kérjük, ne adjon meg olyan információkat, amelyeket nem szeretne megosztani.
+
+A Súgó vagy Adatvédelem hibanaplóinál megtekinthető egy JSON-jelentés. A kért export a megőrzött hibákat/kontextust, az aktuális alkalmazás-/eszközkörnyezetet, a mentett jelentési választást és a kizárólag ehhez az exporthoz mért tárhelykapacitást tartalmazza. Ön dönt a megosztásról vagy csatolásról; a létrehozás nem küldi el a jelentést. Naplók nélkül is kérhet támogatást, vagy megszakíthatja a műveletet.
 
 ## 7. Értesítések, háttérfrissítés és alkalmazásikon jelvény
 Ha engedélyezi az értesítéseket vagy az alkalmazás ikonjának hőmérsékleti jelvényét, a NearbyWeather frissítheti az időjárási információkat a háttérben, hogy ezek a funkciók naprakészek maradjanak. Az értesítési beállítások és a jelvénybeállítások helyileg az eszközön tárolódnak.
@@ -91,3 +87,6 @@ A NearbyWeather nem gyermekeknek szól, és nem gyűjt tudatosan személyes adat
 
 ## 16. Adatvédelmi irányelvek frissítései
 Ez az adatvédelmi szabályzat a jövőben frissítésre kerülhet. A változások az Alkalmazásban és a nyilvános jogi dokumentumokban is megjelennek.
+
+## 17. Kapcsolat
+Adatvédelemmel kapcsolatos kérdéseivel forduljon a következőhöz: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

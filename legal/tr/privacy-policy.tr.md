@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Gizlilik Politikası
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Sürüm:** 3.1
+**Sürüm:** 3.2
 
-**Son güncelleme:** 2026-09-01
+**Son güncelleme:** 2026-10-30
 
 ## 1. Genel Bakış
 NearbyWeather gizliliğinize saygı duyar. Uygulama, kullanıcıya özel uygulama verilerini mümkün olduğunca yerel tutarken, hava durumu bilgileri ve ilgili özellikler sağlar.
@@ -48,19 +48,15 @@ Hizmeti güvenceye almak, işletmek ve planlamak için NearbyWeather, başarıyl
 
 Bu işleme hizmet güvenliğini, kapasite planlamasını, güvenilirliği ve toplu ürün kararlarını destekler. Uygulanabildiği yerde hukuki dayanak, NearbyWeather'ın güvenli, güvenilir ve verimli bir hizmet işletmeye yönelik meşru menfaatleridir; bunlar veri minimizasyonu, dönem ayrımı, erişim kısıtlamaları ve sınırlı saklama ile dengelenir. Reklam için kullanılmaz, operatörlerin görebildiği bir istemci listesi oluşturmaz ve bildirim göndermek için kullanılmaz. Gelecekteki sunucu taraflı bildirim sistemi ayrı bir açıklamaya ve onay/yaşam döngüsü kurallarına sahip olacaktır. Bölüm 17'deki iletişim yoluyla meşru menfaate dayalı işlemeye itiraz edebilirsiniz.
 
-## 5. Kilitlenme ve Hata Raporlaması (İsteğe Bağlı)
-NearbyWeather, yalnızca hata raporlama etkinleştirildiğinde kilitlenme ve teşhis raporlarını toplamak için Google Firebase Crashlytics'yu kullanır.
+## 5. Yerel tanılama ve isteğe bağlı hata bildirimi
+NearbyWeather, otomatik bildirim kapalı olsa da temizlenmiş teknik tanılama verilerini yerel olarak saklar. Hata kayıtları zaman damgaları, sabit işlem adları, hata türleri/kodları, uygulama ve cihaz bilgileri ve desteklenen yerel çökme ayrıntılarını içerir. Sınırlar: 7 gün, 512 kayıt veya 1 MiB. Ayrı yerel bağlam ekran görünürlüğünü, uygulama yaşam döngüsünü, yenileme sayılarını ve seçili tercih bayraklarını/sayılarını kaydeder; sınırlar: 24 saat, 200 giriş veya 256 KiB. Herhangi bir sınıra ulaşıldığında en eski girişler silinir. Konumlar, aramalar, yer imleri, yer tanımlayıcıları, URL’ler, kimlik bilgileri ve ham hata mesajları dahil edilmez.
 
-Kilitlenme ve teşhis raporları şunları içerebilir:
-
-- cihaz türü ve işletim sistemi sürümü
-- uygulama sürümü ve yapı numarası
-- çarpışma veya teşhis olayıyla ilgili teknik bilgiler
-
-NearbyWeather, yer işaretlerinizi veya kesin konumunuzu kilitlenme raporlarına kasıtlı olarak dahil etmez. Hata raporlamayı istediğiniz zaman Uygulamanın gizlilik veya yardım ayarlarından devre dışı bırakabilirsiniz.
+Firebase Crashlytics yalnızca kayıtlı seçiminiz otomatik bildirimi etkinleştirdiğinde temizlenmiş hataları ve yerel çökme raporlarını alır. Crashlytics kurulum/oturum tanımlayıcıları da kullandığından raporlar tamamen anonim değildir. Yerel bağlam Firebase’e asla gönderilmez. Bildirimi Yardım veya Gizlilik bölümünden değiştirebilirsiniz; uygulama yeniden başlatmanın ne zaman gerektiğini açıklar.
 
 ## 6. Destekle İlgili İletişim
 Destek ekibiyle iletişime geçerseniz mesaj ve ekran görüntüleri, teşhisler, günlükler, dışa aktarılan ayarlar veya diğer ekler gibi eklemeyi seçtiğiniz herhangi bir bilgi, isteğinize yanıt vermek için kullanılabilir. Lütfen paylaşmak istemediğiniz bilgileri eklemeyin.
+
+Yardım veya Gizlilik bölümündeki Hata Günlüklerinden JSON raporunu inceleyebilirsiniz. İstenen dışa aktarım; saklanan hataları/bağlamı, mevcut uygulama/cihaz ortamını, kayıtlı bildirim seçimini ve yalnızca bu dışa aktarım için ölçülen depolama kapasitesini içerir. Raporu paylaşıp paylaşmayacağınıza veya ekleyip eklemeyeceğinize siz karar verirsiniz; oluşturulması onu göndermez. Destekle günlükler olmadan iletişim kurabilir veya iptal edebilirsiniz.
 
 ## 7. Bildirimler, Arka Plan Yenileme ve Uygulama Simgesi Rozeti
 Bildirimleri veya uygulama simgesi sıcaklık rozetini etkinleştirirseniz NearbyWeather, bu özelliklerin güncel kalması için arka planda hava durumu bilgilerini yenileyebilir. Bildirim tercihleri ​​ve rozet ayarları cihazınızda yerel olarak depolanır.
@@ -91,3 +87,6 @@ NearbyWeather çocuklara yönelik değildir ve bilerek çocuklardan kişisel ver
 
 ## 16. Gizlilik Politikası Güncellemeleri
 Bu Gizlilik Politikası gelecekte güncellenebilir. Değişiklikler Uygulamaya ve kamuya ait yasal belgelere yansıtılacaktır.
+
+## 17. İletişim
+Gizlilikle ilgili sorularınız için şu adresle iletişime geçin: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

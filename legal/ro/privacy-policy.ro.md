@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Politica de confidențialitate
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versiune:** 3.1
+**Versiune:** 3.2
 
-**Ultima actualizare:** 2026-09-01
+**Ultima actualizare:** 2026-10-30
 
 ## 1. Prezentare generală
 NearbyWeather vă respectă confidențialitatea. Aplicația oferă informații despre vreme și funcții conexe, păstrând în același timp datele aplicației specifice utilizatorului la nivel local, ori de câte ori este posibil.
@@ -48,19 +48,15 @@ Pentru securizarea, operarea și planificarea serviciului, NearbyWeather poate e
 
 Prelucrarea susține securitatea, planificarea capacității, fiabilitatea și deciziile agregate de produs. Unde este cazul, temeiul juridic îl reprezintă interesele legitime ale NearbyWeather de a opera un serviciu sigur, fiabil și eficient, echilibrate prin minimizarea datelor, separarea perioadelor, acces și păstrare limitate. Nu este folosită pentru publicitate, nu creează o listă de clienți vizibilă operatorilor și nu trimite notificări. Un viitor sistem de notificări pe server va avea informare și reguli separate de consimțământ și ciclu de viață. Vă puteți opune prelucrării bazate pe interese legitime prin contactul din Secțiunea 17.
 
-## 5. Raportarea erorilor și a erorilor (opțional)
-NearbyWeather utilizează Google Firebase Crashlytics pentru a colecta rapoarte de blocare și diagnosticare numai atunci când raportarea erorilor este activată.
+## 5. Diagnosticare locală și raportare opțională a erorilor
+NearbyWeather păstrează local date tehnice de diagnostic curățate, chiar dacă raportarea automată este oprită. Înregistrările includ marcaje temporale, nume fixe de operațiuni, tipuri/coduri de eroare, informații despre aplicație și dispozitiv și detalii native despre blocări acceptate. Limite: 7 zile, 512 înregistrări sau 1 MiB. Contextul local separat înregistrează vizibilitatea ecranelor, ciclul de viață al aplicației, numărul actualizărilor și anumite indicatoare/numere ale preferințelor; limite: 24 de ore, 200 de intrări sau 256 KiB. Cele mai vechi intrări sunt șterse când se atinge oricare limită. Sunt excluse locațiile, căutările, marcajele, identificatorii locurilor, URL-urile, acreditările și mesajele brute de eroare.
 
-Rapoartele de blocare și diagnosticare pot include:
-
-- tipul dispozitivului și versiunea sistemului de operare
-- versiunea aplicației și numărul de versiune
-- informații tehnice despre accident sau eveniment de diagnosticare
-
-NearbyWeather nu include în mod intenționat marcajele sau locația precisă în rapoartele de blocare. Puteți dezactiva oricând raportarea erorilor din confidențialitatea sau setările de ajutor ale aplicației.
+Firebase Crashlytics primește erori curățate și rapoarte native de blocare numai dacă alegerea salvată activează raportarea automată. Crashlytics folosește și identificatori de instalare/sesiune, deci rapoartele nu sunt complet anonime. Contextul local nu este trimis niciodată la Firebase. Raportarea se poate modifica în Ajutor sau Confidențialitate; aplicația explică când este necesară repornirea.
 
 ## 6. Comunicații legate de asistență
 Dacă contactați asistența, mesajul și orice informații pe care alegeți să le includeți, cum ar fi capturi de ecran, diagnostice, jurnale, setări exportate sau alte atașamente, pot fi folosite pentru a răspunde solicitării dvs. Vă rugăm să nu includeți informații pe care nu doriți să le partajați.
+
+Puteți consulta un raport JSON în jurnalele de erori din Ajutor sau Confidențialitate. Exportul solicitat include erorile/contextul păstrate, mediul actual al aplicației/dispozitivului, alegerea salvată de raportare și capacitatea de stocare măsurată numai pentru acel export. Alegeți dacă partajați sau atașați raportul; crearea lui nu îl trimite. Puteți contacta asistența fără jurnale sau anula.
 
 ## 7. Notificări, reîmprospătare fundal și insigna pictogramei aplicației
 Dacă activați notificările sau insigna de temperatură a pictogramei aplicației, NearbyWeather poate reîmprospăta informațiile despre vreme în fundal, astfel încât aceste funcții să rămână actuale. Preferințele de notificare și setările insignei sunt stocate local pe dispozitivul dvs.
@@ -91,3 +87,6 @@ NearbyWeather nu se adresează copiilor și nu colectează cu bună știință d
 
 ## 16. Actualizări ale politicii de confidențialitate
 Această politică de confidențialitate poate fi actualizată în viitor. Modificările vor fi reflectate în aplicație și în documentele juridice publice.
+
+## 17. Contact
+Pentru întrebări legate de confidențialitate, contactați: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

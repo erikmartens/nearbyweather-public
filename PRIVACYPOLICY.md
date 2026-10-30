@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Privacy Policy
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Version:** 3.1
+**Version:** 3.2
 
-**Last updated:** 2026-09-01
+**Last updated:** 2026-10-30
 
 ## 1. Overview
 NearbyWeather respects your privacy. The App provides weather information and related features while keeping user-specific app data local whenever possible.
@@ -48,19 +48,15 @@ To secure, operate, and plan the service, NearbyWeather may also estimate how ma
 
 These operations support service security, capacity planning, reliability, and aggregate product decisions. Where applicable, the legal basis is NearbyWeather's legitimate interests in operating a secure, reliable, and efficient service, balanced by data minimization, period separation, access restrictions, and bounded retention. They are not used for advertising, do not create an operator-visible client list, and are not used to send notifications. A future server-side notification system, if introduced, will have a separate disclosure and consent/lifecycle rules. You may object to processing based on legitimate interests by contacting the address in Section 17.
 
-## 5. Crash and Error Reporting (Optional)
-NearbyWeather uses Google Firebase Crashlytics to collect crash and diagnostic reports only when error reporting is enabled.
+## 5. Local Diagnostics and Optional Error Reporting
+NearbyWeather keeps sanitized technical diagnostics locally, even when automatic reporting is off. Error records contain timestamps, static operation names, error types/codes, app and device information, and supported native crash details. They are limited to 7 days, 512 records or 1 MiB. Separate local context records screen visibility, app lifecycle, refresh counts and selected preference flags/counts; it is limited to 24 hours, 200 entries or 256 KiB. The oldest entries are removed when any limit is reached. These records exclude locations, searches, bookmarks, place identifiers, URLs, credentials and raw error messages.
 
-Crash and diagnostic reports may include:
-
-- device type and operating system version
-- app version and build number
-- technical information about the crash or diagnostic event
-
-NearbyWeather does not intentionally include your bookmarks or precise location in crash reports. You can disable error reporting at any time in the App's privacy or help settings.
+Only when your saved choice enables automatic reporting does Firebase Crashlytics receive sanitized errors and native crash reports. Crashlytics also uses installation/session identifiers, so these reports are not fully anonymous. Local context is never sent to Firebase. You can change automatic reporting in Help or Privacy; the App explains when a restart is needed.
 
 ## 6. Support-Related Communications
 If you contact support, the message and any information you choose to include, such as screenshots, diagnostics, logs, exported settings, or other attachments, may be used to respond to your request. Please do not include information you do not want to share.
+
+You can review a JSON report through Error Logs in Help or Privacy. A requested export includes the retained errors/context, current app/device environment, saved reporting choice and storage capacity measured only for that export. You choose whether to share or attach the report; creating it does not send it. You can contact support without logs or cancel.
 
 ## 7. Notifications, Background Refresh, and App Icon Badge
 If you enable notifications or the app icon temperature badge, NearbyWeather may refresh weather information in the background so those features stay current. Notification preferences and badge settings are stored locally on your device.
@@ -91,3 +87,6 @@ NearbyWeather is not directed to children and does not knowingly collect persona
 
 ## 16. Privacy Policy Updates
 This Privacy Policy may be updated in the future. Changes will be reflected in the App and in the public legal documents.
+
+## 17. Contact
+For privacy-related questions, contact: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

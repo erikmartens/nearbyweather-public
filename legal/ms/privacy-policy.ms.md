@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Dasar Privasi
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versi:** 3.1
+**Versi:** 3.2
 
-**Terakhir dikemas kini:** 2026-09-01
+**Terakhir dikemas kini:** 2026-10-30
 
 ## 1. Gambaran keseluruhan
 NearbyWeather menghormati privasi anda. Apl menyediakan maklumat cuaca dan ciri berkaitan sambil mengekalkan data apl khusus pengguna setempat apabila boleh.
@@ -48,19 +48,15 @@ Untuk melindungi, mengendalikan dan merancang perkhidmatan, NearbyWeather juga b
 
 Pemprosesan ini menyokong keselamatan, perancangan kapasiti, kebolehpercayaan dan keputusan produk agregat. Jika berkenaan, asas undang-undangnya ialah kepentingan sah NearbyWeather untuk mengendalikan perkhidmatan yang selamat, boleh dipercayai dan cekap, diseimbangkan melalui peminimuman data, pemisahan tempoh, sekatan akses dan pengekalan terhad. Data tidak digunakan untuk pengiklanan, tidak mewujudkan senarai klien yang dapat dilihat pengendali dan tidak digunakan untuk menghantar pemberitahuan. Sistem pemberitahuan sebelah pelayan pada masa hadapan akan mempunyai pendedahan serta peraturan persetujuan dan kitar hayat berasingan. Anda boleh membantah pemprosesan berdasarkan kepentingan sah melalui hubungan dalam Bahagian 17.
 
-## 5. Ranap dan Pelaporan Ralat (Pilihan)
-NearbyWeather menggunakan Google Firebase Crashlytics untuk mengumpul laporan ranap dan diagnostik hanya apabila pelaporan ralat didayakan.
+## 5. Diagnostik setempat dan pelaporan ralat pilihan
+NearbyWeather menyimpan diagnostik teknikal yang dibersihkan secara setempat, walaupun pelaporan automatik dimatikan. Rekod ralat mengandungi masa, nama operasi tetap, jenis/kod ralat, maklumat aplikasi dan peranti serta butiran ranap natif yang disokong. Had: 7 hari, 512 rekod atau 1 MiB. Konteks setempat berasingan merekodkan keterlihatan skrin, kitar hayat aplikasi, bilangan penyegaran dan penanda/bilangan keutamaan terpilih; had: 24 jam, 200 entri atau 256 KiB. Entri tertua dipadam apabila mana-mana had dicapai. Lokasi, carian, penanda buku, pengecam tempat, URL, kelayakan akses dan mesej ralat mentah dikecualikan.
 
-Laporan ranap sistem dan diagnostik mungkin termasuk:
-
-- jenis peranti dan versi sistem pengendalian
-- versi apl dan nombor binaan
-- maklumat teknikal tentang ranap atau peristiwa diagnostik
-
-NearbyWeather tidak sengaja memasukkan penanda halaman atau lokasi tepat anda dalam laporan ranap sistem. Anda boleh melumpuhkan pelaporan ralat pada bila-bila masa dalam tetapan privasi atau bantuan Apl.
+Firebase Crashlytics hanya menerima ralat yang dibersihkan dan laporan ranap natif jika pilihan tersimpan anda mengaktifkan pelaporan automatik. Crashlytics turut menggunakan pengecam pemasangan/sesi, jadi laporan tidak sepenuhnya tanpa nama. Konteks setempat tidak pernah dihantar ke Firebase. Anda boleh mengubah pelaporan dalam Bantuan atau Privasi; aplikasi menerangkan apabila mula semula diperlukan.
 
 ## 6. Komunikasi Berkaitan Sokongan
 Jika anda menghubungi sokongan, mesej dan sebarang maklumat yang anda pilih untuk disertakan, seperti tangkapan skrin, diagnostik, log, tetapan yang dieksport atau lampiran lain, boleh digunakan untuk membalas permintaan anda. Tolong jangan sertakan maklumat yang anda tidak mahu kongsikan.
+
+Anda boleh menyemak laporan JSON melalui log ralat dalam Bantuan atau Privasi. Eksport yang diminta merangkumi ralat/konteks tersimpan, persekitaran aplikasi/peranti semasa, pilihan pelaporan tersimpan dan kapasiti storan yang diukur hanya untuk eksport itu. Anda memilih sama ada hendak berkongsi atau melampirkan laporan; penciptaannya tidak menghantarnya. Anda boleh menghubungi sokongan tanpa log atau membatalkan.
 
 ## 7. Pemberitahuan, Muat Semula Latar Belakang dan Lencana Ikon Apl
 Jika anda mendayakan pemberitahuan atau lencana suhu ikon apl, NearbyWeather boleh memuat semula maklumat cuaca di latar belakang supaya ciri tersebut kekal terkini. Keutamaan pemberitahuan dan tetapan lencana disimpan secara setempat pada peranti anda.
@@ -91,3 +87,6 @@ NearbyWeather tidak ditujukan kepada kanak-kanak dan tidak mengumpul data periba
 
 ## 16. Kemas Kini Dasar Privasi
 Dasar Privasi ini mungkin dikemas kini pada masa hadapan. Perubahan akan ditunjukkan dalam Apl dan dalam dokumen undang-undang awam.
+
+## 17. Hubungi
+Untuk soalan berkaitan privasi, hubungi: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 #Informativa sulla privacy
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versione:** 3.1
+**Versione:** 3.2
 
-**Ultimo aggiornamento:** 2026-09-01
+**Ultimo aggiornamento:** 2026-10-30
 
 ## 1. Panoramica
 NearbyWeather rispetta la tua privacy. L'app fornisce informazioni meteorologiche e funzionalità correlate mantenendo locali i dati dell'app specifici dell'utente, quando possibile.
@@ -48,19 +48,15 @@ Per proteggere, gestire e pianificare il servizio, NearbyWeather può inoltre st
 
 Il trattamento sostiene sicurezza, pianificazione della capacità, affidabilità e decisioni aggregate sul prodotto. Ove applicabile, la base giuridica è il legittimo interesse di NearbyWeather a gestire un servizio sicuro, affidabile ed efficiente, bilanciato da minimizzazione dei dati, separazione dei periodi, accesso limitato e conservazione circoscritta. Non è usato per pubblicità, non crea un elenco di clienti visibile agli operatori e non serve a inviare notifiche. Un futuro sistema di notifiche lato server avrà informativa e regole di consenso e ciclo di vita separate. Puoi opporti al trattamento fondato sul legittimo interesse tramite il contatto nella Sezione 17.
 
-## 5. Segnalazione di arresti anomali ed errori (facoltativo)
-NearbyWeather utilizza Google Firebase Crashlytics per raccogliere report diagnostici e sugli arresti anomali solo quando è abilitata la segnalazione degli errori.
+## 5. Diagnostica locale e segnalazione facoltativa degli errori
+NearbyWeather conserva localmente dati diagnostici tecnici depurati, anche con le segnalazioni automatiche disattivate. Gli errori contengono date, nomi fissi delle operazioni, tipi/codici di errore, informazioni su app e dispositivo e dettagli nativi degli arresti anomali supportati. Limiti: 7 giorni, 512 record o 1 MiB. Un contesto locale separato registra la visibilità delle schermate, il ciclo di vita dell’app, i conteggi degli aggiornamenti e alcuni indicatori/conteggi delle preferenze; limiti: 24 ore, 200 voci o 256 KiB. Al raggiungimento di qualsiasi limite vengono eliminate le voci più vecchie. Sono esclusi posizioni, ricerche, preferiti, identificativi dei luoghi, URL, credenziali e messaggi di errore grezzi.
 
-I rapporti sugli arresti anomali e diagnostici possono includere:
-
-- tipo di dispositivo e versione del sistema operativo
-- Versione dell'app e numero di build
-- informazioni tecniche sull'incidente o sull'evento diagnostico
-
-NearbyWeather non include intenzionalmente i tuoi segnalibri o la tua posizione precisa nei rapporti sugli arresti anomali. Puoi disattivare la segnalazione degli errori in qualsiasi momento nelle impostazioni della privacy o della guida dell'app.
+Firebase Crashlytics riceve errori depurati e rapporti nativi sugli arresti anomali solo se la scelta salvata abilita le segnalazioni automatiche. Crashlytics usa anche identificativi di installazione/sessione, quindi i rapporti non sono completamente anonimi. Il contesto locale non viene mai inviato a Firebase. Puoi modificare le segnalazioni in Aiuto o Privacy; l’app indica quando occorre riavviarla.
 
 ## 6. Comunicazioni relative al supporto
 Se contatti l'assistenza, il messaggio e qualsiasi informazione che scegli di includere, come screenshot, diagnostica, registri, impostazioni esportate o altri allegati, potrebbero essere utilizzati per rispondere alla tua richiesta. Si prega di non includere informazioni che non si desidera condividere.
+
+Puoi esaminare un rapporto JSON nei registri degli errori in Aiuto o Privacy. L’esportazione richiesta include errori/contesto conservati, ambiente attuale di app/dispositivo, scelta salvata sulle segnalazioni e capacità di archiviazione misurata solo per tale esportazione. Scegli tu se condividere o allegare il rapporto; crearlo non lo invia. Puoi contattare l’assistenza senza registri o annullare.
 
 ## 7. Notifiche, aggiornamento dello sfondo e badge dell'icona dell'app
 Se abiliti le notifiche o il badge della temperatura sull'icona dell'app, NearbyWeather potrebbe aggiornare le informazioni meteo in background in modo che tali funzionalità rimangano aggiornate. Le preferenze di notifica e le impostazioni del badge vengono archiviate localmente sul tuo dispositivo.
@@ -91,3 +87,6 @@ NearbyWeather non è rivolto ai bambini e non raccoglie consapevolmente dati per
 
 ## 16. Aggiornamenti della politica sulla privacy
 La presente Informativa sulla privacy potrebbe essere aggiornata in futuro. Le modifiche si rifletteranno nell'App e nei documenti legali pubblici.
+
+## 17. Contatto
+Per domande relative alla privacy, contattare: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Tietosuojakäytäntö
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Versio:** 3.1
+**Versio:** 3.2
 
-**Viimeksi päivitetty:** 2026-09-01
+**Viimeksi päivitetty:** 2026-10-30
 
 ## 1. Yleiskatsaus
 NearbyWeather kunnioittaa yksityisyyttäsi. Sovellus tarjoaa säätietoja ja niihin liittyviä ominaisuuksia pitäen samalla käyttäjäkohtaiset sovellustiedot paikallisesti aina kun mahdollista.
@@ -48,19 +48,15 @@ Palvelun suojaamiseksi, käyttämiseksi ja suunnittelemiseksi NearbyWeather voi 
 
 Käsittely tukee palvelun turvallisuutta, kapasiteetin suunnittelua, luotettavuutta ja koottuja tuotepäätöksiä. Soveltuvin osin oikeusperusteena ovat NearbyWeatherin oikeutetut edut turvallisen, luotettavan ja tehokkaan palvelun ylläpitämisessä, joita tasapainotetaan tietojen minimoinnilla, jaksojen erottelulla, käyttörajoituksilla ja rajatulla säilytyksellä. Tietoja ei käytetä mainontaan, niistä ei muodosteta ylläpitäjälle näkyvää asiakasluetteloa eikä niillä lähetetä ilmoituksia. Mahdollinen tuleva palvelinilmoitusjärjestelmä saa erillisen selosteen sekä suostumus- ja elinkaarisäännöt. Voit vastustaa oikeutettuun etuun perustuvaa käsittelyä ottamalla yhteyttä kohdassa 17.
 
-## 5. Kaatumis- ja virheraportointi (valinnainen)
-NearbyWeather käyttää Google Firebase Crashlytics:ta kaatumis- ja diagnostiikkaraporttien keräämiseen vain, kun virheraportointi on käytössä.
+## 5. Paikallinen diagnostiikka ja valinnainen virheraportointi
+NearbyWeather tallentaa puhdistetut tekniset diagnostiikkatiedot paikallisesti myös automaattisen raportoinnin ollessa pois käytöstä. Virhetiedoissa on aikaleimoja, kiinteitä toimintojen nimiä, virhetyyppejä/-koodeja, sovellus- ja laitetietoja sekä tuettuja järjestelmän kaatumistietoja. Rajat: 7 päivää, 512 tietuetta tai 1 MiB. Erillinen paikallinen konteksti tallentaa näkymien näkyvyyden, sovelluksen elinkaaren, päivitysten määrät ja valittuja asetuslippuja/lukumääriä; rajat: 24 tuntia, 200 merkintää tai 256 KiB. Vanhimmat tiedot poistetaan, kun jokin raja täyttyy. Sijainnit, haut, kirjanmerkit, paikkatunnisteet, URL-osoitteet, tunnistetiedot ja käsittelemättömät virheviestit jätetään pois.
 
-Kaatumis- ja diagnostiikkaraportit voivat sisältää:
-
-- laitetyyppi ja käyttöjärjestelmän versio
-- Sovelluksen versio ja rakennusnumero
-- tekniset tiedot törmäyksestä tai diagnoositapahtumasta
-
-NearbyWeather ei tarkoituksella sisällytä kirjanmerkkejäsi tai tarkkaa sijaintiasi virheraportteihin. Voit poistaa virheraportoinnin käytöstä milloin tahansa sovelluksen tietosuoja- tai ohjeasetuksista.
+Firebase Crashlytics saa puhdistettuja virheitä ja järjestelmän kaatumisraportteja vain, jos tallennettu valintasi sallii automaattisen raportoinnin. Crashlytics käyttää myös asennus-/istuntotunnisteita, joten raportit eivät ole täysin anonyymejä. Paikallista kontekstia ei koskaan lähetetä Firebaseen. Raportointia voi muuttaa Ohje- tai Tietosuoja-osiossa; sovellus kertoo, milloin uudelleenkäynnistys tarvitaan.
 
 ## 6. Tukiin liittyvä viestintä
 Jos otat yhteyttä tukeen, viestiä ja kaikkia haluamiasi tietoja, kuten kuvakaappauksia, diagnostiikkatietoja, lokeja, vietyjä asetuksia tai muita liitteitä, voidaan käyttää pyyntöösi vastaamiseen. Älä lisää tietoja, joita et halua jakaa.
+
+Voit tarkastella JSON-raporttia Ohje- tai Tietosuoja-osion virhelokeista. Pyydetty vienti sisältää säilytetyt virheet/kontekstin, nykyisen sovellus-/laiteympäristön, tallennetun raportointivalinnan ja vain tätä vientiä varten mitatun tallennuskapasiteetin. Päätät itse jakamisesta tai liittämisestä; raportin luonti ei lähetä sitä. Voit ottaa yhteyttä tukeen ilman lokeja tai peruuttaa.
 
 ## 7. Ilmoitukset, taustan päivitys ja sovelluskuvake
 Jos otat ilmoitukset käyttöön tai sovelluskuvakkeen lämpötilamerkin, NearbyWeather saattaa päivittää säätiedot taustalla, jotta ominaisuudet pysyvät ajan tasalla. Ilmoitusasetukset ja merkkiasetukset tallennetaan paikallisesti laitteellesi.
@@ -91,3 +87,6 @@ NearbyWeather ei ole suunnattu lapsille, eikä se tietoisesti kerää henkilöti
 
 ## 16. Tietosuojakäytännön päivitykset
 Tätä tietosuojakäytäntöä voidaan päivittää tulevaisuudessa. Muutokset näkyvät sovelluksessa ja julkisissa oikeudellisissa asiakirjoissa.
+
+## 17. Ota yhteyttä
+Yksityisyyteen liittyvissä kysymyksissä ota yhteyttä: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

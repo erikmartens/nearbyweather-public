@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Sekretesspolicy
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Version:** 3.1
+**Version:** 3.2
 
-**Senast uppdaterad:** 2026-09-01
+**Senast uppdaterad:** 2026-10-30
 
 ## 1. Översikt
 NearbyWeather respekterar din integritet. Appen tillhandahåller väderinformation och relaterade funktioner samtidigt som användarspecifik appdata behålls lokal när det är möjligt.
@@ -48,19 +48,15 @@ För att säkra, driva och planera tjänsten kan NearbyWeather också uppskatta 
 
 Behandlingen stöder tjänstesäkerhet, kapacitetsplanering, tillförlitlighet och aggregerade produktbeslut. Där det är tillämpligt är den rättsliga grunden NearbyWeathers berättigade intressen av att driva en säker, tillförlitlig och effektiv tjänst, balanserade genom dataminimering, periodseparation, begränsad åtkomst och lagring. Den används inte för reklam, skapar ingen operatörssynlig klientlista och används inte för att skicka notiser. Ett framtida serverbaserat notissystem får separat information samt egna samtyckes- och livscykelregler. Du kan invända mot behandling baserad på berättigade intressen via kontakten i avsnitt 17.
 
-## 5. Krasch- och felrapportering (valfritt)
-NearbyWeather använder Google Firebase Crashlytics för att samla in krasch- och diagnostiska rapporter endast när felrapportering är aktiverad.
+## 5. Lokal diagnostik och valfri felrapportering
+NearbyWeather sparar rensad teknisk diagnostik lokalt, även när automatisk rapportering är avstängd. Felposter innehåller tidsstämplar, fasta åtgärdsnamn, feltyper/koder, app- och enhetsinformation samt stödda systemdetaljer om krascher. Gränser: 7 dagar, 512 poster eller 1 MiB. Separat lokal kontext registrerar skärmarnas synlighet, appens livscykel, antal uppdateringar och vissa inställningsflaggor/antal; gränser: 24 timmar, 200 poster eller 256 KiB. De äldsta posterna tas bort när någon gräns nås. Platser, sökningar, bokmärken, platsidentifierare, webbadresser, inloggningsuppgifter och råa felmeddelanden utesluts.
 
-Krasch- och diagnostiska rapporter kan innehålla:
-
-- enhetstyp och operativsystemversion
-- appversion och byggnummer
-- teknisk information om kraschen eller diagnostisk händelse
-
-NearbyWeather inkluderar inte avsiktligt dina bokmärken eller exakt plats i kraschrapporter. Du kan inaktivera felrapportering när som helst i Appens sekretess- eller hjälpinställningar.
+Firebase Crashlytics får endast rensade fel och systemets kraschrapporter om ditt sparade val aktiverar automatisk rapportering. Crashlytics använder även installations-/sessionsidentifierare, så rapporterna är inte helt anonyma. Lokal kontext skickas aldrig till Firebase. Du kan ändra rapporteringen under Hjälp eller Integritet; appen förklarar när omstart behövs.
 
 ## 6. Supportrelaterad kommunikation
 Om du kontaktar supporten kan meddelandet och all information du väljer att inkludera, såsom skärmdumpar, diagnostik, loggar, exporterade inställningar eller andra bilagor, användas för att svara på din förfrågan. Vänligen inkludera inte information som du inte vill dela.
+
+Du kan granska en JSON-rapport via Felloggar under Hjälp eller Integritet. En begärd export innehåller sparade fel/kontext, aktuell app-/enhetsmiljö, det sparade rapporteringsvalet och lagringskapacitet som mäts endast för exporten. Du väljer om rapporten delas eller bifogas; den skickas inte när den skapas. Du kan kontakta support utan loggar eller avbryta.
 
 ## 7. Aviseringar, bakgrundsuppdatering och appikonmärke
 Om du aktiverar aviseringar eller appikonens temperaturmärke kan NearbyWeather uppdatera väderinformationen i bakgrunden så att dessa funktioner förblir aktuella. Aviseringsinställningar och märkesinställningar lagras lokalt på din enhet.
@@ -91,3 +87,6 @@ NearbyWeather riktar sig inte till barn och samlar inte medvetet in personuppgif
 
 ## 16. Uppdateringar av sekretesspolicyn
 Denna integritetspolicy kan komma att uppdateras i framtiden. Ändringar kommer att återspeglas i appen och i de offentliga juridiska dokumenten.
+
+## 17. Kontakt
+För integritetsrelaterade frågor, kontakta: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

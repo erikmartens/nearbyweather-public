@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Politique de confidentialité
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Version :** 3.1
+**Version :** 3.2
 
-**Dernière mise à jour :** 2026-09-01
+**Dernière mise à jour :** 2026-10-30
 
 ## 1. Aperçu
 NearbyWeather respecte votre vie privée. L'application fournit des informations météorologiques et des fonctionnalités associées tout en conservant localement les données d'application spécifiques à l'utilisateur lorsque cela est possible.
@@ -48,19 +48,15 @@ Pour sécuriser, exploiter et planifier le service, NearbyWeather peut aussi est
 
 Ce traitement sert la sécurité, la planification de capacité, la fiabilité et les décisions produit agrégées. Le cas échéant, sa base juridique est l'intérêt légitime de NearbyWeather à exploiter un service sûr, fiable et efficace, mis en balance par la minimisation des données, la séparation des périodes, la restriction des accès et une conservation limitée. Il ne sert pas à la publicité, ne crée pas de liste de clients visible par les opérateurs et n'est pas utilisé pour envoyer des notifications. Un futur système de notifications serveur fera l'objet d'une information et de règles de consentement et de cycle de vie distinctes. Vous pouvez vous opposer au traitement fondé sur l'intérêt légitime via le contact de la section 17.
 
-## 5. Rapports de crash et d'erreurs (facultatif)
-NearbyWeather utilise Google Firebase Crashlytics pour collecter des rapports d'erreur et de diagnostic uniquement lorsque le rapport d'erreurs est activé.
+## 5. Diagnostics locaux et signalement facultatif des erreurs
+NearbyWeather conserve localement des diagnostics techniques épurés, même si le signalement automatique est désactivé. Les erreurs comprennent des horodatages, des noms d’opérations fixes, des types/codes d’erreur, des informations sur l’app et l’appareil et les détails de plantage natifs pris en charge. Limites : 7 jours, 512 enregistrements ou 1 MiB. Un contexte local distinct décrit la visibilité des écrans, le cycle de vie de l’app, les nombres d’actualisations et certains indicateurs/nombres de préférences ; limites : 24 heures, 200 entrées ou 256 KiB. Les entrées les plus anciennes sont supprimées dès qu’une limite est atteinte. Positions, recherches, favoris, identifiants de lieux, URL, identifiants d’accès et messages d’erreur bruts sont exclus.
 
-Les rapports de crash et de diagnostic peuvent inclure :
-
-- type d'appareil et version du système d'exploitation
-- version de l'application et numéro de build
-- informations techniques sur le crash ou l'événement de diagnostic
-
-NearbyWeather n'inclut pas intentionnellement vos favoris ou votre emplacement précis dans les rapports d'erreur. Vous pouvez désactiver le rapport d'erreurs à tout moment dans les paramètres de confidentialité ou d'aide de l'application.
+Firebase Crashlytics reçoit des erreurs épurées et des rapports de plantage natifs uniquement si votre choix enregistré active le signalement automatique. Crashlytics utilise aussi des identifiants d’installation/session : ces rapports ne sont donc pas entièrement anonymes. Le contexte local n’est jamais envoyé à Firebase. Vous pouvez modifier le signalement dans Aide ou Confidentialité ; l’app indique quand un redémarrage est nécessaire.
 
 ## 6. Communications liées au support
 Si vous contactez l'assistance, le message et toutes les informations que vous choisissez d'inclure, telles que des captures d'écran, des diagnostics, des journaux, des paramètres exportés ou d'autres pièces jointes, peuvent être utilisés pour répondre à votre demande. Veuillez ne pas inclure les informations que vous ne souhaitez pas partager.
+
+Vous pouvez consulter un rapport JSON via Journaux d’erreurs dans Aide ou Confidentialité. L’export demandé contient les erreurs et le contexte conservés, l’environnement actuel de l’app/appareil, le choix de signalement enregistré et la capacité de stockage mesurée uniquement pour cet export. Vous choisissez de partager ou de joindre le rapport ; sa création ne l’envoie pas. Vous pouvez contacter l’assistance sans journaux ou annuler.
 
 ## 7. Notifications, actualisation de l'arrière-plan et badge d'icône d'application
 Si vous activez les notifications ou le badge de température de l'icône de l'application, NearbyWeather peut actualiser les informations météorologiques en arrière-plan afin que ces fonctionnalités restent à jour. Les préférences de notification et les paramètres de badge sont stockés localement sur votre appareil.
@@ -91,3 +87,6 @@ NearbyWeather ne s’adresse pas aux enfants et ne collecte pas sciemment de don
 
 ## 16. Mises à jour de la politique de confidentialité
 Cette politique de confidentialité peut être mise à jour à l'avenir. Les modifications seront reflétées dans l'application et dans les documents juridiques publics.
+
+## 17. Contacter
+Pour toute question relative à la confidentialité, contactez : [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

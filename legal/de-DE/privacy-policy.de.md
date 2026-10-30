@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Datenschutzrichtlinie
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Version:** 3.1
+**Version:** 3.2
 
-**Letzte Aktualisierung:** 2026-09-01
+**Letzte Aktualisierung:** 2026-10-30
 
 ## 1. Übersicht
 NearbyWeather respektiert Ihre Privatsphäre. Die App stellt Wetterinformationen und zugehörige Funktionen bereit und hält benutzerspezifische App-Daten nach Möglichkeit lokal.
@@ -48,19 +48,15 @@ Zur Absicherung, zum Betrieb und zur Planung des Dienstes kann NearbyWeather au�
 
 Diese Verarbeitung dient Dienstsicherheit, Kapazitätsplanung, Zuverlässigkeit und aggregierten Produktentscheidungen. Soweit anwendbar, sind die berechtigten Interessen von NearbyWeather am sicheren, zuverlässigen und effizienten Betrieb die Rechtsgrundlage; ihnen stehen Datenminimierung, Zeitraumtrennung, beschränkter Zugriff und begrenzte Aufbewahrung gegenüber. Die Daten werden nicht für Werbung, eine für Betreiber sichtbare Clientliste oder den Versand von Mitteilungen verwendet. Ein späteres serverseitiges Benachrichtigungssystem erhält eine eigene Offenlegung sowie eigene Einwilligungs- und Lebenszyklusregeln. Der Verarbeitung auf Grundlage berechtigter Interessen können Sie über den Kontakt in Abschnitt 17 widersprechen.
 
-## 5. Absturz- und Fehlerberichte (optional)
-NearbyWeather verwendet Google Firebase Crashlytics, um Absturz- und Diagnoseberichte nur zu sammeln, wenn die Fehlerberichterstattung aktiviert ist.
+## 5. Lokale Diagnose und optionale Fehlerberichte
+NearbyWeather speichert bereinigte technische Diagnosedaten lokal, auch bei deaktivierten automatischen Berichten. Fehlerprotokolle enthalten Zeitstempel, feste Vorgangsnamen, Fehlertypen/-codes, App- und Geräteinformationen sowie unterstützte native Absturzdetails. Es gelten höchstens 7 Tage, 512 Einträge oder 1 MiB. Separater lokaler Kontext erfasst die Sichtbarkeit von Ansichten, den App-Lebenszyklus, Aktualisierungsanzahlen sowie ausgewählte Einstellungswerte und Anzahlen; hierfür gelten 24 Stunden, 200 Einträge oder 256 KiB. Sobald eine Grenze erreicht wird, werden die ältesten Einträge entfernt. Standortdaten, Suchanfragen, Lesezeichen, Ortskennungen, URLs, Zugangsdaten und unverarbeitete Fehlermeldungen sind ausgeschlossen.
 
-Absturz- und Diagnoseberichte können Folgendes umfassen:
-
-- Gerätetyp und Betriebssystemversion
-- App-Version und Build-Nummer
-- technische Informationen zum Absturz oder Diagnoseereignis
-
-NearbyWeather bezieht Ihre Lesezeichen oder Ihren genauen Standort nicht absichtlich in Absturzberichte ein. Sie können die Fehlerberichterstattung jederzeit in den Datenschutz- oder Hilfeeinstellungen der App deaktivieren.
+Nur wenn Ihre gespeicherte Auswahl automatische Berichte aktiviert, erhält Firebase Crashlytics bereinigte Fehler und native Absturzberichte. Crashlytics verwendet auch Installations-/Sitzungskennungen; die Berichte sind daher nicht vollständig anonym. Lokaler Kontext wird niemals an Firebase gesendet. Automatische Berichte lassen sich unter Hilfe oder Privatsphäre ändern; die App erläutert, wann ein Neustart nötig ist.
 
 ## 6. Supportbezogene Kommunikation
 Wenn Sie sich an den Support wenden, können die Nachricht und alle von Ihnen ausgewählten Informationen, wie z. B. Screenshots, Diagnosen, Protokolle, exportierte Einstellungen oder andere Anhänge, zur Beantwortung Ihrer Anfrage verwendet werden. Bitte geben Sie keine Informationen an, die Sie nicht weitergeben möchten.
+
+Unter Fehlerprotokolle in Hilfe oder Privatsphäre können Sie einen JSON-Bericht prüfen. Ein angeforderter Export enthält die gespeicherten Fehler und Kontextdaten, die aktuelle App-/Geräteumgebung, die gespeicherte Berichtsauswahl sowie die nur für diesen Export ermittelte Speicherkapazität. Sie entscheiden, ob Sie den Bericht teilen oder anhängen; seine Erstellung versendet nichts. Sie können den Support ohne Protokolle kontaktieren oder abbrechen.
 
 ## 7. Benachrichtigungen, Hintergrundaktualisierung und Kennzeichen am App-Symbol
 Wenn Sie Benachrichtigungen oder das Temperatur-Kennzeichen am App-Symbol aktivieren, aktualisiert NearbyWeather möglicherweise die Wetterinformationen im Hintergrund, sodass diese Funktionen aktuell bleiben. Benachrichtigungseinstellungen und Kennzeichen-Einstellungen werden lokal auf Ihrem Gerät gespeichert.
@@ -91,3 +87,6 @@ NearbyWeather richtet sich nicht an Kinder und erfasst nicht wissentlich persone
 
 ## 16. Aktualisierungen der Datenschutzrichtlinien
 Diese Datenschutzrichtlinie kann in Zukunft aktualisiert werden. Änderungen werden in der App und in den öffentlichen Rechtsdokumenten berücksichtigt.
+
+## 17. Kontakt
+Bei Fragen zum Datenschutz wenden Sie sich bitte an: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)

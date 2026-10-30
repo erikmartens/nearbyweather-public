@@ -1,8 +1,8 @@
 <!--
 Generated from NearbyWeather app legal JSON.
 Do not edit manually.
-Version: 3.1
-Last updated: 2026-09-01
+Version: 3.2
+Last updated: 2026-10-30
 -->
 
 # Privatlivspolitik
@@ -17,9 +17,9 @@ Last updated: 2026-09-01
 
 
 
-**Version:** 3.1
+**Version:** 3.2
 
-**Sidst opdateret:** 2026-09-01
+**Sidst opdateret:** 2026-10-30
 
 ## 1. Oversigt
 NearbyWeather respekterer dit privatliv. Appen giver vejrinformation og relaterede funktioner, mens brugerspecifikke appdata holdes lokale, når det er muligt.
@@ -48,19 +48,15 @@ For at sikre, drive og planlægge tjenesten kan NearbyWeather også anslå, hvor
 
 Behandlingen understøtter tjenestesikkerhed, kapacitetsplanlægning, pålidelighed og samlede produktbeslutninger. Hvor det er relevant, er retsgrundlaget NearbyWeathers legitime interesser i at drive en sikker, pålidelig og effektiv tjeneste, afbalanceret gennem dataminimering, periodeadskillelse, adgangsbegrænsning og afgrænset opbevaring. Den bruges ikke til reklame, opretter ikke en operatørsynlig klientliste og bruges ikke til notifikationer. Et eventuelt fremtidigt serverbaseret notifikationssystem får særskilt information samt samtykke- og livscyklusregler. Du kan gøre indsigelse mod behandling baseret på legitime interesser via kontakten i afsnit 17.
 
-## 5. Rapportering af nedbrud og fejl (valgfrit)
-NearbyWeather bruger Google Firebase Crashlytics til kun at indsamle nedbruds- og diagnostiske rapporter, når fejlrapportering er aktiveret.
+## 5. Lokal diagnostik og valgfri fejlrapportering
+NearbyWeather gemmer rensede tekniske diagnosedata lokalt, også når automatisk rapportering er slået fra. Fejlposter indeholder tidsstempler, faste handlingsnavne, fejltyper/-koder, app- og enhedsoplysninger samt understøttede native nedbrudsdetaljer. Grænser: 7 dage, 512 poster eller 1 MiB. Særskilt lokal kontekst registrerer skærmenes synlighed, appens livscyklus, antal opdateringer og udvalgte indstillingsflag/antal; grænser: 24 timer, 200 poster eller 256 KiB. De ældste poster fjernes, når en grænse nås. Positioner, søgninger, bogmærker, sted-id’er, URL’er, legitimationsoplysninger og rå fejltekster udelades.
 
-Nedbruds- og diagnostiske rapporter kan omfatte:
-
-- enhedstype og operativsystemversion
-- appversion og buildnummer
-- tekniske oplysninger om styrtet eller diagnosticeringshændelsen
-
-NearbyWeather inkluderer ikke med vilje dine bogmærker eller præcise placering i nedbrudsrapporter. Du kan til enhver tid deaktivere fejlrapportering i appens privatlivs- eller hjælpeindstillinger.
+Firebase Crashlytics modtager kun rensede fejl og native nedbrudsrapporter, hvis dit gemte valg aktiverer automatisk rapportering. Crashlytics bruger også installations-/sessions-id’er, så rapporterne er ikke fuldt anonyme. Lokal kontekst sendes aldrig til Firebase. Du kan ændre rapportering under Hjælp eller Privatliv; appen forklarer, hvornår en genstart kræves.
 
 ## 6. Support-relateret kommunikation
 Hvis du kontakter support, kan meddelelsen og enhver information, du vælger at inkludere, såsom skærmbilleder, diagnostik, logfiler, eksporterede indstillinger eller andre vedhæftede filer, blive brugt til at svare på din anmodning. Medtag venligst ikke oplysninger, du ikke ønsker at dele.
+
+Du kan se en JSON-rapport via Fejllogge under Hjælp eller Privatliv. En anmodet eksport indeholder bevarede fejl/kontekst, det aktuelle app-/enhedsmiljø, det gemte rapporteringsvalg og lagerkapacitet, som kun måles til eksporten. Du vælger, om rapporten deles eller vedhæftes; oprettelsen sender den ikke. Du kan kontakte support uden logge eller annullere.
 
 ## 7. Meddelelser, baggrundsopdatering og appikonmærke
 Hvis du aktiverer meddelelser eller appikonets temperaturmærke, kan NearbyWeather muligvis opdatere vejroplysninger i baggrunden, så disse funktioner forbliver aktuelle. Notifikationspræferencer og badgeindstillinger gemmes lokalt på din enhed.
@@ -91,3 +87,6 @@ NearbyWeather er ikke rettet mod børn og indsamler ikke bevidst personlige data
 
 ## 16. Opdateringer af fortrolighedspolitik
 Denne privatlivspolitik kan blive opdateret i fremtiden. Ændringer vil blive afspejlet i appen og i de offentlige juridiske dokumenter.
+
+## 17. Kontakt
+For privatlivsrelaterede spørgsmål, kontakt: [erikmartens.developer@gmail.com](mailto:erikmartens.developer@gmail.com)
